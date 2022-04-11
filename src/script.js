@@ -8,3 +8,9 @@
 */
 
 import * as $g from "https://livegtech.github.io/Adapt-UI/src/adaptui.js";
+
+$g.waitForLoad().then(function() {
+    $g.sel(".nav_openMenu").on("click", function() {
+        $g.sel("aside").asideOpen();
+    });
+});

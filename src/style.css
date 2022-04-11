@@ -10,3 +10,72 @@
 .footer_logo {
     height: 4rem;
 }
+
+.showcaseCard {
+    padding: 0;
+}
+
+.showcaseCard img[aui-mode="background"] {
+    position: static;
+    margin-bottom: -0.5rem;
+}
+
+.showcaseCard_main img {
+    min-height: 50vh;
+}
+
+.showcaseCard_slogan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    min-width: 20rem;
+    padding: 1rem;
+}
+
+.showcaseCard_slogan h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.showcaseCard_slogan p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.showcaseCard_main .showcaseCard_slogan h2 {
+    font-size: 4vw;
+}
+
+.showcaseCard_main .showcaseCard_slogan p {
+    font-size: 2vw;
+}
+
+.showcaseCard_topLeft img {
+    object-position: top left;
+}
+
+.showcaseCard_topRight img {
+    object-position: top right;
+}
+
+@media (max-width: 600px) {
+    .showcaseCard img[aui-mode="background"] {
+        filter: brightness(0.8);
+    }
+
+    .showcaseCard_slogan {
+        top: unset;
+        bottom: 0;
+        color: white;
+    }
+
+    .showcaseCard_slogan h2, .showcaseCard_main .showcaseCard_slogan h2 {
+        font-size: 1.4rem;
+    }
+
+    .showcaseCard_slogan p, .showcaseCard_main .showcaseCard_slogan p {
+        font-size: 1rem;
+    }
+}
