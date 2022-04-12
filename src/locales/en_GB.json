@@ -1,0 +1,38 @@
+{
+    "localeCode": "en_GB",
+    "metadata": {
+        "name": "English (United Kingdom)",
+        "nameShort": "English",
+        "textDirection": "ltr"
+    },
+    "source": {
+        "liveg": "LiveG",
+        "livegTechnologies": "LiveG Technologies",
+        "logoAlt": "LiveG logo",
+
+        "nav_goHome": "Go home",
+        "nav_language": "Language",
+
+        "page_home": "Home",
+        "page_about": "About",
+        "page_developer": "Developer",
+        "page_legal": "Legal",
+
+        "product_prism": "Prism",
+        "product_prism_slogan": "A world of open tech that you can take on the go",
+        "product_os": "LiveG OS",
+        "product_os_slogan": "Your companion for everything LiveG",
+        "product_astronaut": "Astronaut",
+        "product_astronaut_slogan": "Go build the next big thing",
+
+        "footer_social": "Social",
+        "footer_social_twitter": "Twitter",
+        "footer_social_youtube": "YouTube",
+        "footer_social_instagram": "Instagram",
+        "footer_social_dev": "DEV Community",
+        "footer_social_github": "GitHub",
+
+        "footer_legal_copyright": "Copyright © LiveG. All Rights Reserved.",
+        "footer_legal_trademark": "LiveG and the LiveG Logo are trademarks of LiveG Technologies (UK U.A.)."
+    }
+}

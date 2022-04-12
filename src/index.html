@@ -9,7 +9,7 @@
 -->
 <html>
     <head>
-        <title translate aui-l10nstring="title">LiveG Technologies</title>
+        <title translate aui-l10nstring="livegTechnologies">LiveG Technologies</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="shortcut icon" href="/logo.png">
@@ -18,33 +18,29 @@
         <script type="module" src="/script.js"></script>
     </head>
     <body aui-mode="web">
-        <nav>
-            <a href="/"><img src="/logo.svg" alt="LiveG"></a>
-            <a href="/" aui-display="desktop">Prism</a>
-            <a href="/" aui-display="desktop">Developer</a>
-        </nav>
+        <nav aui-template="/templates/nav/nav.html"></nav>
         <main>
             <section>
-                <aui-card aui-linked class="showcaseCard showcaseCard_main showcaseCard_topRight">
+                <aui-card aui-linked class="showcaseCard showcaseCard_main showcaseCard_topLeft">
                     <img src="/media/prism/main.jpg" aui-mode="background">
                     <div class="showcaseCard_slogan">
-                        <h2><a href="/">Prism</a></h2>
-                        <p>A world of open tech that you can take on the go</p>
+                        <h2><a href="/" translate>product_prism</a></h2>
+                        <p translate>product_prism_slogan</p>
                     </div>
                 </aui-card>
                 <div aui-stack="horizontal">
-                    <aui-card aui-linked class="showcaseCard showcaseCard_topRight">
+                    <aui-card aui-linked class="showcaseCard showcaseCard_topLeft">
                         <img src="/media/prism/main.jpg" aui-mode="background">
                         <div class="showcaseCard_slogan">
-                            <h2><a href="/">LiveG OS</a></h2>
-                            <p>Your companion for everything LiveG</p>
+                            <h2><a href="/" translate>product_os</a></h2>
+                            <p translate>product_os_slogan</p>
                         </div>
                     </aui-card>
-                    <aui-card aui-linked class="showcaseCard showcaseCard_topRight">
+                    <aui-card aui-linked class="showcaseCard showcaseCard_topLeft">
                         <img src="/media/prism/main.jpg" aui-mode="background">
                         <div class="showcaseCard_slogan">
-                            <h2><a href="/">Astronaut</a></h2>
-                            <p>Go build the next big thing</p>
+                            <h2><a href="/" translate>product_astronaut</a></h2>
+                            <p translate>product_astronaut_slogan</p>
                         </div>
                     </aui-card>
                 </div>
@@ -53,33 +49,34 @@
         <footer>
             <div>
                 <a href="/">
-                    <img src="/logo.svg" alt="LiveG logo" class="footer_logo">
+                    <img src="/logo.svg" class="footer_logo" translate tl:alt="logoAlt">
                 </a>
             </div>
             <div aui-stack="horizontal">
                 <div>
                     <p>
-                        <a href="/" aui-mode="block">Home</a>
-                        <a href="/" aui-mode="block">About</a>
-                        <a href="/" aui-mode="block">Developer</a>
+                        <a href="/" aui-mode="block" translate>page_home</a>
+                        <a href="/" aui-mode="block" translate>page_about</a>
+                        <a href="/" aui-mode="block" translate>page_developer</a>
                     </p>
                 </div>
                 <div>
-                    <h2>Social</h2>
+                    <h2 translate>footer_social</h2>
                     <p>
-                        <a href="https://twitter.com/LiveGTech" target="_blank" aui-mode="block">Twitter</a>
-                        <a href="https://www.youtube.com/channel/UCUXA2K-TWgCdP4GZmvHf1sw" target="_blank" aui-mode="block">YouTube</a>
-                        <a href="https://instagram.com/livegtech" target="_blank" aui-mode="block">Instagram</a>
-                        <a href="https://dev.to/liveg" target="_blank" aui-mode="block">DEV Community</a>
-                        <a href="https://github.com/LiveGTech" target="_blank" aui-mode="block">GitHub</a>
+                        <a href="https://twitter.com/LiveGTech" target="_blank" aui-mode="block" translate>footer_social_twitter</a>
+                        <a href="https://www.youtube.com/channel/UCUXA2K-TWgCdP4GZmvHf1sw" target="_blank" aui-mode="block" translate>footer_social_youtube</a>
+                        <a href="https://instagram.com/livegtech" target="_blank" aui-mode="block" translate>footer_social_instagram</a>
+                        <a href="https://dev.to/liveg" target="_blank" aui-mode="block" translate>footer_social_dev</a>
+                        <a href="https://github.com/LiveGTech" target="_blank" aui-mode="block" translate>footer_social_github</a>
                     </p>
                 </div>
                 <div>
-                    <p>Copyright © LiveG. All Rights Reserved.</p>
-                    <p>LiveG and the LiveG Logo are trademarks of LiveG Technologies (UK U.A.).</p>
-                    <a href="/" aui-mode="block">Legal</a>
+                    <p translate>footer_legal_copyright</p>
+                    <p translate>footer_legal_trademark</p>
+                    <a href="/" aui-mode="block" translate>page_legal</a>
                 </div>
             </div>
         </footer>
+        <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
     </body>
 </html>

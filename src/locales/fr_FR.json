@@ -1,0 +1,38 @@
+{
+    "localeCode": "en_GB",
+    "metadata": {
+        "name": "Français (France)",
+        "nameShort": "Français",
+        "textDirection": "ltr"
+    },
+    "source": {
+        "liveg": "LiveG",
+        "livegTechnologies": "LiveG Technologies",
+        "logoAlt": "Logo LiveG",
+
+        "nav_goHome": "Rentrer à l'accueil",
+        "nav_language": "Langue",
+
+        "page_home": "Accueil",
+        "page_about": "À propos",
+        "page_developer": "Développeur",
+        "page_legal": "Légal",
+
+        "product_prism": "Prism",
+        "product_prism_slogan": "Un monde de technologie ouverte que vous pouvez emporter partout",
+        "product_os": "LiveG OS",
+        "product_os_slogan": "Votre compagnon pour tout LiveG",
+        "product_astronaut": "Astronaut",
+        "product_astronaut_slogan": "Allez construire la prochaine grande chose",
+
+        "footer_social": "Sociaux",
+        "footer_social_twitter": "Twitter",
+        "footer_social_youtube": "YouTube",
+        "footer_social_instagram": "Instagram",
+        "footer_social_dev": "DEV Community",
+        "footer_social_github": "GitHub",
+
+        "footer_legal_copyright": "Droits d'auteur © LiveG. Tous les droits sont réservés.",
+        "footer_legal_trademark": "LiveG et le Logo LiveG sont des marques déposées de LiveG Technologies (UK U.A.)."
+    }
+}

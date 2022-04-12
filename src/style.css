@@ -52,12 +52,20 @@
     font-size: 2vw;
 }
 
+.showcaseCard_topLeft {
+    text-align: left;
+}
+
+.showcaseCard_topRight {
+    text-align: right;
+}
+
 .showcaseCard_topLeft img {
-    object-position: top left;
+    object-position: top right;
 }
 
 .showcaseCard_topRight img {
-    object-position: top right;
+    object-position: top left;
 }
 
 @media (max-width: 600px) {
