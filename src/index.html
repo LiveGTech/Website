@@ -9,7 +9,7 @@
 -->
 <html>
     <head>
-        <title translate aui-l10nstring="livegTechnologies">LiveG Technologies</title>
+        <title translate aui-l10nstring="title">LiveG Technologies</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="shortcut icon" href="/logo.png">
@@ -46,37 +46,7 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div>
-                <a href="/">
-                    <img src="/logo.svg" class="footer_logo" translate tl:alt="logoAlt">
-                </a>
-            </div>
-            <div aui-stack="horizontal">
-                <div>
-                    <p>
-                        <a href="/" aui-mode="block" translate>page_home</a>
-                        <a href="/" aui-mode="block" translate>page_about</a>
-                        <a href="/" aui-mode="block" translate>page_developer</a>
-                    </p>
-                </div>
-                <div>
-                    <h2 translate>footer_social</h2>
-                    <p>
-                        <a href="https://twitter.com/LiveGTech" target="_blank" aui-mode="block" translate>footer_social_twitter</a>
-                        <a href="https://www.youtube.com/channel/UCUXA2K-TWgCdP4GZmvHf1sw" target="_blank" aui-mode="block" translate>footer_social_youtube</a>
-                        <a href="https://instagram.com/livegtech" target="_blank" aui-mode="block" translate>footer_social_instagram</a>
-                        <a href="https://dev.to/liveg" target="_blank" aui-mode="block" translate>footer_social_dev</a>
-                        <a href="https://github.com/LiveGTech" target="_blank" aui-mode="block" translate>footer_social_github</a>
-                    </p>
-                </div>
-                <div>
-                    <p translate>footer_legal_copyright</p>
-                    <p translate>footer_legal_trademark</p>
-                    <a href="/" aui-mode="block" translate>page_legal</a>
-                </div>
-            </div>
-        </footer>
+        <footer aui-template="/templates/footer/footer.html"></footer>
         <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
     </body>
 </html>

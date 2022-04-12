@@ -10,6 +10,9 @@
         "livegTechnologies": "LiveG Technologies",
         "logoAlt": "LiveG logo",
 
+        "title": "LiveG Technologies",
+        "title_page": "{page} - LiveG Technologies",
+
         "nav_goHome": "Go home",
         "nav_language": "Language",
 
