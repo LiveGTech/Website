@@ -13,6 +13,10 @@
         "title": "LiveG Technologies",
         "title_page": "{page} - LiveG Technologies",
 
+        "new": "New",
+        "new_badgeAlt": "(New)",
+        "learnMore": "Learn more",
+
         "nav_goHome": "Go home",
         "nav_language": "Language",
 
@@ -27,6 +31,8 @@
         "product_os_slogan": "Your companion for everything LiveG",
         "product_astronaut": "Astronaut",
         "product_astronaut_slogan": "Go build the next big thing",
+        "product_adaptui": "Adapt UI",
+        "product_adaptui_slogan": "The trademark look of LiveG's products",
 
         "footer_social": "Social",
         "footer_social_twitter": "Twitter",
@@ -36,6 +42,19 @@
         "footer_social_github": "GitHub",
 
         "footer_legal_copyright": "Copyright © LiveG. All Rights Reserved.",
-        "footer_legal_trademark": "LiveG and the LiveG Logo are trademarks of LiveG Technologies (UK U.A.)."
+        "footer_legal_trademark": "LiveG and the LiveG Logo are trademarks of LiveG Technologies (UK U.A.).",
+
+        "imageAlt_prism_main": "The front face of the LiveG Prism, with its volume and power buttons facing towards the camera",
+
+        "about_tagline": "Building open tech since 2014",
+        "about_description_1": "Welcome to LiveG Technologies, a group whose mission is to make open technologies that are designed for everyone.",
+        "about_description_2": "We want to make a positive impact through what we do by applying our expertise in ways that do good.",
+
+        "developer_tagline": "Build powerful projects that make a difference with LiveG",
+        "developer_description": "Our open software is designed to be advanced, yet friendly to developers. Come join in and use our open-source developer tools to build your apps, services, games and more.",
+
+        "developer_astronaut_description": "Astronaut is our tool for building apps for the LiveG ecosystem with just a few lines of code. It enables all developers to create their own apps and services, whether they are beginners or advanced hackers.",
+        "developer_adaptui_description": "At LiveG, we believe that the best user interfaces and experiences are key to building productive tools. Adapt UI is our UI toolkit and design language for building consistent and appealing products.",
+        "developer_os_description": "Powering our hardware products, LiveG OS is at the core of everything you do on our devices. It integrates our open ecosystem of LiveG software with the bare metal of the hardware we build."
     }
 }

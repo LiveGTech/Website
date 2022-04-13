@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+-->
+<html>
+    <head>
+        <title translate aui-l10nstring="title" data-page="page_developer">LiveG Technologies</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="/logo.png">
+        <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
+        <link rel="stylesheet" href="/style.css">
+        <script type="module" src="/script.js"></script>
+    </head>
+    <body aui-mode="web" hidden>
+        <nav aui-template="/templates/nav/developer.html"></nav>
+        <main>
+            <section aui-mode="cover large" aui-justify="middle">
+                <h1 translate>developer_tagline</h1>
+                <p translate>developer_description</p>
+            </section>
+            <section>
+                <div aui-stack="horizontal reverse" aui-stackjustify="middle">
+                    <div>
+                        <img src="/media/prism/main.jpg">
+                    </div>
+                    <div>
+                        <h2><span translate>product_astronaut</span> <aui-badge translate tl:aria-label="new_badgeAlt">new</aui-badge></h2>
+                        <p translate>developer_astronaut_description</p>
+                        <button onclick="window.open('https:\/\/github.com/LiveGTech/Adapt-UI/tree/main/astronaut');" translate>learnMore</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div aui-stack="horizontal reverse" aui-stackjustify="middle">
+                    <div>
+                        <img src="/media/prism/main.jpg">
+                    </div>
+                    <div>
+                        <h2 translate>product_adaptui</h2>
+                        <p translate>developer_adaptui_description</p>
+                        <button onclick="window.open('https:\/\/github.com/LiveGTech/Adapt-UI');" translate>learnMore</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div aui-stack="horizontal reverse" aui-stackjustify="middle">
+                    <div>
+                        <img src="/media/prism/main.jpg">
+                    </div>
+                    <div>
+                        <h2 translate>product_os</h2>
+                        <p translate>developer_os_description</p>
+                        <button onclick="window.open('https:\/\/github.com/LiveGTech/gShell');" translate>learnMore</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer aui-template="/templates/footer/footer.html"></footer>
+        <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
+    </body>
+</html>

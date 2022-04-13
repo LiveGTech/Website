@@ -13,25 +13,25 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="shortcut icon" href="/logo.png">
-        <link rel="stylesheet" href="https://livegtech.github.io/Adapt-UI/src/adaptui.css">
+        <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
         <script type="module" src="/script.js"></script>
     </head>
-    <body aui-mode="web">
+    <body aui-mode="web" hidden>
         <nav aui-template="/templates/nav/nav.html"></nav>
         <main>
-            <section>
+            <section aui-mode="cover">
                 <h1 translate>page_about</h1>
             </section>
             <section>
-                <div aui-stack="horizontal">
+                <div aui-stack="horizontal reverse" aui-stackjustify="middle">
                     <div>
-                        <h2>Building open tech since 2014</h2>
-                        <p>Welcome to LiveG Technologies, a group whose mission is to make open technologies that are designed for everyone.</p>
-                        <p>We want to make a positive impact through what we do by applying our expertise in ways that do good.</p>
+                        <img src="/media/prism/main.jpg" translate="attributesOnly" tl:alt="imageAlt_prism_main">
                     </div>
                     <div>
-                        <img src="/media/prism/main.jpg" aui-mode="background">
+                        <h2 translate>about_tagline</h2>
+                        <p translate>about_description_1</p>
+                        <p translate>about_description_2</p>
                     </div>
                 </div>
             </section>
