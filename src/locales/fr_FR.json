@@ -23,6 +23,7 @@
         "page_home": "Accueil",
         "page_about": "À propos",
         "page_developer": "Développeur",
+        "page_docs": "Docs",
         "page_legal": "Légal",
 
         "product_prism": "Prism",
@@ -33,6 +34,8 @@
         "product_astronaut_slogan": "Allez construire la prochaine grande chose",
         "product_adaptui": "Adapt UI",
         "product_adaptui_slogan": "L'aspect caractéristique des produits LiveG",
+        "product_docs": "Docs",
+        "product_docs_slogan": "La centre des guides, des références et plus encore de LiveG",
 
         "footer_social": "Sociaux",
         "footer_social_twitter": "Twitter",
