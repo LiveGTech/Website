@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="216.61612"
-     inkscape:cy="120.28867"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="226.46048"
+     inkscape:cy="102.85822"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g2554-2"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -93,7 +93,7 @@
          transform="rotate(-75,60.720529,72.905699)">
         <path
            id="rect2451-7-5-9"
-           style="opacity:1;fill:#ded1fa;fill-opacity:1;stroke-width:4.84154"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:4.84154"
            d="m 197.26758,309.36719 c -18.53133,0 -33.44922,14.91789 -33.44922,33.44922 0,18.53133 14.91789,33.45117 33.44922,33.45117 h 72.04883 v 44.23633 c 0,18.57868 14.95648,33.53515 33.53515,33.53515 18.57867,0 33.53516,-14.95647 33.53516,-33.53515 v -77.60157 c 0,-0.0144 -0.002,-0.0285 -0.002,-0.043 10e-6,-0.0144 0.002,-0.0285 0.002,-0.043 0,-18.53133 -14.91789,-33.44922 -33.44922,-33.44922 h -0.0859 z"
            transform="scale(0.26458332)" />
         <path
@@ -112,7 +112,7 @@
          transform="rotate(-45,67.599629,68.466228)">
         <path
            id="rect2451-7-5"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:4.84154"
+           style="opacity:1;fill:#ded1fa;fill-opacity:1;stroke-width:4.84154"
            d="m 197.26758,309.36719 c -18.53133,0 -33.44922,14.91789 -33.44922,33.44922 0,18.53133 14.91789,33.45117 33.44922,33.45117 h 72.04883 v 44.23633 c 0,18.57868 14.95648,33.53515 33.53515,33.53515 18.57867,0 33.53516,-14.95647 33.53516,-33.53515 v -77.60157 c 0,-0.0144 -0.002,-0.0285 -0.002,-0.043 10e-6,-0.0144 0.002,-0.0285 0.002,-0.043 0,-18.53133 -14.91789,-33.44922 -33.44922,-33.44922 h -0.0859 z"
            transform="scale(0.26458332)" />
         <path
