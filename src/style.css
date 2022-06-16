@@ -7,6 +7,12 @@
     Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
 */
 
+img.full {
+    width: 100%;
+    max-width: unset;
+    border-radius: 0;
+}
+
 .footer_logo {
     height: 4rem;
 }
@@ -51,32 +57,81 @@
     font-size: 2vw;
 }
 
-.showcaseCard_topLeft {
+.showcase_topLeft {
     text-align: left;
 }
 
-.showcaseCard_topLeft img {
+.showcase_topLeft img {
     object-position: top right;
 }
 
-.showcaseCard_topLeft .showcaseCard_slogan {
+.showcase_topLeft .showcaseCard_slogan, .showcase_topLeft .showcaseCover_info {
     left: 0;
 }
 
-.showcaseCard_topRight {
+.showcase_bottomLeft {
+    text-align: left;
+}
+
+.showcase_bottomLeft img {
+    object-position: bottom right;
+}
+
+.showcase_bottomLeft .showcaseCard_slogan, .showcase_bottomLeft .showcaseCover_info {
+    top: unset;
+    bottom: 0;
+    left: 0;
+}
+
+.showcase_topRight {
     text-align: right;
 }
 
-.showcaseCard_topRight img {
+.showcase_topRight img {
     object-position: top left;
 }
 
-.showcaseCard_topRight .showcaseCard_slogan {
+.showcase_topRight .showcaseCard_slogan, .showcase_topRight .showcaseCover_info {
     right: 0;
 }
 
-.showcaseCard_dark .showcaseCard_slogan {
+.showcase_bottomRight {
+    text-align: right;
+}
+
+.showcase_bottomRight img {
+    object-position: bottom left;
+}
+
+.showcase_bottomRight .showcaseCard_slogan, .showcase_bottomRight .showcaseCover_info {
+    top: unset;
+    bottom: 0;
+    right: 0;
+}
+
+.showcase_dark .showcaseCard_slogan, .showcase_dark .showcaseCover_info {
     color: white;
+}
+
+.showcaseCover {
+    position: relative;
+    height: 60vh;
+}
+
+.showcaseCover_info {
+    position: absolute!important;
+    top: 0;
+    width: 50%;
+    min-width: 20rem;
+    max-width: 30rem;
+    padding: 2rem;
+    color: black;
+}
+
+@media (min-width: 1001px) {
+    .showcaseCover {
+        height: 80vh;
+    }
 }
 
 @media (max-width: 600px) {
@@ -104,5 +159,21 @@
 
     .showcaseCard_slogan p, .showcaseCard_main .showcaseCard_slogan p {
         font-size: 1rem;
+    }
+
+    .showcaseCover {
+        height: 50vh;
+    }
+
+    .showcaseCover_info {
+        top: unset;
+        bottom: 0;
+        left: 0;
+        right: unset;
+        width: 100%;
+        min-width: unset;
+        max-width: unset;
+        text-align: start;
+        color: white;
     }
 }

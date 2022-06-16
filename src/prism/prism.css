@@ -1,0 +1,60 @@
+/*
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+*/
+
+.prismDayNight {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.prismDayNight.night {
+    background-color: black;
+    color: white;
+}
+
+.prismDayNight:not(.night) .prismDayNight_night {
+    display: none;
+}
+
+.prismDayNight.night .prismDayNight_day {
+    display: none;
+}
+
+.prismDayNight_photo {
+    width: 100%;
+    height: 80vh;
+    max-width: unset;
+    border-radius: 0;
+    object-fit: cover;
+    object-position: top;
+}
+
+.prismDayNight_toggle {
+    position: absolute;
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+}
+
+.prismDayNight_toggle img {
+    display: inline-block;
+    width: unset;
+    height: 1.5rem;
+}
+
+.prismDayNight.night .prismDayNight_toggle img {
+    filter: invert(1);
+}
+
+.prismDayNight_toggle input {
+    margin: 0!important;
+}

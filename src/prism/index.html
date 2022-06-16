@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+-->
+<html>
+    <head>
+        <title translate aui-l10nstring="title" data-page="product_prism">LiveG Technologies</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="/logo.png">
+        <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/prism/prism.css">
+        <script type="module" src="/script.js"></script>
+        <script type="module" src="/prism/prism.js"></script>
+    </head>
+    <body aui-mode="web" hidden>
+        <nav aui-template="/templates/nav/nav.html"></nav>
+        <main>
+            <section aui-mode="cover large" class="showcaseCover showcase_topLeft">
+                <img src="/media/prism/main.jpg" alt="" aui-mode="background">
+                <div class="showcaseCover_info">
+                    <h1 translate>prism_title</h1>
+                    <p translate>prism_intro</p>
+                </div>
+            </section>
+            <section aui-justify="middle">
+                <h2 translate>prism_front_tagline</h2>
+                <p translate>prism_front_description</p>
+            </section>
+            <img src="/media/prism/front.png" alt="" class="full">
+            <br>
+            <section aui-mode="cover large" class="showcaseCover showcase_topLeft">
+                <img src="/media/prism/led.png" alt="" aui-mode="background">
+                <div class="showcaseCover_info">
+                    <h2 translate>prism_led_tagline</h2>
+                    <p translate>prism_led_description</p>
+                    <p translate>prism_motor_description</p>
+                </div>
+            </section>
+            <br>
+            <section aui-mode="cover large" class="showcaseCover showcase_bottomLeft">
+                <img src="/media/prism/bottom.png" alt="" aui-mode="background">
+                <div class="showcaseCover_info">
+                    <h2><span translate>prism_bottom_tagline</span><sup>1</sup></h2>
+                    <p translate>prism_bottom_description</p>
+                </div>
+            </section>
+            <div class="prismDayNight">
+                <section aui-justify="middle">
+                    <h2 translate>prism_back_tagline</h2>
+                    <p translate>prism_back_description</p>
+                </section>
+                <img src="/media/prism/back.png" alt="" class="prismDayNight_photo prismDayNight_day">
+                <img src="/media/prism/backilluminated.png" alt="" aui-mode="background" class="prismDayNight_photo prismDayNight_night">
+                <div class="prismDayNight_toggle">
+                    <img src="https://opensource.liveg.tech/Adapt-UI/icons/light.svg" aria-hidden="true" aui-icon="dark">
+                    <input type="checkbox" role="switch">
+                    <img src="https://opensource.liveg.tech/Adapt-UI/icons/dark.svg" aria-hidden="true" aui-icon="dark">
+                </div>
+            </div>
+            <br>
+            <section aui-mode="cover large" class="showcaseCover showcase_bottomRight">
+                <img src="/media/prism/right.png" alt="" aui-mode="background">
+                <div class="showcaseCover_info">
+                    <h2><span translate>prism_right_tagline</span><sup>2</sup></h2>
+                    <p translate>prism_right_description</p>
+                </div>
+            </section>
+            <br>
+            <section aui-mode="secondary" aui-justify="middle">
+                <h2 translate>prism_comingSoon_title</h2>
+                <p translate>prism_comingSoon_description</p>
+            </section>
+            <section>
+                <p><sup>1</sup> <span translate>prism_footnote_charging</span></p>
+                <p><sup>2</sup> <span translate>prism_footnote_repair</span></p>
+                <p translate>prism_notice_usbCTrademark</p>
+            </section>
+        </main>
+        <footer aui-template="/templates/footer/footer.html"></footer>
+        <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
+    </body>
+</html>
