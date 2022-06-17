@@ -100,8 +100,8 @@
         "prism_footnote_charging": "Rated 55 minutes to charge a Prism from 5% to 95% in battery level based on charging tests with the Prism in sleep mode. Charging times may vary based on activity of the phone, running software and connected hardware.",
         "prism_footnote_aux": "Low latency and reliability are dependent on the specifications and performance of third-party hardware (such as cables and audio equipment) connected to the Prism.",
         "prism_footnote_repair": "Following official safety advice for this product is recommended for the prevention of injury or product damage.",
-        "prism_notice_usbCTrademark": "USB Type-C® and USB-C® are registered trademarks of USB Implementors Forum.",
-        "prism_notice_armTrademark": "Arm® and Cortex® are registered trademarks of Arm Limited (or its subsidaries).",
+        "prism_notice_usbCTrademark": "USB Type-C® and USB-C® are registered trademarks of USB Implementers Forum.",
+        "prism_notice_armTrademark": "Arm® and Cortex® are registered trademarks of Arm Limited (or its subsidiaries).",
 
         "developer_tagline": "Build powerful projects that make a difference with LiveG",
         "developer_description": "Our open software is designed to be advanced, yet friendly to developers. Come join in and use our open-source developer tools to build your apps, services, games and more.",

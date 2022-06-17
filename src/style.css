@@ -166,7 +166,11 @@ img.full {
     }
 
     .showcaseCover {
-        height: 50vh;
+        display: flex;
+        flex-direction: column-reverse;
+        height: unset;
+        min-height: 50vh;
+        padding: 0!important;
     }
 
     .showcaseCover img[aui-mode="background"] {
@@ -174,6 +178,7 @@ img.full {
     }
 
     .showcaseCover_info {
+        position: static!important;
         top: unset;
         bottom: 0;
         left: 0;

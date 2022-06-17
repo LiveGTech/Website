@@ -23,7 +23,6 @@
         "page_home": "Accueil",
         "page_about": "À propos",
         "page_developer": "Développeur",
-        "page_docs": "Docs",
         "page_legal": "Légal",
 
         "product_prism": "Prism",
@@ -52,6 +51,57 @@
         "about_tagline": "Construire des technologies ouverte depuis 2014",
         "about_description_1": "Bienvenue chez LiveG Technologies, un groupe dont la mission est de créer des technologies ouvertes conçues pour tous.",
         "about_description_2": "Nous voulons avoir un impact positif à travers ce que nous faisons en appliquant notre expertise de manière à faire le bien.",
+
+        "prism_title": "LiveG Prism",
+        "prism_intro": "Nous voulons construire des technologies ouvertes qui donnent aux gens les outils pour améliorer leur vie quotidienne. Le LiveG Prism est un projet en cours pour construire un smartphone qui atteint cet objectif.",
+
+        "prism_front_tagline": "Un mélange parfait de logiciels et de matériel",
+        "prism_front_description": "Avec la conception système d'exploitation et matérielle du Prism contrôlé par LiveG, le Prism vous offre une expérience efficace et transparente que seuls les meilleurs smartphones atteignent.",
+
+        "prism_led_tagline": "Ne manquez jamais un battement",
+        "prism_led_description": "Le Prism vous permet de rester en contact avec votre vie numérique grâce à son système de notifications. La DEL de notifications RVB fournit un moyen de faible puissance de vous alerter sans trop de distraction.",
+
+        "prism_motor_description": "Dans votre poche, le Prism peut également vous faire savoir ce qui se passe à travers des impulsions personnalisables de son moteur de vibration.",
+
+        "prism_bottom_tagline": "Recharge en 55 minutes",
+        "prism_bottom_description": "Le Prism prend en charge la livraison de puissance USB-C® à partir d'une alimentation jusqu'à 15 W. Lorsque sa batterie est faible, votre Prism sera prêt à repartir en un peu moins d'une heure de charge.",
+
+        "prism_back_tagline": "Capturer des moments de jour et de nuit",
+        "prism_back_description": "Avec une caméra arrière de 5 mégapixels 1944p et une DEL flash brillante, le Prism est prêt à prendre des photos à l'intérieur et à l'extérieur — et même au milieu de la nuit.",
+
+        "prism_features_title": "Fonctionnalités sur lesquelles vous pouvez compter",
+        "prism_features_processor_figure": "Quad-core",
+        "prism_features_processor_description": "processeur Arm® Cortex® A53 économe en puissance à 1,2 GHz",
+        "prism_features_storage_figure": "16 Go eMMC",
+        "prism_features_storage_description": "stockage flash à bord pour le stockage des applications et des données",
+        "prism_features_aux_figure": "Stéréo aux jack",
+        "prism_features_aux_description": "pour connecter les appareils audio avec une faible latence",
+        "prism_features_memory_figure": "2 Go LPDDR3",
+        "prism_features_memory_description": "RAM optimisés avec suspension sur le sommeil",
+        "prism_features_video_figure": "Vidéo H.265 4K",
+        "prism_features_video_description": "décodage MPEG avec jusqu'à 120 IPS 1080p relecture",
+        "prism_features_battery_figure": "3 000 mAh",
+        "prism_features_battery_description": "batterie légère et compacte amovible de l'utilisateur",
+
+        "prism_explore_title": "Explorez plus de Prism",
+        "prism_explore_os_title": "LiveG OS",
+        "prism_explore_os_description": "Notre système d'exploitation moderne et convergent conçu pour le Prism et autres matériels créés par LiveG.",
+        "prism_explore_developer_title": "Ressources du développeur",
+        "prism_explore_developer_description": "De Adapt UI à Astronaut, nous pouvons vous fournir tous les outils nécessaires pour vous développer avec le LiveG Prism.",
+        "prism_explore_design_title": "Fichiers de conception matérielle",
+        "prism_explore_design_description": "Avec la transparence et l'ouverture au cœur de LiveG, vous pouvez parcourir les fichiers que nous fabriquons pour construire le LiveG Prism.",
+
+        "prism_right_tagline": "Faites ce que vous voulez avec",
+        "prism_right_description": "Avec une coquille imprimée 3D translucide biodégradable et nos boutons tactiles de signature dynamique, le Prism est conçu pour donner à son propriétaire le droit de l'auto-réparation.",
+
+        "prism_comingSoon_title": "Bientôt disponible",
+        "prism_comingSoon_description": "Il s'agit simplement d'une itération précoce de nos plans pour un smartphone LiveG Prism complet et détaillable. Alors que le Prism continue d'être recherché et développé, nous apprécierions votre soutien pour ce projet à long terme.",
+
+        "prism_footnote_charging": "Évalué 55 minutes pour charger un Prism de 5 % à 95 % au niveau de la batterie en fonction des tests de charge avec le Prism en mode veille. Les temps de charge peuvent varier en fonction de l'activité du smartphone, de l'exécution du logiciel et du matériel connecté.",
+        "prism_footnote_aux": "La faible latence et la fiabilité dépendent des spécifications et des performances du matériel tiers (telles que les câbles et l'équipement audio) connectés au Prism.",
+        "prism_footnote_repair": "Suite à des conseils officiels pour la sécurité pour ce produit est recommandé pour la prévention des blessures ou des dommages causés par le produit.",
+        "prism_notice_usbCTrademark": "USB Type-C® et USB-C® sont des marques déposées du USB Implementers Forum.",
+        "prism_notice_armTrademark": "Arm® et Cortex® sont des marques enregistrées d'Arm Limited (ou ses filiales).",
 
         "developer_tagline": "Créez des projets puissants qui font la différence avec LiveG",
         "developer_description": "Notre logiciel ouvert est conçu pour être avancé, mais convivial pour les développeurs. Rejoignez-nous et utilisez nos outils de développement open-source pour créer vos applications, services, jeux et bien plus encore.",
