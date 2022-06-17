@@ -128,6 +128,10 @@ img.full {
     color: black;
 }
 
+.bigFigure {
+    font-size: 2rem;
+}
+
 @media (min-width: 1001px) {
     .showcaseCover {
         height: 80vh;
@@ -163,6 +167,10 @@ img.full {
 
     .showcaseCover {
         height: 50vh;
+    }
+
+    .showcaseCover img[aui-mode="background"] {
+        filter: brightness(0.6);
     }
 
     .showcaseCover_info {

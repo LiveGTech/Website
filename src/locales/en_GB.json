@@ -63,11 +63,33 @@
 
         "prism_motor_description": "When it's in your pocket, the Prism can also let you know what's happening through customisable pulses of its vibration motor.",
 
-        "prism_bottom_tagline": "Recharge in 55 minutes",
+        "prism_bottom_tagline": "Recharges in 55 minutes",
         "prism_bottom_description": "The Prism supports USB-C® power delivery from a supply of up to 15 W. When its battery is running low, your Prism will be ready to go again in just under an hour of charging.",
 
         "prism_back_tagline": "Capture moments in day and night",
         "prism_back_description": "With a 5 megapixel 1944p rear camera and bright flash LED, the Prism is ready to shoot photos inside and out — and even in the middle of the night.",
+
+        "prism_features_title": "Features that you can depend upon",
+        "prism_features_processor_figure": "Quad-core",
+        "prism_features_processor_description": "Arm® Cortex® A53 power-efficient processor clocked at 1.2 GHz",
+        "prism_features_storage_figure": "16 GB eMMC",
+        "prism_features_storage_description": "fast onboard flash storage for storing apps and data",
+        "prism_features_aux_figure": "Stereo aux jack",
+        "prism_features_aux_description": "to connect audio devices with low latency and high reliability",
+        "prism_features_memory_figure": "2 GB LPDDR3",
+        "prism_features_memory_description": "software-optimised RAM with suspension on sleep",
+        "prism_features_video_figure": "H.265 4K video",
+        "prism_features_video_description": "MPEG decoding with up to 120 FPS 1080p playback",
+        "prism_features_battery_figure": "3,000 mAh",
+        "prism_features_battery_description": "lightweight and compact user-removable battery",
+
+        "prism_explore_title": "Explore more from Prism",
+        "prism_explore_os_title": "LiveG OS",
+        "prism_explore_os_description": "Our modern, convergent operating system that's designed for the Prism and other hardware created by LiveG.",
+        "prism_explore_developer_title": "Developer resources",
+        "prism_explore_developer_description": "From Adapt UI to Astronaut, we can provide you with all the tools needed to develop with the LiveG Prism.",
+        "prism_explore_design_title": "Open hardware design files",
+        "prism_explore_design_description": "With transparency and openness at the heart of LiveG, you can browse the files we make to build the LiveG Prism.",
 
         "prism_right_tagline": "Do whatever you want with it",
         "prism_right_description": "With a biodegradable translucent 3D-printed shell and our vibrant signature tactile buttons, the Prism is designed to give its owner the right to self-repair.",
@@ -76,8 +98,10 @@
         "prism_comingSoon_description": "This is merely an early iteration of our plans for a complete, retailable LiveG Prism smartphone. As the Prism continues to be researched and developed, we would appreciate your support for this long-term project.",
 
         "prism_footnote_charging": "Rated 55 minutes to charge a Prism from 5% to 95% in battery level based on charging tests with the Prism in sleep mode. Charging times may vary based on activity of the phone, running software and connected hardware.",
+        "prism_footnote_aux": "Low latency and reliability are dependent on the specifications and performance of third-party hardware (such as cables and audio equipment) connected to the Prism.",
         "prism_footnote_repair": "Following official safety advice for this product is recommended for the prevention of injury or product damage.",
-        "prism_notice_usbCTrademark": "\"USB Type-C® and USB-C®\" are registered trademarks of USB Implementors Forum.",
+        "prism_notice_usbCTrademark": "USB Type-C® and USB-C® are registered trademarks of USB Implementors Forum.",
+        "prism_notice_armTrademark": "Arm® and Cortex® are registered trademarks of Arm Limited (or its subsidaries).",
 
         "developer_tagline": "Build powerful projects that make a difference with LiveG",
         "developer_description": "Our open software is designed to be advanced, yet friendly to developers. Come join in and use our open-source developer tools to build your apps, services, games and more.",
