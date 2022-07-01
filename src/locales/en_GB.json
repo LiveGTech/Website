@@ -103,6 +103,41 @@
         "prism_notice_usbCTrademark": "USB Type-C® and USB-C® are registered trademarks of USB Implementers Forum.",
         "prism_notice_armTrademark": "Arm® and Cortex® are registered trademarks of Arm Limited (or its subsidiaries).",
 
+        "os_intro": "Meet LiveG OS: the modern, secure and feature-packed operating system that powers a range of our products.",
+
+        "os_convergent_title": "Convergent",
+        "os_convergent_description": "Designed for both desktop and mobile devices, LiveG OS is designed to give you the same, consistent experience across all of your devices with apps that have both desktop and mobile compatibility.",
+
+        "os_capable_title": "Capable",
+        "os_capable_description": "Powered by web apps, LiveG OS lets you install and run thousands of apps that are already part of your workflow. The Sphere web browser lets you visit your favourite websites quickly and securely.",
+
+        "os_productive_title": "Productive",
+        "os_productive_description": "LiveG OS helps you to become more productive through enhanced features, such as typing suggestions, gestures and more. Seamlessly switch back and fourth between apps on both desktop on mobile through LiveG OS's multitasking features.",
+
+        "os_more_title": "There's more to love with LiveG OS",
+
+        "os_straightforward_title": "Straightforward",
+        "os_straightforward_description": "LiveG OS is designed to be simple to use and familiar to users who are either new to computing or who are making the switch to LiveG's products from another provider. Our design considerations at multiple stages of development ensure that LiveG OS is ready to accommodate beginners and advanced users alike.",
+
+        "os_secure_title": "Secure",
+        "os_secure_description": "Through sandboxing, advanced authentication and our permissions system, we ensure that your device is as secure as it can be through multiple layers of defence against malware and viruses. Our security team also provides multiple updates to LiveG OS to ensure it has the best protection at the earliest convenience.",
+
+        "os_worldReady_title": "World-ready",
+        "os_worldReady_description": "Users from around the globe are able to use LiveG OS in their own language thanks to LiveG OS's localisation features. LiveG OS also allows users to type in text in their own language using different keyboard layouts, including those for Chinese, Japanese and Korean with an advanced character input system.",
+
+        "os_customisable_title": "Customisable",
+        "os_customisable_description": "We want to allow users to make LiveG OS truly their own through customisation options that can change the look and feel of LiveG OS and its apps. Whether you are a dark mode user or want to go for a colour theme that suits you, LiveG OS can be customised to match your style through a wide range of theming options.",
+
+        "os_accessible_title": "Accessible",
+        "os_accessible_description": "LiveG OS is designed from the ground up to accommodate all users and allow them to navigate and user their devices through ways that suit their individual needs. For example, Switch Navigation lets users with limited motor skills have full control over their device by allowing them to connect specialised input devices.",
+
+        "os_open_title": "Open",
+        "os_open_description": "As a big supporter of open-source software and hardware, the LiveG ecosystem is open and ready to let developers create their own apps for LiveG OS and other platforms. LiveG OS itself is open-source, which lets advanced users and developers fine-tune their system and provide feedback to us so that we can all make LiveG OS better for everyone.",
+
+        "os_comingSoon_title": "Coming soon",
+        "os_comingSoon_description": "LiveG OS is still in an early development phase, which means that we are not yet able to provide downloads for our operating system. You can, however, check out and download gShell, our desktop environment that provides much of the LiveG OS experience, but on your own system.",
+        "os_comingSoon_learnMore": "Learn more about gShell",
+
         "developer_tagline": "Build powerful projects that make a difference with LiveG",
         "developer_description": "Our open software is designed to be advanced, yet friendly to developers. Come join in and use our open-source developer tools to build your apps, services, games and more.",
 

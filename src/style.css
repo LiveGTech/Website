@@ -132,6 +132,10 @@ img.full {
     font-size: 2rem;
 }
 
+.bigGap {
+    gap: 2rem;
+}
+
 @media (min-width: 1001px) {
     .showcaseCover {
         height: 80vh;

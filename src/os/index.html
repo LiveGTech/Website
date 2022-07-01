@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+-->
+<html>
+    <head>
+        <title translate aui-l10nstring="title" data-page="product_prism">LiveG Technologies</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="/logo.png">
+        <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/prism/prism.css">
+        <script type="module" src="/script.js"></script>
+        <script type="module" src="/prism/prism.js"></script>
+    </head>
+    <body aui-mode="web" hidden>
+        <nav aui-template="/templates/nav/nav.html"></nav>
+        <main>
+            <img src="/media/os/devices.svg" alt="" class="full">
+            <section aui-justify="middle">
+                <h2 translate>product_os_slogan</h2>
+                <p translate>os_intro</p>
+            </section>
+            <br>
+            <section>
+                <div aui-stack="horizontal reverse" aui-stackjustify="middle">
+                    <div>
+                        <img src="/media/os/convergence.svg" alt="">
+                    </div>
+                    <div>
+                        <h2 translate>os_convergent_title</h2>
+                        <p translate>os_convergent_description</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div aui-stack="horizontal reverse" aui-stackjustify="middle">
+                    <div>
+                        <img src="/media/os/sphere.png" alt="">
+                    </div>
+                    <div>
+                        <h2 translate>os_capable_title</h2>
+                        <p translate>os_capable_description</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div aui-stack="horizontal reverse" aui-stackjustify="middle">
+                    <div>
+                        <img src="/media/os/typing.svg" alt="">
+                    </div>
+                    <div>
+                        <h2 translate>os_productive_title</h2>
+                        <p translate>os_productive_description</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 translate>os_more_title</h2>
+                <div aui-stack="horizontal" class="bigGap">
+                    <div>
+                        <h3 translate>os_straightforward_title</h3>
+                        <p translate>os_straightforward_description</p>
+                        <h3 translate>os_secure_title</h3>
+                        <p translate>os_secure_description</p>
+                        <h3 translate>os_worldReady_title</h3>
+                        <p translate>os_worldReady_description</p>
+                    </div>
+                    <div>
+                        <h3 translate>os_customisable_title</h3>
+                        <p translate>os_customisable_description</p>
+                        <h3 translate>os_accessible_title</h3>
+                        <p translate>os_accessible_description</p>
+                        <h3 translate>os_open_title</h3>
+                        <p translate>os_open_description</p>
+                    </div>
+                </div>
+            </section>
+            <section aui-mode="secondary" aui-justify="middle">
+                <h2 translate>os_comingSoon_title</h2>
+                <p translate>os_comingSoon_description</p>
+                <button onclick="window.open('https:\/\/github.com/LiveGTech/gShell');" translate>os_comingSoon_learnMore</button>
+            </section>
+        </main>
+        <footer aui-template="/templates/footer/footer.html"></footer>
+        <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
+    </body>
+</html>
