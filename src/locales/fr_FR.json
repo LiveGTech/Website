@@ -103,6 +103,41 @@
         "prism_notice_usbCTrademark": "USB Type-C® et USB-C® sont des marques déposées du USB Implementers Forum.",
         "prism_notice_armTrademark": "Arm® et Cortex® sont des marques enregistrées d'Arm Limited (ou ses filiales).",
 
+        "os_intro": "Découvrez LiveG OS : le système d'exploitation moderne, sécurisé et riche en fonctionnalités qui alimente une gamme de nos produits.",
+
+        "os_convergent_title": "Convergent",
+        "os_convergent_description": "Conçu à la fois pour les ordinateurs de bureau et les appareils mobiles, LiveG OS est conçu pour vous offrir la même expérience cohérente sur tous vos appareils avec des applications compatibles à la fois avec les ordinateurs de bureau et les appareils mobiles.",
+
+        "os_capable_title": "Capable",
+        "os_capable_description": "Alimenté par des applications web, LiveG OS vous permet d'installer et d'exécuter des milliers d'applications qui font déjà partie de votre flux de travail. Le navigateur web Sphere vous permet de visiter vos sites web préférés rapidement et en toute sécurité.",
+
+        "os_productive_title": "Productif",
+        "os_productive_description": "LiveG OS vous aide à devenir plus productif grâce à des fonctionnalités améliorées, telles que des suggestions de saisie, des gestes et plus encore. Basculez en toute transparence entre les applications sur le bureau et sur le mobile grâce aux fonctionnalités multitâches de LiveG OS.",
+
+        "os_more_title": "Il y a plus à aimer avec LiveG OS",
+
+        "os_straightforward_title": "Simple",
+        "os_straightforward_description": "LiveG OS est conçu pour être simple à utiliser et familier aux utilisateurs novices en informatique ou qui passent d'un autre fournisseur à LiveG. Nos considérations de conception à plusieurs étapes de développement garantissent que LiveG OS est prêt à accueillir les utilisateurs débutants et avancés.",
+
+        "os_secure_title": "Sécurisé",
+        "os_secure_description": "Grâce au sandboxing, à l'authentification avancée et à notre système d'autorisations, nous nous assurons que votre appareil est aussi sécurisé que possible grâce à plusieurs couches de défense contre les logiciels malveillants et les virus. Notre équipe de sécurité fournit également plusieurs mises à jour de LiveG OS pour s'assurer qu'il dispose de la meilleure protection dans les meilleurs délais.",
+
+        "os_worldReady_title": "Prêt pour le monde",
+        "os_worldReady_description": "Les utilisateurs du monde entier peuvent utiliser LiveG OS dans leur propre langue grâce aux fonctionnalités de localisation de LiveG OS. LiveG OS permet également aux utilisateurs de saisir du texte dans leur propre langue à l'aide de différentes dispositions de clavier, y compris celles du chinois, du japonais et du coréen avec un système de saisie de caractères avancé.",
+
+        "os_customisable_title": "Personnalisable",
+        "os_customisable_description": "Nous voulons permettre aux utilisateurs de s'approprier LiveG OS grâce à des options de personnalisation qui peuvent modifier l'apparence de LiveG OS et de ses applications. Que vous soyez un utilisateur en mode sombre ou que vous souhaitiez opter pour un thème de couleur qui vous convient, LiveG OS peut être personnalisé pour correspondre à votre style grâce à une large gamme d'options de thème.",
+
+        "os_accessible_title": "Accessible",
+        "os_accessible_description": "LiveG OS est conçu dès le départ pour s'adapter à tous les utilisateurs et leur permettre de naviguer et d'utiliser leurs appareils de manière adaptée à leurs besoins individuels. Par exemple, Navigation au Interrupteur permet aux utilisateurs ayant des capacités motrices limitées d'avoir un contrôle total sur leur appareil en leur permettant de connecter des périphériques d'entrée spécialisés.",
+
+        "os_open_title": "Ouvert",
+        "os_open_description": "En tant que grand partisan des logiciels et du matériel open-source, l'écosystème LiveG est ouvert et prêt à laisser les développeurs créer leurs propres applications pour LiveG OS et d'autres plates-formes. LiveG OS lui-même est open-source, ce qui permet aux utilisateurs avancés et aux développeurs d'affiner leur système et de nous fournir des commentaires afin que nous puissions tous améliorer LiveG OS pour tout le monde.",
+
+        "os_comingSoon_title": "Bientôt disponible",
+        "os_comingSoon_description": "LiveG OS est encore dans une phase de développement précoce, ce qui signifie que nous ne sommes pas encore en mesure de fournir des téléchargements pour notre système d'exploitation. Vous pouvez cependant consulter et télécharger gShell, notre environnement de bureau qui fournit une grande partie de l'expérience LiveG OS, mais sur votre propre système.",
+        "os_comingSoon_learnMore": "En savoir plus sur gShell",
+
         "developer_tagline": "Créez des projets puissants qui font la différence avec LiveG",
         "developer_description": "Notre logiciel ouvert est conçu pour être avancé, mais convivial pour les développeurs. Rejoignez-nous et utilisez nos outils de développement open-source pour créer vos applications, services, jeux et bien plus encore.",
 
