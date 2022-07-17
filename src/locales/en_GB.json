@@ -155,6 +155,20 @@
 
         "developer_astronaut_description": "Astronaut is our tool for building apps for the LiveG ecosystem with just a few lines of code. It enables all developers to create their own apps and services, whether they are beginners or advanced hackers.",
         "developer_adaptui_description": "At LiveG, we believe that the best user interfaces and experiences are key to building productive tools. Adapt UI is our UI toolkit and design language for building consistent and appealing products.",
-        "developer_os_description": "Powering our hardware products, LiveG OS is at the core of everything you do on our devices. It integrates our open ecosystem of LiveG software with the bare metal of the hardware we build."
+        "developer_os_description": "Powering our hardware products, LiveG OS is at the core of everything you do on our devices. It integrates our open ecosystem of LiveG software with the bare metal of the hardware we build.",
+
+        "legal_orgInfo": "Organisational information (imprint)",
+        "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
+        "legal_orgInfo_operator": "Operated and funds managed by James Livesey",
+        "legal_orgInfo_email": "Email:",
+    
+        "legal_copyright": "Copyright notice",
+        "legal_copryight_licence": "Except where otherwise noted, the contents of this website are licensed by the LiveG Open-Source Licence.",
+        "legal_copryight_licenceTerms": "Licence terms",
+
+        "legal_trademarks": "Trademarks",
+        "legal_trademarks_permission": "We permit our trademarks for use in documents (such as news and informative articles) to reference ourselves or our projects, products or services. Our trademarks may also used to denote compatibility with other services, though it must be made clear that we are not endorsing those third-party services, and that we do not provide support for them. For permission to use our trademarks for other purposes, or if you are not sure whether to use them, please contact us:",
+        "legal_trademarks_symbol": "The use of the trademark symbol (™) is not required when referencing our trademarked terms. In fact, we encourage that they are omitted, as we ourselves do not use them in our product names.",
+        "legal_trademarks_list": "The following is a list of our unregistered trademarks:"
     }
 }

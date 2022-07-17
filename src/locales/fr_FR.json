@@ -155,6 +155,20 @@
 
         "developer_astronaut_description": "Astronaut est notre outil pour créer des applications pour l'écosystème LiveG avec seulement quelques lignes de code. Il permet à tous les développeurs de créer leurs propres applications et services, qu'ils soient débutants ou hackers confirmés.",
         "developer_adaptui_description": "Chez LiveG, nous pensons que les meilleures interfaces et expériences utilisateur sont essentielles pour créer des outils productifs. Adapt UI est notre boîte à outils d'interface utilisateur et notre langage de conception pour créer des produits cohérents et attrayants.",
-        "developer_os_description": "Alimentant nos produits matériels, LiveG OS est au cœur de tout ce que vous faites sur nos appareils. Il intègre notre écosystème ouvert de logiciels LiveG avec le métal nu du matériel que nous construisons."
+        "developer_os_description": "Alimentant nos produits matériels, LiveG OS est au cœur de tout ce que vous faites sur nos appareils. Il intègre notre écosystème ouvert de logiciels LiveG avec le métal nu du matériel que nous construisons.",
+
+        "legal_orgInfo": "Informations organisationnelles (impressum)",
+        "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
+        "legal_orgInfo_operator": "Opéré et fonds gérés par James Livesey",
+        "legal_orgInfo_email": "Email :",
+    
+        "legal_copyright": "Mention de copyright",
+        "legal_copryight_licence": "Sauf indication contraire, le contenu de ce site Web est sous la LiveG Open-Source Licence.",
+        "legal_copryight_licenceTerms": "Conditions de licence",
+
+        "legal_trademarks": "Marques de commerce",
+        "legal_trademarks_permission": "Nous autorisons l'utilisation de nos marques dans des documents (tels que des actualités et des articles informatifs) pour nous référencer ou faire référence à nos projets, produits ou services. Nos marques peuvent également être utilisées pour indiquer la compatibilité avec d'autres services, bien qu'il faut le préciser que nous n'approuvons pas ces services tiers et que nous ne fournissons pas de support pour eux. Pour obtenir l'autorisation d'utiliser nos marques à d'autres fins, ou si vous n'êtes pas sûr de les utiliser, veuillez nous contacter :",
+        "legal_trademarks_symbol": "L'utilisation du symbole de marque (™) n'est pas nécessaire pour faire référence à nos noms de marque. En fait, nous vous encourageons à les omettre, car nous-mêmes ne les utilisons pas dans nos noms de produits.",
+        "legal_trademarks_list": "Voici une liste de nos marques non déposées :"
     }
 }
