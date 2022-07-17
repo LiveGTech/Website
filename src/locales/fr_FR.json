@@ -169,6 +169,7 @@
         "legal_trademarks": "Marques de commerce",
         "legal_trademarks_permission": "Nous autorisons l'utilisation de nos marques dans des documents (tels que des actualités et des articles informatifs) pour nous référencer ou faire référence à nos projets, produits ou services. Nos marques peuvent également être utilisées pour indiquer la compatibilité avec d'autres services, bien qu'il faut le préciser que nous n'approuvons pas ces services tiers et que nous ne fournissons pas de support pour eux. Pour obtenir l'autorisation d'utiliser nos marques à d'autres fins, ou si vous n'êtes pas sûr de les utiliser, veuillez nous contacter :",
         "legal_trademarks_symbol": "L'utilisation du symbole de marque (™) n'est pas nécessaire pour faire référence à nos noms de marque. En fait, nous vous encourageons à les omettre, car nous-mêmes ne les utilisons pas dans nos noms de produits.",
-        "legal_trademarks_list": "Voici une liste de nos marques non déposées :"
+        "legal_trademarks_list": "Voici une liste de nos marques non déposées :",
+        "legal_trademarks_list_logo": "Le Logo LiveG"
     }
 }
