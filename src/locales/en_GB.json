@@ -170,6 +170,9 @@
         "legal_trademarks_permission": "We permit our trademarks for use in documents (such as news and informative articles) to reference ourselves or our projects, products or services. Our trademarks may also used to denote compatibility with other services, though it must be made clear that we are not endorsing those third-party services, and that we do not provide support for them. For permission to use our trademarks for other purposes, or if you are not sure whether to use them, please contact us:",
         "legal_trademarks_symbol": "The use of the trademark symbol (™) is not required when referencing our trademarked terms. In fact, we encourage that they are omitted, as we ourselves do not use them in our product names.",
         "legal_trademarks_list": "The following is a list of our unregistered trademarks:",
-        "legal_trademarks_list_logo": "The LiveG Logo"
+        "legal_trademarks_list_logo": "The LiveG Logo",
+
+        "404_title": "Sorry, but the page you were looking for doesn't seem to exist…",
+        "404_description": "You may have mistyped the URL, or the page you have previously visited may no longer be available."
     }
 }

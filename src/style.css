@@ -136,6 +136,10 @@ img.full {
     gap: 2rem;
 }
 
+.error404 {
+    padding-top: 20vh;
+}
+
 @media (min-width: 1001px) {
     .showcaseCover {
         height: 80vh;
@@ -192,5 +196,9 @@ img.full {
         max-width: unset;
         text-align: start;
         color: white;
+    }
+
+    .error404 {
+        padding-top: 10vh;
     }
 }
