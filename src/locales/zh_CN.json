@@ -1,0 +1,178 @@
+{
+    "localeCode": "en_GB",
+    "metadata": {
+        "name": "简体中文（中国）",
+        "nameShort": "中文",
+        "textDirection": "ltr"
+    },
+    "source": {
+        "liveg": "力格",
+        "livegTechnologies": "力格科技",
+        "logoAlt": "力格徽标",
+
+        "title": "力格科技",
+        "title_page": "{page}——力格科技",
+
+        "new": "新",
+        "new_badgeAlt": "（新）",
+        "learnMore": "学到更多",
+
+        "nav_goHome": "去首页",
+        "nav_language": "语",
+
+        "page_home": "主页",
+        "page_about": "关于",
+        "page_developer": "开发者",
+        "page_legal": "法律",
+
+        "product_prism": "棱镜",
+        "product_prism_slogan": "您可以随时随地使用的开放技术世界",
+        "product_os": "力格OS",
+        "product_os_slogan": "您的一切力格伴侣",
+        "product_astronaut": "宇航员",
+        "product_astronaut_slogan": "打造下一件大事",
+        "product_adaptui": "适应用户界面",
+        "product_adaptui_slogan": "力格产品的商标外观",
+        "product_docs": "文档",
+        "product_docs_slogan": "力格帮助指南、参考资料等的中心",
+        "product_search": "搜索",
+        "product_search_slogan": "快速、无干扰的搜索引擎",
+
+        "footer_social": "社交",
+        "footer_social_twitter": "推特",
+        "footer_social_youtube": "YouTube",
+        "footer_social_instagram": "Instagram",
+        "footer_social_dev": "DEV Community",
+        "footer_social_github": "GitHub",
+
+        "footer_legal_copyright": "版权所有©力格。版权所有。",
+        "footer_legal_trademark": "力格和力格徽标是LiveG Technologies (UK U.A.)的商标。",
+
+        "imageAlt_prism_main": "力格·棱镜的正面，音量和电源按钮朝向相机",
+
+        "about_tagline": "自2014年以来构建开放技术",
+        "about_description_1": "欢迎来到力格科技，该组织的使命是为所有人设计开放技术。",
+        "about_description_2": "我们希望通过以有益的方式运用我们的专业知识，通过我们所做的事情产生积极的影响。",
+
+        "about_ourApproach": "我们的方法",
+        "about_ourApproach_1": "众所周知，数字技术不仅可以改变我们日常生活的许多方面，还可以改变我们周围的世界。虽然其中许多转变改善了我们的世界，但遗憾的是，引入各种数字技术的一些影响是负面的，导致个人之间的不平等，我们的气候发生巨大变化，并破坏我们作为一个社会的健康——仅举几例一些。",
+        "about_ourApproach_2": "作为一家技术组织，我们明白我们对我们开发的产品和服务以及它们如何影响我们的世界负有重大责任。我们相信，这种对责任的认识是我们区别于其他组织的关键因素。因此，我们的方法是使我们的技术开放、用户友好、安全、可访问、可持续和经久耐用。为此，我们希望在我们创建的项目和我们的道德方法方面成为技术行业的领导者。",
+        "about_ourApproach_3": "作为一个主要由年轻人经营的组织，我们希望通过使用技术将我们新鲜的视角应用到我们的世界中，但我们明白，我们必须谨慎对待我们的知识，并从我们年长朋友的经验中学习，以便为了不走错路。",
+        "about_ourApproach_4": "当我们从头开始构建自己的产品时，一些持更批判态度的人认为我们正在重新发明轮子；但这不是真的。我们相信，真正的创新始于我们发明自己的轮子——更好的轮子。这就是我们学习生产更好产品的方式。",
+        "about_ourApproach_5": "力格在重视用户和客户而不是获得高额利润方面处于独特的地位。从道德上讲，我们只是想为整个世界做最好的事情，而不仅仅是为了我们自己。这包括向现有的开源项目捐款，我们依靠这些项目建立自己的项目——甚至是我们认为应该支持的慈善机构——当我们产生的收入有剩余时。",
+        "about_ourApproach_6": "我们希望您对力格的兴趣有助于为力格所做的事情以及周围的世界提供投资。支持我们的人越多，我们就越有能力削弱大型科技公司作为多元化竞争对手的垄断地位。我们希望制造能够让或帮助人们推动世界发展的产品，我们将为任何这样做的人感到无比自豪。",
+        "about_jamesLivesey": "詹姆斯·利夫西（James Livesey）",
+        "about_jamesLivesey_title": "力格创始人兼首席开发者",
+
+        "prism_title": "力格·棱镜",
+        "prism_intro": "我们希望构建开放技术，为人们提供改善日常生活的工具。力格·棱镜是一个正在进行的项目，旨在构建实现这一目标的智能手机。",
+
+        "prism_front_tagline": "软件和硬件的完美结合",
+        "prism_front_description": "凭借棱镜的操作系统的设计方面和由力格控制的硬件，棱镜为您提供只有最好的智能手机才能实现的高效无缝体验。",
+
+        "prism_led_tagline": "不错过任何一个节拍",
+        "prism_led_description": "棱镜可让您通过其控制系统与您的数字生活保持联系。RGB通知LED提供了一种低功耗的提醒方式,不会让您分心。",
+
+        "prism_motor_description": "当它在你的口袋里时，棱镜还可以通过其振动电机的可定制脉冲让你知道发生了什么。",
+
+        "prism_bottom_tagline": "充电55分钟",
+        "prism_bottom_description": "棱镜支持高达15 W的USB-C®电源传输。当电池电量不足时，您的棱镜将在不到一小时的充电时间内准备好再次使用。",
+
+        "prism_back_tagline": "捕捉白天或黑夜的瞬间",
+        "prism_back_description": "借助5兆像素1944p后置摄像头和明亮的LED闪光灯，棱镜可以从里到外拍摄照片——甚至是在半夜。",
+
+        "prism_features_title": "您可以依赖的功能",
+        "prism_features_processor_figure": "四核",
+        "prism_features_processor_description": "Arm® Cortex® A53高能效处理器，主频为1.2 GHz",
+        "prism_features_storage_figure": "16 GB eMMC",
+        "prism_features_storage_description": "用于存储应用程序和数据的快速板载闪存",
+        "prism_features_aux_figure": "立体声辅助插孔",
+        "prism_features_aux_description": "用于连接具有低延迟和高可靠性的音频设备",
+        "prism_features_memory_figure": "2 GB LPDDR3",
+        "prism_features_memory_description": "软件优化RAM，睡眠暂停",
+        "prism_features_video_figure": "H.265 4K视频",
+        "prism_features_video_description": "MPEG解码，最高120 FPS 1080p播放",
+        "prism_features_battery_figure": "3,000 mAh",
+        "prism_features_battery_description": "轻巧紧凑的用户可拆卸电池",
+
+        "prism_explore_title": "从棱镜探索更多",
+        "prism_explore_os_title": "力格OS",
+        "prism_explore_os_description": "我们的现代融合操作系统专为棱镜和力格创建的其他硬件而设计。",
+        "prism_explore_developer_title": "开发者资源",
+        "prism_explore_developer_description": "从适应用户界面到宇航员，我们可以为您提供使用力格·棱镜进行开发所需的所有工具。",
+        "prism_explore_design_title": "打开硬件设计文件",
+        "prism_explore_design_description": "力格的核心是透明和开放，您可以浏览我们为构建力格棱镜而制作的文件。",
+
+        "prism_right_tagline": "你是所有者：做任何你想做的事",
+        "prism_right_description": "棱镜采用可生物降解的半透明3D打印外壳和我们充满活力的标志性触觉按钮，旨在赋予其所有者自我修复的权利。",
+
+        "prism_comingSoon_title": "快来了",
+        "prism_comingSoon_description": "这只是我们完整、可零售的力格·棱镜智能手机计划的早期迭代。随着棱镜的不断研究和开发，我们将感谢您对这个长期项目的支持。",
+
+        "prism_footnote_charging": "根据棱镜在睡眠模式下的充电测试，额定55分钟可将棱镜电池电量从 5%充电至95%。充电时间可能会因手机的活动、运行的软件和连接的硬件而异。",
+        "prism_footnote_aux": "低延迟和可靠性取决于连接到棱镜的第三方硬件（如电缆和音频设备）的规格和性能。",
+        "prism_footnote_repair": "建议遵循本产品的官方安全建议，以防止受伤或产品损坏。",
+        "prism_notice_usbCTrademark": "USB Type-C®和USB-C®是USB Implementers Forum的注册商标。",
+        "prism_notice_armTrademark": "Arm®和Cortex®是或其子公司（Arm Limited）的注册商标。",
+
+        "os_intro": "认识力格OS：现代、安全且功能丰富的操作系统，为我们的一系列产品提供支持。",
+
+        "os_convergent_title": "收敛的",
+        "os_convergent_description": "力格OS专为桌面设备和移动设备而设计，旨在通过具有桌面和移动兼容性的应用程序为您在所有设备上提供相同、一致的体验。",
+
+        "os_capable_title": "有能力的",
+        "os_capable_description": "力格OS由互联网应用程序提供支持，可让您安装和运行数以千计的应用程序，这些应用程序已经成为您工作流程的一部分。球面网络浏览器可让您快速安全地访问您喜爱的网站。",
+
+        "os_productive_title": "富有成效的",
+        "os_productive_description": "力格OS通过增强功能（例如输入建议、手势等）帮助您提高工作效率。通过力格OS的多任务处理功能，在移动设备上的两个桌面应用程序之间无缝切换。",
+
+        "os_more_title": "力格OS让您爱不释手",
+
+        "os_straightforward_title": "直截了当",
+        "os_straightforward_description": "力格OS设计为易于使用且熟悉计算新手或从其他供应商转向力格产品的用户。我们在多个开发阶段的设计考虑确保力格OS已准备好适应初学者和高级用户。",
+
+        "os_secure_title": "安全的",
+        "os_secure_description": "通过沙盒、高级身份验证和我们的权限系统，我们通过多层防御恶意软件和病毒确保您的设备尽可能安全。我们的安全团队还为力格OS提供多项更新，以确保它尽早获得最佳保护。",
+
+        "os_worldReady_title": "世界就绪",
+        "os_worldReady_description": "得益于力格OS的本地化功能，全球用户都可以使用自己的语言使用力格OS。力格OS还允许用户使用不同的键盘布局以自己的语言输入文本，包括带有高级字符输入系统的中文、日文和韩文。",
+
+        "os_customisable_title": "可定制",
+        "os_customisable_description": "我们希望允许用户通过可以改变力格OS及其应用程序的外观和感觉的自定义选项，使 力格OS真正成为他们自己的。无论您是深色模式用户还是想要选择适合您的颜色主题，力格OS都可以通过广泛的主题选项进行定制以匹配您的风格。",
+
+        "os_accessible_title": "可访问性",
+        "os_accessible_description": "力格OS从头开始设计，以适应所有用户，并允许他们通过适合其个人需求的方式导航和使用他们的设备。例如，《基于开关的导航》允许运动技能有限的用户连接专门的输入设备，从而完全控制他们的设备。",
+
+        "os_open_title": "开放",
+        "os_open_description": "作为开源软件和硬件的大力支持者，力格生态系统是开放的，可以让开发人员为力格OS和其他平台创建自己的应用程序。力格OS本身是开源的，它可以让高级用户和开发人员微调他们的系统并向我们提供反馈，以便我们都可以为每个人打造更好的力格OS。",
+
+        "os_comingSoon_title": "快来了",
+        "os_comingSoon_description": "力格OS仍处于早期开发阶段，这意味着我们还不能为我们的操作系统提供下载。但是，您可以查看并下载gShell，这是我们的桌面环境，可提供大部分力格OS体验，但在您自己的系统上。",
+        "os_comingSoon_learnMore": "了解有关gShell的更多信息",
+
+        "developer_tagline": "使用力格构建功能强大的项目",
+        "developer_description": "我们的开放软件设计先进，但对开发人员友好。加入并使用我们的开源开发人员工具来构建您的应用程序、服务、游戏等。",
+
+        "developer_astronaut_description": "宇航员是我们为力格生态系统构建应用程序的工具，只需几行代码。它使所有开发人员都可以创建自己的应用程序和服务，无论他们是初学者还是高级黑客。",
+        "developer_adaptui_description": "在力格，我们相信最好的用户界面和体验是构建高效工具的关键。适应用户界面是我们的用户界面工具包和设计语言，用于构建一致且吸引人的产品。",
+        "developer_os_description": "力格OS为我们的硬件产品提供动力，是您在我们的设备上所做的一切的核心。它将我们的力格软件开放生态系统与我们构建的硬件的裸机集成在一起。",
+
+        "legal_orgInfo": "组织信息（印记）",
+        "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
+        "legal_orgInfo_operator": "由詹姆斯·利夫西（James Livesey）运营和管理",
+        "legal_orgInfo_email": "电子邮件：",
+    
+        "legal_copyright": "版权声明",
+        "legal_copryight_licence": "除非另有说明，否则本网站的内容由LiveG Open-Source Licence授权。",
+        "legal_copryight_licenceTerms": "许可条款",
+
+        "legal_trademarks": "商标",
+        "legal_trademarks_permission": "我们允许将我们的商标用于文件（例如新闻和信息性文章）中，以引用我们自己或我们的项目、产品或服务。我们的商标也可能用于表示与其他服务的兼容性，但您必须明确表示我们不认可这些第三方服务，并且我们不为它们提供支持。如需获得将我们的商标用于其他目的的许可，或者如果您不确定是否使用它们，请联系我们：",
+        "legal_trademarks_symbol": "引用我们的商标条款时，不需要使用商标符号（™）。事实上，我们鼓励省略它们，因为我们自己不会在产品名称中使用它们。",
+        "legal_trademarks_list": "以下是我们未注册商标的列表：",
+        "legal_trademarks_list_logo": "力格徽标",
+
+        "404_title": "抱歉，您要查找的页面似乎不存在……",
+        "404_description": "您可能输入了错误的URL，或者您以前访问过的页面可能不再可用。"
+    }
+}

@@ -14,9 +14,11 @@ $g.waitForLoad().then(function() {
 }).then(function() {
     return $g.l10n.selectLocaleFromResources({
         "en_GB": "/locales/en_GB.json",
-        "fr_FR": "/locales/fr_FR.json"
+        "fr_FR": "/locales/fr_FR.json",
+        "zh_CN": "/locales/zh_CN.json"
     }, "en_GB", {
-        "fr_FR": "en_GB"
+        "fr_FR": "en_GB",
+        "zh_CN": "en_GB"
     }, localStorage.getItem("liveg_website_lang") || $g.core.parameter("lang") || $g.l10n.getSystemLocaleCode());
 }).then(function(locale) {
     window._ = function() {
