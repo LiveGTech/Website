@@ -1,5 +1,5 @@
 # Website
-The LiveG website, at liveg.tech.
+The LiveG website, at [liveg.tech](https://liveg.tech).
 
 Licensed by the [LiveG Open-Source Licence](LICENCE.md).
 
