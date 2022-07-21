@@ -46,7 +46,14 @@
                 </div>
             </section>
         </main>
-        <footer aui-template="/templates/footer/footer.html"></footer>
+        <footer aui-template="/templates/footer/footer.html">
+            <!-- Contents are temporary for when JS doesn't load (for LiveG Search) -->
+            <a href="/" aui-mode="block" translate>page_home</a>
+            <a href="/about" aui-mode="block" translate>page_about</a>
+            <a href="https://search.liveg.tech" target="_blank" aui-mode="block" translate>product_search</a>
+            <a href="https://docs.liveg.tech" target="_blank" aui-mode="block" translate>product_docs</a>
+            <a href="/developer" aui-mode="block" translate>page_developer</a>
+        </footer>
         <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
     </body>
 </html>
