@@ -202,3 +202,10 @@ img.full {
         padding-top: 10vh;
     }
 }
+
+@media (max-width: 360px) {
+    .showcaseCard_slogan {
+        width: 100%;
+        min-width: unset;
+    }
+}
