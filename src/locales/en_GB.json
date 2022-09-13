@@ -147,9 +147,8 @@
         "os_open_title": "Open",
         "os_open_description": "As a big supporter of open-source software and hardware, the LiveG ecosystem is open and ready to let developers create their own apps for LiveG OS and other platforms. LiveG OS itself is open-source, which lets advanced users and developers fine-tune their system and provide feedback to us so that we can all make LiveG OS better for everyone.",
 
-        "os_comingSoon_title": "Coming soon",
-        "os_comingSoon_description": "LiveG OS is still in an early development phase, which means that we are not yet able to provide downloads for our operating system. You can, however, check out and download gShell, our desktop environment that provides much of the LiveG OS experience, but on your own system.",
-        "os_comingSoon_learnMore": "Learn more about gShell",
+        "os_get_title": "Get LiveG OS now",
+        "os_get_description": "Early pre-releases of LiveG OS are available for downloading and installation. Try out LiveG OS Alpha and become an early supporter of LiveG software.",
 
         "osGet_title": "Get LiveG OS",
         "osGet_versionTitle": "LiveG OS Alpha",

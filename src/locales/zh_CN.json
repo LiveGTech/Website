@@ -147,9 +147,8 @@
         "os_open_title": "开放",
         "os_open_description": "作为开源软件和硬件的大力支持者，力格生态系统是开放的，可以让开发人员为力格OS和其他平台创建自己的应用程序。力格OS本身是开源的，它可以让高级用户和开发人员微调他们的系统并向我们提供反馈，以便我们都可以为每个人打造更好的力格OS。",
 
-        "os_comingSoon_title": "快来了",
-        "os_comingSoon_description": "力格OS仍处于早期开发阶段，这意味着我们还不能为我们的操作系统提供下载。但是，您可以查看并下载gShell，这是我们的桌面环境，可提供大部分力格OS体验，但在您自己的系统上。",
-        "os_comingSoon_learnMore": "了解有关gShell的更多信息",
+        "os_get_title": "立即获取力格OS",
+        "os_get_description": "力格OS的早期预发行可供下载和安装。 尝试力格OS Alpha，并成为Liveg软件的早期采用者。",
 
         "osGet_title": "获取力格OS",
         "osGet_versionTitle": "力格OS Alpha",
