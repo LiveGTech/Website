@@ -16,6 +16,7 @@
         "new": "Noveau",
         "new_badgeAlt": "(Noveau)",
         "learnMore": "En savoir plus",
+        "download": "Télécharger",
 
         "nav_goHome": "Rentrer à l'accueil",
         "nav_language": "Langue",
@@ -149,6 +150,28 @@
         "os_comingSoon_title": "Bientôt disponible",
         "os_comingSoon_description": "LiveG OS est encore dans une phase de développement précoce, ce qui signifie que nous ne sommes pas encore en mesure de fournir des téléchargements pour notre système d'exploitation. Vous pouvez cependant consulter et télécharger gShell, notre environnement de bureau qui fournit une grande partie de l'expérience LiveG OS, mais sur votre propre système.",
         "os_comingSoon_learnMore": "En savoir plus sur gShell",
+
+        "osGet_title": "Obtenez LiveG OS",
+        "osGet_versionTitle": "LiveG OS Alpha",
+        "osGet_version": "Version 0.1.0 Alpha",
+
+        "osGet_description": "Essayez notre nouveau système d'exploitation conçu pour l'informatique moderne. Il s'agit de notre tout premier pré-release de LiveG OS, donc certaines fonctionnalités pourraient encore être en développement ou manquantes.",
+
+        "osGet_steps_download": "1. Télécharger",
+        "osGet_steps_download_description": "Prenez une copie gratuite de LiveG OS qui peut facilement être installée dans n'importe quel appareil compatible.",
+        "osGet_steps_boot": "2. Démarrer",
+        "osGet_steps_boot_description": "Copier en direct est sur le lecteur d'installation choisi afin que LiveG OS puisse être démarré à partir de votre appareil.",
+        "osGet_steps_install": "3. Installer et configurer",
+        "osGet_steps_install_description": "Suivez les étapes dans LiveG OS pour terminer l'installation. Nous vous guiderons à chaque étape.",
+
+        "osGet_releaseNotes": "Notes de release détaillées",
+        "osGet_releaseNotes_1": "Il n'y a pas encore de mécanisme de mise à jour pour LiveG OS, donc lorsque les versions futures sont disponibles, vous devrez installer la nouvelle version de LiveG OS via La Configuration/L'Installation de LiveG OS (fichier ISO), ce qui signifie écraser votre ancienne installation (bien que cela peut ne pas être trop important à ce stade).",
+
+        "osGet_minimumSystemRequirements": "Configuration minimale requise",
+        "osGet_minimumSystemRequirements_1": "LiveG OS peut être installé sur des appareils avec une taille de stockage de disque minimale de 2,6 Go, et avec une taille de RAM minimale de 2 Go.",
+        "osGet_minimumSystemRequirements_2": "Un périphérique de stockage est nécessaire pour démarrer LiveG OS pour l'installation. Le périphérique de stockage doit avoir une taille de stockage minimale de 2 Go.",
+
+        "osGet_supportedLanguages": "Langues prises en charge",
 
         "developer_tagline": "Créez des projets puissants qui font la différence avec LiveG",
         "developer_description": "Notre logiciel ouvert est conçu pour être avancé, mais convivial pour les développeurs. Rejoignez-nous et utilisez nos outils de développement open-source pour créer vos applications, services, jeux et bien plus encore.",

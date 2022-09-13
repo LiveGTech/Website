@@ -16,6 +16,7 @@
         "new": "新",
         "new_badgeAlt": "（新）",
         "learnMore": "学到更多",
+        "download": "下载",
 
         "nav_goHome": "去首页",
         "nav_language": "语",
@@ -149,6 +150,28 @@
         "os_comingSoon_title": "快来了",
         "os_comingSoon_description": "力格OS仍处于早期开发阶段，这意味着我们还不能为我们的操作系统提供下载。但是，您可以查看并下载gShell，这是我们的桌面环境，可提供大部分力格OS体验，但在您自己的系统上。",
         "os_comingSoon_learnMore": "了解有关gShell的更多信息",
+
+        "osGet_title": "获取力格OS",
+        "osGet_versionTitle": "力格OS Alpha",
+        "osGet_version": "0.1.0版 Alpha",
+
+        "osGet_description": "尝试我们为现代计算设计的新操作系统。这是我们的第一个力格OS释放，因此某些功能可能仍然是内部开发或缺失的。",
+
+        "osGet_steps_download": "一、下载",
+        "osGet_steps_download_description": "获取免费的力格OS副本：该副本可以轻松地安装在任何兼容的设备上。",
+        "osGet_steps_boot": "二、引导",
+        "osGet_steps_boot_description": "将力格OS复制到您选择的安装驱动器中，以便可以从设备启动力格OS。",
+        "osGet_steps_install": "三、安装并设置",
+        "osGet_steps_install_description": "按照力格OS中的步骤完成安装。我们将指导您完成每一步。",
+
+        "osGet_releaseNotes": "详细版本注释",
+        "osGet_releaseNotes_1": "尚无针对力格OS的更新机制。当未来的版本可用时，您需要通过《力格OS设置/安装媒体》（ISO文件）安装新版本的力格OS，这意味着要擦除旧的安装（但是，这在现阶段可能不太重要）。",
+
+        "osGet_minimumSystemRequirements": "最小系统要求",
+        "osGet_minimumSystemRequirements_1": "力格OS可以安装到最小磁盘存储尺寸为2.6 GB的设备上，并且最小RAM大小为2 GB。",
+        "osGet_minimumSystemRequirements_2": "需要存储设备来启动力格OS进行安装。存储设备的最小存储尺寸必须为2 GB。",
+
+        "osGet_supportedLanguages": "支持的语言",
 
         "developer_tagline": "使用力格构建功能强大的项目",
         "developer_description": "我们的开放软件设计先进，但对开发人员友好。加入并使用我们的开源开发人员工具来构建您的应用程序、服务、游戏等。",

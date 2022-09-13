@@ -16,6 +16,7 @@
         "new": "New",
         "new_badgeAlt": "(New)",
         "learnMore": "Learn more",
+        "download": "Download",
 
         "nav_goHome": "Go home",
         "nav_language": "Language",
@@ -149,6 +150,28 @@
         "os_comingSoon_title": "Coming soon",
         "os_comingSoon_description": "LiveG OS is still in an early development phase, which means that we are not yet able to provide downloads for our operating system. You can, however, check out and download gShell, our desktop environment that provides much of the LiveG OS experience, but on your own system.",
         "os_comingSoon_learnMore": "Learn more about gShell",
+
+        "osGet_title": "Get LiveG OS",
+        "osGet_versionTitle": "LiveG OS Alpha",
+        "osGet_version": "Version 0.1.0 Alpha",
+
+        "osGet_description": "Try out our new operating system designed for modern computing. This is our very first pre-release of LiveG OS, and so some features may still be in-development or missing.",
+
+        "osGet_steps_download": "1. Download",
+        "osGet_steps_download_description": "Grab a free copy of LiveG OS that can easily be installed onto any compatible device.",
+        "osGet_steps_boot": "2. Boot",
+        "osGet_steps_boot_description": "Copy LiveG OS to your chosen installation drive so that LiveG OS can be booted from your device.",
+        "osGet_steps_install": "3. Install and set up",
+        "osGet_steps_install_description": "Follow the steps within LiveG OS to complete installation. We will guide you through every step.",
+
+        "osGet_releaseNotes": "Detailed release notes",
+        "osGet_releaseNotes_1": "There is no update mechanism for LiveG OS yet, so when future releases are available, you will need to install the new version of LiveG OS via the LiveG OS Setup/Installation Media (ISO file), which means overwriting your old installation (though this may not be too important at this stage).",
+
+        "osGet_minimumSystemRequirements": "Minimum system requirements",
+        "osGet_minimumSystemRequirements_1": "LiveG OS can be installed to devices with a minimum disk storage size of 2.6 GB, and with a minimum RAM size of 2 GB.",
+        "osGet_minimumSystemRequirements_2": "A storage device is required to boot LiveG OS for installation. The storage device must have a minimum storage size of 2 GB.",
+
+        "osGet_supportedLanguages": "Supported languages",
 
         "developer_tagline": "Build powerful projects that make a difference with LiveG",
         "developer_description": "Our open software is designed to be advanced, yet friendly to developers. Come join in and use our open-source developer tools to build your apps, services, games and more.",
