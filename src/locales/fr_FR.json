@@ -169,6 +169,7 @@
         "osGet_minimumSystemRequirements": "Configuration minimale requise",
         "osGet_minimumSystemRequirements_1": "LiveG OS peut être installé sur des appareils avec une taille de stockage de disque minimale de 2,6 Go, et avec une taille de RAM minimale de 2 Go.",
         "osGet_minimumSystemRequirements_2": "Un périphérique de stockage est nécessaire pour démarrer LiveG OS pour l'installation. Le périphérique de stockage doit avoir une taille de stockage minimale de 2 Go.",
+        "osGet_minimumSystemRequirements_3": "LiveG OS ne prend actuellement en charge que les ordinateurs de bureau et portables exécutant une architecture de processeur x86-64 (AMD64) (la plupart des systèmes 64-bits le prendront en charge). Nous espérons étendre bientôt la prise en charge de l'architecture, ainsi que la prise en charge mobile.",
 
         "osGet_supportedLanguages": "Langues prises en charge",
 

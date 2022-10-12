@@ -169,6 +169,7 @@
         "osGet_minimumSystemRequirements": "最小系统要求",
         "osGet_minimumSystemRequirements_1": "力格OS可以安装到最小磁盘存储尺寸为2.6 GB的设备上，并且最小RAM大小为2 GB。",
         "osGet_minimumSystemRequirements_2": "需要存储设备来启动力格OS进行安装。存储设备的最小存储尺寸必须为2 GB。",
+        "osGet_minimumSystemRequirements_3": "力格OS目前仅支持运行x86-64（AMD64）CPU架构的台式机和笔记本电脑（大多数64位系统将支持这一点）。我们希望尽快扩展架构支持以及移动支持。",
 
         "osGet_supportedLanguages": "支持的语言",
 

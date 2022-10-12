@@ -169,6 +169,7 @@
         "osGet_minimumSystemRequirements": "Minimum system requirements",
         "osGet_minimumSystemRequirements_1": "LiveG OS can be installed to devices with a minimum disk storage size of 2.6 GB, and with a minimum RAM size of 2 GB.",
         "osGet_minimumSystemRequirements_2": "A storage device is required to boot LiveG OS for installation. The storage device must have a minimum storage size of 2 GB.",
+        "osGet_minimumSystemRequirements_3": "LiveG OS currently supports only desktop and laptop computers running an x86-64 (AMD64) CPU architecture (most 64-bit systems will support this). We hope to expand the architecture support soon, along with mobile support.",
 
         "osGet_supportedLanguages": "Supported languages",
 
