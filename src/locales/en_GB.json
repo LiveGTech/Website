@@ -42,9 +42,10 @@
         "footer_social": "Social",
         "footer_social_twitter": "Twitter",
         "footer_social_youtube": "YouTube",
-        "footer_social_instagram": "Instagram",
-        "footer_social_dev": "DEV Community",
         "footer_social_github": "GitHub",
+        "footer_social_discord": "Discord",
+        "footer_social_dev": "DEV Community",
+        "footer_social_instagram": "Instagram",
 
         "footer_legal_copyright": "Copyright © LiveG. All Rights Reserved.",
         "footer_legal_trademark": "LiveG and the LiveG Logo are trademarks of LiveG Technologies (UK U.A.).",

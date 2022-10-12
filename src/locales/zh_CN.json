@@ -42,9 +42,10 @@
         "footer_social": "社交",
         "footer_social_twitter": "推特",
         "footer_social_youtube": "YouTube",
-        "footer_social_instagram": "Instagram",
-        "footer_social_dev": "DEV Community",
         "footer_social_github": "GitHub",
+        "footer_social_discord": "Discord",
+        "footer_social_dev": "DEV Community",
+        "footer_social_instagram": "Instagram",
 
         "footer_legal_copyright": "版权所有©力格。版权所有。",
         "footer_legal_trademark": "力格和力格徽标是LiveG Technologies (UK U.A.)的商标。",
