@@ -140,6 +140,36 @@ img.full {
     gap: 2rem;
 }
 
+.videoLink {
+    position: relative;
+}
+
+.videoLink img:nth-child(1) {
+    filter: brightness(0.8);
+    transition: 0.5s filter;
+}
+
+.videoLink:hover img:nth-child(1) {
+    filter: brightness(1);
+}
+
+.videoLink img:nth-child(2) {
+    position: absolute;
+    top: calc(50% - 2rem);
+    bottom: calc(50% - 2rem);
+    left: -2rem;
+    right: -2rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+
+.videoLink:hover img:nth-child(2) {
+    opacity: 0.8;
+}
+
 .error404 {
     padding-top: 20vh;
 }
