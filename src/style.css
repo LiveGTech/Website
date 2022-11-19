@@ -140,11 +140,16 @@ img.full {
     gap: 2rem;
 }
 
+.birthdayCake {
+    max-width: 20rem;
+}
+
 .videoLink {
     position: relative;
 }
 
 .videoLink img:nth-child(1) {
+    max-width: 40rem;
     filter: brightness(0.8);
     transition: 0.5s filter;
 }
@@ -157,8 +162,8 @@ img.full {
     position: absolute;
     top: calc(50% - 2rem);
     bottom: calc(50% - 2rem);
-    left: -2rem;
-    right: -2rem;
+    left: calc(50% - 2rem);
+    right: calc(50% - 2rem);
     width: 4rem;
     height: 4rem;
     margin: 0;
