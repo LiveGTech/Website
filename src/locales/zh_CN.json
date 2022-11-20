@@ -51,8 +51,6 @@
         "footer_legal_copyright": "版权所有©力格。版权所有。",
         "footer_legal_trademark": "力格和力格徽标是LiveG Technologies (UK U.A.)的商标。",
 
-        "imageAlt_prism_main": "力格·棱镜的正面，音量和电源按钮朝向相机",
-
         "about_tagline": "自2014年以来构建开放技术",
         "about_description_1": "欢迎来到力格科技，该组织的使命是为所有人设计开放技术。",
         "about_description_2": "我们希望通过以有益的方式运用我们的专业知识，通过我们所做的事情产生积极的影响。",
@@ -69,6 +67,7 @@
 
         "prism_title": "力格·棱镜",
         "prism_intro": "我们希望构建开放技术，为人们提供改善日常生活的工具。力格·棱镜是一个正在进行的项目，旨在构建实现这一目标的智能手机。",
+        "prism_mainAlt": "力格·棱镜的正面，音量和电源按钮朝向相机",
 
         "prism_front_tagline": "软件和硬件的完美结合",
         "prism_front_description": "凭借棱镜的操作系统的设计方面和由力格控制的硬件，棱镜为您提供只有最好的智能手机才能实现的高效无缝体验。",

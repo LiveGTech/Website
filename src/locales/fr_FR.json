@@ -51,8 +51,6 @@
         "footer_legal_copyright": "Droits d'auteur © LiveG. Tous les droits sont réservés.",
         "footer_legal_trademark": "LiveG et le Logo LiveG sont des marques déposées de LiveG Technologies (UK U.A.).",
 
-        "imageAlt_prism_main": "L'avant du LiveG Prism, avec ses boutons de volume et d'alimentation face à la caméra",
-
         "about_tagline": "Construire des technologies ouverte depuis 2014",
         "about_description_1": "Bienvenue chez LiveG Technologies, un groupe dont la mission est de créer des technologies ouvertes conçues pour tous.",
         "about_description_2": "Nous voulons avoir un impact positif à travers ce que nous faisons en appliquant notre expertise de manière à faire le bien.",
@@ -69,6 +67,7 @@
 
         "prism_title": "LiveG Prism",
         "prism_intro": "Nous voulons construire des technologies ouvertes qui donnent aux gens les outils pour améliorer leur vie quotidienne. Le LiveG Prism est un projet en cours pour construire un smartphone qui atteint cet objectif.",
+        "prism_mainAlt": "L'avant du LiveG Prism, avec ses boutons de volume et d'alimentation face à la caméra",
 
         "prism_front_tagline": "Un mélange parfait de logiciels et de matériel",
         "prism_front_description": "Avec la conception système d'exploitation et matérielle du Prism contrôlé par LiveG, le Prism vous offre une expérience efficace et transparente que seuls les meilleurs smartphones atteignent.",
