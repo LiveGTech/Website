@@ -181,6 +181,13 @@
         "developer_adaptui_description": "Chez LiveG, nous pensons que les meilleures interfaces et expériences utilisateur sont essentielles pour créer des outils productifs. Adapt UI est notre boîte à outils d'interface utilisateur et notre langage de conception pour créer des produits cohérents et attrayants.",
         "developer_os_description": "Alimentant nos produits matériels, LiveG OS est au cœur de tout ce que vous faites sur nos appareils. Il intègre notre écosystème ouvert de logiciels LiveG avec le métal nu du matériel que nous construisons.",
 
+        "birthday8": "8e Anniversaire",
+
+        "birthday8_intro_title": "Célébration des 8 ans de LiveG",
+        "birthday8_intro_description": "Rejoignez-nous pour notre célébration annuelle du développement de LiveG au cours de l'année écoulée, ainsi que des faits saillants des huit dernières années !",
+
+        "birthday8_videoAlt": "Regarder la vidéo sur YouTube",
+
         "legal_orgInfo": "Informations organisationnelles (impressum)",
         "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
         "legal_orgInfo_operator": "Opéré et fonds gérés par James Livesey",
