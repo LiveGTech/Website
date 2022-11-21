@@ -49,4 +49,9 @@ $g.waitForLoad().then(function() {
 
         window.location.href = `${window.location.href.split("?")[0]}?lang=${encodeURIComponent(locale)}`;
     });
+
+    // Show LiveG Birthday celebrations
+    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2022) {
+        $g.sel(".birthday").show();
+    }
 });
