@@ -144,6 +144,17 @@ img.full {
     max-width: 20rem;
 }
 
+.bdayTimeline h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.bdayTimeline p {
+    font-size: 1.5rem;
+}
+
 .videoLink {
     position: relative;
 }
@@ -177,17 +188,6 @@ img.full {
 
 .error404 {
     padding-top: 20vh;
-}
-
-.bdayTimeline h2 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    color: rgba(0, 0, 0, 0.2);
-}
-
-.bdayTimeline p {
-    font-size: 1.5rem;
 }
 
 @media (min-width: 1001px) {
@@ -246,6 +246,10 @@ img.full {
         max-width: unset;
         text-align: start;
         color: white;
+    }
+
+    .bdayTimeline h2 {
+        color: rgba(255, 255, 255, 0.2);
     }
 
     .error404 {

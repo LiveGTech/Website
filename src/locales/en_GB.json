@@ -190,6 +190,40 @@
         "birthday8_intro_title": "Celebrating 8 years of LiveG",
         "birthday8_intro_description": "Join us for our annual celebration of LiveG's development over this past year, as well as highlights over the past eight years!",
 
+        "birthday8_2014": "2014",
+        "birthday8_2014_1": "LiveG is founded, and its first ever software was written under the LiveG brand",
+        "birthday8_2014_2": "The LiveG ElixOS desktop environment is created",
+
+        "birthday8_2017": "2017",
+        "birthday8_2017_1": "liveg.tech — the LiveG Website's principal domain name — was registered",
+        "birthday8_2017_2": "Our first operating system prototype was created for the Raspberry Pi",
+
+        "birthday8_2019": "2019",
+        "birthday8_2019_1": "The gHeld was created; our first foray into the world of portable electronics",
+        "birthday8_2019_2": "Our second generation of Adapt UI was built, alongside the Zapr tool and a new website design",
+
+        "birthday8_2020": "2020",
+        "birthday8_2020_1": "An early version of LiveG Sphere was developed for multiple platforms, based on Adapt UI and Electron",
+        "birthday8_2020_2": "Our second OS prototype for the Pi was built, inspiring the interface of today's modern LiveG OS",
+
+        "birthday8_2021": "2021",
+        "birthday8_2021_1": "Adapt UI was overhauled, resulting in a third generation with big UI and UX improvements",
+        "birthday8_2021_2": "Early ideas for a smartphone based on open technologies were formulated",
+
+        "birthday8_2022": "2022",
+        "birthday8_2022_1": "LiveG Project Prism was started, and a prototype smartphone running gShell was built",
+        "birthday8_2022_2": "The Prism's prototype design was finalised, with gShell development advancing well",
+        "birthday8_2022_3": "Our first episode of LiveG Showcase was released, demonstrating the Prism",
+        "birthday8_2022_4": "gShell is ported to the desktop, making LiveG OS truly a multiplatform operating system",
+        "birthday8_2022_5": "Our first Alpha releases of LiveG OS were made, and more gShell features were implemented",
+        "birthday8_2022_6": "Sphere gets a tab interface to make browsing easier, and Project Proton is conceptualised",
+        "birthday8_2022_7": "Minor projects to support LiveG's existing products were made, like Typeset Engine and Formulaic",
+        "birthday8_2022_8": "LiveG Lookahead weekly meetings are started, bringing the community closer together",
+
+        "birthday8_today": "Today",
+        "birthday8_today_1": "Building LiveG OS for more platforms such as the PinePhone and Raspberry Pi started",
+        "birthday8_today_2": "More work being done to UX and configurability of LiveG OS to be more useful to future users",
+
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
         "legal_orgInfo_operator": "Operated and funds managed by James Livesey",
