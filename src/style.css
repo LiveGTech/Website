@@ -179,6 +179,17 @@ img.full {
     padding-top: 20vh;
 }
 
+.bdayTimeline h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.bdayTimeline p {
+    font-size: 1.5rem;
+}
+
 @media (min-width: 1001px) {
     .showcaseCover {
         height: 80vh;

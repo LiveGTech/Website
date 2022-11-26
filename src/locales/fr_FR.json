@@ -21,6 +21,8 @@
         "nav_goHome": "Rentrer à l'accueil",
         "nav_language": "Langue",
 
+        "videoAlt_youtube": "Regarder la vidéo sur YouTube",
+
         "page_home": "Accueil",
         "page_about": "À propos",
         "page_developer": "Développeur",
@@ -187,8 +189,6 @@
 
         "birthday8_intro_title": "Célébration des 8 ans de LiveG",
         "birthday8_intro_description": "Rejoignez-nous pour notre célébration annuelle du développement de LiveG au cours de l'année écoulée, ainsi que des faits saillants des huit dernières années !",
-
-        "birthday8_videoAlt": "Regarder la vidéo sur YouTube",
 
         "legal_orgInfo": "Informations organisationnelles (impressum)",
         "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",

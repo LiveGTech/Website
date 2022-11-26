@@ -21,6 +21,8 @@
         "nav_goHome": "去首页",
         "nav_language": "语",
 
+        "videoAlt_youtube": "在YouTube上观看视频",
+
         "page_home": "主页",
         "page_about": "关于",
         "page_developer": "开发者",
@@ -187,8 +189,6 @@
 
         "birthday8_intro_title": "庆祝力格成立8周年",
         "birthday8_intro_description": "加入我们一年一度的庆祝活动，庆祝力格在过去一年的发展，以及过去八年的亮点！",
-
-        "birthday8_videoAlt": "在YouTube上观看视频",
 
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
