@@ -190,6 +190,12 @@ img.full {
     padding-top: 20vh;
 }
 
+@media (prefers-color-scheme: dark) {
+    .bdayTimeline h2 {
+        color: rgba(255, 255, 255, 0.2);
+    }
+}
+
 @media (min-width: 1001px) {
     .showcaseCover {
         height: 80vh;
@@ -246,10 +252,6 @@ img.full {
         max-width: unset;
         text-align: start;
         color: white;
-    }
-
-    .bdayTimeline h2 {
-        color: rgba(255, 255, 255, 0.2);
     }
 
     .error404 {
