@@ -190,6 +190,40 @@
         "birthday8_intro_title": "庆祝力格成立8周年",
         "birthday8_intro_description": "加入我们一年一度的庆祝活动，庆祝力格在过去一年的发展，以及过去八年的亮点！",
 
+        "birthday8_2014": "2014",
+        "birthday8_2014_1": "力格成立，其第一个软件是在力格品牌下编写的",
+        "birthday8_2014_2": "力格ElixOS桌面环境创建完成",
+
+        "birthday8_2017": "2017",
+        "birthday8_2017_1": "liveg.tech——力格网站的主要域名——已注册",
+        "birthday8_2017_2": "我们的第一个操作系统原型是为Raspberry Pi创建的",
+
+        "birthday8_2019": "2019",
+        "birthday8_2019_1": "gHeld已创建；我们首次涉足便携式电子产品领域",
+        "birthday8_2019_2": "我们构建了第二代适应用户界面，以及Zapr工具和新网站设计",
+
+        "birthday8_2020": "2020",
+        "birthday8_2020_1": "基于Adapt UI和Electron为多个平台开发了早期版本的力格·领域",
+        "birthday8_2020_2": "我们为Pi构建了第二个操作系统原型，启发了当今现代力格OS的界面",
+
+        "birthday8_2021": "2021",
+        "birthday8_2021_1": "对适应用户界面进行了大修，从而产生了具有较大用户界面和UX改进的第三代",
+        "birthday8_2021_2": "制定了基于开放技术的智能手机的早期想法",
+
+        "birthday8_2022": "2022",
+        "birthday8_2022_1": "力格棱镜项目启动，构建了运行gShell的智能手机原型",
+        "birthday8_2022_2": "棱镜原型设计完成，gShell开发进展顺利",
+        "birthday8_2022_3": "我们发布了第一集《LiveG Showcase》，展示了棱镜",
+        "birthday8_2022_4": "gShell移植到桌面，让力格OS真正成为多平台操作系统",
+        "birthday8_2022_5": "我们制作了力格OS的第一个Alpha版本，并实现了更多的gShell功能",
+        "birthday8_2022_6": "领域获得一个选项卡界面，使浏览更容易，质子项目被概念化",
+        "birthday8_2022_7": "支持力格现有产品的小项目已经完成，例如Typeset Engine和Formulaic",
+        "birthday8_2022_8": "《LiveG Lookahead》每周例会开始，拉近社区的距离",
+
+        "birthday8_today": "今天",
+        "birthday8_today_1": "开始为PinePhone、Raspberry Pi等更多平台构建力格OS",
+        "birthday8_today_2": "正在对力格OS的用户体验和可配置性做更多的工作，以便对未来的用户更有用",
+
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
         "legal_orgInfo_operator": "由詹姆斯·利夫西（James Livesey）运营和管理",
