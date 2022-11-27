@@ -21,6 +21,8 @@
         "nav_goHome": "Go home",
         "nav_language": "Language",
 
+        "videoAlt_youtube": "Watch video on YouTube",
+
         "page_home": "Home",
         "page_about": "About",
         "page_developer": "Developer",
@@ -51,8 +53,6 @@
         "footer_legal_copyright": "Copyright © LiveG. All Rights Reserved.",
         "footer_legal_trademark": "LiveG and the LiveG Logo are trademarks of LiveG Technologies (UK U.A.).",
 
-        "imageAlt_prism_main": "The front face of the LiveG Prism, with its volume and power buttons facing towards the camera",
-
         "about_tagline": "Building open tech since 2014",
         "about_description_1": "Welcome to LiveG Technologies, a group whose mission is to make open technologies that are designed for everyone.",
         "about_description_2": "We want to make a positive impact through what we do by applying our expertise in ways that do good.",
@@ -69,6 +69,7 @@
 
         "prism_title": "LiveG Prism",
         "prism_intro": "We want to build open technologies that give people the tools to enhance their daily lives. The LiveG Prism is an ongoing project to build a smartphone that achieves this goal.",
+        "prism_mainAlt": "The front face of the LiveG Prism, with its volume and power buttons facing towards the camera",
 
         "prism_front_tagline": "A perfect blend of software and hardware",
         "prism_front_description": "With both the design aspects of the Prism's operating system and hardware controlled by LiveG, the Prism provides you with an efficient and seamless experience that only the best smartphones achieve.",
@@ -181,6 +182,47 @@
         "developer_astronaut_description": "Astronaut is our tool for building apps for the LiveG ecosystem with just a few lines of code. It enables all developers to create their own apps and services, whether they are beginners or advanced hackers.",
         "developer_adaptui_description": "At LiveG, we believe that the best user interfaces and experiences are key to building productive tools. Adapt UI is our UI toolkit and design language for building consistent and appealing products.",
         "developer_os_description": "Powering our hardware products, LiveG OS is at the core of everything you do on our devices. It integrates our open ecosystem of LiveG software with the bare metal of the hardware we build.",
+
+        "birthday8": "8th Birthday",
+
+        "birthday8_bannerMessage": "We're celebrating eight years of LiveG today! Join in on the fun as we look back on the history of LiveG.",
+
+        "birthday8_intro_title": "Celebrating 8 years of LiveG",
+        "birthday8_intro_description": "Join us for our annual celebration of LiveG's development over this past year, as well as highlights over the past eight years!",
+
+        "birthday8_2014": "2014",
+        "birthday8_2014_1": "LiveG is founded, and its first ever software was written under the LiveG brand",
+        "birthday8_2014_2": "The LiveG ElixOS desktop environment is created",
+
+        "birthday8_2017": "2017",
+        "birthday8_2017_1": "liveg.tech — the LiveG Website's principal domain name — was registered",
+        "birthday8_2017_2": "Our first operating system prototype was created for the Raspberry Pi",
+
+        "birthday8_2019": "2019",
+        "birthday8_2019_1": "The gHeld was created; our first foray into the world of portable electronics",
+        "birthday8_2019_2": "Our second generation of Adapt UI was built, alongside the Zapr tool and a new website design",
+
+        "birthday8_2020": "2020",
+        "birthday8_2020_1": "An early version of LiveG Sphere was developed for multiple platforms, based on Adapt UI and Electron",
+        "birthday8_2020_2": "Our second OS prototype for the Pi was built, inspiring the interface of today's modern LiveG OS",
+
+        "birthday8_2021": "2021",
+        "birthday8_2021_1": "Adapt UI was overhauled, resulting in a third generation with big UI and UX improvements",
+        "birthday8_2021_2": "Early ideas for a smartphone based on open technologies were formulated",
+
+        "birthday8_2022": "2022",
+        "birthday8_2022_1": "LiveG Project Prism was started, and a prototype smartphone running gShell was built",
+        "birthday8_2022_2": "The Prism's prototype design was finalised, with gShell development advancing well",
+        "birthday8_2022_3": "Our first episode of LiveG Showcase was released, demonstrating the Prism",
+        "birthday8_2022_4": "gShell is ported to the desktop, making LiveG OS truly a multiplatform operating system",
+        "birthday8_2022_5": "Our first Alpha releases of LiveG OS were made, and more gShell features were implemented",
+        "birthday8_2022_6": "Sphere gets a tab interface to make browsing easier, and Project Proton is conceptualised",
+        "birthday8_2022_7": "Minor projects to support LiveG's existing products were made, like Typeset Engine and Formulaic",
+        "birthday8_2022_8": "LiveG Lookahead weekly meetings are started, bringing the community closer together",
+
+        "birthday8_today": "Today",
+        "birthday8_today_1": "Building LiveG OS for more platforms such as the PinePhone and Raspberry Pi started",
+        "birthday8_today_2": "More work being done to UX and configurability of LiveG OS to be more useful to future users",
 
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
