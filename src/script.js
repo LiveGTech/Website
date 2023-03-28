@@ -13,9 +13,9 @@ $g.waitForLoad().then(function() {
     return $g.templates.apply();
 }).then(function() {
     return $g.l10n.selectLocaleFromResources({
-        "en_GB": "/locales/en_GB.json",
-        "fr_FR": "/locales/fr_FR.json",
-        "zh_CN": "/locales/zh_CN.json"
+        "en_GB": "/locales/en_GB.json?v=1",
+        "fr_FR": "/locales/fr_FR.json?v=1",
+        "zh_CN": "/locales/zh_CN.json?v=1"
     }, "en_GB", {
         "fr_FR": "en_GB",
         "zh_CN": "en_GB"
@@ -49,4 +49,9 @@ $g.waitForLoad().then(function() {
 
         window.location.href = `${window.location.href.split("?")[0]}?lang=${encodeURIComponent(locale)}`;
     });
+
+    // Show LiveG Birthday celebrations
+    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2022) {
+        $g.sel(".birthday").show();
+    }
 });

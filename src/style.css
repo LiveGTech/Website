@@ -140,8 +140,60 @@ img.full {
     gap: 2rem;
 }
 
+.birthdayCake {
+    max-width: 20rem;
+}
+
+.bdayTimeline h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.bdayTimeline p {
+    font-size: 1.5rem;
+}
+
+.videoLink {
+    position: relative;
+}
+
+.videoLink img:nth-child(1) {
+    max-width: 40rem;
+    filter: brightness(0.8);
+    transition: 0.5s filter;
+}
+
+.videoLink:hover img:nth-child(1) {
+    filter: brightness(1);
+}
+
+.videoLink img:nth-child(2) {
+    position: absolute;
+    top: calc(50% - 2rem);
+    bottom: calc(50% - 2rem);
+    left: calc(50% - 2rem);
+    right: calc(50% - 2rem);
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+
+.videoLink:hover img:nth-child(2) {
+    opacity: 0.8;
+}
+
 .error404 {
     padding-top: 20vh;
+}
+
+@media (prefers-color-scheme: dark) {
+    .bdayTimeline h2 {
+        color: rgba(255, 255, 255, 0.2);
+    }
 }
 
 @media (min-width: 1001px) {
