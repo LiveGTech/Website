@@ -15,7 +15,9 @@
         <link rel="shortcut icon" href="/logo.png">
         <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
-        <script type="module" src="/script.js?v=1"></script>
+        <link rel="stylesheet" href="/os/get/get.css">
+        <script type="module" src="/script.js?v=2"></script>
+        <script type="module" src="/os/get/get.js"></script>
     </head>
     <body aui-mode="web" hidden>
         <nav aui-template="/templates/nav/os.html"></nav>
@@ -31,7 +33,7 @@
                     <aui-card>
                         <h3 translate>osGet_steps_download</h3>
                         <p translate>osGet_steps_download_description</p>
-                        <button onclick="document.querySelector('#downloadLink').click();" translate>download</button>
+                        <button id="osGet_downloadButton" translate>download</button>
                     </aui-card>
                     <aui-card>
                         <h3 translate>osGet_steps_boot</h3>
@@ -66,6 +68,21 @@
             </section>
         </main>
         <footer aui-template="/templates/footer/footer.html"></footer>
+        <dialog id="osGet_downloadDialog">
+            <h1 translate>osGet_downloadDialog_title</h1>
+            <aui-dialogcontent>
+                <p translate>osGet_downloadDialog_description</p>
+                <div>
+                    <label for="osGet_downloadPlatform"></label>
+                    <select id="osGet_downloadPlatform"></select>
+                </div>
+                <div id="osGet_downloadPlatformDetails"></div>
+            </aui-dialogcontent>
+            <aui-buttons aui-mode="end">
+                <button id="osGet_downloadConfirmButton" translate>download</button>
+                <button aui-mode="secondary" aui-bind="close" translate>cancel</button>
+            </aui-buttons>
+        </dialog>
         <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
         <a href="https://github.com/LiveGTech/OS/releases/download/v0.1.0/system.iso" id="downloadLink"></a>
     </body>

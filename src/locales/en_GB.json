@@ -15,8 +15,23 @@
 
         "new": "New",
         "new_badgeAlt": "(New)",
+        "ok": "OK",
+        "cancel": "Cancel",
         "learnMore": "Learn more",
         "download": "Download",
+
+        "size_bytes": {
+            "{size} == 1": "{size} byte",
+            "{size} != 1": "{size} bytes"
+        },
+        "size_kb": "{size} KB",
+        "size_mb": "{size} MB",
+        "size_gb": "{size} GB",
+        "size_tb": "{size} TB",
+        "size_kib": "{size} KiB",
+        "size_mib": "{size} MiB",
+        "size_gib": "{size} GiB",
+        "size_tib": "{size} TiB",
 
         "nav_goHome": "Go home",
         "nav_language": "Language",
@@ -175,6 +190,11 @@
         "osGet_minimumSystemRequirements_3": "LiveG OS currently supports only desktop and laptop computers running an x86-64 (AMD64) CPU architecture (most 64-bit systems will support this). We hope to expand the architecture support soon, along with mobile support.",
 
         "osGet_supportedLanguages": "Supported languages",
+
+        "osGet_downloadDialog_title": "Download LiveG OS",
+        "osGet_downloadDialog_description": "Please choose an edition of LiveG OS to download that matches the device you intend to install it to.",
+
+        "osGet_downloadSize": "Download size: {size}",
 
         "developer_tagline": "Build powerful projects that make a difference with LiveG",
         "developer_description": "Our open software is designed to be advanced, yet friendly to developers. Come join in and use our open-source developer tools to build your apps, services, games and more.",

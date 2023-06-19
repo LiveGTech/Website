@@ -1,0 +1,84 @@
+{
+    "releases": [
+        {
+            "version": "0.1.0",
+            "vernum": 1,
+            "circuit": "alpha",
+            "description": {
+                "en_GB": "This is a dummy release description. If you see this when you're not supposed to, then please contact LiveG.",
+                "fr_FR": "Il s'agit d'une description de version factice. Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+            },
+            "fallbackLocale": "en_GB",
+            "githubRelease": "https://github.com/LiveGTech/OS/releases/v0.1.0",
+            "platforms": {
+                "x86_64": {
+                    "url": "http://localhost:8000/_dummy/os/releases/index.json",
+                    "githubReleaseUrl": "https://github.com/LiveGTech/OS/releases/download/v0.1.0/system.iso"
+                },
+                "arm64": {
+                    "url": "http://localhost:8000/_dummy/os/releases/index.json",
+                    "githubReleaseUrl": "https://github.com/LiveGTech/OS/releases/download/v0.1.0/system.iso"
+                },
+                "rpi": {
+                    "url": "http://localhost:8000/_dummy/os/releases/index.json",
+                    "githubReleaseUrl": "https://github.com/LiveGTech/OS/releases/download/v0.1.0/system.iso"
+                },
+                "pinephone": {
+                    "url": "http://localhost:8000/_dummy/os/releases/index.json",
+                    "githubReleaseUrl": "https://github.com/LiveGTech/OS/releases/download/v0.1.0/system.iso",
+                    "description": {
+                        "en_GB": "This is a dummy override description (PinePhone). If you see this when you're not supposed to, then please contact LiveG.",
+                        "fr_FR": "Il s'agit d'une description de outrepassement factice (PinePhone). Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+                    },
+                    "fallbackLocale": "en_GB"
+                }
+            }
+        }
+    ],
+    "platforms": {
+        "x86_64": {
+            "name": {
+                "en_GB": "x86-64 (Intel, AMD) computers",
+                "fr_FR": "Ordinateurs x86-64 (Intel, AMD)"
+            },
+            "description": {
+                "en_GB": "This is a dummy platform description (x86-64). If you see this when you're not supposed to, then please contact LiveG.",
+                "fr_FR": "Il s'agit d'une description factice de la plateforme (x86-64). Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+            },
+            "fallbackLocale": "en_GB"
+        },
+        "arm64": {
+            "name": {
+                "en_GB": "ARM64 computers",
+                "fr_FR": "Ordinateurs ARM64"
+            },
+            "description": {
+                "en_GB": "This is a dummy platform description (ARM64). If you see this when you're not supposed to, then please contact LiveG.",
+                "fr_FR": "Il s'agit d'une description factice de la plateforme (ARM64). Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+            },
+            "fallbackLocale": "en_GB"
+        },
+        "rpi": {
+            "name": {
+                "en_GB": "Raspberry Pi",
+                "fr_FR": "Raspberry Pi"
+            },
+            "description": {
+                "en_GB": "This is a dummy platform description (Raspberry Pi). If you see this when you're not supposed to, then please contact LiveG.",
+                "fr_FR": "Il s'agit d'une description factice de la plateforme (Raspberry Pi). Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+            },
+            "fallbackLocale": "en_GB"
+        },
+        "pinephone": {
+            "name": {
+                "en_GB": "PinePhone",
+                "fr_FR": "PinePhone"
+            },
+            "description": {
+                "en_GB": "This is a dummy platform description (PinePhone). If you see this when you're not supposed to, then please contact LiveG.",
+                "fr_FR": "Il s'agit d'une description factice de la plateforme (PinePhone). Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+            },
+            "fallbackLocale": "en_GB"
+        }
+    }
+}

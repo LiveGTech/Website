@@ -15,8 +15,20 @@
 
         "new": "新",
         "new_badgeAlt": "（新）",
+        "ok": "确定",
+        "cancel": "取消",
         "learnMore": "学到更多",
         "download": "下载",
+
+        "size_bytes": "{size}字节",
+        "size_kb": "{size} KB",
+        "size_mb": "{size} MB",
+        "size_gb": "{size} GB",
+        "size_tb": "{size} TB",
+        "size_kib": "{size} KiB",
+        "size_mib": "{size} MiB",
+        "size_gib": "{size} GiB",
+        "size_tib": "{size} TiB",
 
         "nav_goHome": "去首页",
         "nav_language": "语",
@@ -175,6 +187,11 @@
         "osGet_minimumSystemRequirements_3": "力格OS目前仅支持运行x86-64（AMD64）CPU架构的台式机和笔记本电脑（大多数64位系统将支持这一点）。我们希望尽快扩展架构支持以及移动支持。",
 
         "osGet_supportedLanguages": "支持的语言",
+
+        "osGet_downloadDialog_title": "下载力格OS",
+        "osGet_downloadDialog_description": "请选择与您打算安装它的设备相匹配的力格OS版本。",
+
+        "osGet_downloadSize": "下载大小：{size}",
 
         "developer_tagline": "使用力格构建功能强大的项目",
         "developer_description": "我们的开放软件设计先进，但对开发人员友好。加入并使用我们的开源开发人员工具来构建您的应用程序、服务、游戏等。",

@@ -15,8 +15,23 @@
 
         "new": "Noveau",
         "new_badgeAlt": "(Noveau)",
+        "ok": "OK",
+        "cancel": "Annuler",
         "learnMore": "En savoir plus",
         "download": "Télécharger",
+
+        "size_bytes": {
+            "{size} == 1": "{size} octet",
+            "{size} != 1": "{size} octets"
+        },
+        "size_kb": "{size} Ko",
+        "size_mb": "{size} Mo",
+        "size_gb": "{size} Go",
+        "size_tb": "{size} To",
+        "size_kib": "{size} Kio",
+        "size_mib": "{size} Mio",
+        "size_gib": "{size} Gio",
+        "size_tib": "{size} Tio",
 
         "nav_goHome": "Rentrer à l'accueil",
         "nav_language": "Langue",
@@ -175,6 +190,11 @@
         "osGet_minimumSystemRequirements_3": "LiveG OS ne prend actuellement en charge que les ordinateurs de bureau et portables exécutant une architecture de processeur x86-64 (AMD64) (la plupart des systèmes 64-bits le prendront en charge). Nous espérons étendre bientôt la prise en charge de l'architecture, ainsi que la prise en charge mobile.",
 
         "osGet_supportedLanguages": "Langues prises en charge",
+
+        "osGet_downloadDialog_title": "Télécharger LiveG OS",
+        "osGet_downloadDialog_description": "Veuillez choisir une édition de LiveG OS à télécharger qui correspond à l'appareil sur lequel vous avez l'intention de l'installer.",
+
+        "osGet_downloadSize": "Taille du téléchargement : {size}",
 
         "developer_tagline": "Créez des projets puissants qui font la différence avec LiveG",
         "developer_description": "Notre logiciel ouvert est conçu pour être avancé, mais convivial pour les développeurs. Rejoignez-nous et utilisez nos outils de développement open-source pour créer vos applications, services, jeux et bien plus encore.",
