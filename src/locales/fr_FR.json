@@ -194,6 +194,7 @@
         "osGet_downloadDialog_title": "Télécharger LiveG OS",
         "osGet_downloadDialog_description": "Veuillez choisir une édition de LiveG OS à télécharger qui correspond à l'appareil sur lequel vous avez l'intention de l'installer.",
 
+        "osGet_downloadPlatform": "Plateforme",
         "osGet_downloadSize": "Taille du téléchargement : {size}",
 
         "developer_tagline": "Créez des projets puissants qui font la différence avec LiveG",

@@ -191,6 +191,7 @@
         "osGet_downloadDialog_title": "下载力格OS",
         "osGet_downloadDialog_description": "请选择与您打算安装它的设备相匹配的力格OS版本。",
 
+        "osGet_downloadPlatform": "平台",
         "osGet_downloadSize": "下载大小：{size}",
 
         "developer_tagline": "使用力格构建功能强大的项目",
