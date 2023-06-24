@@ -59,6 +59,15 @@ website.waitForLoad().then(function() {
         $g.sel("#osGet_downloadDialog").dialogOpen();
     });
 
+    $g.sel("#osGet_downloadConfirmButton").on("click", function() {
+        var release = releaseData.releases[selectedReleaseIndex];
+        var platform = release.platforms[selectedReleasePlatform];
+
+        $g.sel("#osGet_downloadLink").setAttribute("href", platform.url);
+
+        $g.sel("#osGet_downloadLink").get().click();
+    });
+
     selectedReleaseIndex = releaseData.releases.length - 1;
 
     var release = releaseData.releases[selectedReleaseIndex];
