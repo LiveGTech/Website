@@ -51,6 +51,8 @@ website.waitForLoad().then(function() {
 }).then(function(data) {
     releaseData = data;
 
+    // TODO: Populate release notes and other info on page with data from index
+
     $g.sel("#osGet_downloadPlatform").on("change", function() {
         updatePlatformDetails();
     });
