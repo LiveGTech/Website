@@ -46,6 +46,10 @@ $g.waitForLoad().then(function() {
         return locale.format(...arguments);
     };
 
+    window._sort = function(items) {
+        return items.sort(locale.createCollator().compare);
+    };
+
     $g.l10n.translateApp(locale);
 
     $g.sel("body").removeAttribute("hidden");

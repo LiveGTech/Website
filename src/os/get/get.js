@@ -13,6 +13,12 @@ import * as sizeUnits from "https://opensource.liveg.tech/Adapt-UI/src/sizeunits
 import * as website from "/script.js";
 import * as common from "/common.js";
 
+const LANGUAGE_NAMES = {
+    "en_GB": "English (United Kingdom)",
+    "fr_FR": "Français (France)",
+    "zh_CN": "简体中文（中国）"
+};
+
 var releaseData = null;
 var selectedReleaseIndex = null;
 var selectedReleasePlatform = null;
@@ -44,14 +50,34 @@ function updatePlatformDetails() {
     });
 }
 
+function showRelease(releaseIndex = selectedReleaseIndex) {
+    selectedReleaseIndex = releaseIndex;
+
+    var release = releaseData.releases[selectedReleaseIndex];
+    var supportedLanguageNames = _sort(release.supportedLanguages.map((language) => LANGUAGE_NAMES[language]));
+
+    $g.sel("#osGet_downloadPlatform").clear().add(
+        ...Object.keys(release.platforms).map((platform) => $g.create("option")
+            .setAttribute("value", platform)
+            .setText(getLocalisedValue(releaseData.platforms[platform], "name"))
+        )
+    );
+
+    // TODO: Populate release notes and other info on page with data from index
+
+    console.log("Release notes:", getLocalisedValue(release, "notes"));
+    console.log("System requirements:", getLocalisedValue(release, "systemRequirements"));
+    console.log("Supported languages:", supportedLanguageNames);
+
+    updatePlatformDetails();
+}
+
 website.waitForLoad().then(function() {
     return fetch(`${common.INCLUDE_PREFIX}/os/releases/index.json`);
 }).then(function(response) {
     return response.json();
 }).then(function(data) {
     releaseData = data;
-
-    // TODO: Populate release notes and other info on page with data from index
 
     $g.sel("#osGet_downloadPlatform").on("change", function() {
         updatePlatformDetails();
@@ -72,14 +98,5 @@ website.waitForLoad().then(function() {
 
     selectedReleaseIndex = releaseData.releases.length - 1;
 
-    var release = releaseData.releases[selectedReleaseIndex];
-
-    $g.sel("#osGet_downloadPlatform").clear().add(
-        ...Object.keys(release.platforms).map((platform) => $g.create("option")
-            .setAttribute("value", platform)
-            .setText(getLocalisedValue(releaseData.platforms[platform], "name"))
-        )
-    );
-
-    updatePlatformDetails();
+    showRelease();
 });
