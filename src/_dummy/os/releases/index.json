@@ -4,6 +4,7 @@
             "version": "0.1.0",
             "vernum": 1,
             "circuit": "alpha",
+            "releasedAt": 1688505974180,
             "description": {
                 "en_GB": "This is a dummy release description. If you see this when you're not supposed to, then please contact LiveG.",
                 "fr_FR": "Il s'agit d'une description de version factice. Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
