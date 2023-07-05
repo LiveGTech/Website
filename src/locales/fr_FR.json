@@ -169,10 +169,7 @@
         "os_get_description": "Les premières pré-releases de LiveG OS sont disponibles pour le téléchargement et l'installation. Essayez LiveG OS Alpha et devenez un adopteur précoce des premiers logiciels LiveG.",
 
         "osGet_title": "Obtenez LiveG OS",
-        "osGet_versionTitle": "LiveG OS Alpha",
-        "osGet_version": "Variante 0.1.0 Alpha",
-
-        "osGet_description": "Essayez notre nouveau système d'exploitation conçu pour l'informatique moderne. Il s'agit de notre tout premier pré-release de LiveG OS, donc certaines fonctionnalités pourraient encore être en développement ou manquantes.",
+        "osGet_version": "Variante {version}",
 
         "osGet_steps_download": "1. Télécharger",
         "osGet_steps_download_description": "Prenez une copie gratuite de LiveG OS qui peut facilement être installée dans n'importe quel appareil compatible.",
@@ -182,13 +179,7 @@
         "osGet_steps_install_description": "Suivez les étapes dans LiveG OS pour terminer l'installation. Nous vous guiderons à chaque étape.",
 
         "osGet_releaseNotes": "Notes de release détaillées",
-        "osGet_releaseNotes_1": "Il n'y a pas encore de mécanisme de mise à jour pour LiveG OS, donc lorsque les versions futures sont disponibles, vous devrez installer la nouvelle version de LiveG OS via La Configuration/L'Installation de LiveG OS (fichier ISO), ce qui signifie écraser votre ancienne installation (bien que cela peut ne pas être trop important à ce stade).",
-
-        "osGet_minimumSystemRequirements": "Configuration minimale requise",
-        "osGet_minimumSystemRequirements_1": "LiveG OS peut être installé sur des appareils avec une taille de stockage de disque minimale de 2,6 Go, et avec une taille de RAM minimale de 2 Go.",
-        "osGet_minimumSystemRequirements_2": "Un périphérique de stockage est nécessaire pour démarrer LiveG OS pour l'installation. Le périphérique de stockage doit avoir une taille de stockage minimale de 2 Go.",
-        "osGet_minimumSystemRequirements_3": "LiveG OS ne prend actuellement en charge que les ordinateurs de bureau et portables exécutant une architecture de processeur x86-64 (AMD64) (la plupart des systèmes 64-bits le prendront en charge). Nous espérons étendre bientôt la prise en charge de l'architecture, ainsi que la prise en charge mobile.",
-
+        "osGet_systemRequirements": "Configuration minimale requise",
         "osGet_supportedLanguages": "Langues prises en charge",
 
         "osGet_downloadDialog_title": "Télécharger LiveG OS",

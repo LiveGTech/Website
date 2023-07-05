@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
         <link rel="stylesheet" href="/os/get/get.css">
+        <script src="/lib/showdown.min.js"></script>
         <script type="module" src="/script.js?v=2"></script>
         <script type="module" src="/os/get/get.js"></script>
     </head>
@@ -27,9 +28,9 @@
                 <h1 translate>osGet_title</h1>
             </section>
             <section>
-                <h2 translate>osGet_versionTitle</h2>
-                <p translate>osGet_version</p>
-                <p translate>osGet_description</p>
+                <h2 class="osGet_releaseTitle"></h2>
+                <p class="osGet_version"></p>
+                <div class="osGet_description"></div>
                 <aui-cards aui-mode="grid" class="cardGrid">
                     <aui-card>
                         <h3 translate>osGet_steps_download</h3>
@@ -51,17 +52,15 @@
             <section>
                 <details>
                     <summary translate>osGet_releaseNotes</summary>
-                    <p translate>osGet_releaseNotes_1</p>
+                    <div class="osGet_releaseNotes">
                 </details>
                 <details>
-                    <summary translate>osGet_minimumSystemRequirements</summary>
-                    <p translate>osGet_minimumSystemRequirements_1</p>
-                    <p translate>osGet_minimumSystemRequirements_2</p>
-                    <p translate>osGet_minimumSystemRequirements_3</p>
+                    <summary translate>osGet_systemRequirements</summary>
+                    <div class="osGet_systemRequirements"></div>
                 </details>
                 <details>
                     <summary translate>osGet_supportedLanguages</summary>
-                    <ul>
+                    <ul class="osGet_supportedLanguages">
                         <li>English</li>
                         <li>Français</li>
                     </ul>

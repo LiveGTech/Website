@@ -24,7 +24,13 @@ var selectedReleaseIndex = null;
 var selectedReleasePlatform = null;
 
 function getLocalisedValue(object, key) {
+    object[key] ||= {};
+
     return object[key][common.LOCALE_CODE] || object[key][object.fallbackLocale || "en_GB"];
+}
+
+function getLocalisedMarkdown(object, key) {
+    return new showdown.Converter().makeHtml(getLocalisedValue(object, key) || "");
 }
 
 function updatePlatformDetails() {
@@ -36,10 +42,10 @@ function updatePlatformDetails() {
     var estimatedSizeParagraph = $g.create("p").hide();
 
     $g.sel("#osGet_downloadPlatformDetails").clear().add(
-        $g.create("p").setText(
+        $g.create("p").setHTML(
             platform.description ?
-            getLocalisedValue(platform, "description") :
-            getLocalisedValue(releaseData.platforms[selectedReleasePlatform], "description")
+            getLocalisedMarkdown(platform, "description") :
+            getLocalisedMarkdown(releaseData.platforms[selectedReleasePlatform], "description")
         ),
         estimatedSizeParagraph
     );
@@ -63,11 +69,16 @@ function showRelease(releaseIndex = selectedReleaseIndex) {
         )
     );
 
-    // TODO: Populate release notes and other info on page with data from index
+    $g.sel(".osGet_releaseTitle").setText(getLocalisedValue(release, "title"));
+    $g.sel(".osGet_version").setHTML(_("osGet_version", {version: release.version}));
 
-    console.log("Release notes:", getLocalisedValue(release, "notes"));
-    console.log("System requirements:", getLocalisedValue(release, "systemRequirements"));
-    console.log("Supported languages:", supportedLanguageNames);
+    $g.sel(".osGet_description").setHTML(getLocalisedMarkdown(release, "description"));
+    $g.sel(".osGet_releaseNotes").setHTML(getLocalisedMarkdown(release, "notes"));
+    $g.sel(".osGet_systemRequirements").setHTML(getLocalisedMarkdown(release, "systemRequirements"));
+
+    $g.sel(".osGet_supportedLanguages").clear().add(
+        ...supportedLanguageNames.map((language) => $g.create("li").setText(language))
+    );
 
     updatePlatformDetails();
 }
