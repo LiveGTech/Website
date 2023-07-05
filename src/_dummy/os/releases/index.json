@@ -4,11 +4,21 @@
             "version": "0.1.0",
             "vernum": 1,
             "circuit": "alpha",
+            "releasedAt": 1688505974180,
             "description": {
                 "en_GB": "This is a dummy release description. If you see this when you're not supposed to, then please contact LiveG.",
                 "fr_FR": "Il s'agit d'une description de version factice. Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
             },
+            "notes": {
+                "en_GB": "This is a dummy release notes section. If you see this when you're not supposed to, then please contact LiveG.",
+                "fr_FR": "Il s'agit d'une section de notes de version factices. Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+            },
+            "systemRequirements": {
+                "en_GB": "This is a dummy system requirements section. If you see this when you're not supposed to, then please contact LiveG.",
+                "fr_FR": "Il s'agit d'une section factice sur la configuration système requise. Si vous voyez cela alors que vous n'êtes pas censé le voir, veuillez contacter LiveG."
+            },
             "fallbackLocale": "en_GB",
+            "supportedLanguages": ["en_GB", "fr_FR"],
             "githubRelease": "https://github.com/LiveGTech/OS/releases/v0.1.0",
             "platforms": {
                 "x86_64": {
