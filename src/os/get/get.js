@@ -102,7 +102,10 @@ website.waitForLoad().then(function() {
         var release = releaseData.releases[selectedReleaseIndex];
         var platform = release.platforms[selectedReleasePlatform];
 
+        // TODO: Set filename of file to download by setting `download` attribute
+
         $g.sel("#osGet_downloadLink").setAttribute("href", platform.url);
+        $g.sel("#osGet_downloadLink").setAttribute("download", "");
 
         $g.sel("#osGet_downloadLink").get().click();
     });
