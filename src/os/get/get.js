@@ -10,8 +10,8 @@
 import * as $g from "https://opensource.liveg.tech/Adapt-UI/src/adaptui.js";
 import * as sizeUnits from "https://opensource.liveg.tech/Adapt-UI/src/sizeunits.js";
 
-import * as website from "/script.js";
 import * as common from "/common.js";
+import * as website from "/script.js";
 
 const LANGUAGE_NAMES = {
     "en_GB": "English (United Kingdom)",
@@ -108,6 +108,18 @@ website.waitForLoad().then(function() {
         $g.sel("#osGet_downloadLink").setAttribute("download", filename);
 
         $g.sel("#osGet_downloadLink").get().click();
+
+        fetch(
+            "https://liveg.tech/api/telemetrics/event/os_downloadIm" +
+            `?platform=${encodeURIComponent(selectedReleasePlatform)}` +
+            `&version=${encodeURIComponent(release.version)}` +
+            `&vernum=${encodeURIComponent(release.vernum)}` +
+            `&hostOs=${encodeURIComponent(common.PLATFORM)}` +
+            `&hostLocale=${encodeURIComponent(common.LOCALE_CODE)}`,
+            {method: "POST"}
+        ).then(function() {
+            console.log("`os_downloadIm` event sent to LiveG Telemetrics");
+        });
     });
 
     selectedReleaseIndex = releaseData.releases.length - 1;
