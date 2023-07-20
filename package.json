@@ -1,0 +1,14 @@
+{
+    "name": "liveg-website",
+    "version": "0.1.0",
+    "description": "The LiveG website, at https://liveg.tech.",
+    "author": "LiveG Technologies",
+    "repository": "https://github.com/LiveGTech/Website",
+    "scripts": {
+        "genblog": "node scripts/genblog.js"
+    },
+    "dependencies": {
+        "mkdirp": "^3.0.1",
+        "showdown": "^2.1.0"
+    }
+}
