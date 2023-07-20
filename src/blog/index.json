@@ -1,0 +1,12 @@
+{
+    "articles": [
+        {
+            "title": "Blog Test",
+            "description": "Testing!",
+            "author": "james",
+            "publishedAt": 1689875024525,
+            "language": "en",
+            "path": "/blog/en/test"
+        }
+    ]
+}

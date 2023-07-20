@@ -33,6 +33,10 @@ $g.waitForLoad().then(function() {
         $g.sel("title").setText(_("title_page", {page: _($g.sel("title").getAttribute("data-page"))}));
     }
 
+    if ($g.sel("title").hasAttribute("data-enclose")) {
+        $g.sel("title").setText(_("title_page", {page: $g.sel("title").getText()}));
+    }
+
     $g.sel(".nav_openMenu").on("click", function() {
         $g.sel("aside").asideOpen();
     });
