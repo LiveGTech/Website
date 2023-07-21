@@ -17,12 +17,14 @@
         <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
         <script type="module" src="/script.js?v=2"></script>
+        <script type="module" src="/blog/article.js"></script>
     </head>
-    <body aui-mode="web" hidden>
-        <nav aui-template="/templates/nav/nav.html"></nav>
+    <body aui-mode="web" hidden data-articlepublishedat="{{ publishedAt }}">
+        <nav aui-template="/templates/nav/blog.html"></nav>
         <main>
             <section aui-mode="cover">
                 <h1>{{ title }}</h1>
+                <p class="article_publishedAt"></p>
             </section>
             <section>
                 {{ contents }}

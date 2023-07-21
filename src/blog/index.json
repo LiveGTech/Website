@@ -2,11 +2,11 @@
     "articles": [
         {
             "title": "Blog Test",
-            "description": "Testing!",
+            "description": "This is a dummy blog article. If you see this when you're not supposed to, then please contact LiveG.",
             "author": "james",
             "publishedAt": 1689875024525,
             "language": "en",
-            "path": "/blog/en/test"
+            "url": "/blog/en/test"
         }
     ]
 }

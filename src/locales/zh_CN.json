@@ -68,6 +68,13 @@
         "about_jamesLivesey": "詹姆斯·利夫西（James Livesey）",
         "about_jamesLivesey_title": "力格创始人兼首席开发者",
 
+        "blog_title": "力格博客",
+        "blog_description": "及时了解力格的最新新闻和信息。",
+        "blog_search": "搜索我们的文章",
+
+        "blog_noResults_title": "未找到结果",
+        "blog_noResults_description": "我们似乎没有关于您搜索的主题的任何文章。尝试搜索类似的主题。",
+
         "prism_title": "力格·棱镜",
         "prism_intro": "我们希望构建开放技术，为人们提供改善日常生活的工具。力格·棱镜是一个正在进行的项目，旨在构建实现这一目标的智能手机。",
         "prism_mainAlt": "力格·棱镜的正面，音量和电源按钮朝向相机",
