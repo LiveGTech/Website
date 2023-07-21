@@ -31,7 +31,10 @@ fs.readdirSync("articles").forEach(function(language) {
         }
 
         Object.keys(metadata).forEach(function(key) {
-            pageHtml = pageHtml.split(`{{ ${key} }}`).join(metadata[key]);
+            pageHtml = pageHtml.split(`{{ ${key} }}`).join(String(metadata[key])
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+            );
         });
 
         pageHtml = pageHtml.split("{{ contents }}").join(html);
@@ -45,7 +48,7 @@ fs.readdirSync("articles").forEach(function(language) {
         index.articles.push({
             ...metadata,
             language,
-            path: `/blog/${language}/${pagePathName}`
+            url: `/blog/${language}/${pagePathName}`
         });
     });
 });

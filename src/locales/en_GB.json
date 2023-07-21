@@ -68,6 +68,13 @@
         "about_jamesLivesey": "James Livesey",
         "about_jamesLivesey_title": "Founder and Lead Developer of LiveG",
 
+        "blog_title": "The LiveG Blog",
+        "blog_description": "Keep up-to-date with the latest news and information from LiveG.",
+        "blog_search": "Search through our articles",
+
+        "blog_noResults_title": "No results found",
+        "blog_noResults_description": "It seems that we don't have any articles on the topic you searched for. Try searching for a similar topic or something else.",
+
         "prism_title": "LiveG Prism",
         "prism_intro": "We want to build open technologies that give people the tools to enhance their daily lives. The LiveG Prism is an ongoing project to build a smartphone that achieves this goal.",
         "prism_mainAlt": "The front face of the LiveG Prism, with its volume and power buttons facing towards the camera",
