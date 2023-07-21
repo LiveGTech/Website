@@ -37,6 +37,7 @@
 
         "page_home": "主页",
         "page_about": "关于",
+        "page_blog": "博客",
         "page_developer": "开发者",
         "page_legal": "法律",
 
@@ -78,6 +79,13 @@
         "about_ourApproach_6": "我们希望您对力格的兴趣有助于为力格所做的事情以及周围的世界提供投资。支持我们的人越多，我们就越有能力削弱大型科技公司作为多元化竞争对手的垄断地位。我们希望制造能够让或帮助人们推动世界发展的产品，我们将为任何这样做的人感到无比自豪。",
         "about_jamesLivesey": "詹姆斯·利夫西（James Livesey）",
         "about_jamesLivesey_title": "力格创始人兼首席开发者",
+
+        "blog_title": "力格博客",
+        "blog_description": "及时了解力格的最新新闻和信息。",
+        "blog_search": "搜索我们的文章",
+
+        "blog_noResults_title": "未找到结果",
+        "blog_noResults_description": "我们似乎没有关于您搜索的主题的任何文章。尝试搜索类似的主题。",
 
         "prism_title": "力格·棱镜",
         "prism_intro": "我们希望构建开放技术，为人们提供改善日常生活的工具。力格·棱镜是一个正在进行的项目，旨在构建实现这一目标的智能手机。",
