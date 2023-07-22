@@ -18,19 +18,25 @@ Currently, the Prism is based on the PinePhone, with a few modifications to the 
 
 We 3D-printed the back case, which admittedly took quite a few attempts; but the end result is awesome!
 
-<!-- TODO: Fix formatting to add Twitter post: https://twitter.com/jthecoder/status/1492914671569063949 -->
+<!-- TODO: Store images locally and add alt descriptions -->
 
-<!-- <aui-card class="article_socialEmbed">
-    <strong>@jthecoder on Twitter</strong><br>
-    New #PinePhone shell finished! It only took 4 attempts...<br>
-    <br>
-    Really pleased with the result, though!<br>
-    <div aui-stack="horizontal">
-        <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
-        <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
-    </div>
-    <a href="https://twitter.com/jthecoder/status/1492914671569063949">View on Twitter</a>
-</aui-card> -->
+<div>
+    <aui-card class="article_socialEmbed">
+        <h3>@jthecoder on Twitter</h3>
+        <p>
+            New #PinePhone shell finished! It only took 4 attempts...<br>
+            <br>
+            Really pleased with the result, though!
+        </p>
+        <div class="article_socialEmbed_media">
+            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
+            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
+            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
+            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
+        </div>
+        <p><a href="https://twitter.com/jthecoder/status/1492914671569063949">View on Twitter</a></p>
+    </aui-card>
+</div>
 
 The main interface uses our own user environment, called [gShell](https://github.com/LiveGTech/gShell). It uses [Adapt UI](https://github.com/LiveGTech/Adapt-UI) ([web demo](https://livegtech.github.io/Adapt-UI/demos/all/)), which is the user interface design language and framework which we developed in-house over the course of a few months.
 
