@@ -9,5 +9,13 @@
 
 .article_contents, .article_contents * {
     user-select: text;
+}
+
+.article_contents, .article_contents *:not(a) {
     cursor: unset;
+}
+
+.article_socialEmbed {
+    max-width: 30rem;
+    margin: auto;
 }

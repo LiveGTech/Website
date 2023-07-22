@@ -16,4 +16,18 @@ website.waitForLoad().then(function() {
         new Date(Number($g.sel("body").getAttribute("data-articlepublishedAt"))),
         {weekday: "long", day: "numeric", month: "long", year: "numeric"}
     ));
+
+    $g.sel(".article_contents a").forEach(function(element) {
+        if (!element.hasAttribute("href")) {
+            return;
+        }
+
+        var linkHost = new URL(element.getAttribute("href"), window.location.href).host;
+
+        if (linkHost == window.location.host) {
+            return;
+        }
+
+        element.setAttribute("target", "_blank");
+    });
 });

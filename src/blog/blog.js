@@ -25,9 +25,9 @@ function renderArticles(articles) {
                     $g.create("h2").add(
                         $g.create("a")
                             .setAttribute("href", article.url)
-                            .setText(article.title)
+                            .setHTML(article.title)
                     ),
-                    $g.create("p").setText(
+                    $g.create("p").setHTML(
                         _format(
                             new Date(article.publishedAt),
                             {weekday: "long", day: "numeric", month: "long", year: "numeric"}
