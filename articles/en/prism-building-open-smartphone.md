@@ -18,8 +18,6 @@ Currently, the Prism is based on the PinePhone, with a few modifications to the 
 
 We 3D-printed the back case, which admittedly took quite a few attempts; but the end result is awesome!
 
-<!-- TODO: Store images locally and add alt descriptions -->
-
 <div>
     <aui-card class="article_socialEmbed">
         <h3>@jthecoder on Twitter</h3>
@@ -29,12 +27,12 @@ We 3D-printed the back case, which admittedly took quite a few attempts; but the
             Really pleased with the result, though!
         </p>
         <div class="article_socialEmbed_media">
-            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
-            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
-            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
-            <img src="https://pbs.twimg.com/media/FLfl9-8XsAMrM6O?format=jpg&name=large">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-1.jpg" alt="A view of the new back shell on a PinePhone, featuring a translucent, light plastic that lets you see the circuitry inside, and the blue-and-yellow LiveG logo.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-2.jpg" alt="A view of the same shell, at an angle to show the USB-C charging port.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-3.jpg" alt="A side view of the PinePhone shell, showing the yellow power button and blue volume buttons.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-4.jpg" alt="A top-down view of the back shell of the PinePhone.">
         </div>
-        <p><a href="https://twitter.com/jthecoder/status/1492914671569063949">View on Twitter</a></p>
+        <p>13 February 2022 · <a href="https://twitter.com/jthecoder/status/1492914671569063949" target="_blank" aui-mode="cardLink">View on Twitter</a></p>
     </aui-card>
 </div>
 
@@ -44,7 +42,22 @@ gShell itself is essentially just a really complex single-page website, all runn
 
 I took a few photos and posted them on Twitter to show you what gShell looks like in real life:
 
-<!-- TODO: Add Twitter post: https://twitter.com/jthecoder/status/1492916198442422276 -->
+<div>
+    <aui-card class="article_socialEmbed">
+        <h3>@jthecoder on Twitter</h3>
+        <p>
+            #LiveGOS runs really well on it! Nice and responsive, even for a non-Pro PinePhone<br>
+            <br>
+            (<a href="https://github.com/LiveGTech/gShell" target="_blank">https://github.com/LiveGTech/gShell</a>)
+        </p>
+        <div class="article_socialEmbed_media">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-1.jpg" alt="LiveG OS's gShell running on the PinePhone, showing the app switcher with the Adapt UI demo app open." class="article_socialEmbed_spanRows">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-2.jpg" alt="A top-down view of gShell on the PinePhone showing the Adapt UI demo app.">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-3.jpg" alt="A side angle view of the PinePhone, showing gShell's lock screen.">
+        </div>
+        <p>13 February 2022 · <a href="https://twitter.com/jthecoder/status/1492916198442422276 " target="_blank" aui-mode="cardLink">View on Twitter</a></p>
+    </aui-card>
+</div>
 
 Of course, being Electron, it is possible to run gShell in its simulator mode on a desktop. This makes prototyping iterations of gShell and its associated apps much easier, and as a result, much faster; simply because it's more convenient to launch gShell on a development machine than it is to update the actual Prism itself to perform a very short test.
 

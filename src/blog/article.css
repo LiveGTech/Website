@@ -11,7 +11,7 @@
     user-select: text;
 }
 
-.article_contents, .article_contents *:not(a) {
+.article_contents, .article_contents *:not(a, aui-card[aui-linked], aui-card[aui-linked] *) {
     cursor: unset;
 }
 
@@ -20,8 +20,22 @@
     margin: auto;
 }
 
+aui-card[aui-linked].article_socialEmbed a {
+    color: var(--primaryUI);
+}
+
 .article_socialEmbed_media {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
+}
+
+.article_socialEmbed_media img {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+}
+
+.article_socialEmbed_media .article_socialEmbed_spanRows {
+    grid-row: span 2;
+    height: 100%;
 }
