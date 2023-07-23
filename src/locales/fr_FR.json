@@ -40,6 +40,7 @@
 
         "page_home": "Accueil",
         "page_about": "À propos",
+        "page_blog": "Blog",
         "page_developer": "Développeur",
         "page_legal": "Légal",
 
@@ -81,6 +82,13 @@
         "about_ourApproach_6": "Nous espérons que votre intérêt pour LiveG contribuera à fournir un investissement dans ce que fait LiveG, et dans le monde qui l'entoure. Plus il y aura de personnes qui nous soutiendront, mieux nous serons équipés pour affaiblir les monopoles des grandes entreprises technologiques en tant que concurrents diversifiés. Nous voulons fabriquer des produits qui permettent ou aident les gens à faire avancer notre monde, et nous serons immensément fiers de quiconque le fera.",
         "about_jamesLivesey": "James Livesey",
         "about_jamesLivesey_title": "Fondateur et développeur principal de LiveG",
+
+        "blog_title": "Le Blog LiveG",
+        "blog_description": "Tenez-vous au courant des dernières nouvelles et informations de LiveG.",
+        "blog_search": "Rechercher dans nos articles",
+
+        "blog_noResults_title": "Aucun résultat trouvé",
+        "blog_noResults_description": "Il semble que nous n'avons rien sur le sujet que vous avez cherché. Essayez de rechercher un sujet similaire ou autre chose.",
 
         "prism_title": "LiveG Prism",
         "prism_intro": "Nous voulons construire des technologies ouvertes qui donnent aux gens les outils pour améliorer leur vie quotidienne. Le LiveG Prism est un projet en cours pour construire un smartphone qui atteint cet objectif.",
