@@ -52,7 +52,7 @@ I took a few photos and posted them on Twitter to show you what gShell looks lik
         </p>
         <div class="article_socialEmbed_media">
             <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-1.jpg" alt="LiveG OS's gShell running on the PinePhone, showing the app switcher with the Adapt UI demo app open." class="article_socialEmbed_spanRows">
-            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-2.jpg" alt="A top-down view of gShell on the PinePhone showing the Adapt UI demo app.">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-2.jpg" alt="A top-down view of gShell on the PinePhone showing the LiveG OS Debug Environment screen.">
             <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-3.jpg" alt="A side angle view of the PinePhone, showing gShell's lock screen.">
         </div>
         <p>13 February 2022 · <a href="https://twitter.com/jthecoder/status/1492916198442422276 " target="_blank" aui-mode="cardLink">View on Twitter</a></p>
