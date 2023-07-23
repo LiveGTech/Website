@@ -57,4 +57,6 @@ fs.readdirSync("articles").forEach(function(language) {
     });
 });
 
+index.articles = index.articles.sort((a, b) => b.publishedAt - a.publishedAt);
+
 fs.writeFileSync(path.join("src", "blog", "index.json"), JSON.stringify(index, null, 4));
