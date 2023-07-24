@@ -27,6 +27,15 @@ website.waitForLoad().then(function() {
                 $g.create("span").setText(" · ")
             );
         });
+
+        // TODO: Add filtering on article list page to see articles written by this author
+
+        authors.renderAuthorInfoArea(author).then(function(infoArea) {
+            $g.sel(".article_contents").add(
+                $g.create("hr"),
+                infoArea
+            );
+        });
     }
 
     if ($g.sel("body").getAttribute("data-articlepublishedAt") != "") {

@@ -5,11 +5,17 @@
                 "en_GB": "James Livesey",
                 "zh_CN": "詹姆斯·利夫西（James Livesey）"
             },
+            "description": {
+                "en_GB": "James is the founder and lead developer of LiveG. He guides the development of various LiveG projects, including LiveG OS, Adapt UI and Astronaut. He is also involved with the design process of LiveG's hardware projects, including the LiveG Prism smartphone."
+            },
             "fallbackLocale": "en_GB"
         },
         "tramcrazy": {
             "name": {
                 "en_GB": "tramcrazy"
+            },
+            "description": {
+                "en_GB": "tramcrazy is LiveG's head of cybersecurity. He is responsible for providing LiveG OS with the latest vulnerability fixes and patches, as well as for auditing the code of LiveG's various software projects to ensure full compliance with software security practices."
             },
             "fallbackLocale": "en_GB"
         }
