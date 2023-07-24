@@ -20,12 +20,12 @@
         <script type="module" src="/script.js?v=2"></script>
         <script type="module" src="/blog/article.js"></script>
     </head>
-    <body aui-mode="web" hidden data-articlepublishedat="{{ publishedAt }}">
+    <body aui-mode="web" hidden data-articlepublishedat="{{ publishedAt }}" data-articleauthor="{{ author }}">
         <nav aui-template="/templates/nav/blog.html"></nav>
         <main>
             <section aui-mode="cover">
                 <h1>{{ title }}</h1>
-                <p class="article_publishedAt"></p>
+                <p><span class="article_author"></span><time class="article_publishedAt"></time></p>
             </section>
             <section class="article_contents">
                 {{ contents }}

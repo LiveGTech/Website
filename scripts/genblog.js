@@ -35,6 +35,12 @@ fs.readdirSync("articles").forEach(function(language) {
                 metadata[key] = metadata[key].replace(/&amp;colon;/g, ":");
             }
 
+            if (typeof(metadata[key]) == "null") {
+                pageHtml = pageHtml.split(`{{ ${key} }}`).join("");
+
+                return;
+            }
+
             pageHtml = pageHtml.split(`{{ ${key} }}`).join(String(metadata[key])
                 .replace(/</g, "&lt;")
                 .replace(/>/g, "&gt;")

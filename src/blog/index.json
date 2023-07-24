@@ -9,6 +9,14 @@
             "url": "/blog/en/test"
         },
         {
+            "title": "Project Prism: architecture overview",
+            "description": "Earlier this week, our CEO James wrote about our ambitious plans to build a truly open smartphone.",
+            "author": "tramcrazy",
+            "publishedAt": 1649432528000,
+            "language": "en",
+            "url": "/blog/en/prism-architecture-overview"
+        },
+        {
             "title": "Project Prism: on the road to building an open smartphone",
             "description": "That's right ⁠— we're on an ambitious plan to build an open smartphone that puts Progressive Web Apps (PWAs) at the core of our ecosystem.",
             "author": "james",

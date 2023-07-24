@@ -1,0 +1,17 @@
+{
+    "authors": {
+        "james": {
+            "name": {
+                "en_GB": "James Livesey",
+                "zh_CN": "詹姆斯·利夫西（James Livesey）"
+            },
+            "fallbackLocale": "en_GB"
+        },
+        "tramcrazy": {
+            "name": {
+                "en_GB": "tramcrazy"
+            },
+            "fallbackLocale": "en_GB"
+        }
+    }
+}

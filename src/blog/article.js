@@ -10,12 +10,35 @@
 import * as $g from "https://opensource.liveg.tech/Adapt-UI/src/adaptui.js";
 
 import * as website from "/script.js";
+import * as authors from "/blog/authors.js";
 
 website.waitForLoad().then(function() {
-    $g.sel(".article_publishedAt").setText(_format(
-        new Date(Number($g.sel("body").getAttribute("data-articlepublishedAt"))),
-        {weekday: "long", day: "numeric", month: "long", year: "numeric"}
-    ));
+    var author = $g.sel("body").getAttribute("data-articleauthor");
+
+    if (author != "") {
+        authors.getAuthorProperty(author, "name").then(function(authorName) {
+            $g.sel(".article_author").clear().add(
+                $g.create("span").setText(_("blog_byAuthor_start")),
+                $g.create("a")
+                    .setAttribute("href", `/blog?byauthor=${author}`)
+                    .setText(authorName)
+                ,
+                $g.create("span").setText(_("blog_byAuthor_end")),
+                $g.create("span").setText(" · ")
+            );
+        });
+    }
+
+    if ($g.sel("body").getAttribute("data-articlepublishedAt") != "") {
+        var publishedAt = new Date(Number($g.sel("body").getAttribute("data-articlepublishedAt")));
+
+        $g.sel(".article_publishedAt").setAttribute("datetime", publishedAt.toISOString());
+
+        $g.sel(".article_publishedAt").setText(_format(
+            publishedAt,
+            {weekday: "long", day: "numeric", month: "long", year: "numeric"}
+        ));
+    }
 
     $g.sel(".article_contents a").forEach(function(element) {
         if (!element.hasAttribute("href")) {
