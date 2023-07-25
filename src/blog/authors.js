@@ -19,6 +19,10 @@ export function getAuthorProperty(author, property = "name") {
     }) : Promise.resolve({authors})).then(function(data) {
         authors = data.authors;
 
+        if (!authors[author]) {
+            return Promise.reject(`Author \`${author}\` does not exist`);
+        }
+
         var propertyValue = authors[author][property];
 
         if (typeof(propertyValue) != "object") {
@@ -46,13 +50,17 @@ export function getAuthorProperties(author, properties) {
     });
 }
 
-export function renderAuthorInfoArea(author) {
+export function renderAuthorInfoArea(author, byline = false) {
     return getAuthorProperties(author, [
         "name",
         "description"
     ]).then(function(properties) {
         return Promise.resolve($g.create("div").add(
-            $g.create("h4").setText(_("blog_byAuthor", {author: properties.name})),
+            (
+                byline ?
+                $g.create("h4").setText(_("blog_byAuthor", {author: properties.name})) :
+                $g.create("h2").setText(properties.name)
+            ),
             $g.create("p").setText(properties.description)
         ));
     });

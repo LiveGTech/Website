@@ -33,8 +33,6 @@ function renderArticles(articles) {
             }).then(function(authorName) {
                 var descriptionParagraph = $g.create("p");
 
-                console.log(article);
-
                 if (article.author != null) {
                     descriptionParagraph.add(
                         $g.create("span").setText(_("blog_byAuthor", {author: authorName})),
@@ -98,14 +96,25 @@ function renderArticles(articles) {
 
 function filterArticles(articles) {
     var language = common.LOCALE_CODE.split("_")[0];
-
     var currentLanguageArticles = articles.filter((article) => article.language == language);
 
-    return (
+    articles = (
         currentLanguageArticles.length > 0 ?
         currentLanguageArticles :
         articles.filter((article) => article.language == "en")
     );
+
+    var filterByAuthor = $g.core.parameter("byAuthor");
+
+    if (filterByAuthor != null) {
+        articles = articles.filter((article) => article.author == filterByAuthor);
+
+        authors.renderAuthorInfoArea(filterByAuthor).then(function(infoArea) {
+            $g.sel(".blog_authorInfoAreaContainer").clear().add(infoArea);
+        });
+    }
+
+    return articles;
 }
 
 function searchForArticles(query = $g.sel("#blog_search").getValue()) {

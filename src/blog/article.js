@@ -20,7 +20,7 @@ website.waitForLoad().then(function() {
             $g.sel(".article_author").clear().add(
                 $g.create("span").setText(_("blog_byAuthor_start")),
                 $g.create("a")
-                    .setAttribute("href", `/blog?byauthor=${author}`)
+                    .setAttribute("href", `/blog?byAuthor=${author}`)
                     .setText(authorName)
                 ,
                 $g.create("span").setText(_("blog_byAuthor_end")),
@@ -28,9 +28,7 @@ website.waitForLoad().then(function() {
             );
         });
 
-        // TODO: Add filtering on article list page to see articles written by this author
-
-        authors.renderAuthorInfoArea(author).then(function(infoArea) {
+        authors.renderAuthorInfoArea(author, true).then(function(infoArea) {
             $g.sel(".article_contents").add(
                 $g.create("hr"),
                 infoArea
@@ -62,4 +60,6 @@ website.waitForLoad().then(function() {
 
         element.setAttribute("target", "_blank");
     });
+
+    $g.sel("title").setText(_("title_page", {page: $g.sel("title").getText()}));
 });

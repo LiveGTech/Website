@@ -6,7 +6,9 @@
                 "zh_CN": "詹姆斯·利夫西（James Livesey）"
             },
             "description": {
-                "en_GB": "James is the founder and lead developer of LiveG. He guides the development of various LiveG projects, including LiveG OS, Adapt UI and Astronaut. He is also involved with the design process of LiveG's hardware projects, including the LiveG Prism smartphone."
+                "en_GB": "James is the founder and lead developer of LiveG. He guides the development of various LiveG projects, including LiveG OS, Adapt UI and Astronaut. He is also involved with the design process of LiveG's hardware projects, including the LiveG Prism smartphone.",
+                "fr_FR": "James est le fondateur et développeur principal de LiveG. Il guide le développement de divers projets LiveG, notamment LiveG OS, Adapt UI et Astronaut. Il est également impliqué dans le processus de conception des projets matériels de LiveG, y compris le smartphone LiveG Prism.",
+                "zh_CN": "詹姆斯是力格的创始人兼首席开发商。他指导了包括力格OS，适应用户界面和宇航员在内的各种力格项目的开发。他还参与了力格的硬件项目的设计过程，包括力格·棱镜智能手机。"
             },
             "fallbackLocale": "en_GB"
         },
@@ -15,7 +17,9 @@
                 "en_GB": "tramcrazy"
             },
             "description": {
-                "en_GB": "tramcrazy is LiveG's head of cybersecurity. He is responsible for providing LiveG OS with the latest vulnerability fixes and patches, as well as for auditing the code of LiveG's various software projects to ensure full compliance with software security practices."
+                "en_GB": "tramcrazy is LiveG's head of cybersecurity. He is responsible for providing LiveG OS with the latest vulnerability fixes and patches, as well as for auditing the code of LiveG's various software projects to ensure full compliance with software security practices.",
+                "fr_FR": "tramcrazy est le chef de la cybersécurité de LiveG. Il est chargé de fournir à LiveG OS avec les derniers correctifs de vulnérabilité, ainsi que de l'audit du code des divers projets logiciels de LiveG pour assurer une conformité complète aux pratiques de sécurité des logiciels.",
+                "zh_CN": "tramcrazy是力格的网络安全负责人。他负责为力格OS提供最新的漏洞修复和补丁。他还负责审核力格的各种软件项目的守则，以确保完全符合软件安全实践。"
             },
             "fallbackLocale": "en_GB"
         }
