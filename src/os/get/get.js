@@ -50,7 +50,7 @@ function updatePlatformDetails() {
         estimatedSizeParagraph
     );
 
-    fetch(platform.url).then(function(response) {
+    fetch(platform.url, {method: "HEAD"}).then(function(response) {
         estimatedSizeParagraph.setText(_("osGet_downloadSize", {size: sizeUnits.getString(response.headers.get("Content-Length"), _)}));
         estimatedSizeParagraph.show();
     });
