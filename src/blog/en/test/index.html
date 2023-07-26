@@ -9,20 +9,25 @@
 -->
 <html>
     <head>
-        <title translate aui-l10nstring="title">LiveG Technologies</title>
+        <title translate aui-l10nstring="title" data-page="page_about">Blog Test</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="This is a dummy blog article. If you see this when you're not supposed to, then please contact LiveG.">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="shortcut icon" href="/logo.png">
         <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
         <script type="module" src="/script.js?v=2"></script>
+        <script type="module" src="/blog/article.js"></script>
     </head>
-    <body aui-mode="web" hidden>
-        <nav aui-template="/templates/nav/nav.html"></nav>
+    <body aui-mode="web" hidden data-articlepublishedat="1689875024525">
+        <nav aui-template="/templates/nav/blog.html"></nav>
         <main>
-            <section class="error404">
-                <h1 translate>404_title</h1>
-                <p translate>404_description</p>
+            <section aui-mode="cover">
+                <h1>Blog Test</h1>
+                <p class="article_publishedAt"></p>
+            </section>
+            <section>
+                <p>This is a dummy blog article. <strong>If you see this when you're not supposed to, then please contact LiveG.</strong></p>
             </section>
         </main>
         <footer aui-template="/templates/footer/footer.html"></footer>

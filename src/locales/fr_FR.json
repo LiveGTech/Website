@@ -15,8 +15,23 @@
 
         "new": "Noveau",
         "new_badgeAlt": "(Noveau)",
+        "ok": "OK",
+        "cancel": "Annuler",
         "learnMore": "En savoir plus",
         "download": "Télécharger",
+
+        "size_bytes": {
+            "{size} == 1": "{size} octet",
+            "{size} != 1": "{size} octets"
+        },
+        "size_kb": "{size} Ko",
+        "size_mb": "{size} Mo",
+        "size_gb": "{size} Go",
+        "size_tb": "{size} To",
+        "size_kib": "{size} Kio",
+        "size_mib": "{size} Mio",
+        "size_gib": "{size} Gio",
+        "size_tib": "{size} Tio",
 
         "nav_goHome": "Rentrer à l'accueil",
         "nav_language": "Langue",
@@ -25,6 +40,7 @@
 
         "page_home": "Accueil",
         "page_about": "À propos",
+        "page_blog": "Blog",
         "page_developer": "Développeur",
         "page_legal": "Légal",
 
@@ -66,6 +82,13 @@
         "about_ourApproach_6": "Nous espérons que votre intérêt pour LiveG contribuera à fournir un investissement dans ce que fait LiveG, et dans le monde qui l'entoure. Plus il y aura de personnes qui nous soutiendront, mieux nous serons équipés pour affaiblir les monopoles des grandes entreprises technologiques en tant que concurrents diversifiés. Nous voulons fabriquer des produits qui permettent ou aident les gens à faire avancer notre monde, et nous serons immensément fiers de quiconque le fera.",
         "about_jamesLivesey": "James Livesey",
         "about_jamesLivesey_title": "Fondateur et développeur principal de LiveG",
+
+        "blog_title": "Le Blog LiveG",
+        "blog_description": "Tenez-vous au courant des dernières nouvelles et informations de LiveG.",
+        "blog_search": "Rechercher dans nos articles",
+
+        "blog_noResults_title": "Aucun résultat trouvé",
+        "blog_noResults_description": "Il semble que nous n'avons rien sur le sujet que vous avez cherché. Essayez de rechercher un sujet similaire ou autre chose.",
 
         "prism_title": "LiveG Prism",
         "prism_intro": "Nous voulons construire des technologies ouvertes qui donnent aux gens les outils pour améliorer leur vie quotidienne. Le LiveG Prism est un projet en cours pour construire un smartphone qui atteint cet objectif.",
@@ -154,10 +177,7 @@
         "os_get_description": "Les premières pré-releases de LiveG OS sont disponibles pour le téléchargement et l'installation. Essayez LiveG OS Alpha et devenez un adopteur précoce des premiers logiciels LiveG.",
 
         "osGet_title": "Obtenez LiveG OS",
-        "osGet_versionTitle": "LiveG OS Alpha",
-        "osGet_version": "Variante 0.1.0 Alpha",
-
-        "osGet_description": "Essayez notre nouveau système d'exploitation conçu pour l'informatique moderne. Il s'agit de notre tout premier pré-release de LiveG OS, donc certaines fonctionnalités pourraient encore être en développement ou manquantes.",
+        "osGet_version": "Variante {version}",
 
         "osGet_steps_download": "1. Télécharger",
         "osGet_steps_download_description": "Prenez une copie gratuite de LiveG OS qui peut facilement être installée dans n'importe quel appareil compatible.",
@@ -167,14 +187,14 @@
         "osGet_steps_install_description": "Suivez les étapes dans LiveG OS pour terminer l'installation. Nous vous guiderons à chaque étape.",
 
         "osGet_releaseNotes": "Notes de release détaillées",
-        "osGet_releaseNotes_1": "Il n'y a pas encore de mécanisme de mise à jour pour LiveG OS, donc lorsque les versions futures sont disponibles, vous devrez installer la nouvelle version de LiveG OS via La Configuration/L'Installation de LiveG OS (fichier ISO), ce qui signifie écraser votre ancienne installation (bien que cela peut ne pas être trop important à ce stade).",
-
-        "osGet_minimumSystemRequirements": "Configuration minimale requise",
-        "osGet_minimumSystemRequirements_1": "LiveG OS peut être installé sur des appareils avec une taille de stockage de disque minimale de 2,6 Go, et avec une taille de RAM minimale de 2 Go.",
-        "osGet_minimumSystemRequirements_2": "Un périphérique de stockage est nécessaire pour démarrer LiveG OS pour l'installation. Le périphérique de stockage doit avoir une taille de stockage minimale de 2 Go.",
-        "osGet_minimumSystemRequirements_3": "LiveG OS ne prend actuellement en charge que les ordinateurs de bureau et portables exécutant une architecture de processeur x86-64 (AMD64) (la plupart des systèmes 64-bits le prendront en charge). Nous espérons étendre bientôt la prise en charge de l'architecture, ainsi que la prise en charge mobile.",
-
+        "osGet_systemRequirements": "Configuration minimale requise",
         "osGet_supportedLanguages": "Langues prises en charge",
+
+        "osGet_downloadDialog_title": "Télécharger LiveG OS",
+        "osGet_downloadDialog_description": "Veuillez choisir une édition de LiveG OS à télécharger qui correspond à l'appareil sur lequel vous avez l'intention de l'installer.",
+
+        "osGet_downloadPlatform": "Plateforme",
+        "osGet_downloadSize": "Taille du téléchargement : {size}",
 
         "developer_tagline": "Créez des projets puissants qui font la différence avec LiveG",
         "developer_description": "Notre logiciel ouvert est conçu pour être avancé, mais convivial pour les développeurs. Rejoignez-nous et utilisez nos outils de développement open-source pour créer vos applications, services, jeux et bien plus encore.",

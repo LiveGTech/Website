@@ -9,6 +9,23 @@
 
 import * as $g from "https://opensource.liveg.tech/Adapt-UI/src/adaptui.js";
 
+import * as common from "/common.js";
+
+var loaded = false;
+var loadCallbacks = [];
+
+export function waitForLoad() {
+    return new Promise(function(resolve, reject) {
+        if (loaded) {
+            resolve();
+
+            return;
+        }
+
+        loadCallbacks.push(resolve);
+    });
+}
+
 $g.waitForLoad().then(function() {
     return $g.templates.apply();
 }).then(function() {
@@ -19,10 +36,18 @@ $g.waitForLoad().then(function() {
     }, "en_GB", {
         "fr_FR": "en_GB",
         "zh_CN": "en_GB"
-    }, localStorage.getItem("liveg_website_lang") || $g.core.parameter("lang") || $g.l10n.getSystemLocaleCode());
+    }, common.LOCALE_CODE);
 }).then(function(locale) {
     window._ = function() {
         return locale.translate(...arguments);
+    };
+
+    window._format = function() {
+        return locale.format(...arguments);
+    };
+
+    window._sort = function(items) {
+        return items.sort(locale.createCollator().compare);
     };
 
     $g.l10n.translateApp(locale);
@@ -31,6 +56,10 @@ $g.waitForLoad().then(function() {
 
     if ($g.sel("title").hasAttribute("data-page")) {
         $g.sel("title").setText(_("title_page", {page: _($g.sel("title").getAttribute("data-page"))}));
+    }
+
+    if ($g.sel("title").hasAttribute("data-enclose")) {
+        $g.sel("title").setText(_("title_page", {page: $g.sel("title").getText()}));
     }
 
     $g.sel(".nav_openMenu").on("click", function() {
@@ -54,4 +83,8 @@ $g.waitForLoad().then(function() {
     if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2022) {
         $g.sel(".birthday").show();
     }
+
+    loaded = true;
+
+    loadCallbacks.forEach((callback) => callback());
 });
