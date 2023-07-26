@@ -31,6 +31,16 @@ fs.readdirSync("articles").forEach(function(language) {
         }
 
         Object.keys(metadata).forEach(function(key) {
+            if (typeof(metadata[key]) == "string") {
+                metadata[key] = metadata[key].replace(/&amp;colon;/g, ":");
+            }
+
+            if (typeof(metadata[key]) == "null") {
+                pageHtml = pageHtml.split(`{{ ${key} }}`).join("");
+
+                return;
+            }
+
             pageHtml = pageHtml.split(`{{ ${key} }}`).join(String(metadata[key])
                 .replace(/</g, "&lt;")
                 .replace(/>/g, "&gt;")
@@ -52,5 +62,7 @@ fs.readdirSync("articles").forEach(function(language) {
         });
     });
 });
+
+index.articles = index.articles.sort((a, b) => b.publishedAt - a.publishedAt);
 
 fs.writeFileSync(path.join("src", "blog", "index.json"), JSON.stringify(index, null, 4));

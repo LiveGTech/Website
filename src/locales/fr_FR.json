@@ -86,6 +86,9 @@
         "blog_title": "Le Blog LiveG",
         "blog_description": "Tenez-vous au courant des dernières nouvelles et informations de LiveG.",
         "blog_search": "Rechercher dans nos articles",
+        "blog_byAuthor": "Par {author}",
+        "blog_byAuthor_start": "Par ",
+        "blog_byAuthor_end": "",
 
         "blog_noResults_title": "Aucun résultat trouvé",
         "blog_noResults_description": "Il semble que nous n'avons rien sur le sujet que vous avez cherché. Essayez de rechercher un sujet similaire ou autre chose.",

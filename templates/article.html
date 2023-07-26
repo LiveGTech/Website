@@ -9,24 +9,25 @@
 -->
 <html>
     <head>
-        <title translate aui-l10nstring="title" data-page="page_about">{{ title }}</title>
+        <title>{{ title }}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="description" content="{{ description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="shortcut icon" href="/logo.png">
         <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/blog/article.css">
         <script type="module" src="/script.js?v=2"></script>
         <script type="module" src="/blog/article.js"></script>
     </head>
-    <body aui-mode="web" hidden data-articlepublishedat="{{ publishedAt }}">
+    <body aui-mode="web" hidden data-articlepublishedat="{{ publishedAt }}" data-articleauthor="{{ author }}">
         <nav aui-template="/templates/nav/blog.html"></nav>
         <main>
             <section aui-mode="cover">
                 <h1>{{ title }}</h1>
-                <p class="article_publishedAt"></p>
+                <p><span class="article_author"></span><time class="article_publishedAt"></time></p>
             </section>
-            <section>
+            <section class="article_contents">
                 {{ contents }}
             </section>
         </main>

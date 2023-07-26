@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+-->
+<html>
+    <head>
+        <title>Project Prism: on the road to building an open smartphone</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="That's right ⁠— we're on an ambitious plan to build an open smartphone that puts Progressive Web Apps (PWAs) at the core of our ecosystem.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="/logo.png">
+        <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/blog/article.css">
+        <script type="module" src="/script.js?v=2"></script>
+        <script type="module" src="/blog/article.js"></script>
+    </head>
+    <body aui-mode="web" hidden data-articlepublishedat="1649241344000" data-articleauthor="james">
+        <nav aui-template="/templates/nav/blog.html"></nav>
+        <main>
+            <section aui-mode="cover">
+                <h1>Project Prism: on the road to building an open smartphone</h1>
+                <p><span class="article_author"></span><time class="article_publishedAt"></time></p>
+            </section>
+            <section class="article_contents">
+                <p>That's right ⁠— we're on an ambitious plan to build an open smartphone that puts Progressive Web Apps (PWAs) at the core of our ecosystem. Check out our video for an in-depth review of our project so far:</p>
+<p><a href="https://youtu.be/pmOR2J9fDZM" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+    <img src="/media/blog/prism-building-open-smartphone/prism-showcase-video.jpg" translate="attributesOnly" tl:alt="videoAlt_youtube">
+    <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+</a></p>
+<h2 id="howareyoumakingthis">How are you making this?</h2>
+<p>Currently, the Prism is based on the PinePhone, with a few modifications to the hardware (the back shell is one of the main customisations to the phone, allowing you to see inside), in addition to the software (using our own Linux-based mobile operating system).</p>
+<p>We 3D-printed the back case, which admittedly took quite a few attempts; but the end result is awesome!</p>
+<div>
+    <aui-card class="article_socialEmbed">
+        <h3>@jthecoder on Twitter</h3>
+        <p>
+            New #PinePhone shell finished! It only took 4 attempts...<br>
+            <br>
+            Really pleased with the result, though!
+        </p>
+        <div class="article_socialEmbed_media">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-1.jpg" alt="A view of the new back shell on a PinePhone, featuring a translucent, light plastic that lets you see the circuitry inside, and the blue-and-yellow LiveG logo.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-2.jpg" alt="A view of the same shell, at an angle to show the USB-C charging port.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-3.jpg" alt="A side view of the PinePhone shell, showing the yellow power button and blue volume buttons.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-4.jpg" alt="A top-down view of the back shell of the PinePhone.">
+        </div>
+        <p>13 February 2022 · <a href="https://twitter.com/jthecoder/status/1492914671569063949" target="_blank" aui-mode="cardLink">View on Twitter</a></p>
+    </aui-card>
+</div>
+<p>The main interface uses our own user environment, called <a href="https://github.com/LiveGTech/gShell">gShell</a>. It uses <a href="https://github.com/LiveGTech/Adapt-UI">Adapt UI</a> (<a href="https://livegtech.github.io/Adapt-UI/demos/all/">web demo</a>), which is the user interface design language and framework which we developed in-house over the course of a few months.</p>
+<p>gShell itself is essentially just a really complex single-page website, all running locally inside an Electron process. This not only simplifies development and allows us to quickly prototype designs, but it also provides good support for animations and all of the polish that you'd expect on the modern smartphones of today.</p>
+<p>I took a few photos and posted them on Twitter to show you what gShell looks like in real life:</p>
+<div>
+    <aui-card class="article_socialEmbed">
+        <h3>@jthecoder on Twitter</h3>
+        <p>
+            #LiveGOS runs really well on it! Nice and responsive, even for a non-Pro PinePhone<br>
+            <br>
+            (<a href="https://github.com/LiveGTech/gShell" target="_blank">https://github.com/LiveGTech/gShell</a>)
+        </p>
+        <div class="article_socialEmbed_media">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-1.jpg" alt="LiveG OS's gShell running on the PinePhone, showing the app switcher with the Adapt UI demo app open." class="article_socialEmbed_spanRows">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-2.jpg" alt="A top-down view of gShell on the PinePhone showing the LiveG OS Debug Environment screen.">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-3.jpg" alt="A side angle view of the PinePhone, showing gShell's lock screen.">
+        </div>
+        <p>13 February 2022 · <a href="https://twitter.com/jthecoder/status/1492916198442422276 " target="_blank" aui-mode="cardLink">View on Twitter</a></p>
+    </aui-card>
+</div>
+<p>Of course, being Electron, it is possible to run gShell in its simulator mode on a desktop. This makes prototyping iterations of gShell and its associated apps much easier, and as a result, much faster; simply because it's more convenient to launch gShell on a development machine than it is to update the actual Prism itself to perform a very short test.</p>
+<p><img src="/media/blog/prism-building-open-smartphone/gshell-simulator.png" alt="A screenshot of the gShell simulator in a desktop environment" /></p>
+<h2 id="accessibility">Accessibility</h2>
+<p>As with the physical world, accessibility is also extremely important in the digital world, too. Ensuring that both software and hardware is usable by everyone is a key aspect of developing successful products, and failing to do so can cause users to be excluded from being able to effectively operate your platform.</p>
+<p>It's no wonder that we have baked accessibility support right into the Prism from the very start of our project: we've been ensuring that our product will be accessible for future assistive technologies that we will later build into gShell. However, it's not just ensuring compatibility that's important: we've also added some accessibility features into the phone from early on in order to ensure that the whole user interface is usable in its current state.</p>
+<p>We've built in an often-overlooked assistive technology that often gets neglected in upcoming operating systems: Switch Navigation. It essentially allows the user to control their whole device using just at least one button, known as a switch. A demonstration of it is available at <a href="https://youtu.be/pmOR2J9fDZM?t=909">15:09</a> in our video.</p>
+<p>Here's a photo of what one of the features of Switch Navigation looks like:</p>
+<p><img src="/media/blog/prism-building-open-smartphone/prism-switch-nav-a11y.png" alt="Switch Navigation in use on the Prism" /></p>
+<p>The implementation of Switch Navigation in gShell has been inspired by quadriplegic YouTuber <a href="https://www.youtube.com/user/icdhills">Christopher Hills</a>, who makes extensive use of iOS's <a href="https://support.apple.com/en-gb/HT201370">Switch Control</a> feature daily. Switch Control in iOS provides very similar functionality to our Switch Navigation. Christopher's videos have been monumental at raising awareness of this versatile assistive technology, which has enabled him to pilot drones, edit and produce production-quality videos, and more. His videos have given us a great insight into the daily uses of Switch Control, which we hope to integrate into Switch Navigation.</p>
+<h2 id="localisation">Localisation</h2>
+<p>Localisation is also an important part of platform development, since it allows users who speak languages other than English to use our products, and truly make our products globally usable. Our main methods of localisation are through the Adapt UI framework, which provides the localisation infrastructure needed to translate our apps and make them available in different locales.</p>
+<p>Adapt UI also ensures that apps and systems are laid out according to the rules of selected languages — in Arabic, for example, text is written from right to left, and so we need to factor this into our layout when Arabic is selected:</p>
+<p><img src="/media/blog/prism-building-open-smartphone/aui-l10n-arabic.png" alt="Switch Navigation in use on the Prism" /></p>
+<p>Feel free to <a href="https://livegtech.github.io/Adapt-UI/demos/l10n/">play around with our localisation demo</a> and see how the layout changes depending on the language chosen!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This is a brief overview of Project Prism so far. I go much more in-depth in the video at the start of this post, so be sure to check it out!</p>
+<p>If you'd like, come and visit our <a href="https://github.com/LiveGTech">GitHub organisation</a> to see our various ongoing projects with regards to the Prism. Why not star a few of our repos you find interesting — or, if you're keen — contribute to our projects? Your contributions are welcome; even if they are simple bug reports or documentation enhancements!</p>
+<p>That's about it — thanks for reading about LiveG Project Prism!</p>
+<hr />
+<p><em>This article was originally posted on the <a href="https://dev.to/liveg/project-prism-on-the-road-to-building-an-open-smartphone-50lg">DEV Community</a>.</em></p>
+            </section>
+        </main>
+        <footer aui-template="/templates/footer/footer.html"></footer>
+        <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
+    </body>
+</html>

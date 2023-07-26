@@ -83,6 +83,9 @@
         "blog_title": "力格博客",
         "blog_description": "及时了解力格的最新新闻和信息。",
         "blog_search": "搜索我们的文章",
+        "blog_byAuthor": "{author}撰写",
+        "blog_byAuthor_start": "",
+        "blog_byAuthor_end": "撰写",
 
         "blog_noResults_title": "未找到结果",
         "blog_noResults_description": "我们似乎没有关于您搜索的主题的任何文章。尝试搜索类似的主题。",
@@ -220,7 +223,7 @@
         "birthday8_2019_2": "我们构建了第二代适应用户界面，以及Zapr工具和新网站设计",
 
         "birthday8_2020": "2020",
-        "birthday8_2020_1": "基于Adapt UI和Electron为多个平台开发了早期版本的力格·领域",
+        "birthday8_2020_1": "基于适应用户界面和Electron为多个平台开发了早期版本的力格·领域",
         "birthday8_2020_2": "我们为Pi构建了第二个操作系统原型，启发了当今现代力格OS的界面",
 
         "birthday8_2021": "2021",

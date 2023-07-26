@@ -86,6 +86,9 @@
         "blog_title": "The LiveG Blog",
         "blog_description": "Keep up-to-date with the latest news and information from LiveG.",
         "blog_search": "Search through our articles",
+        "blog_byAuthor": "By {author}",
+        "blog_byAuthor_start": "By ",
+        "blog_byAuthor_end": "",
 
         "blog_noResults_title": "No results found",
         "blog_noResults_description": "It seems that we don't have any articles on the topic you searched for. Try searching for a similar topic or something else.",

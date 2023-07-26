@@ -1,12 +1,20 @@
 {
     "articles": [
         {
-            "title": "Blog Test",
-            "description": "This is a dummy blog article. If you see this when you're not supposed to, then please contact LiveG.",
-            "author": "james",
-            "publishedAt": 1689875024525,
+            "title": "Project Prism: architecture overview",
+            "description": "Earlier this week, our CEO James wrote about our ambitious plans to build a truly open smartphone.",
+            "author": "tramcrazy",
+            "publishedAt": 1649432528000,
             "language": "en",
-            "url": "/blog/en/test"
+            "url": "/blog/en/prism-architecture-overview"
+        },
+        {
+            "title": "Project Prism: on the road to building an open smartphone",
+            "description": "That's right ⁠— we're on an ambitious plan to build an open smartphone that puts Progressive Web Apps (PWAs) at the core of our ecosystem.",
+            "author": "james",
+            "publishedAt": 1649241344000,
+            "language": "en",
+            "url": "/blog/en/prism-building-open-smartphone"
         }
     ]
 }

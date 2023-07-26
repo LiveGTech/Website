@@ -1,0 +1,41 @@
+/*
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+*/
+
+.article_contents, .article_contents * {
+    user-select: text;
+}
+
+.article_contents, .article_contents *:not(a, aui-card[aui-linked], aui-card[aui-linked] *) {
+    cursor: unset;
+}
+
+.article_socialEmbed {
+    max-width: 30rem;
+    margin: auto;
+}
+
+aui-card[aui-linked].article_socialEmbed a {
+    color: var(--primaryUI);
+}
+
+.article_socialEmbed_media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.article_socialEmbed_media img {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+}
+
+.article_socialEmbed_media .article_socialEmbed_spanRows {
+    grid-row: span 2;
+    height: 100%;
+}
