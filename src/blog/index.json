@@ -1,6 +1,14 @@
 {
     "articles": [
         {
+            "title": "What's new in LiveG OS V0.2.0: multiplatform support and plenty more",
+            "description": "A look at a number of new features that have been added to the latest Alpha release of LiveG OS, including support for the Raspberry Pi and PinePhone.",
+            "author": "james",
+            "publishedAt": 1691945111327,
+            "language": "en",
+            "url": "/blog/en/new-in-os-0-2-0"
+        },
+        {
             "title": "Project Prism: architecture overview",
             "description": "Earlier this week, our CEO James wrote about our ambitious plans to build a truly open smartphone.",
             "author": "tramcrazy",
