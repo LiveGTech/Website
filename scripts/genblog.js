@@ -32,7 +32,7 @@ fs.readdirSync("articles").forEach(function(language) {
 
         Object.keys(metadata).forEach(function(key) {
             if (typeof(metadata[key]) == "string") {
-                metadata[key] = metadata[key].replace(/&amp;colon;/g, ":");
+                metadata[key] = metadata[key].replace(/&amp;/g, "&");
             }
 
             if (typeof(metadata[key]) == "null") {

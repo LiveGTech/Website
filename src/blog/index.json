@@ -1,7 +1,7 @@
 {
     "articles": [
         {
-            "title": "What's new in LiveG OS V0.2.0: multiplatform support and plenty more",
+            "title": "What's new in LiveG OS V0.2.0&colon; multiplatform support and plenty more",
             "description": "A look at a number of new features that have been added to the latest Alpha release of LiveG OS, including support for the Raspberry Pi and PinePhone.",
             "author": "james",
             "publishedAt": 1691945111327,
@@ -9,7 +9,15 @@
             "url": "/blog/en/new-in-os-0-2-0"
         },
         {
-            "title": "Project Prism: architecture overview",
+            "title": "Quoi de neuf dans LiveG OS V0.2.0&nbsp;&colon; prise en charge multiplateforme et bien plus encore",
+            "description": "Un aperçu d'un certain nombre de nouvelles fonctionnalités qui ont été ajoutées à la dernière version Alpha de LiveG OS, y compris la prise en charge du Raspberry Pi et du PinePhone.",
+            "author": "james",
+            "publishedAt": 1691945111327,
+            "language": "fr",
+            "url": "/blog/fr/new-in-os-0-2-0"
+        },
+        {
+            "title": "Project Prism&colon; architecture overview",
             "description": "Earlier this week, our CEO James wrote about our ambitious plans to build a truly open smartphone.",
             "author": "tramcrazy",
             "publishedAt": 1649432528000,
@@ -17,7 +25,7 @@
             "url": "/blog/en/prism-architecture-overview"
         },
         {
-            "title": "Project Prism: on the road to building an open smartphone",
+            "title": "Project Prism&colon; on the road to building an open smartphone",
             "description": "That's right ⁠— we're on an ambitious plan to build an open smartphone that puts Progressive Web Apps (PWAs) at the core of our ecosystem.",
             "author": "james",
             "publishedAt": 1649241344000,
