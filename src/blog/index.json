@@ -17,6 +17,14 @@
             "url": "/blog/fr/new-in-os-0-2-0"
         },
         {
+            "title": "力格OS V0.2.0的新增功能：多平台支持以及更多",
+            "description": "了解力格OS最新Alpha版本中添加的许多新功能，包括对树莓派和PinePhone的支持。",
+            "author": "james",
+            "publishedAt": 1691945111327,
+            "language": "zh",
+            "url": "/blog/zh/new-in-os-0-2-0"
+        },
+        {
             "title": "Project Prism&colon; architecture overview",
             "description": "Earlier this week, our CEO James wrote about our ambitious plans to build a truly open smartphone.",
             "author": "tramcrazy",
