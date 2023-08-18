@@ -176,6 +176,8 @@
         "os_get_title": "立即获取力格OS",
         "os_get_description": "力格OS的早期预发行可供下载和安装。 尝试力格OS Alpha，并成为Liveg软件的早期采用者。",
 
+        "os_footnote_implementedFeatures": "列出的某些功能是计划中的功能，可能仍在开发中。列出的所有功能预计将在第一个Beta版或主要版本中实现。",
+
         "osGet_title": "获取力格OS",
         "osGet_version": "{version}版",
 
