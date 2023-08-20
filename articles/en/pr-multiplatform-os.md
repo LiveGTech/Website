@@ -27,7 +27,7 @@ When asked about LiveG's commitment to protecting its users and their devices ag
 
 "Alongside this, the update system allows for easy delivery of patches as soon as they become available, which means that LiveG OS users are always protected from emerging threats."
 
-Livesey notes that "LiveG OS is far from being usable" as a daily-drivable operating system. "However", he adds, "we've got many plans for our next release of LiveG OS, and even more for future releases. We hope to build a few system apps for our next release of LiveG OS, including a file manager app and a few apps with cellular features for mobile devices, which would greatly improve the usability of the operating system".
+Livesey notes that "LiveG OS is far from being usable" as a daily-drivable operating system. "However", he adds, "we've got many plans for our next release of LiveG OS, and even more for future releases. We hope to build a few system apps for our next release, including a file manager app and a few apps with cellular features for mobile devices, which would greatly improve the usability of the operating system".
 
 Livesey even hints about plans to integrate Linux app support into LiveG OS. He says, "LiveG OS is itself a Linux-based operating system, but with a few architectual differences that better suit it for web apps. That being said, we'd like to add the necessary support to allow XWindows-based Linux apps to run in our gShell desktop environment. We might not see this for version 0.3.0, but it's certainly on our radar".
 
