@@ -9,6 +9,13 @@
             "url": "/blog/en/new-in-os-0-2-0"
         },
         {
+            "title": "Press release&colon; LiveG Technologies announces pre-release of operating system for PinePhone, Raspberry Pi",
+            "description": "LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.",
+            "publishedAt": 1691945111327,
+            "language": "en",
+            "url": "/blog/en/pr-multiplatform-os"
+        },
+        {
             "title": "Quoi de neuf dans LiveG OS V0.2.0&nbsp;&colon; prise en charge multiplateforme et bien plus encore",
             "description": "Un aperçu d'un certain nombre de nouvelles fonctionnalités qui ont été ajoutées à la dernière version Alpha de LiveG OS, y compris la prise en charge du Raspberry Pi et du PinePhone.",
             "author": "james",
