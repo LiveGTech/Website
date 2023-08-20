@@ -9,7 +9,7 @@ publishedAt: 1691945111327
 
 **NORWICH, ENGLAND:** LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.
 
-This new release makes LiveG OS one of only a few existing operating systems that can run on both desktop and mobile devices, providing a consistent user interface across multiple device form factors.
+This new release — version 0.2.0 Alpha — makes LiveG OS one of only a few existing operating systems that can run on both desktop and mobile devices, providing a consistent user interface across multiple device form factors.
 
 Founder and lead developer of LiveG, James Livesey, said: "this new release marks a significant milestone in the development of our operating system, and we're looking forward to seeing users try out LiveG OS for themselves on their own devices.
 
