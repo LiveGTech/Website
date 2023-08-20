@@ -22,14 +22,14 @@ In addition to the Raspberry Pi, LiveG OS now also runs on the PinePhone smartph
 You can try out this release of LiveG OS now for the Raspberry Pi and PinePhone — and even x86-64 and ARM64 computers — by [downloading an OS image for your platform from our website](/os/get). It's simple: after downloading the image, use a tool such as [balenaEtcher](https://etcher.balena.io) or the [Raspberry Pi Imager](https://www.raspberrypi.com/software) to flash the image onto an SD card, then boot it on your device and follow the setup instructions presented inside LiveG OS.
 
 ## Installable web apps
-<!-- TODO: Add image -->
+![A screenshot of Sphere with the 'install app' menu option open. To the left side, a LiveG Prism is shown with an app being added to the home screen.](/media/blog/new-in-os-0-2-0/install-app.png)
 
 Progressive web apps — or PWAs — can now be installed in LiveG OS thanks to the new option to install websites as web apps in our Sphere web browser. Any website can become an app in LiveG OS, and website can take advantage of extra features such as maskable app icons through the use of a [web app manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest).
 
 Web apps open up large opportunities that can allow LiveG OS to compete with today's major operating systems, as PWA technologies enable a large range of existing apps to be installed to LiveG OS, such as Mastodon, Twitter, YouTube — and even our own apps, like [LiveG Docs](https://docs.liveg.tech). The OS-independent compatibility that web apps have make PWA technologies an ideal platform for LiveG OS, and LiveG OS's own system apps — and even its desktop environment, [gShell](https://github.com/LiveGTech/gShell) — are themselves made using web technologies.
 
 ## App menu search, power and app sorting options
-<!-- TODO: Add image -->
+![A screenshot of the app menu on the desktop version of LiveG OS. The term 'network' is being searched in the search bar, with suggestions for apps being shown below.](/media/blog/new-in-os-0-2-0/app-menu.png)
 
 Apps that are installed now show up in the app menu in LiveG OS. The app menu now also includes a number of useful features that make searching for apps easier. You can now sort apps alphabetically by choosing the **alphabetical view** option, or you can search for apps by using the search bar.
 
@@ -38,28 +38,28 @@ App shortcuts also appear when using the search bar, making it easy to access ce
 Finally, there are options to lock, shut down or restart LiveG OS in the power menu. This removes the need for the LiveG OS Debug Environment to shut down the system, which has now itself been removed in this release.
 
 ## Tab-based interface in Sphere
-<!-- TODO: Add image -->
+![A screenshot of Sphere's tab-based interface on both desktop and mobile.](/media/blog/new-in-os-0-2-0/sphere-tabs.png)
 
 Browsing the web has become much easier in the Sphere web browser now thanks to the new, tab-based interface in Sphere. The tab-based interface work similarly to what is seen in other modern browsers, allowing users to have multiple webpages open at once without needing to open multiple windows.
 
 The tab-based interface is also available on mobile by pressing the tab list button. We hope to release an API for the tab-based interface in the future for web apps to allow them to take advantage of this paradigm: for example, the file manager app we hope to release soon would benefit from a tab-based interface to make file management across multiple folders much eaiser to perform.
 
 ## Gesture-based app switcher navigation on mobile
-<!-- TODO: Add image -->
+![A demonstrative screenshot of the app switcher on the mobile version of LiveG OS. Users can swipe up to view the app list, and swipe horizontally to quickly switch between apps.](/media/blog/new-in-os-0-2-0/gesture-switcher.png)
 
 On mobile, the app switching experience has been improved through the addition of swipe gestures to quickly jump between apps. Swiping up from the LiveG logo at the bottom now reveals the app list — just like what happens when you double-tap the logo. Swiping left and right on the logo will switch between apps listed adjacently to the current-viewed app without needing to show the app list, reducing the time it takes to switch between apps.
 
 The addition of this new gesture-based navigation method brings LiveG OS closer to the experiences seen on other major mobile operating systems.
 
 ## Update system
-<!-- TODO: Add image -->
+![A screenshot of the system updates page in Settings, showing an example update.](/media/blog/new-in-os-0-2-0/update-system.png)
 
 LiveG OS now has an update system, making it easier for users to download and install new system updates in the future when they are made available. Users can now update the system through the Settings app, where they can also configure the update circuit under **advanced options**, allowing them to take advantage of cutting-edge features not yet present in stable releases.
 
 The update system is designed to not be distracting or disruptive to its users — users can be assured that their system will not restart unless they tell it to, and updates are not forced on users (though users are strongly recommeneded to update when possible to benefit from security patches). The system is also designed to be robust against unexpected system shutdowns such as power outages with a number of rollback mechanisms implemented to recover the system in these scenarios back to the previous update.
 
 ## New options added to Settings
-<!-- TODO: Add image -->
+![A screenshot of the keyboard layout configuration options in Settings on desktop. To the right, a LiveG Prism is shown with the virtual keyboard open.](/media/blog/new-in-os-0-2-0/keyboard-layouts.png)
 
 Alongside the new update system, we've also added a few additional options to the Settings app to make LiveG OS more useful.
 
@@ -72,7 +72,7 @@ Keyboard layouts also work on mobile, and we hope to soon have a way of quickly 
 Another new addition to Settings is our interaction and privacy options. These options make it easier to choose how LiveG OS will interact with our online services, such as when the update system will check for updates. You can choose to enable all the options, which integrates LiveG OS nicely with our online offerings, or if you don't feel you need our online services, then you can switch the options off.
 
 ## LiveG OS Setup improvements
-<!-- TODO: Add image -->
+![A screenshot of LiveG OS Setup, showing the disk partition options.](/media/blog/new-in-os-0-2-0/oobs.png)
 
 And finally, there have been a few improvements to the out-of-box setup system — or OOBS, as we call it — including another power menu and an accessibility menu for enabling accessibility options such as Switch Navigation while users are setting up their device, in addition to a new setup step for configuring interaction and privacy options so that you can easily turn on or off these options before you use the system.
 

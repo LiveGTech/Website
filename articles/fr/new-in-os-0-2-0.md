@@ -23,13 +23,14 @@ Vous pouvez essayer cette version de LiveG OS maintenant pour le Raspberry Pi et
 
 ## Applications web installables
 <!-- TODO: Add image -->
+![Une capture d'écran de Sphere avec l'option de menu 'installer l'application' ouverte. Sur le côté gauche, un LiveG Prism est affiché avec une application ajoutée à l'écran d'accueil.](/media/blog/new-in-os-0-2-0/install-app.png)
 
 Les applications web progressives — ou PWA — peuvent désormais être installées dans LiveG OS grâce à la nouvelle option permettant d'installer des sites web en tant qu'applications web dans notre navigateur web Sphere. Tout site web peut devenir une application dans LiveG OS, et le site web peut tirer parti de fonctionnalités supplémentaires telles que des icônes d'application masquables grâce à l'utilisation d'un [manifeste d'application web] (https://developer.mozilla.org/en-US/docs/Web/Manifest).
 
 Les applications web ouvrent de grandes opportunités qui peuvent permettre à LiveG OS de rivaliser avec les principaux systèmes d'exploitation actuels, car les technologies PWA permettent d'installer une large gamme d'applications existantes sur LiveG OS, telles que Mastodon, Twitter, YouTube — et même nos propres applications, comme [LiveG Docs](https://docs.liveg.tech). La compatibilité indépendante du système d'exploitation des applications web fait des technologies PWA une plate-forme idéale pour LiveG OS, et les propres applications système de LiveG OS — et même son environnement de bureau, [gShell](https://github.com/LiveGTech/gShell) — sont eux-mêmes réalisés à l'aide des technologies web.
 
 ## Options de recherche, d'alimentation et de tri des applications dans le menu des applications
-<!-- TODO: Add image -->
+![Une capture d'écran du menu des applications sur la version de bureau de LiveG OS. Le terme 'réseau' est recherché dans la barre de recherche, avec des suggestions d'applications affichées ci-dessous.](/media/blog/new-in-os-0-2-0/app-menu.png)
 
 Les applications installées s'affichent désormais dans le menu des applications de LiveG OS. Le menu des applications comprend désormais également un certain nombre de fonctionnalités utiles qui facilitent la recherche d'applications. Vous pouvez désormais trier les applications par ordre alphabétique en choisissant l'option **affichage alphabétique**, ou vous pouvez rechercher des applications à l'aide de la barre de recherche.
 
@@ -38,28 +39,28 @@ Les raccourcis d'application apparaissent également lors de l'utilisation de la
 Enfin, il existe des options pour verrouiller, arrêter ou redémarrer LiveG OS dans le menu d'alimentation. Cela supprime la nécessité pour l'Environnement de Débogage du LiveG OS d'arrêter le système, qui a maintenant lui-même été supprimé dans cette version.
 
 ## Interface basée sur des onglets dans Sphere
-<!-- TODO: Add image -->
+![Une capture d'écran de l'interface à onglets de Sphere sur ordinateur et mobile.](/media/blog/new-in-os-0-2-0/sphere-tabs.png)
 
 La navigation sur le web est devenue beaucoup plus facile dans le navigateur web Sphere grâce à la nouvelle interface basée sur des onglets dans Sphere. L'interface basée sur des onglets fonctionne de manière similaire à ce que l'on voit dans d'autres navigateurs modernes, permettant aux utilisateurs d'ouvrir plusieurs pages web à la fois sans avoir besoin d'ouvrir plusieurs fenêtres.
 
 L'interface basée sur des onglets est également disponible sur mobile en appuyant sur le bouton de la liste des onglets. Nous espérons publier une API pour l'interface basée sur des onglets à l'avenir pour les applications web afin de leur permettre de tirer parti de ce paradigme : par exemple, l'application de gestion de fichiers que nous espérons publier bientôt bénéficiera d'une interface basée sur des onglets pour rendre la gestion des fichiers dans plusieurs dossiers est beaucoup plus facile à effectuer.
 
-## Navigation de sélecteur d'application basée sur les gestes sur mobile
-<!-- TODO: Add image -->
+## Navigation de sélecteur des applications basée sur les gestes sur mobile
+![Une capture d'écran démonstrative du sélecteur des applications sur la version mobile de LiveG OS. Les utilisateurs peuvent balayer vers le haut pour afficher la liste des applications et balayer horizontalement pour basculer rapidement entre les applications.](/media/blog/new-in-os-0-2-0/gesture-switcher.png)
 
 Sur mobile, l'expérience de changement d'application a été améliorée grâce à l'ajout de gestes de balayage pour passer rapidement d'une application à l'autre. Glisser vers le haut depuis le logo LiveG en bas révèle maintenant la liste des applications — tout comme ce qui se passe lorsque vous appuyez deux fois sur le logo. Glisser à gauche et à droite sur le logo basculera entre les applications répertoriées à côté de l'application actuellement affichée sans avoir besoin d'afficher la liste des applications, ce qui réduit le temps nécessaire pour basculer entre les applications.
 
 L'ajout de cette nouvelle méthode de navigation basée sur les gestes rapproche LiveG OS des expériences vues sur les autres principaux systèmes d'exploitation mobiles.
 
 ## Système de mise à jour
-<!-- TODO: Add image -->
+![Une capture d'écran de la page des mises à jour du système dans Paramètres, montrant un exemple de mise à jour.](/media/blog/new-in-os-0-2-0/update-system.png)
 
 LiveG OS dispose désormais d'un système de mise à jour, ce qui permet aux utilisateurs de télécharger et d'installer plus facilement de nouvelles mises à jour système à l'avenir lorsqu'elles seront disponibles. Les utilisateurs peuvent désormais mettre à jour le système via l'application Paramètres, où ils peuvent également configurer le circuit de mise à jour sous **options avancées**, leur permettant de profiter de fonctionnalités de pointe qui ne sont pas encore présentes dans les versions stables.
 
 Le système de mise à jour est conçu pour ne pas distraire ou perturber ses utilisateurs — les utilisateurs peuvent être assurés que leur système ne redémarrera pas à moins qu'ils ne le demandent, et les mises à jour ne sont pas imposées aux utilisateurs (bien qu'il soit fortement recommandé aux utilisateurs de mettre à jour lorsque cela est possible pour bénéficier des correctifs de sécurité). Le système est également conçu pour être robuste contre les arrêts inattendus du système tels que les pannes de courant avec un certain nombre de mécanismes de restauration mis en œuvre pour récupérer le système dans ces scénarios à la mise à jour précédente.
 
 ## Nouvelles options ajoutées à Paramètres
-<!-- TODO: Add image -->
+![Une capture d'écran des options de configuration de la disposition du clavier dans Paramètres sur le bureau. À droite, un LiveG Prism est affiché avec le clavier virtuel ouvert.](/media/blog/new-in-os-0-2-0/keyboard-layouts.png)
 
 Parallèlement au nouveau système de mise à jour, nous avons également ajouté quelques options supplémentaires à l'application Paramètres pour rendre LiveG OS plus utile.
 
@@ -72,7 +73,7 @@ Les dispositions de clavier fonctionnent également sur mobile, et nous espéron
 Un autre nouvel ajout aux paramètres est nos options d'interaction et de confidentialité. Ces options facilitent le choix de la façon dont LiveG OS interagira avec nos services en ligne, par exemple quand le système de mise à jour vérifiera les mises à jour. Vous pouvez choisir d'activer toutes les options, ce qui intègre bien LiveG OS à nos offres en ligne, ou si vous ne pensez pas avoir besoin de nos services en ligne, vous pouvez désactiver tous les options.
 
 ## Améliorations du LiveG OS Setup
-<!-- TODO: Add image -->
+![Une capture d'écran de LiveG OS Setup, montrant les options de partition de disque.](/media/blog/new-in-os-0-2-0/oobs.png)
 
 Et enfin, quelques améliorations ont été apportées au système de configuration prêt à l'emploi — ou OOBS, comme nous l'appelons — y compris un autre menu d'alimentation et un menu d'accessibilité pour activer les options d'accessibilité telles que Navigation par Interrupteur pendant que les utilisateurs configurent leur appareil, en plus d'une nouvelle étape de configuration pour configurer les options d'interaction et de confidentialité afin que vous puissiez facilement activer ou désactiver ces options avant d'utiliser le système.
 
