@@ -40,8 +40,7 @@ LiveG OS is available for download in English and French for the PinePhone and R
 Additional resources:
 
 * [_What's new in LiveG OS V0.2.0: multiplatform support and plenty more_](/blog/en/new-in-os-0-2-0) on the LiveG Blog
-
-<!-- TODO: Add YouTube link to LiveG Showcase episode -->
+* [_LiveG OS: now for the PinePhone and Raspberry Pi · LiveG Showcase Ep. 4_](https://youtu.be/wa5K0FJ_rKk) on YouTube
 
 ---
 
@@ -54,7 +53,7 @@ Founder and lead developer<br>
 For general enquiries, contact:
 
 **LiveG Technologies**<br>
-[hi@liveg.tech](mailto:james@liveg.tech)
+[hi@liveg.tech](mailto:hi@liveg.tech)
 
 ---
 

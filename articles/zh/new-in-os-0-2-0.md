@@ -10,10 +10,13 @@ publishedAt: 1691945111327
 
 我们最新一集的力格Showcase展示了这个新版本中包含的所有新功能，现已在YouTube上提供。在这篇文章中，我们将向您总结这些新功能。
 
-<!-- TODO: Add YouTube link -->
+<a href="https://youtu.be/wa5K0FJ_rKk" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+    <img src="/media/blog/new-in-os-0-2-0/showcase-video.png" translate="attributesOnly" tl:alt="videoAlt_youtube">
+    <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+</a>
 
 ## 多平台支持
-<!-- TODO: Add image -->
+![列出了现在支持的各种设备的图形。](/media/blog/new-in-os-0-2-0/platforms.svg)
 
 此版本的力格OS是第一个在树莓派上运行的版本。力格OS在树莓派4和计算模块4上运行得特别好，但它也可以在树莓派3上运行。该系统在派4上运行流畅，并且或多或少与传统x86-64上一样快台计算机，但在旧型号（例如派3）上运行时，您可能会遇到速度缓慢和功耗较高的情况。
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/en/atom.xml</id>
     <title>The LiveG Blog</title>
-    <updated>2023-08-23T16:51:56.072Z</updated>
+    <updated>2023-08-25T10:58:43.880Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>Keep up-to-date with the latest news and information from LiveG.</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
@@ -16,9 +16,12 @@
         <summary type="html"><![CDATA[A look at a number of new features that have been added to the latest Alpha release of LiveG OS, including support for the Raspberry Pi and PinePhone.]]></summary>
         <content type="html"><![CDATA[<p>After almost a full year of working on developing new features for LiveG OS, we're excited to announce the latest Alpha release of LiveG OS that is now available for a range of devices, including for the Raspberry Pi, the PinePhone, and both x86-64 and ARM64 computers. This new release realises our goal of making LiveG OS a truly multiplatform operating system, and one of only a few operating systems that can run on both desktop and mobile device form factors.</p>
 <p>Our latest episode of LiveG Showcase demonstrates all the new features included in this new release, which is now available on YouTube. In this post, we'll be giving you a summary of these new features.</p>
-<!-- TODO: Add YouTube link -->
+<p><a href="https://youtu.be/wa5K0FJ_rKk" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+    <img src="/media/blog/new-in-os-0-2-0/showcase-video.png" translate="attributesOnly" tl:alt="videoAlt_youtube">
+    <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+</a></p>
 <h2 id="multiplatformsupport">Multiplatform support</h2>
-<!-- TODO: Add image -->
+<p><img src="/media/blog/new-in-os-0-2-0/platforms.svg" alt="A graphic that lists the various devices that are now supported." /></p>
 <p>This release of LiveG OS is the first to run on the Raspberry Pi. LiveG OS runs particularly well on the Raspberry Pi 4 and the Compute Module 4, but it also runs on the Raspberry Pi 3. The system runs smoothly on the Pi 4 and is more-or-less as fast as it is on conventional x86-64 computers, but you may experience slowness and higher power consumption when running it on older models such as the Pi 3.</p>
 <p>In addition to the Raspberry Pi, LiveG OS now also runs on the PinePhone smartphone by PINE64. This makes LiveG OS officially available for mobile devices alongside the current option for running it on the desktop. LiveG OS won't run on the PinePhone Pro just yet — anyone who wishes to volunteer to bring LiveG OS to the PinePhone Pro should check out our <a href="https://github.com/LiveGTech/OS-Bootstrap">LiveG OS Bootstrap Toolchain repository on GitHub</a> and also <a href="https://discord.gg/pTYsJME9xH">join our Discord community</a>.</p>
 <p>You can try out this release of LiveG OS now for the Raspberry Pi and PinePhone — and even x86-64 and ARM64 computers — by <a href="/os/get">downloading an OS image for your platform from our website</a>. It's simple: after downloading the image, use a tool such as <a href="https://etcher.balena.io">balenaEtcher</a> or the <a href="https://www.raspberrypi.com/software">Raspberry Pi Imager</a> to flash the image onto an SD card, then boot it on your device and follow the setup instructions presented inside LiveG OS.</p>
@@ -94,8 +97,8 @@
 <p>Additional resources:</p>
 <ul>
 <li><a href="/blog/en/new-in-os-0-2-0"><em>What's new in LiveG OS V0.2.0: multiplatform support and plenty more</em></a> on the LiveG Blog</li>
+<li><a href="https://youtu.be/wa5K0FJ_rKk"><em>LiveG OS: now for the PinePhone and Raspberry Pi · LiveG Showcase Ep. 4</em></a> on YouTube</li>
 </ul>
-<!-- TODO: Add YouTube link to LiveG Showcase episode -->
 <hr />
 <p>For enquiries related to this press release, contact:</p>
 <p><strong>James Livesey</strong><br>

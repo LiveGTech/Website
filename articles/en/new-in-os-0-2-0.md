@@ -10,10 +10,13 @@ After almost a full year of working on developing new features for LiveG OS, we'
 
 Our latest episode of LiveG Showcase demonstrates all the new features included in this new release, which is now available on YouTube. In this post, we'll be giving you a summary of these new features.
 
-<!-- TODO: Add YouTube link -->
+<a href="https://youtu.be/wa5K0FJ_rKk" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+    <img src="/media/blog/new-in-os-0-2-0/showcase-video.png" translate="attributesOnly" tl:alt="videoAlt_youtube">
+    <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+</a>
 
 ## Multiplatform support
-<!-- TODO: Add image -->
+![A graphic that lists the various devices that are now supported.](/media/blog/new-in-os-0-2-0/platforms.svg)
 
 This release of LiveG OS is the first to run on the Raspberry Pi. LiveG OS runs particularly well on the Raspberry Pi 4 and the Compute Module 4, but it also runs on the Raspberry Pi 3. The system runs smoothly on the Pi 4 and is more-or-less as fast as it is on conventional x86-64 computers, but you may experience slowness and higher power consumption when running it on older models such as the Pi 3.
 

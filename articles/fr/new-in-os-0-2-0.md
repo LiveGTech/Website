@@ -10,10 +10,13 @@ Après presque une année complète de travail sur le développement de nouvelle
 
 Notre dernier épisode de LiveG Showcase présente toutes les nouvelles fonctionnalités incluses dans cette nouvelle version, désormais disponible sur YouTube. Dans cet article, nous vous ferons un résumé de ces nouvelles fonctionnalités.
 
-<!-- TODO: Add YouTube link -->
+<a href="https://youtu.be/wa5K0FJ_rKk" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+    <img src="/media/blog/new-in-os-0-2-0/showcase-video.png" translate="attributesOnly" tl:alt="videoAlt_youtube">
+    <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+</a>
 
 ## Prise en charge multiplateforme
-<!-- TODO: Add image -->
+![Un graphique qui répertorie les différents appareils désormais pris en charge.](/media/blog/new-in-os-0-2-0/platforms.svg)
 
 Cette version de LiveG OS est la première à fonctionner sur le Raspberry Pi. LiveG OS fonctionne particulièrement bien sur le Raspberry Pi 4 et le Compute Module 4, mais il fonctionne également sur le Raspberry Pi 3. Le système fonctionne sans problème sur le Pi 4 et est plus ou moins aussi rapide que sur les  ordinateurs x86-64 conventionnel, mais vous pouvez rencontrer une lenteur et une consommation d'énergie plus élevée lors de son exécution sur des modèles plus anciens tels que le Pi 3.
 
@@ -22,7 +25,6 @@ En plus du Raspberry Pi, LiveG OS fonctionne désormais également sur le smartp
 Vous pouvez essayer cette version de LiveG OS maintenant pour le Raspberry Pi et PinePhone — et même les ordinateurs x86-64 et ARM64 — en téléchargeant une image du système d'exploitation pour votre plate-forme à partir de notre site web. C'est simple : après avoir téléchargé l'image, utilisez un outil tel que balenaEtcher ou le Raspberry Pi Imager pour flasher l'image sur une carte SD, puis démarrez-la sur votre appareil et suivez les instructions de configuration présentées dans LiveG OS.
 
 ## Applications web installables
-<!-- TODO: Add image -->
 ![Une capture d'écran de Sphere avec l'option de menu 'installer l'application' ouverte. Sur le côté gauche, un LiveG Prism est affiché avec une application ajoutée à l'écran d'accueil.](/media/blog/new-in-os-0-2-0/install-app.png)
 
 Les applications web progressives — ou PWA — peuvent désormais être installées dans LiveG OS grâce à la nouvelle option permettant d'installer des sites web en tant qu'applications web dans notre navigateur web Sphere. Tout site web peut devenir une application dans LiveG OS, et le site web peut tirer parti de fonctionnalités supplémentaires telles que des icônes d'application masquables grâce à l'utilisation d'un [manifeste d'application web] (https://developer.mozilla.org/en-US/docs/Web/Manifest).
