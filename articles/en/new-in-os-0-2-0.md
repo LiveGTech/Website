@@ -59,7 +59,7 @@ The addition of this new gesture-based navigation method brings LiveG OS closer 
 
 LiveG OS now has an update system, making it easier for users to download and install new system updates in the future when they are made available. Users can now update the system through the Settings app, where they can also configure the update circuit under **advanced options**, allowing them to take advantage of cutting-edge features not yet present in stable releases.
 
-The update system is designed to not be distracting or disruptive to its users — users can be assured that their system will not restart unless they tell it to, and updates are not forced on users (though users are strongly recommeneded to update when possible to benefit from security patches). The system is also designed to be robust against unexpected system shutdowns such as power outages with a number of rollback mechanisms implemented to recover the system in these scenarios back to the previous update.
+The update system is designed to not be distracting or disruptive to its users — users can be assured that their system will not restart unless they tell it to, and updates are not forced on users (though users are strongly recommended to update when possible to benefit from security patches). The system is also designed to be robust against unexpected system shutdowns such as power outages with a number of rollback mechanisms implemented to recover the system in these scenarios back to the previous update.
 
 ## New options added to Settings
 ![A screenshot of the keyboard layout configuration options in Settings on desktop. To the right, a LiveG Prism is shown with the virtual keyboard open.](/media/blog/new-in-os-0-2-0/keyboard-layouts.png)

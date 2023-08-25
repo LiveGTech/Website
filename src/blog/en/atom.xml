@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/en/atom.xml</id>
     <title>The LiveG Blog</title>
-    <updated>2023-08-25T11:05:47.807Z</updated>
+    <updated>2023-08-25T11:06:47.744Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>Keep up-to-date with the latest news and information from LiveG.</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
@@ -45,7 +45,7 @@
 <h2 id="updatesystem">Update system</h2>
 <p><img src="/media/blog/new-in-os-0-2-0/update-system.png" alt="A screenshot of the system updates page in Settings, showing an example update." /></p>
 <p>LiveG OS now has an update system, making it easier for users to download and install new system updates in the future when they are made available. Users can now update the system through the Settings app, where they can also configure the update circuit under <strong>advanced options</strong>, allowing them to take advantage of cutting-edge features not yet present in stable releases.</p>
-<p>The update system is designed to not be distracting or disruptive to its users — users can be assured that their system will not restart unless they tell it to, and updates are not forced on users (though users are strongly recommeneded to update when possible to benefit from security patches). The system is also designed to be robust against unexpected system shutdowns such as power outages with a number of rollback mechanisms implemented to recover the system in these scenarios back to the previous update.</p>
+<p>The update system is designed to not be distracting or disruptive to its users — users can be assured that their system will not restart unless they tell it to, and updates are not forced on users (though users are strongly recommended to update when possible to benefit from security patches). The system is also designed to be robust against unexpected system shutdowns such as power outages with a number of rollback mechanisms implemented to recover the system in these scenarios back to the previous update.</p>
 <h2 id="newoptionsaddedtosettings">New options added to Settings</h2>
 <p><img src="/media/blog/new-in-os-0-2-0/keyboard-layouts.png" alt="A screenshot of the keyboard layout configuration options in Settings on desktop. To the right, a LiveG Prism is shown with the virtual keyboard open." /></p>
 <p>Alongside the new update system, we've also added a few additional options to the Settings app to make LiveG OS more useful.</p>
