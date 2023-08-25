@@ -45,7 +45,7 @@ Finally, there are options to lock, shut down or restart LiveG OS in the power m
 
 Browsing the web has become much easier in the Sphere web browser now thanks to the new, tab-based interface in Sphere. The tab-based interface work similarly to what is seen in other modern browsers, allowing users to have multiple webpages open at once without needing to open multiple windows.
 
-The tab-based interface is also available on mobile by pressing the tab list button. We hope to release an API for the tab-based interface in the future for web apps to allow them to take advantage of this paradigm: for example, the file manager app we hope to release soon would benefit from a tab-based interface to make file management across multiple folders much eaiser to perform.
+The tab-based interface is also available on mobile by pressing the tab list button. We hope to release an API for the tab-based interface in the future for web apps to allow them to take advantage of this paradigm: for example, the file manager app we hope to release soon would benefit from a tab-based interface to make file management across multiple folders much easier to perform.
 
 ## Gesture-based app switcher navigation on mobile
 ![A demonstrative screenshot of the app switcher on the mobile version of LiveG OS. Users can swipe up to view the app list, and swipe horizontally to quickly switch between apps.](/media/blog/new-in-os-0-2-0/gesture-switcher.png)
