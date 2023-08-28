@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/en/atom.xml</id>
     <title>The LiveG Blog</title>
-    <updated>2023-08-26T11:42:10.426Z</updated>
+    <updated>2023-08-28T13:32:18.501Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>Keep up-to-date with the latest news and information from LiveG.</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
@@ -96,7 +96,7 @@
 <hr />
 <p>Additional resources:</p>
 <ul>
-<li><a href="/media/blog/pr-multiplatform-os/presskit.zip" download="Press kit - LiveG OS.zip">Press kit (contains press release and images)</a></li>
+<li><a href="/media/blog/pr-multiplatform-os/presskit.zip" download="Press kit - LiveG OS.zip">Press kit (contains press release and images)</a> (.zip file)</li>
 <li><a href="/blog/en/new-in-os-0-2-0"><em>What's new in LiveG OS V0.2.0: multiplatform support and plenty more</em></a> on the LiveG Blog</li>
 <li><a href="https://youtu.be/wa5K0FJ_rKk"><em>LiveG OS: now for the PinePhone and Raspberry Pi · LiveG Showcase Ep. 4</em></a> on YouTube</li>
 </ul>
