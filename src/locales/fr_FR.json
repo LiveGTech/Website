@@ -179,6 +179,8 @@
         "os_get_title": "Obtenez LiveG OS maintenant",
         "os_get_description": "Les premières pré-releases de LiveG OS sont disponibles pour le téléchargement et l'installation. Essayez LiveG OS Alpha et devenez un adopteur précoce des premiers logiciels LiveG.",
 
+        "os_footnote_implementedFeatures": "Certaines fonctionnalités répertoriées sont des fonctionnalités planifiées et peuvent encore être en cours de développement. Il est prévu que toutes les fonctionnalités répertoriées soient implémentées dans la première version bêta ou la version principale.",
+
         "osGet_title": "Obtenez LiveG OS",
         "osGet_version": "Variante {version}",
 
