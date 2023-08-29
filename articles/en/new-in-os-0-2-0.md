@@ -3,7 +3,7 @@ title: What's new in LiveG OS V0.2.0&colon; multiplatform support and plenty mor
 description:
     A look at a number of new features that have been added to the latest Alpha release of LiveG OS, including support for the Raspberry Pi and PinePhone.
 author: james
-publishedAt: 1691945111327
+publishedAt: 1693303200944
 ---
 
 After almost a full year of working on developing new features for LiveG OS, we're excited to announce the latest Alpha release of LiveG OS that is now available for a range of devices, including for the Raspberry Pi, the PinePhone, and both x86-64 and ARM64 computers. This new release realises our goal of making LiveG OS a truly multiplatform operating system, and one of only a few operating systems that can run on both desktop and mobile device form factors.

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/fr/atom.xml</id>
     <title>Le Blog LiveG</title>
-    <updated>2023-08-28T13:33:27.176Z</updated>
+    <updated>2023-08-29T10:00:20.123Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>Tenez-vous au courant des dernières nouvelles et informations de LiveG.</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[Quoi de neuf dans LiveG OS V0.2.0 : prise en charge multiplateforme et bien plus encore]]></title>
         <id>https://liveg.tech/blog/fr/new-in-os-0-2-0</id>
         <link href="https://liveg.tech/blog/fr/new-in-os-0-2-0"/>
-        <updated>2023-08-13T16:45:11.327Z</updated>
+        <updated>2023-08-29T10:00:00.944Z</updated>
         <summary type="html"><![CDATA[Un aperçu d'un certain nombre de nouvelles fonctionnalités qui ont été ajoutées à la dernière version Alpha de LiveG OS, y compris la prise en charge du Raspberry Pi et du PinePhone.]]></summary>
         <content type="html"><![CDATA[<p>Après presque une année complète de travail sur le développement de nouvelles fonctionnalités pour LiveG OS, nous sommes ravis d'annoncer la dernière version Alpha de LiveG OS qui est maintenant disponible pour une gamme d'appareils, y compris pour le Raspberry Pi, le PinePhone et les deux ordinateurs x86-64 et ARM64. Cette nouvelle version réalise notre objectif de faire de LiveG OS un système d'exploitation véritablement multiplateforme et l'un des rares systèmes d'exploitation pouvant fonctionner à la fois sur les ordinateurs de bureau et sur les appareils mobiles.</p>
 <p>Notre dernier épisode de LiveG Showcase présente toutes les nouvelles fonctionnalités incluses dans cette nouvelle version, désormais disponible sur YouTube. Dans cet article, nous vous ferons un résumé de ces nouvelles fonctionnalités.</p>

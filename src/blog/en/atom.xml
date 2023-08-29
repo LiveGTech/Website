@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/en/atom.xml</id>
     <title>The LiveG Blog</title>
-    <updated>2023-08-28T13:33:27.085Z</updated>
+    <updated>2023-08-29T10:00:20.092Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>Keep up-to-date with the latest news and information from LiveG.</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[What's new in LiveG OS V0.2.0: multiplatform support and plenty more]]></title>
         <id>https://liveg.tech/blog/en/new-in-os-0-2-0</id>
         <link href="https://liveg.tech/blog/en/new-in-os-0-2-0"/>
-        <updated>2023-08-13T16:45:11.327Z</updated>
+        <updated>2023-08-29T10:00:00.944Z</updated>
         <summary type="html"><![CDATA[A look at a number of new features that have been added to the latest Alpha release of LiveG OS, including support for the Raspberry Pi and PinePhone.]]></summary>
         <content type="html"><![CDATA[<p>After almost a full year of working on developing new features for LiveG OS, we're excited to announce the latest Alpha release of LiveG OS that is now available for a range of devices, including for the Raspberry Pi, the PinePhone, and both x86-64 and ARM64 computers. This new release realises our goal of making LiveG OS a truly multiplatform operating system, and one of only a few operating systems that can run on both desktop and mobile device form factors.</p>
 <p>Our latest episode of LiveG Showcase demonstrates all the new features included in this new release, which is now available on YouTube. In this post, we'll be giving you a summary of these new features.</p>
@@ -76,7 +76,7 @@
         <title type="html"><![CDATA[Press release: LiveG Technologies announces pre-release of operating system for PinePhone, Raspberry Pi]]></title>
         <id>https://liveg.tech/blog/en/pr-multiplatform-os</id>
         <link href="https://liveg.tech/blog/en/pr-multiplatform-os"/>
-        <updated>2023-08-13T16:45:11.327Z</updated>
+        <updated>2023-08-29T10:00:00.944Z</updated>
         <summary type="html"><![CDATA[LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.]]></summary>
         <content type="html"><![CDATA[<p><strong>FOR IMMEDIATE RELEASE</strong></p>
 <p><strong>NORWICH, ENGLAND:</strong> LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.</p>

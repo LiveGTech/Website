@@ -2,7 +2,7 @@
 title: Press release&colon; LiveG Technologies announces pre-release of operating system for PinePhone, Raspberry Pi
 description:
     LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.
-publishedAt: 1691945111327
+publishedAt: 1693303200944
 ---
 
 **FOR IMMEDIATE RELEASE**

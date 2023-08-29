@@ -4,14 +4,14 @@
             "title": "What's new in LiveG OS V0.2.0&colon; multiplatform support and plenty more",
             "description": "A look at a number of new features that have been added to the latest Alpha release of LiveG OS, including support for the Raspberry Pi and PinePhone.",
             "author": "james",
-            "publishedAt": 1691945111327,
+            "publishedAt": 1693303200944,
             "language": "en",
             "url": "/blog/en/new-in-os-0-2-0"
         },
         {
             "title": "Press release&colon; LiveG Technologies announces pre-release of operating system for PinePhone, Raspberry Pi",
             "description": "LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.",
-            "publishedAt": 1691945111327,
+            "publishedAt": 1693303200944,
             "language": "en",
             "url": "/blog/en/pr-multiplatform-os"
         },
@@ -19,7 +19,7 @@
             "title": "Quoi de neuf dans LiveG OS V0.2.0&nbsp;&colon; prise en charge multiplateforme et bien plus encore",
             "description": "Un aperçu d'un certain nombre de nouvelles fonctionnalités qui ont été ajoutées à la dernière version Alpha de LiveG OS, y compris la prise en charge du Raspberry Pi et du PinePhone.",
             "author": "james",
-            "publishedAt": 1691945111327,
+            "publishedAt": 1693303200944,
             "language": "fr",
             "url": "/blog/fr/new-in-os-0-2-0"
         },
@@ -27,7 +27,7 @@
             "title": "力格OS V0.2.0的新增功能：多平台支持以及更多",
             "description": "了解力格OS最新Alpha版本中添加的许多新功能，包括对树莓派和PinePhone的支持。",
             "author": "james",
-            "publishedAt": 1691945111327,
+            "publishedAt": 1693303200944,
             "language": "zh",
             "url": "/blog/zh/new-in-os-0-2-0"
         },

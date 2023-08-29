@@ -3,7 +3,7 @@ title: Quoi de neuf dans LiveG OS V0.2.0 &colon; prise en charge multiplateform
 description:
     Un aperçu d'un certain nombre de nouvelles fonctionnalités qui ont été ajoutées à la dernière version Alpha de LiveG OS, y compris la prise en charge du Raspberry Pi et du PinePhone.
 author: james
-publishedAt: 1691945111327
+publishedAt: 1693303200944
 ---
 
 Après presque une année complète de travail sur le développement de nouvelles fonctionnalités pour LiveG OS, nous sommes ravis d'annoncer la dernière version Alpha de LiveG OS qui est maintenant disponible pour une gamme d'appareils, y compris pour le Raspberry Pi, le PinePhone et les deux ordinateurs x86-64 et ARM64. Cette nouvelle version réalise notre objectif de faire de LiveG OS un système d'exploitation véritablement multiplateforme et l'un des rares systèmes d'exploitation pouvant fonctionner à la fois sur les ordinateurs de bureau et sur les appareils mobiles.
