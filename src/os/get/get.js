@@ -101,7 +101,7 @@ website.waitForLoad().then(function() {
     $g.sel("#osGet_downloadConfirmButton").on("click", function() {
         var release = releaseData.releases[selectedReleaseIndex];
         var platform = release.platforms[selectedReleasePlatform];
-        var fileExtension = platform.url.split(".").slice(-1)[0];
+        var fileExtension = new URL(platform.url).pathname.split(".").slice(1).join(".");
         var filename = `${getLocalisedValue(release, "title")} ${release.version} (${selectedReleasePlatform}).${fileExtension}`;
 
         $g.sel("#osGet_downloadLink").setAttribute("href", platform.url);
