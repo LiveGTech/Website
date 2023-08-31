@@ -115,7 +115,8 @@ website.waitForLoad().then(function() {
             `&version=${encodeURIComponent(release.version)}` +
             `&vernum=${encodeURIComponent(release.vernum)}` +
             `&hostOs=${encodeURIComponent(common.PLATFORM)}` +
-            `&hostLocale=${encodeURIComponent(common.LOCALE_CODE)}`,
+            `&hostLocale=${encodeURIComponent(common.LOCALE_CODE)}` +
+            `&isTest=${common.IS_DUMMY ? "1" : "0"}`,
             {method: "POST"}
         ).then(function() {
             console.log("`os_downloadIm` event sent to LiveG Telemetrics");
