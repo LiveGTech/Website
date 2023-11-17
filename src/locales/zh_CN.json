@@ -205,6 +205,22 @@
         "developer_adaptui_description": "在力格，我们相信最好的用户界面和体验是构建高效工具的关键。适应用户界面是我们的用户界面工具包和设计语言，用于构建一致且吸引人的产品。",
         "developer_os_description": "力格OS为我们的硬件产品提供动力，是您在我们的设备上所做的一切的核心。它将我们的力格软件开放生态系统与我们构建的硬件的裸机集成在一起。",
 
+        "birthday": "生日",
+
+        "birthday_soon_bannerMessage": "距离力格的生日没多久了！11月30日与我们一起庆祝力格成立9周年。",
+
+        "birthday_soon_title": "为力格的9岁生日做好准备",
+        "birthday_soon_description": "11月30日与我们一起庆祝并回顾我们在过去一年所取得的进展。",
+
+        "birthday_viewLastYear_title": "查看去年的庆祝活动",
+        "birthday_viewLastYear_description": "在力格的8岁生日之际，我们回顾了力格自2014年成立以来的历史。",
+
+        "birthday_joinDiscord_title": "加入我们的Discord服务器",
+        "birthday_joinDiscord_description": "成为力格贡献者社区的一员，看看我们正在做什么来庆祝。",
+
+        "birthday_makeContribution_title": "为我们的项目做出贡献",
+        "birthday_makeContribution_description": "为什么不帮助我们，并将您对GitHub上的项目之一的贡献赠送给我们呢？",
+
         "birthday8": "8岁生日",
 
         "birthday8_bannerMessage": "我们今天庆祝八年的力格！加入我们的乐趣，回顾力格的历史。",
@@ -245,6 +261,10 @@
         "birthday8_today": "今天",
         "birthday8_today_1": "开始为PinePhone、Raspberry Pi等更多平台构建力格OS",
         "birthday8_today_2": "正在对力格OS的用户体验和可配置性做更多的工作，以便对未来的用户更有用",
+
+        "birthday9": "9岁生日",
+
+        "birthday9_bannerMessage": "今天我们庆祝力格成立9周年！让我们一起回顾力格过去的一年。我们甚至还有（软件）蛋糕！",
 
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
