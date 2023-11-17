@@ -8,6 +8,8 @@
         "genblog": "node scripts/genblog.js"
     },
     "dependencies": {
+        "feed": "^4.2.2",
+        "html-entities": "^2.4.0",
         "mkdirp": "^3.0.1",
         "showdown": "^2.1.0"
     }

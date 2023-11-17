@@ -101,7 +101,7 @@ website.waitForLoad().then(function() {
     $g.sel("#osGet_downloadConfirmButton").on("click", function() {
         var release = releaseData.releases[selectedReleaseIndex];
         var platform = release.platforms[selectedReleasePlatform];
-        var fileExtension = platform.url.split(".").slice(1);
+        var fileExtension = new URL(platform.url).pathname.split(".").slice(1).join(".");
         var filename = `${getLocalisedValue(release, "title")} ${release.version} (${selectedReleasePlatform}).${fileExtension}`;
 
         $g.sel("#osGet_downloadLink").setAttribute("href", platform.url);
@@ -115,7 +115,8 @@ website.waitForLoad().then(function() {
             `&version=${encodeURIComponent(release.version)}` +
             `&vernum=${encodeURIComponent(release.vernum)}` +
             `&hostOs=${encodeURIComponent(common.PLATFORM)}` +
-            `&hostLocale=${encodeURIComponent(common.LOCALE_CODE)}`,
+            `&hostLocale=${encodeURIComponent(common.LOCALE_CODE)}` +
+            `&isTest=${common.IS_DUMMY ? "1" : "0"}`,
             {method: "POST"}
         ).then(function() {
             console.log("`os_downloadIm` event sent to LiveG Telemetrics");

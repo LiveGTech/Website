@@ -179,6 +179,8 @@
         "os_get_title": "Get LiveG OS now",
         "os_get_description": "Early pre-releases of LiveG OS are available for downloading and installation. Try out LiveG OS Alpha and become an early supporter of LiveG software.",
 
+        "os_footnote_implementedFeatures": "Some features listed are planned features and may still be in-development. All features listed are expected to be implemented in the first Beta or main release build.",
+
         "osGet_title": "Get LiveG OS",
         "osGet_version": "Version {version}",
 
@@ -205,6 +207,22 @@
         "developer_astronaut_description": "Astronaut is our tool for building apps for the LiveG ecosystem with just a few lines of code. It enables all developers to create their own apps and services, whether they are beginners or advanced hackers.",
         "developer_adaptui_description": "At LiveG, we believe that the best user interfaces and experiences are key to building productive tools. Adapt UI is our UI toolkit and design language for building consistent and appealing products.",
         "developer_os_description": "Powering our hardware products, LiveG OS is at the core of everything you do on our devices. It integrates our open ecosystem of LiveG software with the bare metal of the hardware we build.",
+
+        "birthday": "Birthday",
+
+        "birthday_soon_bannerMessage": "Not long until LiveG's birthday! Join us on 30 November as we celebrate 9 years of LiveG.",
+
+        "birthday_soon_title": "Get ready for LiveG's 9th birthday",
+        "birthday_soon_description": "Join us on 30 November to celebrate and look back on the progress we've made in the past year.",
+
+        "birthday_viewLastYear_title": "View last year's celebrations",
+        "birthday_viewLastYear_description": "For LiveG's 8th birthday, we looked back on LiveG's history since its beginnings in 2014.",
+
+        "birthday_joinDiscord_title": "Join our Discord server",
+        "birthday_joinDiscord_description": "Be part of the LiveG Contributors Community and see what we're doing to celebrate.",
+
+        "birthday_makeContribution_title": "Contribute to our projects",
+        "birthday_makeContribution_description": "Why not help us out and gift us with your contribution to one of our projects on GitHub?",
 
         "birthday8": "8th Birthday",
 
@@ -246,6 +264,10 @@
         "birthday8_today": "Today",
         "birthday8_today_1": "Building LiveG OS for more platforms such as the PinePhone and Raspberry Pi started",
         "birthday8_today_2": "More work being done to UX and configurability of LiveG OS to be more useful to future users",
+
+        "birthday9": "9th Birthday",
+
+        "birthday9_bannerMessage": "We're celebrating 9 years of LiveG today! Join in as we look back on the past year of LiveG. We've even got (software) cake!",
 
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",

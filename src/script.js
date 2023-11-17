@@ -80,8 +80,10 @@ $g.waitForLoad().then(function() {
     });
 
     // Show LiveG Birthday celebrations
-    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2022) {
+    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2023) {
         $g.sel(".birthday").show();
+    } else if (Date.now() < new Date("2023-11-30T00:00:00.000Z").getTime()) {
+        $g.sel(".birthdaySoon").show();
     }
 
     loaded = true;
