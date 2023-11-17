@@ -208,6 +208,8 @@
 
         "birthday": "Anniversaire",
 
+        "birthday_soon_bannerMessage": "Pas longtemps avant l'anniversaire de LiveG ! Rejoignez-nous le 30 novembre pour célébrer les 9 ans de LiveG.",
+
         "birthday_soon_title": "Préparez-vous pour le 9e anniversaire de LiveG",
         "birthday_soon_description": "Rejoignez-nous le 30 novembre pour célébrer et revenir sur les progrès que nous avons réalisés au cours de l'année écoulée.",
 
@@ -260,6 +262,10 @@
         "birthday8_today": "Aujourd'hui",
         "birthday8_today_1": "La construction de LiveG OS pour plus de plates-formes telles que PinePhone et Raspberry Pi a commencé",
         "birthday8_today_2": "Plus de travail en cours sur l'UX et la configurabilité de LiveG OS pour être plus utile aux futurs utilisateurs",
+
+        "birthday9": "9ème Anniversaire",
+
+        "birthday9_bannerMessage": "Nous célébrons aujourd'hui les 9 ans de LiveG ! Rejoignez-nous pour revenir sur l'année écoulée de LiveG. Nous avons même du gâteau (logiciel) !",
 
         "legal_orgInfo": "Informations organisationnelles (impressum)",
         "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
