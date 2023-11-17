@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+-->
+<html>
+    <head>
+        <title translate aui-l10nstring="title" data-page="birthday">Birthday - LiveG Technologies</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="Join us for our annual celebration of LiveG's development over this past year, as well as highlights over the past eight years!">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="/logo.png">
+        <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
+        <link rel="stylesheet" href="/style.css">
+        <script type="module" src="/script.js?v=2"></script>
+    </head>
+    <body aui-mode="web" hidden>
+        <nav aui-template="/templates/nav/nav.html"></nav>
+        <main>
+            <img src="/media/birthday/cake.svg" alt="" class="birthdayCake">
+            <section aui-justify="middle">
+                <h2 translate>birthday_soon_title</h2>
+                <p translate>birthday_soon_description</p>
+            </section>
+            <section>
+                <aui-cards aui-mode="grid" class="cardGrid">
+                    <aui-card>
+                        <h3 translate><a href="/birthday/8">birthday_viewLastYear_title</a></h3>
+                        <p translate>birthday_viewLastYear_description</p>
+                    </aui-card>
+                    <aui-card>
+                        <h3 translate><a href="https://discord.gg/pTYsJME9xH" target="_blank">birthday_joinDiscord_title</a></h3>
+                        <p translate>birthday_joinDiscord_description</p>
+                    </aui-card>
+                    <aui-card>
+                        <h3 translate><a href="https://github.com/LiveGTech" target="_blank">birthday_makeContribution_title</a></h3>
+                        <p translate>birthday_makeContribution_description</p>
+                    </aui-card>
+                </aui-cards>
+            </section>
+        </main>
+        <footer aui-template="/templates/footer/footer.html"></footer>
+        <aui-menu aui-template="/templates/l10n/menu.html" class="l10n_menu"></aui-menu>
+    </body>
+</html>

@@ -206,6 +206,20 @@
         "developer_adaptui_description": "At LiveG, we believe that the best user interfaces and experiences are key to building productive tools. Adapt UI is our UI toolkit and design language for building consistent and appealing products.",
         "developer_os_description": "Powering our hardware products, LiveG OS is at the core of everything you do on our devices. It integrates our open ecosystem of LiveG software with the bare metal of the hardware we build.",
 
+        "birthday": "Birthday",
+
+        "birthday_soon_title": "Get ready for LiveG's 9th birthday",
+        "birthday_soon_description": "Join us on 30 November to celebrate and look back on the progress we've made in the past year.",
+
+        "birthday_viewLastYear_title": "View last year's celebrations",
+        "birthday_viewLastYear_description": "For LiveG's 8th birthday, we looked back on LiveG's history since its beginnings in 2014.",
+
+        "birthday_joinDiscord_title": "Join our Discord server",
+        "birthday_joinDiscord_description": "Be part of the LiveG Contributors Community and see what we're doing to celebrate.",
+
+        "birthday_makeContribution_title": "Contribute to our projects",
+        "birthday_makeContribution_description": "Why not help us out and gift us with your contribution to one of our projects on GitHub?",
+
         "birthday8": "8th Birthday",
 
         "birthday8_bannerMessage": "We're celebrating eight years of LiveG today! Join in on the fun as we look back on the history of LiveG.",
