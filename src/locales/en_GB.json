@@ -179,6 +179,8 @@
         "os_get_title": "Get LiveG OS now",
         "os_get_description": "Early pre-releases of LiveG OS are available for downloading and installation. Try out LiveG OS Alpha and become an early supporter of LiveG software.",
 
+        "os_footnote_implementedFeatures": "Some features listed are planned features and may still be in-development. All features listed are expected to be implemented in the first Beta or main release build.",
+
         "osGet_title": "Get LiveG OS",
         "osGet_version": "Version {version}",
 

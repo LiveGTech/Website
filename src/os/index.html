@@ -16,7 +16,7 @@
         <link rel="shortcut icon" href="/logo.png">
         <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
-        <script type="module" src="/script.js?v=2"></script>
+        <script type="module" src="/script.js?v=3"></script>
     </head>
     <body aui-mode="web" hidden>
         <nav aui-template="/templates/nav/os.html"></nav>
@@ -61,7 +61,7 @@
                 </div>
             </section>
             <section>
-                <h2 translate>os_more_title</h2>
+                <h2><span translate>os_more_title</span><sup>1</sup></h2>
                 <div aui-stack="horizontal" class="bigGap">
                     <div>
                         <h3 translate>os_straightforward_title</h3>
@@ -85,6 +85,9 @@
                 <h2 translate>os_get_title</h2>
                 <p translate>os_get_description</p>
                 <button onclick="window.location.href = '/os/get';" translate>download</button>
+            </section>
+            <section>
+                <p><sup>1</sup> <span translate>os_footnote_implementedFeatures</span></p>
             </section>
         </main>
         <footer aui-template="/templates/footer/footer.html"></footer>

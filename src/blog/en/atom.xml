@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://liveg.tech/blog/en/atom.xml</id>
+    <title>The LiveG Blog</title>
+    <updated>2023-08-29T10:00:20.092Z</updated>
+    <generator>https://github.com/LiveGTech/Website</generator>
+    <subtitle>Keep up-to-date with the latest news and information from LiveG.</subtitle>
+    <logo>https://liveg.tech/logo.png</logo>
+    <icon>https://liveg.tech/logo.png</icon>
+    <rights>Copyright © LiveG. All Rights Reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[What's new in LiveG OS V0.2.0: multiplatform support and plenty more]]></title>
+        <id>https://liveg.tech/blog/en/new-in-os-0-2-0</id>
+        <link href="https://liveg.tech/blog/en/new-in-os-0-2-0"/>
+        <updated>2023-08-29T10:00:00.944Z</updated>
+        <summary type="html"><![CDATA[A look at a number of new features that have been added to the latest Alpha release of LiveG OS, including support for the Raspberry Pi and PinePhone.]]></summary>
+        <content type="html"><![CDATA[<p>After almost a full year of working on developing new features for LiveG OS, we're excited to announce the latest Alpha release of LiveG OS that is now available for a range of devices, including for the Raspberry Pi, the PinePhone, and both x86-64 and ARM64 computers. This new release realises our goal of making LiveG OS a truly multiplatform operating system, and one of only a few operating systems that can run on both desktop and mobile device form factors.</p>
+<p>Our latest episode of LiveG Showcase demonstrates all the new features included in this new release, which is now available on YouTube. In this post, we'll be giving you a summary of these new features.</p>
+<p><a href="https://youtu.be/wa5K0FJ_rKk" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+    <img src="/media/blog/new-in-os-0-2-0/showcase-video.png" translate="attributesOnly" tl:alt="videoAlt_youtube">
+    <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+</a></p>
+<h2 id="multiplatformsupport">Multiplatform support</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/platforms.svg" alt="A graphic that lists the various devices that are now supported." /></p>
+<p>This release of LiveG OS is the first to run on the Raspberry Pi. LiveG OS runs particularly well on the Raspberry Pi 4 and the Compute Module 4, but it also runs on the Raspberry Pi 3. The system runs smoothly on the Pi 4 and is more-or-less as fast as it is on conventional x86-64 computers, but you may experience slowness and higher power consumption when running it on older models such as the Pi 3.</p>
+<p>In addition to the Raspberry Pi, LiveG OS now also runs on the PinePhone smartphone by PINE64. This makes LiveG OS officially available for mobile devices alongside the current option for running it on the desktop. LiveG OS won't run on the PinePhone Pro just yet — anyone who wishes to volunteer to bring LiveG OS to the PinePhone Pro should check out our <a href="https://github.com/LiveGTech/OS-Bootstrap">LiveG OS Bootstrap Toolchain repository on GitHub</a> and also <a href="https://discord.gg/pTYsJME9xH">join our Discord community</a>.</p>
+<p>You can try out this release of LiveG OS now for the Raspberry Pi and PinePhone — and even x86-64 and ARM64 computers — by <a href="/os/get">downloading an OS image for your platform from our website</a>. It's simple: after downloading the image, use a tool such as <a href="https://etcher.balena.io">balenaEtcher</a> or the <a href="https://www.raspberrypi.com/software">Raspberry Pi Imager</a> to flash the image onto an SD card, then boot it on your device and follow the setup instructions presented inside LiveG OS.</p>
+<h2 id="installablewebapps">Installable web apps</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/install-app.png" alt="A screenshot of Sphere with the 'install app' menu option open. To the left side, a LiveG Prism is shown with an app being added to the home screen." /></p>
+<p>Progressive web apps — or PWAs — can now be installed in LiveG OS thanks to the new option to install websites as web apps in our Sphere web browser. Any website can become an app in LiveG OS, and website can take advantage of extra features such as maskable app icons through the use of a <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest">web app manifest</a>.</p>
+<p>Web apps open up large opportunities that can allow LiveG OS to compete with today's major operating systems, as PWA technologies enable a large range of existing apps to be installed to LiveG OS, such as Mastodon, Twitter, YouTube — and even our own apps, like <a href="https://docs.liveg.tech">LiveG Docs</a>. The OS-independent compatibility that web apps have make PWA technologies an ideal platform for LiveG OS, and LiveG OS's own system apps — and even its desktop environment, <a href="https://github.com/LiveGTech/gShell">gShell</a> — are themselves made using web technologies.</p>
+<h2 id="appmenusearchpowerandappsortingoptions">App menu search, power and app sorting options</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/app-menu.png" alt="A screenshot of the app menu on the desktop version of LiveG OS. The term 'network' is being searched in the search bar, with suggestions for apps being shown below." /></p>
+<p>Apps that are installed now show up in the app menu in LiveG OS. The app menu now also includes a number of useful features that make searching for apps easier. You can now sort apps alphabetically by choosing the <strong>alphabetical view</strong> option, or you can search for apps by using the search bar.</p>
+<p>App shortcuts also appear when using the search bar, making it easy to access certain features of apps. For example, you can search for network options in Settings by typing 'network' into the search bar.</p>
+<p>Finally, there are options to lock, shut down or restart LiveG OS in the power menu. This removes the need for the LiveG OS Debug Environment to shut down the system, which has now itself been removed in this release.</p>
+<h2 id="tabbasedinterfaceinsphere">Tab-based interface in Sphere</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/sphere-tabs.png" alt="A screenshot of Sphere's tab-based interface on both desktop and mobile." /></p>
+<p>Browsing the web has become much easier in the Sphere web browser now thanks to the new, tab-based interface in Sphere. The tab-based interface work similarly to what is seen in other modern browsers, allowing users to have multiple webpages open at once without needing to open multiple windows.</p>
+<p>The tab-based interface is also available on mobile by pressing the tab list button. We hope to release an API for the tab-based interface in the future for web apps to allow them to take advantage of this paradigm: for example, the file manager app we hope to release soon would benefit from a tab-based interface to make file management across multiple folders much easier to perform.</p>
+<h2 id="gesturebasedappswitchernavigationonmobile">Gesture-based app switcher navigation on mobile</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/gesture-switcher.png" alt="A demonstrative screenshot of the app switcher on the mobile version of LiveG OS. Users can swipe up to view the app list, and swipe horizontally to quickly switch between apps." /></p>
+<p>On mobile, the app switching experience has been improved through the addition of swipe gestures to quickly jump between apps. Swiping up from the LiveG logo at the bottom now reveals the app list — just like what happens when you double-tap the logo. Swiping left and right on the logo will switch between apps listed adjacently to the current-viewed app without needing to show the app list, reducing the time it takes to switch between apps.</p>
+<p>The addition of this new gesture-based navigation method brings LiveG OS closer to the experiences seen on other major mobile operating systems.</p>
+<h2 id="updatesystem">Update system</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/update-system.png" alt="A screenshot of the system updates page in Settings, showing an example update." /></p>
+<p>LiveG OS now has an update system, making it easier for users to download and install new system updates in the future when they are made available. Users can now update the system through the Settings app, where they can also configure the update circuit under <strong>advanced options</strong>, allowing them to take advantage of cutting-edge features not yet present in stable releases.</p>
+<p>The update system is designed to not be distracting or disruptive to its users — users can be assured that their system will not restart unless they tell it to, and updates are not forced on users (though users are strongly recommended to update when possible to benefit from security patches). The system is also designed to be robust against unexpected system shutdowns such as power outages with a number of rollback mechanisms implemented to recover the system in these scenarios back to the previous update.</p>
+<h2 id="newoptionsaddedtosettings">New options added to Settings</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/keyboard-layouts.png" alt="A screenshot of the keyboard layout configuration options in Settings on desktop. To the right, a LiveG Prism is shown with the virtual keyboard open." /></p>
+<p>Alongside the new update system, we've also added a few additional options to the Settings app to make LiveG OS more useful.</p>
+<p>Users can now configure their Wi-Fi networks and supply authentication options for them, such as Wi-Fi passwords. LiveG OS allows authentication for a range of security standards, including WEP, WPA, WPA2, and the enterprise standards, otherwise known as 802.1x.</p>
+<p>There are also new options to configure the keyboard layout for LiveG OS. This is particularly useful as LiveG OS can already be used in the French language, and so we've needed a way for users to switch to the French AZERTY layout and not just British QWERTY. We've also included support for the US QWERTY layout, as well as Chinese pinyin text entry, which uses the Input Method Editor to provide text suggestions.</p>
+<p>Keyboard layouts also work on mobile, and we hope to soon have a way of quickly switching between layouts without having to go into Settings.</p>
+<p>Another new addition to Settings is our interaction and privacy options. These options make it easier to choose how LiveG OS will interact with our online services, such as when the update system will check for updates. You can choose to enable all the options, which integrates LiveG OS nicely with our online offerings, or if you don't feel you need our online services, then you can switch the options off.</p>
+<h2 id="livegossetupimprovements">LiveG OS Setup improvements</h2>
+<p><img src="/media/blog/new-in-os-0-2-0/oobs.png" alt="A screenshot of LiveG OS Setup, showing the disk partition options." /></p>
+<p>And finally, there have been a few improvements to the out-of-box setup system — or OOBS, as we call it — including another power menu and an accessibility menu for enabling accessibility options such as Switch Navigation while users are setting up their device, in addition to a new setup step for configuring interaction and privacy options so that you can easily turn on or off these options before you use the system.</p>
+<p>Additionally, there are now animated graphics included in the OOBS steps that make setting up LiveG OS just a bit more interesting and visually appealing.</p>
+<hr />
+<h2 id="futureplans">Future plans</h2>
+<p>So that's a run-down of the new features that have been included in LiveG OS — no wonder it's been a while since our last release. However, we recognise that there is still a lot to be done to LiveG OS before it becomes daily-drivable.</p>
+<p>Our main focus for developing the next update will be to build some new system apps, such as a calculator; a file manager; apps with cellular features such as SMS texting and phone calling; and a few other useful tools that will bring LiveG OS in-line with other systems functionality-wise.</p>
+<p>It's also worth noting some of our 'side projects' that we've been working on for LiveG OS, and we're excited to be integrating them fully into the system soon: these are the <a href="https://github.com/LiveGTech/Typeset-Engine">Typeset Engine</a> code editor that we hope to integrate into an IDE; <a href="https://search.liveg.tech">LiveG Search</a> that will soon be getting a new crawling and indexing system; and <a href="https://github.com/LiveGTech/Formulaic">Formulaic</a>, our expression evaluation engine that we hope to implement into a system calculator app.</p>
+<p>It's a bit early to say this just now, but we're thinking about also integrating Linux apps into LiveG OS, so you can easily use your favourite Linux applications right in gShell, much like you can do on ChromeOS. I know that once this feature has been implemented, I'd definitely install LiveG OS onto my next laptop and use it for everything! We might not see this for version 0.3.0, but it's certainly on our radar.</p>
+<hr />
+<p>So, that's a look at some of the new features in the latest Alpha release of LiveG OS. You can <a href="/os/get">download LiveG OS</a> now, which is available in English and French for a variety of platforms.</p>
+<p>You can support us financially by <a href="https://opencollective.com/liveg">donating to our Open Collective</a>, where we use the donations we get to advance our projects. You can also support us by joining our <a href="https://discord.gg/pTYsJME9xH">Discord community</a> where you can help us with the development of our projects.</p>
+<p>Follow us on <a href="https://mastodon.social/@liveg">Mastodon</a> and <a href="https://twitter.com/LiveGTech">Twitter</a> to keep in the loop with the latest updates to all our projects, and subscribe to <a href="https://youtube.com/@liveg">our YouTube channel</a> where you can find videos on various aspects of LiveG, including release announcements and development guides.</p>]]></content>
+        <author>
+            <name>james</name>
+            <uri>https://liveg.tech/blog/?byAuthor=james</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Press release: LiveG Technologies announces pre-release of operating system for PinePhone, Raspberry Pi]]></title>
+        <id>https://liveg.tech/blog/en/pr-multiplatform-os</id>
+        <link href="https://liveg.tech/blog/en/pr-multiplatform-os"/>
+        <updated>2023-08-29T10:00:00.944Z</updated>
+        <summary type="html"><![CDATA[LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.]]></summary>
+        <content type="html"><![CDATA[<p><strong>FOR IMMEDIATE RELEASE</strong></p>
+<p><strong>NORWICH, ENGLAND:</strong> LiveG Technologies today announces the first Alpha pre-release of its in-development operating system, LiveG OS, for PinePhone and Raspberry Pi devices.</p>
+<p>This new release — version 0.2.0 Alpha — makes LiveG OS one of only a few existing operating systems that can run on both desktop and mobile devices, providing a consistent user interface across multiple device form factors.</p>
+<p>Founder and lead developer of LiveG, James Livesey, said: "this new release marks a significant milestone in the development of our operating system, and we're looking forward to seeing users try out LiveG OS for themselves on their own devices.</p>
+<p>"It's been over a year and a half since we started development on LiveG OS, back when we built the first prototype of our open-source smartphone, the LiveG Prism. We're proud of the progress that we have already made — day by day, LiveG OS is getting closer to what we envision as a powerful, modern operating system.</p>
+<p>"Our mission at LiveG is to create technology for everyone. That means building software that's freely available, open-source, intuitive to users of all abilities, available in many languages, and fully accessible to users with additional needs and preferences. As an important product in our emerging ecosystem, LiveG OS is already helping us to reach this mission."</p>
+<p>An important aspect of LiveG OS is its new ability to install progressive web apps (PWAs). PWAs behave just like typical apps installed from app stores on other operating systems, but with the advantage that they run on multiple existing operating systems as well as on LiveG OS. This opens up LiveG OS to thousands of existing web apps, allowing LiveG OS to compete with today's established operating systems in ways that would not be possible without PWA support. </p>
+<p>LiveG OS also comes with a number of new features that bring the system closer to competing operating systems, including search options in the app menu; a tab-based interface in the integrated Sphere web browser; a new, gesture-based app switching system on mobile devices; and an over-the-air update system available in the Settings app.</p>
+<p>When asked about LiveG's commitment to protecting its users and their devices against future software vulnerabilities, LiveG's cybersecurity lead, tramcrazy, said that "security has always been at the forefront of all our development here at LiveG, and the new update system reinforces this commitment to keeping users safe and ensuring data integrity.</p>
+<p>"The cryptographically signed update packages and innovative update functionality, along with an easy rollback system, ensure that users have a smooth, safe and genuinely pleasant update experience.</p>
+<p>"Alongside this, the update system allows for easy delivery of patches as soon as they become available, which means that LiveG OS users are always protected from emerging threats."</p>
+<p>Livesey notes that "LiveG OS is far from being usable" as a daily-drivable operating system. "However", he adds, "we've got many plans for our next release of LiveG OS, and even more for future releases. We hope to build a few system apps for our next release, including a file manager app and a few apps with cellular features for mobile devices, which would greatly improve the usability of the operating system".</p>
+<p>Livesey even hints about plans to integrate Linux app support into LiveG OS. He says, "LiveG OS is itself a Linux-based operating system, but with a few architectual differences that better suit it for web apps. That being said, we'd like to add the necessary support to allow XWindows-based Linux apps to run in our gShell desktop environment. We might not see this for version 0.3.0, but it's certainly on our radar".</p>
+<p>LiveG OS is available for download in English and French for the PinePhone and Raspberry Pi, in addition to x86-64 and ARM64 computers, at <a href="/os">liveg.tech/os</a>.</p>
+<p><strong>ENDS</strong></p>
+<hr />
+<p>Additional resources:</p>
+<ul>
+<li><a href="/media/blog/pr-multiplatform-os/presskit.zip" download="Press kit - LiveG OS multiplatform support.zip">Press kit (contains press release and images)</a> (.zip file)</li>
+<li><a href="/blog/en/new-in-os-0-2-0"><em>What's new in LiveG OS V0.2.0: multiplatform support and plenty more</em></a> on the LiveG Blog</li>
+<li><a href="https://youtu.be/wa5K0FJ_rKk"><em>LiveG OS: now for the PinePhone and Raspberry Pi · LiveG Showcase Ep. 4</em></a> on YouTube</li>
+</ul>
+<hr />
+<p>For enquiries related to this press release, contact:</p>
+<p><strong>James Livesey</strong><br>
+Founder and lead developer<br>
+<a href="mailto:james@liveg.tech">james@liveg.tech</a></p>
+<p>For general enquiries, contact:</p>
+<p><strong>LiveG Technologies</strong><br>
+<a href="mailto:hi@liveg.tech">hi@liveg.tech</a></p>
+<hr />
+<p>Follow LiveG Technologies on social media:</p>
+<ul>
+<li><strong>Mastodon:</strong> <a href="https://mastodon.social/@liveg">@liveg@mastodon.social</a></li>
+<li><strong>Twitter:</strong> <a href="https://twitter.com/LiveGTech">@LiveGTech</a></li>
+<li><strong>YouTube:</strong> <a href="https://youtube.com/@liveg">@LiveG</a></li>
+<li><strong>GitHub:</strong> <a href="https://github.com/LiveGTech">@LiveGTech</a></li>
+<li><strong>DEV Community:</strong> <a href="https://dev.to/liveg">@LiveG</a></li>
+<li><strong>Instagram:</strong> <a href="https://instagram.com/livegtech">@livegtech</a></li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Project Prism: architecture overview]]></title>
+        <id>https://liveg.tech/blog/en/prism-architecture-overview</id>
+        <link href="https://liveg.tech/blog/en/prism-architecture-overview"/>
+        <updated>2022-04-08T15:42:08.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this week, our CEO James wrote about our ambitious plans to build a truly open smartphone.]]></summary>
+        <content type="html"><![CDATA[<p>Earlier this week, our CEO James wrote about our ambitious plans to build a truly open smartphone - based on web technologies. This is the first in a series of posts about the project, where we'll be covering our progress on different sections of this complex project. If you haven't read that first post, you should do so now - then you'll have a better understanding of our project. <a href="/blog/en/prism-building-open-smartphone">Read the post here</a></p>
+<p>Before we get started… Hi! My name is tramcrazy, and I am CISO at LiveG. That means that I oversee all our cybersecurity systems and check code for issues. I also work on documentation.</p>
+<p>At the foundation of gShell (the software running on the Prism) is Linux. We love Linux's open-source nature and the huge community that has grown around it in the last 30 years. It was the sensible choice for Prism. The specific version of Linux running on Prism is Mobian (<a href="https://mobian-project.org">mobian-project.org</a>), which is a version of Debian designed for mobile phones. The underlying OS of Mobian could change in the future, because gShell runs in Electron which works on all operating systems.</p>
+<p>Above Mobian is the X11 window system. This is the graphical user interface (GUI) of choice on Prism, and provides the desktop environment needed for gShell to function.</p>
+<p>Above Mobian and X11, we have gShell itself. This runs in an Electron runtime which uses HTML, CSS and JS to provide a full mobile experience, along with NodeJS for the backend.</p>
+<p>This is the full hierarchy of the Prism phone's OS, with extra explanation where needed:</p>
+<pre><code>Linux Kernel
+ L X11 Xsession
+   L gShell (Electron runtime)
+     L OOBS (Out-of-box setup) - a first-time setup menu like the ones you might be familiar with on iOS or Android.
+       L Basic power menu - a simple power menu providing options to shutdown or reboot.
+     L Lock screen - a screen showing the current time, the user's background, and notifications. It also checks the password and switches to the user environment.
+       L Notifications - a standard notifications drawer with various messages, some with actions to be performed inside the user environment.
+       L Incoming call screen - this pops up when somebody is calling you, and handles the UI during the call.
+       L Basic power menu
+     L User environment - the environment used by the user once they have unlocked their phone. This lets the user open apps and perform other functions.
+       L User-specific power menu - this is based on the basic power menu, but it includes time-critical functions like showing a bus pass or paying for an item.
+       L Home screen - this screen lets the user launch apps, and its appearance can be customised.
+       L Notifications
+       L Incoming call screen
+       L App switcher - this lets the user switch between running apps, and it contains the running apps inside webview tags.
+         L Running privileged system apps - these are special apps which do not run inside webviews and have full access to the system, including managing system settings and displaying child webpages with no restrictions.
+           L (example) Settings
+           L (example) Sphere browser
+         L Running unprivileged apps - these are standard apps, running inside webview tags, and they use an API to request permissions from the user. Often, these are third-party apps.
+           L (example) Calculator
+           L (example) Notes
+</code></pre>
+<p>As you can see, the architecture of gShell is complex and uses multiple layers. If you have any questions, leave them in the comments. You could also check out our gShell repository <a href="https://github.com/LiveGTech/gShell">on GitHub</a>.</p>
+<hr />
+<p><em>This article was originally posted on the <a href="https://dev.to/liveg/project-prism-architecture-overview-278g">DEV Community</a>.</em></p>]]></content>
+        <author>
+            <name>tramcrazy</name>
+            <uri>https://liveg.tech/blog/?byAuthor=tramcrazy</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Project Prism: on the road to building an open smartphone]]></title>
+        <id>https://liveg.tech/blog/en/prism-building-open-smartphone</id>
+        <link href="https://liveg.tech/blog/en/prism-building-open-smartphone"/>
+        <updated>2022-04-06T10:35:44.000Z</updated>
+        <summary type="html"><![CDATA[That's right ⁠— we're on an ambitious plan to build an open smartphone that puts Progressive Web Apps (PWAs) at the core of our ecosystem.]]></summary>
+        <content type="html"><![CDATA[<p>That's right ⁠— we're on an ambitious plan to build an open smartphone that puts Progressive Web Apps (PWAs) at the core of our ecosystem. Check out our video for an in-depth review of our project so far:</p>
+<p><a href="https://youtu.be/pmOR2J9fDZM" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+    <img src="/media/blog/prism-building-open-smartphone/prism-showcase-video.jpg" translate="attributesOnly" tl:alt="videoAlt_youtube">
+    <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+</a></p>
+<h2 id="howareyoumakingthis">How are you making this?</h2>
+<p>Currently, the Prism is based on the PinePhone, with a few modifications to the hardware (the back shell is one of the main customisations to the phone, allowing you to see inside), in addition to the software (using our own Linux-based mobile operating system).</p>
+<p>We 3D-printed the back case, which admittedly took quite a few attempts; but the end result is awesome!</p>
+<div>
+    <aui-card class="article_socialEmbed">
+        <h3>@jthecoder on Twitter</h3>
+        <p>
+            New #PinePhone shell finished! It only took 4 attempts...<br>
+            <br>
+            Really pleased with the result, though!
+        </p>
+        <div class="article_socialEmbed_media">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-1.jpg" alt="A view of the new back shell on a PinePhone, featuring a translucent, light plastic that lets you see the circuitry inside, and the blue-and-yellow LiveG logo.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-2.jpg" alt="A view of the same shell, at an angle to show the USB-C charging port.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-3.jpg" alt="A side view of the PinePhone shell, showing the yellow power button and blue volume buttons.">
+            <img src="/media/blog/prism-building-open-smartphone/prism-tweet-4.jpg" alt="A top-down view of the back shell of the PinePhone.">
+        </div>
+        <p>13 February 2022 · <a href="https://twitter.com/jthecoder/status/1492914671569063949" target="_blank" aui-mode="cardLink">View on Twitter</a></p>
+    </aui-card>
+</div>
+<p>The main interface uses our own user environment, called <a href="https://github.com/LiveGTech/gShell">gShell</a>. It uses <a href="https://github.com/LiveGTech/Adapt-UI">Adapt UI</a> (<a href="https://livegtech.github.io/Adapt-UI/demos/all/">web demo</a>), which is the user interface design language and framework which we developed in-house over the course of a few months.</p>
+<p>gShell itself is essentially just a really complex single-page website, all running locally inside an Electron process. This not only simplifies development and allows us to quickly prototype designs, but it also provides good support for animations and all of the polish that you'd expect on the modern smartphones of today.</p>
+<p>I took a few photos and posted them on Twitter to show you what gShell looks like in real life:</p>
+<div>
+    <aui-card class="article_socialEmbed">
+        <h3>@jthecoder on Twitter</h3>
+        <p>
+            #LiveGOS runs really well on it! Nice and responsive, even for a non-Pro PinePhone<br>
+            <br>
+            (<a href="https://github.com/LiveGTech/gShell" target="_blank">https://github.com/LiveGTech/gShell</a>)
+        </p>
+        <div class="article_socialEmbed_media">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-1.jpg" alt="LiveG OS's gShell running on the PinePhone, showing the app switcher with the Adapt UI demo app open." class="article_socialEmbed_spanRows">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-2.jpg" alt="A top-down view of gShell on the PinePhone showing the LiveG OS Debug Environment screen.">
+            <img src="/media/blog/prism-building-open-smartphone/gshell-tweet-3.jpg" alt="A side angle view of the PinePhone, showing gShell's lock screen.">
+        </div>
+        <p>13 February 2022 · <a href="https://twitter.com/jthecoder/status/1492916198442422276 " target="_blank" aui-mode="cardLink">View on Twitter</a></p>
+    </aui-card>
+</div>
+<p>Of course, being Electron, it is possible to run gShell in its simulator mode on a desktop. This makes prototyping iterations of gShell and its associated apps much easier, and as a result, much faster; simply because it's more convenient to launch gShell on a development machine than it is to update the actual Prism itself to perform a very short test.</p>
+<p><img src="/media/blog/prism-building-open-smartphone/gshell-simulator.png" alt="A screenshot of the gShell simulator in a desktop environment" /></p>
+<h2 id="accessibility">Accessibility</h2>
+<p>As with the physical world, accessibility is also extremely important in the digital world, too. Ensuring that both software and hardware is usable by everyone is a key aspect of developing successful products, and failing to do so can cause users to be excluded from being able to effectively operate your platform.</p>
+<p>It's no wonder that we have baked accessibility support right into the Prism from the very start of our project: we've been ensuring that our product will be accessible for future assistive technologies that we will later build into gShell. However, it's not just ensuring compatibility that's important: we've also added some accessibility features into the phone from early on in order to ensure that the whole user interface is usable in its current state.</p>
+<p>We've built in an often-overlooked assistive technology that often gets neglected in upcoming operating systems: Switch Navigation. It essentially allows the user to control their whole device using just at least one button, known as a switch. A demonstration of it is available at <a href="https://youtu.be/pmOR2J9fDZM?t=909">15:09</a> in our video.</p>
+<p>Here's a photo of what one of the features of Switch Navigation looks like:</p>
+<p><img src="/media/blog/prism-building-open-smartphone/prism-switch-nav-a11y.png" alt="Switch Navigation in use on the Prism" /></p>
+<p>The implementation of Switch Navigation in gShell has been inspired by quadriplegic YouTuber <a href="https://www.youtube.com/user/icdhills">Christopher Hills</a>, who makes extensive use of iOS's <a href="https://support.apple.com/en-gb/HT201370">Switch Control</a> feature daily. Switch Control in iOS provides very similar functionality to our Switch Navigation. Christopher's videos have been monumental at raising awareness of this versatile assistive technology, which has enabled him to pilot drones, edit and produce production-quality videos, and more. His videos have given us a great insight into the daily uses of Switch Control, which we hope to integrate into Switch Navigation.</p>
+<h2 id="localisation">Localisation</h2>
+<p>Localisation is also an important part of platform development, since it allows users who speak languages other than English to use our products, and truly make our products globally usable. Our main methods of localisation are through the Adapt UI framework, which provides the localisation infrastructure needed to translate our apps and make them available in different locales.</p>
+<p>Adapt UI also ensures that apps and systems are laid out according to the rules of selected languages — in Arabic, for example, text is written from right to left, and so we need to factor this into our layout when Arabic is selected:</p>
+<p><img src="/media/blog/prism-building-open-smartphone/aui-l10n-arabic.png" alt="Switch Navigation in use on the Prism" /></p>
+<p>Feel free to <a href="https://livegtech.github.io/Adapt-UI/demos/l10n/">play around with our localisation demo</a> and see how the layout changes depending on the language chosen!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This is a brief overview of Project Prism so far. I go much more in-depth in the video at the start of this post, so be sure to check it out!</p>
+<p>If you'd like, come and visit our <a href="https://github.com/LiveGTech">GitHub organisation</a> to see our various ongoing projects with regards to the Prism. Why not star a few of our repos you find interesting — or, if you're keen — contribute to our projects? Your contributions are welcome; even if they are simple bug reports or documentation enhancements!</p>
+<p>That's about it — thanks for reading about LiveG Project Prism!</p>
+<hr />
+<p><em>This article was originally posted on the <a href="https://dev.to/liveg/project-prism-on-the-road-to-building-an-open-smartphone-50lg">DEV Community</a>.</em></p>]]></content>
+        <author>
+            <name>james</name>
+            <uri>https://liveg.tech/blog/?byAuthor=james</uri>
+        </author>
+    </entry>
+</feed>
