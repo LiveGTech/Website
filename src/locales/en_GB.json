@@ -267,6 +267,66 @@
 
         "birthday9_bannerMessage": "We're celebrating 9 years of LiveG today! Join in as we look back on the past year of LiveG. We've even got (software) cake!",
 
+        "birthday9_4december_title": "4 December",
+        "birthday9_4december_description": "Buttons are added to LiveG OS's app menu in preparation for app sorting and searching features",
+
+        "birthday9_17december_title": "17 December",
+        "birthday9_17december_description": "More features added for Wi-Fi options in LiveG OS's Settings app to allow users to manage Wi-Fi networks",
+
+        "birthday9_22december_title": "22 December",
+        "birthday9_22december_description": "With LiveG OS becoming more feature-complete, plans are made to remove its Debug Environment",
+
+        "birthday9_7january_title": "7 January",
+        "birthday9_7january_description": "Sphere gets an option to install websites as apps in LiveG OS, allowing users to choose which apps they want to install",
+
+        "birthday9_16january_title": "16 January",
+        "birthday9_16january_description": "LiveG OS's out-of-box setup (OOBS) system gains more useful features, such as poewr and accessibility menus",
+
+        "birthday9_26january_title": "26 January",
+        "birthday9_26january_description": "Basic support for running LiveG OS on computers with ARM64 processors is added",
+
+        "birthday9_5february_title": "5 February",
+        "birthday9_5february_description": "App sorting and search featuers are implemented in LiveG OS's app menu, making it easier to find installed apps",
+
+        "birthday9_12february_title": "12 February",
+        "birthday9_12february_description": "Options added to LiveG OS's Settings app to allow users to enable Chinese pinyin text entry",
+
+        "birthday9_18february_title": "18 February",
+        "birthday9_18february_description": "Gesture-based navigation for the app switcher added to LiveG OS for mobile devices",
+
+        "birthday9_30march_title": "30 March",
+        "birthday9_30march_description": "Work begins to implement LiveG OS's update system, allowing users to update their devices to the latest system release",
+
+        "birthday9_15april_title": "15 April",
+        "birthday9_15april_description": "Many core features are implemented for the update system project, including the addition of interaction and privacy options",
+
+        "birthday9_28may_title": "28 May",
+        "birthday9_28may_description": "The US QWERTY keyboard layout is added to LiveG OS, improving usability for users from the United States",
+
+        "birthday9_21june_title": "21 June",
+        "birthday9_21june_description": "Comprehensive system event logging is added to LiveG OS, making the system more suitable for devices managed by schools and organisations",
+
+        "birthday9_27july_title": "27 July",
+        "birthday9_27july_description": "Development begins for LiveG OS Nano — an operating system designed for low-powered devices, such as smartwatches",
+
+        "birthday9_3august_title": "3 August",
+        "birthday9_3august_description": "LiveG OS Nano begins to support apps written in JavaScript, demonstrating the viability of the system on embedded hardware",
+
+        "birthday9_26august_title": "26 August",
+        "birthday9_26august_description": "The Calculator app is added to LiveG OS as a system app, primarily to explore how future apps (such as a file manager) could be implemented",
+
+        "birthday9_5september_title": "5 September",
+        "birthday9_5september_description": "Work begins to implement Linux app integration into LiveG OS, with a new Terminal system app added",
+
+        "birthday9_23october_title": "23 October",
+        "birthday9_23october_description": "The development of LiveG OS Nano continues at a good pace, with underlying support added for its upcoming Astronaut Nano framework",
+
+        "birthday9_27october_title": "27 October",
+        "birthday9_27october_description": "Support for running graphical Linux apps on LiveG OS via Xorg continues to be implemented",
+
+        "birthday9_17november_title": "17 November",
+        "birthday9_17november_description": "A test build of LiveG OS is confirmed as working on the Raspberry Pi 5, meaning support will be added in the next release of LiveG OS",
+
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
         "legal_orgInfo_operator": "Operated and funds managed by James Livesey",
