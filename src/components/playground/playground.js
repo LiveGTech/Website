@@ -85,6 +85,4 @@ export var Playground = astronaut.component("Playground", function() {
             embed
         )
     );
-
-    update();
 });
