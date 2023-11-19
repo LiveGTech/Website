@@ -335,6 +335,9 @@
         "birthday9_17november_title": "17 November",
         "birthday9_17november_description": "A test build of LiveG OS is confirmed as working on the Raspberry Pi 5, meaning support will be added in the next release of LiveG OS",
 
+        "birthday9_codingActivity_title": "Have a go at our coding activity",
+        "birthday9_codingActivity_description": "Can you use the LiveG Astronaut framework to decorate this birthday cake?",
+
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
         "legal_orgInfo_operator": "Operated and funds managed by James Livesey",
