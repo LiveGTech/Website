@@ -337,6 +337,7 @@
 
         "birthday9_codingActivity_title": "Have a go at our coding activity",
         "birthday9_codingActivity_description": "Can you use the LiveG Astronaut framework to decorate this birthday cake?",
+        "birthday9_codingActivity_loading": "Loading coding activity...",
 
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
