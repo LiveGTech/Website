@@ -78,10 +78,13 @@ export var Playground = astronaut.component("Playground", function() {
                 "margin-top": "0.5rem",
                 "flex-basis": "0",
                 "border": "0.25rem solid var(--secondaryBackground)",
-                "border-radius": "0.5rem"
+                "border-radius": "0.5rem",
+                "overflow": "hidden"
             }
         }) (
             embed
         )
     );
+
+    update();
 });

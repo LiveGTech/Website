@@ -11,8 +11,6 @@ window.alert = function() {};
 window.prompt = function() {};
 window.confirm = function() {};
 
-console.log("Refresh");
-
 window.addEventListener("message", function(event) {
     if (![
         "https://liveg.tech",
@@ -21,7 +19,5 @@ window.addEventListener("message", function(event) {
         return
     }
 
-    console.log("data:text/javascript;charset=utf-8," + encodeURI(event.data));
-
-    import("data:text/javascript;charset=utf-8," + encodeURI(event.data)).then(console.log);
+    import("data:text/javascript;charset=utf-8," + encodeURI(event.data));
 });
