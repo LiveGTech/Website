@@ -14,7 +14,16 @@ var c = astronaut.components;
 
 typeset.init();
 
-export var Playground = astronaut.component("Playground", function() {
+export var Playground = astronaut.component("Playground", function(props, children) {
+    props.steps ||= [];
+    props.importUrlBase ||= window.location.origin;
+
+    var instructionsCard = c.Card({
+        styles: {
+            "flex-basis": "unset",
+        }
+    }) ();
+
     var editor = typeset.CodeEditor({
         language: "javascript",
         code: `console.log("Hello, world!");`
@@ -37,15 +46,36 @@ export var Playground = astronaut.component("Playground", function() {
         embed.setAttribute("src", embed.getAttribute("src"));
     }
 
-    editor.on("input", function() {
-        clearTimeout(updateTimeout);
+    function loadStep(step, setCode = false) {
+        instructionsCard.setText(step.instructions);
 
-        setTimeout(update, 2_000);
+        if (setCode) {
+            editor.inter.setCode(step.code);
+
+            update();
+        }
+    }
+
+    editor.on("input", function() {
+        if (updateTimeout != null) {
+            clearTimeout(updateTimeout);
+        }
+
+        updateTimeout = setTimeout(update, 2_000);
     });
 
     embed.on("load", function() {
-        embed.get().contentWindow.postMessage(editor.inter.getCode(), window.location.origin);
+        var code = editor.inter.getCode();
+
+        code = code.replace(/\s+from\s+"\.\//g, ` from "${props.importUrlBase}/`);
+        code = code.replace(/\s+from\s+'\.\//g, ` from '${props.importUrlBase}/`);
+
+        embed.get().contentWindow.postMessage(code, window.location.origin);
     });
+
+    if (props.steps.length > 0) {
+        loadStep(props.steps[0], true);
+    }
 
     return c.Container({
         attributes: {
@@ -62,13 +92,7 @@ export var Playground = astronaut.component("Playground", function() {
                 "flex-basis": "0"
             }
         }) (
-            c.Card({
-                styles: {
-                    "flex-basis": "unset",
-                }
-            }) (
-                c.Paragraph() ("Challenge text goes here")
-            ),
+            instructionsCard,
             c.Container (
                 editor
             )
