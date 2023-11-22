@@ -11,6 +11,14 @@ window.alert = function() {};
 window.prompt = function() {};
 window.confirm = function() {};
 
+window._visitStep = function(stepIndex, heldState = {}) {
+    window.parent.postMessage({
+        type: "visitStep",
+        stepIndex,
+        heldState
+    }, window.location.origin);
+};
+
 window.addEventListener("message", function(event) {
     if (event.origin != window.location.origin) {
         return;

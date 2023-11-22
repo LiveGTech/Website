@@ -11,14 +11,31 @@ import * as $g from "https://opensource.liveg.tech/Adapt-UI/src/adaptui.js";
 
 import * as playground from "/components/playground/playground.js";
 
+const CHALLENGE_INSTRUCTION_PARTS = `
+Edit the code to choose a new colour for the cake. You can choose from \`"cyan"\`, \`"yellow"\`, \`"red"\` or \`"green"\`.
+////
+Well done! Ready to continue?
+////
+This is the last challenge step.
+`.split("////").map((part) => part.trim());
+
 const CHALLNGE_CODE_PARTS = `
 import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/astronaut.js";
 import * as cake from "./cake.js";
 
 astronaut.render(
     cake.Background() (
-        cake.Cake() (
-            cake.Candle() (),
+        cake.Cake({colour: "blue"}) (),
+        cake.Base() ()
+    )
+);
+////
+import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/astronaut.js";
+import * as cake from "./cake.js";
+
+astronaut.render(
+    cake.Background() (
+        cake.Cake({colour: {{ cakeColour }}}) (
             cake.Candle() (),
             cake.Candle() (),
             cake.Candle() ()
@@ -26,8 +43,6 @@ astronaut.render(
         cake.Base() ()
     )
 );
-////
-console.log("Hello, world!");
 `.split("////").map((part) => part.trim());
 
 $g.waitForLoad().then(function() {
@@ -35,11 +50,17 @@ $g.waitForLoad().then(function() {
         playground.Playground({
             steps: [
                 {
-                    instructions: "Hello, world! This is challenge step 1.",
+                    instructions: CHALLENGE_INSTRUCTION_PARTS[0],
                     code: CHALLNGE_CODE_PARTS[0]
                 },
                 {
-                    instructions: "This is challenge step 2.",
+                    instructions: CHALLENGE_INSTRUCTION_PARTS[1],
+                    confirmNext: true,
+                    code: CHALLNGE_CODE_PARTS[0]
+                },
+                {
+                    instructions: CHALLENGE_INSTRUCTION_PARTS[2],
+                    useNewCode: true,
                     code: CHALLNGE_CODE_PARTS[1]
                 },
             ],

@@ -20,6 +20,8 @@ export var Playground = astronaut.component("Playground", function(props, childr
 
     var currentStepIndex = 0;
 
+    var heldState = {};
+
     var instructionsCard = c.Card({
         styles: {
             "flex-basis": "unset"
@@ -62,14 +64,45 @@ export var Playground = astronaut.component("Playground", function(props, childr
     }
 
     function loadStep(stepIndex = currentStepIndex + 1, setCode = false) {
+        if (!props.steps[stepIndex]) {
+            console.error(`Unknown step at index ${index}`);
+
+            return;
+        }
+
         currentStepIndex = stepIndex;
 
-        instructionsCard.setText(props.steps[currentStepIndex].instructions);
+        instructionsCard.setHTML(new showdown.Converter().makeHtml(props.steps[currentStepIndex].instructions));
+
+        if (props.steps[stepIndex].confirmNext) {
+            var confirmNextButton = c.Button({
+                mode: "primary",
+                styles: {
+                    "margin-bottom": "0"
+                }
+            }) (_("next"));
+
+            confirmNextButton.on("click", function() {
+                loadStep();
+            });
+
+            instructionsCard.add(
+                c.ButtonRow (
+                    confirmNextButton
+                )
+            );
+        }
 
         errorMessage.hide();
 
-        if (setCode) {
-            editor.inter.setCode(props.steps[currentStepIndex].code);
+        if (setCode || props.steps[currentStepIndex].useNewCode) {
+            var codeToLoad = props.steps[currentStepIndex].code;
+
+            Object.keys(heldState).forEach(function(key) {
+                codeToLoad = codeToLoad.split(`{{ ${key} }}`).join(heldState[key]);
+            });
+
+            editor.inter.setCode(codeToLoad);
 
             update();
         }
@@ -99,6 +132,19 @@ export var Playground = astronaut.component("Playground", function(props, childr
 
         if (event.source != embed.get().contentWindow) {
             return;
+        }
+
+        if (event.data.type == "visitStep") {
+            if (event.data.heldState) {
+                heldState = {
+                    ...heldState,
+                    ...event.data.heldState
+                };
+            }
+
+            if (event.data.stepIndex > currentStepIndex) {
+                loadStep(event.data.stepIndex);
+            }
         }
 
         if (event.data.type == "error") {

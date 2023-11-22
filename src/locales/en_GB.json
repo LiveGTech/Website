@@ -19,6 +19,8 @@
         "cancel": "Cancel",
         "learnMore": "Learn more",
         "download": "Download",
+        "previous": "Previous",
+        "next": "Next",
 
         "size_bytes": {
             "{size} == 1": "{size} byte",
@@ -358,7 +360,7 @@
         "404_title": "Sorry, but the page you were looking for doesn't seem to exist…",
         "404_description": "You may have mistyped the URL, or the page you have previously visited may no longer be available.",
 
-        "playground_error_title": "You broke it!",
+        "playground_error_title": "Oh no, you broke it!",
         "playground_error_description": " Take a look at your code and see if you can find any typos or other problems.",
         "playground_error_skipMessage": "Still can't find the issue? ",
         "playground_error_skipLink": "Skip to the next step"

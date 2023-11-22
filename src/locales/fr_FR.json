@@ -19,6 +19,8 @@
         "cancel": "Annuler",
         "learnMore": "En savoir plus",
         "download": "Télécharger",
+        "previous": "Précédent",
+        "next": "Suivant",
 
         "size_bytes": {
             "{size} == 1": "{size} octet",
@@ -287,7 +289,7 @@
         "404_title": "Désolé, mais la page que vous recherchiez ne semble pas exister…",
         "404_description": "Vous avez peut-être trompé l'URL, ou la page que vous avez précédemment visitée peut ne plus être disponible.",
 
-        "playground_error_title": "Tu l'as cassé !",
+        "playground_error_title": "Oh non, tu l'as cassé !",
         "playground_error_description": " Jetez un œil à votre code et voyez si vous pouvez trouver des fautes de frappe ou d'autres problèmes.",
         "playground_error_skipMessage": "Vous ne trouvez toujours pas le problème ? ",
         "playground_error_skipLink": "Passer à l'étape suivante"

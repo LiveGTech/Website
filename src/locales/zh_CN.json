@@ -19,6 +19,8 @@
         "cancel": "取消",
         "learnMore": "学到更多",
         "download": "下载",
+        "previous": "上一页",
+        "next": "下一页",
 
         "size_bytes": "{size}字节",
         "size_kb": "{size} KB",
@@ -284,7 +286,7 @@
         "404_title": "抱歉，您要查找的页面似乎不存在……",
         "404_description": "您可能输入了错误的URL，或者您以前访问过的页面可能不再可用。",
 
-        "playground_error_title": "你打破了它！",
+        "playground_error_title": "哦不，你把它弄坏了！",
         "playground_error_description": "查看您的代码，看看是否可以发现任何拼写错误或其他问题。",
         "playground_error_skipMessage": "还是找不到问题？",
         "playground_error_skipLink": "跳至下一步"

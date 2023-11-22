@@ -121,6 +121,10 @@ export var Base = astronaut.component("Base", function(props, children) {
 });
 
 export var Cake = astronaut.component("Cake", function(props, children) {
+    if (children.length > 20) {
+        throw new TypeError("Candle shop has said they have run out of candles"); // TODO: Translate
+    }
+
     if (children.length > 1) {
         children.forEach(function(child, i) {
             const INDEX_ANGLE = 2 * Math.PI * (i / children.length);
@@ -128,6 +132,12 @@ export var Cake = astronaut.component("Cake", function(props, children) {
 
             child.setStyle("left", `${50 + (Math.cos(INDEX_ANGLE + OFFSET_ANGLE) * 30)}%`);
             child.setStyle("bottom", `${50 + (Math.sin(INDEX_ANGLE + OFFSET_ANGLE) * 30)}%`);
+        });
+    }
+
+    if (props.colour != "blue") {
+        _visitStep(1, {
+            cakeColour: JSON.stringify(props.colour)
         });
     }
 
