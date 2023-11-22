@@ -17,7 +17,10 @@ import * as cake from "./cake.js";
 
 astronaut.render(
     cake.Background() (
-        astronaut.components.Paragraph() ("Hello, world!")
+        astronaut.components.Paragraph() ("Hello, world!"),
+        cake.Base({width: 8}) (),
+        cake.Base({width: 10}) (),
+        cake.Base({width: 12}) ()
     )
 );
 `.split("////").map((part) => part.trim());
