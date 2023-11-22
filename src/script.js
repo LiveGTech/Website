@@ -54,12 +54,14 @@ $g.waitForLoad().then(function() {
 
     $g.sel("body").removeAttribute("hidden");
 
-    if ($g.sel("title").hasAttribute("data-page")) {
-        $g.sel("title").setText(_("title_page", {page: _($g.sel("title").getAttribute("data-page"))}));
-    }
-
-    if ($g.sel("title").hasAttribute("data-enclose")) {
-        $g.sel("title").setText(_("title_page", {page: $g.sel("title").getText()}));
+    if ($g.sel("title").items().length > 0) {
+        if ($g.sel("title").hasAttribute("data-page")) {
+            $g.sel("title").setText(_("title_page", {page: _($g.sel("title").getAttribute("data-page"))}));
+        } else if ($g.sel("title").hasAttribute("data-enclose")) {
+            $g.sel("title").setText(_("title_page", {page: $g.sel("title").getText()}));
+        } else if ($g.sel("title").is("[translate]")) {
+            $g.sel("title").setText(_($g.sel("title").getAttribute("aui-l10nstring")));
+        }
     }
 
     $g.sel(".nav_openMenu").on("click", function() {

@@ -338,6 +338,7 @@
         "birthday9_codingActivity_title": "Have a go at our coding activity",
         "birthday9_codingActivity_description": "Can you use the LiveG Astronaut framework to decorate this birthday cake?",
         "birthday9_codingActivity_loading": "Loading coding activity...",
+        "birthday9_codingActivity_doNotTouch": "CAUTION: Very hot — do not touch!",
 
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
@@ -355,6 +356,11 @@
         "legal_trademarks_list_logo": "The LiveG Logo",
 
         "404_title": "Sorry, but the page you were looking for doesn't seem to exist…",
-        "404_description": "You may have mistyped the URL, or the page you have previously visited may no longer be available."
+        "404_description": "You may have mistyped the URL, or the page you have previously visited may no longer be available.",
+
+        "playground_error_title": "You broke it!",
+        "playground_error_description": " Take a look at your code and see if you can find any typos or other problems.",
+        "playground_error_skipMessage": "Still can't find the issue? ",
+        "playground_error_skipLink": "Skip to the next step"
     }
 }

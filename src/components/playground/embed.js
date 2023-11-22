@@ -12,12 +12,14 @@ window.prompt = function() {};
 window.confirm = function() {};
 
 window.addEventListener("message", function(event) {
-    if (![
-        "https://liveg.tech",
-        "http://localhost:8000"
-    ].includes(event.origin)) {
-        return
+    if (event.origin != window.location.origin) {
+        return;
     }
 
-    import("data:text/javascript;charset=utf-8," + encodeURI(event.data));
+    import("data:text/javascript;charset=utf-8," + encodeURI(event.data)).catch(function(error) {
+        window.parent.postMessage({
+            type: "error",
+            error
+        }, window.location.origin);
+    });
 });

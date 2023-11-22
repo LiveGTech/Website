@@ -18,9 +18,21 @@ export var Playground = astronaut.component("Playground", function(props, childr
     props.steps ||= [];
     props.importUrlBase ||= window.location.origin;
 
+    var currentStepIndex = 0;
+
     var instructionsCard = c.Card({
         styles: {
-            "flex-basis": "unset",
+            "flex-basis": "unset"
+        }
+    }) ();
+
+    var errorMessage = c.Note({
+        mode: "dangerous",
+        styles: {
+            "margin": "0",
+            "margin-top": "0.5rem",
+            "flex-grow": "unset",
+            "flex-basis": "unset"
         }
     }) ();
 
@@ -36,6 +48,7 @@ export var Playground = astronaut.component("Playground", function(props, childr
         styles: {
             "width": "100%",
             "height": "100%",
+            "min-height": "20rem",
             "border": "none"
         }
     }) ();
@@ -43,14 +56,20 @@ export var Playground = astronaut.component("Playground", function(props, childr
     var updateTimeout = null;
 
     function update() {
+        errorMessage.hide();
+
         embed.setAttribute("src", embed.getAttribute("src"));
     }
 
-    function loadStep(step, setCode = false) {
-        instructionsCard.setText(step.instructions);
+    function loadStep(stepIndex = currentStepIndex + 1, setCode = false) {
+        currentStepIndex = stepIndex;
+
+        instructionsCard.setText(props.steps[currentStepIndex].instructions);
+
+        errorMessage.hide();
 
         if (setCode) {
-            editor.inter.setCode(step.code);
+            editor.inter.setCode(props.steps[currentStepIndex].code);
 
             update();
         }
@@ -73,8 +92,67 @@ export var Playground = astronaut.component("Playground", function(props, childr
         embed.get().contentWindow.postMessage(code, window.location.origin);
     });
 
+    window.addEventListener("message", function(event) {
+        if (event.origin != window.location.origin) {
+            return;
+        }
+
+        if (event.source != embed.get().contentWindow) {
+            return;
+        }
+
+        if (event.data.type == "error") {
+            console.warn("Error in playground embed:", event.data.error);
+
+            var skipLink = c.Link({
+                url: "javascript:void(0);",
+                styles: {
+                    "color": "var(--dangerousUI)"
+                }
+            }) (_("playground_error_skipLink"));
+
+            var skipMessage = c.Paragraph({
+                styles: {
+                    "margin-top": "0.5rem"
+                }
+            }) (
+                c.Text(_("playground_error_skipMessage")),
+                skipLink
+            );
+
+            skipLink.on("click", function() {
+                loadStep(currentStepIndex + 1, true);
+            });
+
+            errorMessage.clear().add(
+                c.Paragraph({
+                    styles: {
+                        "margin-bottom": "0.5rem"
+                    }
+                }) (
+                    c.BoldTextFragment() (_("playground_error_title")),
+                    c.Text(_("playground_error_description"))
+                ),
+                c.CodeBlock({
+                    styles: {
+                        "margin": "0",
+                        "white-space": "pre-wrap"
+                    }
+                }) (c.Text(event.data.error))
+            );
+
+            if (currentStepIndex + 1 < props.steps.length) {
+                errorMessage.add(skipMessage);
+            }
+
+            errorMessage.show();
+        }
+    });
+
+    errorMessage.hide();
+
     if (props.steps.length > 0) {
-        loadStep(props.steps[0], true);
+        loadStep(0, true);
     }
 
     return c.Container({
@@ -98,15 +176,25 @@ export var Playground = astronaut.component("Playground", function(props, childr
             )
         ),
         c.Container({
+            attributes: {
+                "aui-stack": "vertical"
+            },
             styles: {
-                "margin-top": "0.5rem",
-                "flex-basis": "0",
-                "border": "0.25rem solid var(--secondaryBackground)",
-                "border-radius": "0.5rem",
-                "overflow": "hidden"
+                "gap": "0"
             }
         }) (
-            embed
+            c.Container({
+                styles: {
+                    "margin-top": "0.5rem",
+                    "flex-basis": "0",
+                    "border": "0.25rem solid var(--secondaryBackground)",
+                    "border-radius": "0.5rem",
+                    "overflow": "hidden"
+                }
+            }) (
+                embed
+            ),
+            errorMessage
         )
     );
 });

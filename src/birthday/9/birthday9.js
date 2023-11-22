@@ -17,12 +17,17 @@ import * as cake from "./cake.js";
 
 astronaut.render(
     cake.Background() (
-        astronaut.components.Paragraph() ("Hello, world!"),
-        cake.Base({width: 8}) (),
-        cake.Base({width: 10}) (),
-        cake.Base({width: 12}) ()
+        cake.Cake() (
+            cake.Candle() (),
+            cake.Candle() (),
+            cake.Candle() (),
+            cake.Candle() ()
+        ),
+        cake.Base() ()
     )
 );
+////
+console.log("Hello, world!");
 `.split("////").map((part) => part.trim());
 
 $g.waitForLoad().then(function() {
@@ -32,7 +37,11 @@ $g.waitForLoad().then(function() {
                 {
                     instructions: "Hello, world! This is challenge step 1.",
                     code: CHALLNGE_CODE_PARTS[0]
-                }
+                },
+                {
+                    instructions: "This is challenge step 2.",
+                    code: CHALLNGE_CODE_PARTS[1]
+                },
             ],
             importUrlBase: `${window.location.origin}/birthday/9/challenge`
         }) ()
