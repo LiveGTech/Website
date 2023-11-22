@@ -24,7 +24,7 @@ import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/ast
 import * as cake from "./cake.js";
 
 astronaut.render(
-    cake.Background() (
+    cake.Background (
         cake.Cake({colour: "blue"}) (),
         cake.Base() ()
     )
@@ -34,7 +34,7 @@ import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/ast
 import * as cake from "./cake.js";
 
 astronaut.render(
-    cake.Background() (
+    cake.Background (
         cake.Cake({colour: {{ cakeColour }}}) (
             cake.Candle() (),
             cake.Candle() (),
