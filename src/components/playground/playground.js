@@ -66,7 +66,7 @@ export var Playground = astronaut.component("Playground", function(props, childr
 
     function loadStep(stepIndex = currentStepIndex + 1, setCode = false) {
         if (!props.steps[stepIndex]) {
-            console.error(`Unknown step at index ${index}`);
+            console.error(`Unknown step at index ${stepIndex}`);
 
             return;
         }
@@ -125,7 +125,7 @@ export var Playground = astronaut.component("Playground", function(props, childr
 
         runningCode = code;
 
-        embed.get().contentWindow.postMessage(code, window.location.origin);
+        embed.get().contentWindow.postMessage({type: "load", code}, window.location.origin);
     });
 
     window.addEventListener("message", function(event) {
@@ -200,6 +200,22 @@ export var Playground = astronaut.component("Playground", function(props, childr
                     }
                 }) (c.Text(event.data.error))
             );
+
+            var explanation = props.errorExplanations.find(function(currentExplanation) {
+                if (currentExplanation.match instanceof RegExp) {
+                    return !!String(event.data.error).match(currentExplanation.match);
+                }
+
+                return event.data.error == currentExplanation.match;
+            });
+
+            if (explanation) {
+                var explanationMessage = c.Paragraph() ();
+
+                explanationMessage.setHTML(new showdown.Converter().makeHtml(explanation.message));
+
+                errorMessage.add(explanationMessage);
+            }
 
             if (currentStepIndex + 1 < props.steps.length) {
                 errorMessage.add(skipMessage);

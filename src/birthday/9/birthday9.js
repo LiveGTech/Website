@@ -79,6 +79,7 @@ astronaut.render(
 website.waitForLoad().then(function() {
     $g.sel(".bdayCodingActivity").clear().add(
         playground.Playground({
+            importUrlBase: `${window.location.origin}/birthday/9/challenge`,
             defaultState: {
                 cakeColour: `"red"`,
                 candleCount: `9`,
@@ -130,10 +131,31 @@ website.waitForLoad().then(function() {
                     instructions: _("birthday9_codingActivity_10")
                 },
                 {
-                    instructions: _("birthday9_codingActivity_10")
+                    instructions: _("birthday9_codingActivity_11")
                 }
             ],
-            importUrlBase: `${window.location.origin}/birthday/9/challenge`
+            errorExplanations: [
+                {
+                    match: `SyntaxError: Unexpected token ')'`,
+                    message: _("birthday9_codingActivity_errorExplanation_missingClosingBracket")
+                },
+                {
+                    match: /^SyntaxError: Unexpected identifier '/,
+                    message: _("birthday9_codingActivity_errorExplanation_missingComma")
+                },
+                {
+                    match: "SyntaxError: Unexpected string",
+                    message: _("birthday9_codingActivity_errorExplanation_missingColon")
+                },
+                {
+                    match: "SyntaxError: Unexpected number",
+                    message: _("birthday9_codingActivity_errorExplanation_missingColon")
+                },
+                {
+                    match: `SyntaxError: missing ) after argument list`,
+                    message: _("birthday9_codingActivity_errorExplanation_missingEnclosingBraceBrackets")
+                }
+            ]
         }) ()
     );
 });

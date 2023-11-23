@@ -105,7 +105,7 @@ export var Background = astronaut.component("Background", function(props, childr
     props.styles["flex-direction"] ||= "column";
     props.styles["justify-content"] ||= "center";
     props.styles["align-items"] ||= "center";
-    props.styles["background-color"] ||= "hsl(var(--primaryHue), calc(var(--primarySaturation) - 10%), calc(var(--primaryLightness) + 15%))";
+    props.styles["background-color"] ||= COLOUR_NAMES[props.colour] || props.colour || "hsl(var(--primaryHue), calc(var(--primarySaturation) - 10%), calc(var(--primaryLightness) + 15%))";
 
     return c.Screen(props) (
         Area (
@@ -141,6 +141,10 @@ export var Layer = astronaut.component("Layer", function(props, children) {
         throw new TypeError(_("birthday9_codingActivity_candleCountError"));
     }
 
+    if (props.color) {
+        throw new ReferenceError(_("birthday9_codingActivity_colourSpellingError"));
+    }
+
     layerCount++;
     bottomLayerWidth = props.width;
 
@@ -162,7 +166,7 @@ export var Layer = astronaut.component("Layer", function(props, children) {
         _visitStep(3);
     }
 
-    if (layerCount == 1 && props.colour != "blue") {
+    if (layerCount == 1 && props.colour && props.colour != "blue") {
         _visitStep(1, {
             cakeColour: JSON.stringify(props.colour)
         });

@@ -31,12 +31,16 @@ window.addEventListener("message", function(event) {
         return;
     }
 
-    import("data:text/javascript;charset=utf-8," + encodeURI(event.data)).then(function() {
-        window.parent.postMessage({type: "success"});
-    }).catch(function(error) {
-        window.parent.postMessage({
-            type: "error",
-            error
-        }, window.location.origin);
-    });
+    if (event.data.type == "load") {
+        import(URL.createObjectURL(
+            new Blob([event.data.code], {type: "text/javascript"})
+        )).then(function() {
+            window.parent.postMessage({type: "success"});
+        }).catch(function(error) {
+            window.parent.postMessage({
+                type: "error",
+                error
+            }, window.location.origin);
+        });
+    }
 });
