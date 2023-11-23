@@ -27,6 +27,10 @@ const COLOUR_NAMES = {
 
 await website.waitForLoad();
 
+var layerCount = 0;
+var topLayerWidthIncreased = false;
+var bottomLayerWidth = null;
+
 var Rectangle = astronaut.component("Rectangle", function(props, children) {
     props.styles ||= {};
     props.styles["width"] ||= props.width ? `${props.width}rem` : "0";
@@ -111,6 +115,14 @@ export var Background = astronaut.component("Background", function(props, childr
 });
 
 export var Base = astronaut.component("Base", function(props, children) {
+    if (props.width > 20 || props.height > 2) {
+        throw new TypeError(_("birthday9_codingActivity_baseSizeError"));
+    }
+
+    if (layerCount == 2 && props.width > bottomLayerWidth) {
+        _visitStep(10);
+    }
+
     return Cylinder({
         width: props.width || 12,
         height: props.height || 0.5,
@@ -120,10 +132,17 @@ export var Base = astronaut.component("Base", function(props, children) {
     }) (...children);
 });
 
-export var Cake = astronaut.component("Cake", function(props, children) {
-    if (children.length > 20) {
-        throw new TypeError("Candle shop has said they have run out of candles"); // TODO: Translate
+export var Layer = astronaut.component("Layer", function(props, children) {
+    if (props.width > 18 || props.height > 8) {
+        throw new TypeError(_("birthday9_codingActivity_layerSizeError"));
     }
+
+    if (children.length > 20) {
+        throw new TypeError(_("birthday9_codingActivity_candleCountError"));
+    }
+
+    layerCount++;
+    bottomLayerWidth = props.width;
 
     if (children.length > 1) {
         children.forEach(function(child, i) {
@@ -133,12 +152,38 @@ export var Cake = astronaut.component("Cake", function(props, children) {
             child.setStyle("left", `${50 + (Math.cos(INDEX_ANGLE + OFFSET_ANGLE) * 30)}%`);
             child.setStyle("bottom", `${50 + (Math.sin(INDEX_ANGLE + OFFSET_ANGLE) * 30)}%`);
         });
+
+        _storeState({
+            candleCount: JSON.stringify(children.length)
+        });
     }
 
-    if (props.colour != "blue") {
+    if (children.length == 5) {
+        _visitStep(3);
+    }
+
+    if (layerCount == 1 && props.colour != "blue") {
         _visitStep(1, {
             cakeColour: JSON.stringify(props.colour)
         });
+    }
+
+    if (layerCount == 2 && props.colour) {
+        _visitStep(7, {
+            cakeColour2: JSON.stringify(props.colour)
+        });
+    }
+
+    if (layerCount == 2 && props.height == 3) {
+        _visitStep(8);
+    }
+
+    if (layerCount == 1 && props.width > 8) {
+        topLayerWidthIncreased = true;
+    }
+
+    if (layerCount == 2 && props.width > 10 && topLayerWidthIncreased) {
+        _visitStep(9);
     }
 
     return Cylinder({

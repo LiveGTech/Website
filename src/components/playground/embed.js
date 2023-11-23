@@ -11,6 +11,13 @@ window.alert = function() {};
 window.prompt = function() {};
 window.confirm = function() {};
 
+window._storeState = function(heldState = {}) {
+    window.parent.postMessage({
+        type: "storeState",
+        heldState
+    }, window.location.origin);
+};
+
 window._visitStep = function(stepIndex, heldState = {}) {
     window.parent.postMessage({
         type: "visitStep",
@@ -24,7 +31,9 @@ window.addEventListener("message", function(event) {
         return;
     }
 
-    import("data:text/javascript;charset=utf-8," + encodeURI(event.data)).catch(function(error) {
+    import("data:text/javascript;charset=utf-8," + encodeURI(event.data)).then(function() {
+        window.parent.postMessage({type: "success"});
+    }).catch(function(error) {
         window.parent.postMessage({
             type: "error",
             error

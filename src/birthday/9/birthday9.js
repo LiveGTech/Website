@@ -9,23 +9,16 @@
 
 import * as $g from "https://opensource.liveg.tech/Adapt-UI/src/adaptui.js";
 
+import * as website from "/script.js";
 import * as playground from "/components/playground/playground.js";
 
-const CHALLENGE_INSTRUCTION_PARTS = `
-Edit the code to choose a new colour for the cake. You can choose from \`"cyan"\`, \`"yellow"\`, \`"red"\` or \`"green"\`.
-////
-Well done! Ready to continue?
-////
-This is the last challenge step.
-`.split("////").map((part) => part.trim());
-
-const CHALLNGE_CODE_PARTS = `
+const CHALLENGE_CODE_PARTS = `
 import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/astronaut.js";
 import * as cake from "./cake.js";
 
 astronaut.render(
     cake.Background (
-        cake.Cake({colour: "blue"}) (),
+        cake.Layer({colour: "blue"}) (),
         cake.Base() ()
     )
 );
@@ -35,7 +28,7 @@ import * as cake from "./cake.js";
 
 astronaut.render(
     cake.Background (
-        cake.Cake({colour: {{ cakeColour }}}) (
+        cake.Layer({colour: {{ cakeColour }}}) (
             cake.Candle() (),
             cake.Candle() (),
             cake.Candle() ()
@@ -43,26 +36,102 @@ astronaut.render(
         cake.Base() ()
     )
 );
+////
+import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/astronaut.js";
+import * as cake from "./cake.js";
+
+astronaut.render(
+    cake.Background (
+        cake.Layer({colour: {{ cakeColour }}}) (
+            astronaut.repeat(5, cake.Candle() ())
+        ),
+        cake.Base() ()
+    )
+);
+////
+import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/astronaut.js";
+import * as cake from "./cake.js";
+
+astronaut.render(
+    cake.Background (
+        cake.Layer({colour: {{ cakeColour }}, width: 8}) (
+            astronaut.repeat({{ candleCount }}, cake.Candle() ())
+        ),
+        cake.Layer() (),
+        cake.Base() ()
+    )
+);
+////
+import * as astronaut from "https://opensource.liveg.tech/Adapt-UI/astronaut/astronaut.js";
+import * as cake from "./cake.js";
+
+astronaut.render(
+    cake.Background (
+        cake.Layer({colour: {{ cakeColour }}, width: 8}) (
+            astronaut.repeat({{ candleCount }}, cake.Candle() ())
+        ),
+        cake.Layer({colour: {{ cakeColour2 }}}) (),
+        cake.Base() ()
+    )
+);
 `.split("////").map((part) => part.trim());
 
-$g.waitForLoad().then(function() {
+website.waitForLoad().then(function() {
     $g.sel(".bdayCodingActivity").clear().add(
         playground.Playground({
+            defaultState: {
+                cakeColour: `"red"`,
+                candleCount: `9`,
+                cakeColour2: `"green"`
+            },
             steps: [
                 {
-                    instructions: CHALLENGE_INSTRUCTION_PARTS[0],
-                    code: CHALLNGE_CODE_PARTS[0]
+                    instructions: _("birthday9_codingActivity_1"),
+                    code: CHALLENGE_CODE_PARTS[0]
                 },
                 {
-                    instructions: CHALLENGE_INSTRUCTION_PARTS[1],
+                    instructions: _("birthday9_codingActivity_2"),
                     confirmNext: true,
-                    code: CHALLNGE_CODE_PARTS[0]
+                    code: CHALLENGE_CODE_PARTS[0]
                 },
                 {
-                    instructions: CHALLENGE_INSTRUCTION_PARTS[2],
+                    instructions: _("birthday9_codingActivity_3"),
                     useNewCode: true,
-                    code: CHALLNGE_CODE_PARTS[1]
+                    code: CHALLENGE_CODE_PARTS[1]
                 },
+                {
+                    instructions: _("birthday9_codingActivity_4"),
+                    confirmNext: true,
+                    code: CHALLENGE_CODE_PARTS[1]
+                },
+                {
+                    instructions: _("birthday9_codingActivity_5"),
+                    useNewCode: true,
+                    code: CHALLENGE_CODE_PARTS[2],
+                    completionMatch: /astronaut\.repeat\((?:[6-9]|1[0-9])\b/
+                },
+                {
+                    instructions: _("birthday9_codingActivity_6"),
+                    confirmNext: true,
+                    code: CHALLENGE_CODE_PARTS[2]
+                },
+                {
+                    instructions: _("birthday9_codingActivity_7"),
+                    useNewCode: true,
+                    code: CHALLENGE_CODE_PARTS[3]
+                },
+                {
+                    instructions: _("birthday9_codingActivity_8")
+                },
+                {
+                    instructions: _("birthday9_codingActivity_9")
+                },
+                {
+                    instructions: _("birthday9_codingActivity_10")
+                },
+                {
+                    instructions: _("birthday9_codingActivity_10")
+                }
             ],
             importUrlBase: `${window.location.origin}/birthday/9/challenge`
         }) ()

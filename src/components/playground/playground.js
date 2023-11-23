@@ -18,9 +18,10 @@ export var Playground = astronaut.component("Playground", function(props, childr
     props.steps ||= [];
     props.importUrlBase ||= window.location.origin;
 
+    var runningCode = null;
     var currentStepIndex = 0;
 
-    var heldState = {};
+    var heldState = props.defaultState;
 
     var instructionsCard = c.Card({
         styles: {
@@ -122,6 +123,8 @@ export var Playground = astronaut.component("Playground", function(props, childr
         code = code.replace(/\s+from\s+"\.\//g, ` from "${props.importUrlBase}/`);
         code = code.replace(/\s+from\s+'\.\//g, ` from '${props.importUrlBase}/`);
 
+        runningCode = code;
+
         embed.get().contentWindow.postMessage(code, window.location.origin);
     });
 
@@ -132,6 +135,13 @@ export var Playground = astronaut.component("Playground", function(props, childr
 
         if (event.source != embed.get().contentWindow) {
             return;
+        }
+
+        if (event.data.type == "storeState") {
+            heldState = {
+                ...heldState,
+                ...event.data.heldState
+            };
         }
 
         if (event.data.type == "visitStep") {
@@ -145,6 +155,10 @@ export var Playground = astronaut.component("Playground", function(props, childr
             if (event.data.stepIndex > currentStepIndex) {
                 loadStep(event.data.stepIndex);
             }
+        }
+
+        if (event.data.type == "success" && props.steps[currentStepIndex].completionMatch?.test(runningCode)) {
+            loadStep();
         }
 
         if (event.data.type == "error") {

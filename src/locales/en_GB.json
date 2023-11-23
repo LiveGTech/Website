@@ -342,6 +342,22 @@
         "birthday9_codingActivity_loading": "Loading coding activity...",
         "birthday9_codingActivity_doNotTouch": "CAUTION: Very hot — do not touch!",
 
+        "birthday9_codingActivity_1": "Edit the code to choose a new colour for the cake. You can choose from `\"cyan\"`, `\"yellow\"`, `\"red\"` or `\"green\"`.",
+        "birthday9_codingActivity_2": "Good choice! There's something missing, though — no birthday cake is complete without candles!",
+        "birthday9_codingActivity_3": "That's better! Now edit the code so that there are 2 more candles on top of the cake.",
+        "birthday9_codingActivity_4": "Looking good! Did you know that there's an easier way of adding loads of candles in Astronaut?",
+        "birthday9_codingActivity_5": "...that's right: we can use `astronaut.repeat`! Edit the code so that there are a few more candles. Why not one for each year that LiveG has been around for?",
+        "birthday9_codingActivity_6": "Very good! Hey, seeing as we have the budget, should we add another layer to the cake?",
+        "birthday9_codingActivity_7": "I've added another layer for you. Can you add a colour to it? Hint: look at how it's done for the first layer!",
+        "birthday9_codingActivity_8": "That was a tough one — nice work! Any taller and this cake might fall over... Can you change the `height` of both layers to be `3`?",
+        "birthday9_codingActivity_9": "Much better! How about increasing the `width`s of both layers so that we can still fit all the candles on?",
+        "birthday9_codingActivity_10": "We should probably increase the `width` of the base, too, so the cake can still fit on... Can you do that?",
+        "birthday9_codingActivity_11": "Good job — this cake is looking tasty! Thanks for having a go at this coding activity — feel free to edit the cake to make it your own.\n\nWhy not share this coding challenge with your friends so they can make their own cakes using Astronaut?\n\nAnd seeing as you're becoming quite a pro at using Astronaut, why not <a href=\"https://docs.liveg.tech/?product=adaptui&page=astronaut-getting-started.md\" target=\"_blank\">learn how to build your own apps with Astronaut</a>?",
+
+        "birthday9_codingActivity_baseSizeError": "Base is way too big",
+        "birthday9_codingActivity_layerSizeError": "Layer is way too big",
+        "birthday9_codingActivity_candleCountError": "Candle shop has said they have run out of candles",
+
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
         "legal_orgInfo_operator": "Operated and funds managed by James Livesey",
