@@ -10,6 +10,7 @@
 window.alert = function() {};
 window.prompt = function() {};
 window.confirm = function() {};
+window.open = function() {};
 
 window._storeState = function(heldState = {}) {
     window.parent.postMessage({
