@@ -354,7 +354,7 @@
         "birthday9_codingActivity_baseSizeError": "Base is way too big",
         "birthday9_codingActivity_layerSizeError": "Layer is way too big",
         "birthday9_codingActivity_candleCountError": "Candle shop has said they have run out of candles",
-        "birthday9_codingActivity_colourSpellingError": "Please use \"colour\" (British spelling) instead of \"color\".",
+        "birthday9_codingActivity_colourSpellingError": "Please use \"colour\" (British spelling) instead of \"color\"",
 
         "birthday9_codingActivity_errorExplanation_missingClosingBracket": "This error usually happens when you forget to close a pair of brackets (often because you're missing a `}`).",
         "birthday9_codingActivity_errorExplanation_missingComma": "This error usually happens when you forget to add a `,` before a property name.",

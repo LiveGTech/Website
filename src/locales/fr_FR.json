@@ -268,6 +268,99 @@
 
         "birthday9_bannerMessage": "Nous célébrons aujourd'hui les 9 ans de LiveG ! Rejoignez-nous pour revenir sur l'année écoulée de LiveG. Nous avons même du gâteau (logiciel) !",
 
+        "birthday9_intro_title": "Célébration des 9 ans de LiveG",
+        "birthday9_intro_description": "Rejoignez-nous pour notre célébration d'anniversaire annuelle alors que nous reviendrons sur les progrès que nous avons réalisés au cours de la dernière année !",
+
+        "birthday9_4december_title": "4 décembre",
+        "birthday9_4december_description": "Des boutons sont ajoutés au menu des applications de LiveG OS en préparation pour les fonctionnalités de tri et de recherche des applications",
+
+        "birthday9_17december_title": "17 décembre",
+        "birthday9_17december_description": "Plus de fonctionnalités ajoutées pour les options Wi-Fi dans l'application Paramètres de LiveG OS pour permettre aux utilisateurs de gérer les réseaux Wi-Fi",
+
+        "birthday9_22december_title": "22 décembre",
+        "birthday9_22december_description": "Comme LiveG OS est devenu plus complet en termes de fonctionnalités, des plans ont été faits de supprimer son Environnement de Débogage",
+
+        "birthday9_7january_title": "7 janvier",
+        "birthday9_7january_description": "Sphere a la possibilité d'installer des sites web en tant qu'applications dans LiveG OS, permettant aux utilisateurs de choisir les applications qu'ils souhaitent utiliser",
+
+        "birthday9_16january_title": "16 janvier",
+        "birthday9_16january_description": "Le système de configuration LiveG OS prêt à l'emploi (OOBS) bénéficie de fonctionnalités plus utiles, telles que les menus d'alimentation et d'accessibilité",
+
+        "birthday9_26january_title": "26 janvier",
+        "birthday9_26january_description": "La prise en charge de base pour l'exécution de LiveG OS sur des ordinateurs équipés de processeurs ARM64 est ajoutée",
+
+        "birthday9_5february_title": "5 février",
+        "birthday9_5february_description": "Les fonctionnalités de tri et de recherche des applications sont implémentées dans le menu des applications de LiveG OS, ce qui facilite la recherche des applications installées",
+
+        "birthday9_12february_title": "12 février",
+        "birthday9_12february_description": "Options ajoutées à l'application Paramètres de LiveG OS pour permettre aux utilisateurs d'activer la saisie de texte en pinyin chinois",
+
+        "birthday9_18february_title": "18 février",
+        "birthday9_18february_description": "Navigation basée sur les gestes pour le sélecteur des applications ajouté au LiveG OS pour les appareils mobiles",
+
+        "birthday9_30march_title": "30 mars",
+        "birthday9_30march_description": "Début des travaux pour mettre en œuvre le système de mise à jour de LiveG OS, permettant aux utilisateurs de mettre à jour leurs appareils avec la dernière version du système",
+
+        "birthday9_15april_title": "15 avril",
+        "birthday9_15april_description": "De nombreuses fonctionnalités de base sont implémentées pour le projet de système de mise à jour, notamment l'ajout d'options d'interaction et de confidentialité",
+
+        "birthday9_28may_title": "28 mai",
+        "birthday9_28may_description": "La disposition du clavier QWERTY américain est ajoutée à LiveG OS, améliorant ainsi la convivialité pour les utilisateurs des États-Unis",
+
+        "birthday9_21june_title": "21 juin",
+        "birthday9_21june_description": "Une journalisation complète des événements système est ajoutée à LiveG OS, ce qui rend le système plus adapté aux appareils gérés par les écoles et les organisations",
+
+        "birthday9_27july_title": "27 juillet",
+        "birthday9_27july_description": "Début du développement de LiveG OS Nano — un système d'exploitation conçu pour les appareils à faible consommation, tels que les montres intelligentes",
+
+        "birthday9_3august_title": "3 août",
+        "birthday9_3august_description": "LiveG OS Nano commence à prendre en charge les applications écrites en JavaScript, démontrant la viabilité du système sur le matériel embarqué",
+
+        "birthday9_26august_title": "26 août",
+        "birthday9_26august_description": "L'application Calculatrice est ajoutée à LiveG OS en tant qu'application système, principalement pour explorer comment les futures applications (telles qu'un gestionnaire de fichiers) pourraient être implémentées",
+
+        "birthday9_29august_title": "29 août",
+        "birthday9_29august_description": "La version 0.2.0 de LiveG OS est publiée, apportant le système à une gamme de nouveaux appareils, notamment le PinePhone et le Raspberry Pi 4",
+
+        "birthday9_5september_title": "5 septembre",
+        "birthday9_5september_description": "Les travaux commencent pour implémenter l'intégration de l'application Linux dans LiveG OS, avec l'ajout d'une nouvelle application système Terminal",
+
+        "birthday9_23october_title": "23 octobre",
+        "birthday9_23october_description": "Le développement de LiveG OS Nano se poursuit à un bon rythme, avec un support sous-jacent ajouté pour son prochain framework Astronaut Nano",
+
+        "birthday9_27october_title": "27 octobre",
+        "birthday9_27october_description": "La prise en charge de l'exécution d'applications graphiques Linux sur LiveG OS via Xorg continue d'être implémentée",
+
+        "birthday9_17november_title": "17 novembre",
+        "birthday9_17november_description": "Il est confirmé qu'une version de test de LiveG OS fonctionne sur le Raspberry Pi 5, ce qui signifie que la prise en charge sera ajoutée dans la prochaine version de LiveG OS",
+
+        "birthday9_codingActivity_title": "Essayez notre activité de codage",
+        "birthday9_codingActivity_description": "Pouvez-vous utiliser le framework LiveG Astronaut pour décorer ce gâteau d'anniversaire ?",
+        "birthday9_codingActivity_loading": "Chargement de l'activité de codage...",
+        "birthday9_codingActivity_doNotTouch": "ATTENTION : Très chaud — ne touchez pas !",
+
+        "birthday9_codingActivity_1": "Modifiez le code pour choisir une nouvelle couleur pour le gâteau. Vous pouvez choisir entre `\"cyan\"`, `\"yellow\"` (jaune), `\"red\"` (rouge) ou `\"green\"` (vert).",
+        "birthday9_codingActivity_2": "Bon choix! Il manque cependant quelque chose — aucun gâteau d'anniversaire n'est complet sans bougies !",
+        "birthday9_codingActivity_3": "C'est mieux! Modifiez maintenant le code pour qu'il y ait 2 bougies supplémentaires sur le gâteau.",
+        "birthday9_codingActivity_4": "Ça a l'air bien ! Saviez-vous qu'il existe un moyen plus simple d'ajouter des tonnes de bougies dans Astronaut ?",
+        "birthday9_codingActivity_5": "...c'est vrai : nous pouvons utiliser `astronaut.repeat` ! Modifiez le code pour qu'il y ait quelques bougies supplémentaires. Pourquoi pas un pour chaque année depuis laquelle LiveG existe ?",
+        "birthday9_codingActivity_6": "Très bien ! Hé, vu qu'on a le budget, on devrait ajouter une autre couche au gâteau ?",
+        "birthday9_codingActivity_7": "J'ai ajouté une autre couche pour vous. Pouvez-vous y ajouter une couleur ? Astuce : regardez comment c'est fait pour la première couche !",
+        "birthday9_codingActivity_8": "Ce fut une tâche difficile — beau travail ! S'il est plus grand, ce gâteau pourrait tomber... Pouvez-vous changer la `\"height\"` (hauteur) des deux couches pour qu'elle soit `3` ?",
+        "birthday9_codingActivity_9": "Beaucoup mieux ! Que diriez-vous d'augmenter la `width` (largeur) des deux couches afin que nous puissions toujours y placer toutes les bougies ?",
+        "birthday9_codingActivity_10": "Nous devrions probablement également augmenter la `width` (largeur) de la base, pour que le gâteau puisse toujours tenir dessus... Pouvez-vous faire ça ?",
+        "birthday9_codingActivity_11": "Bon travail, ce gâteau a l'air délicieux ! Merci d'avoir essayé cette activité de codage. N'hésitez pas à modifier le gâteau pour vous l'approprier.\n\nPourquoi ne pas partager ce défi de codage avec vos amis afin qu'ils puissent créer leurs propres gâteaux à l'aide d'Astronaut ?\n\nEt vu que vous devenez un véritable pro dans l'utilisation d'Astronaut, pourquoi pas <a href=\"https://docs.liveg.tech/?product=adaptui&page=astronaut-getting-started.md\" target=\"_blank\">apprendre à créer vos propres applications avec Astronaut</a> ?",
+
+        "birthday9_codingActivity_baseSizeError": "La base est bien trop grande",
+        "birthday9_codingActivity_layerSizeError": "La couche de gâteau est bien trop grosse",
+        "birthday9_codingActivity_candleCountError": "Le magasin de bougies a déclaré qu'il n'avait plus de bougies",
+        "birthday9_codingActivity_colourSpellingError": "Veuillez utiliser \"colour\" (orthographe britannique) au lieu de \"color\"",
+
+        "birthday9_codingActivity_errorExplanation_missingClosingBracket": "Cette erreur se produit généralement lorsque vous oubliez de fermer une paire de crochets (souvent parce qu'il vous manque un `}`).",
+        "birthday9_codingActivity_errorExplanation_missingComma": "Cette erreur se produit généralement lorsque vous oubliez d'ajouter un `,` avant le nom d'une propriété.",
+        "birthday9_codingActivity_errorExplanation_missingColon": "Cette erreur se produit généralement lorsque vous oubliez d'ajouter un `:` après un nom de propriété.",
+        "birthday9_codingActivity_errorExplanation_missingEnclosingBraceBrackets": "Cette erreur se produit généralement lorsque vous oubliez les `{` et `}` autour des propriétés, ou un `)`.",
+
         "birthday9_viewLastYear_title": "Voir la dernière célébration",
         "birthday9_viewLastYear_description": "Pour le 8ème anniversaire de LiveG, nous sommes revenus sur l'histoire de LiveG depuis ses débuts en 2014.",
 
