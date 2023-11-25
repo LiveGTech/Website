@@ -351,7 +351,7 @@
         "birthday9_codingActivity_baseSizeError": "底座太大了",
         "birthday9_codingActivity_layerSizeError": "图层太大了",
         "birthday9_codingActivity_candleCountError": "蜡烛店表示蜡烛已经卖完了",
-        "birthday9_codingActivity_colourSpellingError": "请使用`\"colour\"`（英式拼写）而不是`\"color\"`",
+        "birthday9_codingActivity_colourSpellingError": "请使用\"colour\"（英式拼写）而不是\"color\"",
 
         "birthday9_codingActivity_errorExplanation_missingClosingBracket": "当您忘记关闭一对括号时（通常是因为您缺少`}`），通常会发生此错误。",
         "birthday9_codingActivity_errorExplanation_missingComma": "当您忘记在属性名称前添加`,`时，通常会发生此错误。",
