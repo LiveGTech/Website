@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/zh/atom.xml</id>
     <title>力格博客</title>
-    <updated>2023-08-29T10:00:20.128Z</updated>
+    <updated>2023-11-25T15:57:56.408Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>及时了解力格的最新新闻和信息。</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
@@ -14,7 +14,7 @@
         <link href="https://liveg.tech/blog/zh/new-in-os-0-2-0"/>
         <updated>2023-08-29T10:00:00.944Z</updated>
         <summary type="html"><![CDATA[了解力格OS最新Alpha版本中添加的许多新功能，包括对树莓派和PinePhone的支持。]]></summary>
-        <content type="html"><![CDATA[<p>经过近一整年的努力开发力格OS新功能，我们很高兴地宣布力格OS 的最新Alpha版本现已可用于一系列设备，包括树莓派、PinePhone和x86-64和ARM64计算机。这个新版本实现了我们的目标，即使力格OS成为真正的多平台操作系统，并且是少数可以在桌面和移动设备外形上运行的操作系统之一。</p>
+        <content type="html"><![CDATA[<p>经过近一整年的努力开发力格OS新功能，我们很高兴地宣布力格OS的最新Alpha版本现已可用于一系列设备，包括树莓派、PinePhone和x86-64和ARM64计算机。这个新版本实现了我们的目标，即使力格OS成为真正的多平台操作系统，并且是少数可以在桌面和移动设备外形上运行的操作系统之一。</p>
 <p>我们最新一集的力格Showcase展示了这个新版本中包含的所有新功能，现已在YouTube上提供。在这篇文章中，我们将向您总结这些新功能。</p>
 <p><a href="https://youtu.be/wa5K0FJ_rKk" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
     <img src="/media/blog/new-in-os-0-2-0/showcase-video.png" translate="attributesOnly" tl:alt="videoAlt_youtube">
