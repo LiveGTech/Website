@@ -318,6 +318,7 @@
 
         "birthday9_29august_title": "29月3日",
         "birthday9_29august_description": "力格OS 0.2.0版本发布，将该系统引入一系列新设备，包括PinePhone和树莓派4",
+        "birthday9_29august_learnMoreUrl": "/blog/zh/new-in-os-0-2-0",
 
         "birthday9_5september_title": "9月5日",
         "birthday9_5september_description": "开始将Linux应用程序集成到力格OS中，并添加新的终端系统应用程序",

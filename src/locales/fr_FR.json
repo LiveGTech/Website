@@ -321,6 +321,7 @@
 
         "birthday9_29august_title": "29 août",
         "birthday9_29august_description": "La version 0.2.0 de LiveG OS est publiée, apportant le système à une gamme de nouveaux appareils, notamment le PinePhone et le Raspberry Pi 4",
+        "birthday9_29august_learnMoreUrl": "/blog/fr/new-in-os-0-2-0",
 
         "birthday9_5september_title": "5 septembre",
         "birthday9_5september_description": "Les travaux commencent pour implémenter l'intégration de l'application Linux dans LiveG OS, avec l'ajout d'une nouvelle application système Terminal",
