@@ -345,7 +345,7 @@
         "birthday9_codingActivity_6": "非常好！嘿，既然我们有预算，我们是不是应该在蛋糕上再加一层呢？",
         "birthday9_codingActivity_7": "我为你添加了另一层。你能给它添加一种颜色吗？提示：看看第一层是如何完成的！",
         "birthday9_codingActivity_8": "那是一项艰巨的任务——干得好！再高的话，这个蛋糕可能会倒下来……你能把两层的`height`（高度）都改为`3`吗？",
-        "birthday9_codingActivity_9": "好多了！ 如何增加两层的`width`（宽度），以便我们仍然可以容纳所有蜡烛？",
+        "birthday9_codingActivity_9": "好多了！如何增加两层的`width`（宽度），以便我们仍然可以容纳所有蜡烛？尝试将蛋糕分层，使每一层的宽度都比上一层增加，顶层的宽度至少为`9`。",
         "birthday9_codingActivity_10": "我们或许也应该增加底座的`width`（宽度），这样蛋糕仍然可以放在上面……你能做到吗？",
         "birthday9_codingActivity_11": "干得好——这个蛋糕看起来很好吃！感谢您参与此编码活动——请随意编辑蛋糕，使其成为您自己的蛋糕。\n\n为什么不与您的朋友分享此编码挑战，以便他们可以使用宇航员制作自己的蛋糕？\n\n并且看到 您正在成为使用宇航员的专家，为什么不<a href=\"https://docs.liveg.tech/?product=adaptui&page=astronaut-getting-started.md\" target=\"_blank\">了解如何使用宇航员构建自己的应用程序</a>？",
 
