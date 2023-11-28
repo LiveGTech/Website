@@ -185,15 +185,11 @@ export var Layer = astronaut.component("Layer", function(props, children) {
         _visitStep(8);
     }
 
-    console.log(layerCount, props.width);
-
     if (layerCount == 1 && props.width > 9) {
-        console.log("top", props.width);
         topLayerWidthIncreased = true;
     }
 
     if (layerCount == 2 && props.width > 10 && topLayerWidthIncreased) {
-        console.log("bottom", props.width);
         _visitStep(9);
     }
 
