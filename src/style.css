@@ -7,6 +7,10 @@
     Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
 */
 
+nav {
+    z-index: 2!important;
+}
+
 img.full {
     width: 100%;
     max-width: unset;
@@ -153,6 +157,14 @@ img.full {
 
 .bdayTimeline p {
     font-size: 1.5rem;
+}
+
+.bdayTimeline.smallerText h2 {
+    font-size: 2rem;
+}
+
+.bdayTimeline.smallerText p {
+    font-size: 1.2rem;
 }
 
 .videoLink {
