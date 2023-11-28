@@ -348,7 +348,7 @@
         "birthday9_codingActivity_6": "Very good! Hey, seeing as we have the budget, should we add another layer to the cake?",
         "birthday9_codingActivity_7": "I've added another layer for you. Can you add a colour to it? Hint: look at how it's done for the first layer!",
         "birthday9_codingActivity_8": "That was a tough one — nice work! Any taller and this cake might fall over... Can you change the `height` of both layers to be `3`?",
-        "birthday9_codingActivity_9": "Much better! How about increasing the `width`s of both layers so that we can still fit all the candles on? Try making the cake layers tiered, with the top layer having a width of at least `9`.",
+        "birthday9_codingActivity_9": "Much better! How about increasing the `width`s of both layers so that we can still fit all the candles on? Try making the cake layers tiered, with the top layer having a width of at least `10`.",
         "birthday9_codingActivity_10": "We should probably increase the `width` of the base, too, so the cake can still fit on... Can you do that?",
         "birthday9_codingActivity_11": "Good job — this cake is looking tasty! Thanks for having a go at this coding activity — feel free to edit the cake to make it your own.\n\nWhy not share this coding challenge with your friends so they can make their own cakes using Astronaut?\n\nAnd seeing as you're becoming quite a pro at using Astronaut, why not <a href=\"https://docs.liveg.tech/?product=adaptui&page=astronaut-getting-started.md\" target=\"_blank\">learn how to build your own apps with Astronaut</a>?",
 

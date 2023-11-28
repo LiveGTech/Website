@@ -115,17 +115,20 @@ export var Background = astronaut.component("Background", function(props, childr
 });
 
 export var Base = astronaut.component("Base", function(props, children) {
+    props.width ||= 12;
+    props.height ||= 0.5;
+
     if (props.width > 20 || props.height > 2) {
         throw new TypeError(_("birthday9_codingActivity_baseSizeError"));
     }
 
-    if (layerCount == 2 && props.width > bottomLayerWidth) {
+    if (layerCount == 2 && topLayerWidthIncreased && bottomLayerWidth > 10 && props.width > bottomLayerWidth) {
         _visitStep(10);
     }
 
     return Cylinder({
-        width: props.width || 12,
-        height: props.height || 0.5,
+        width: props.width,
+        height: props.height,
         faceHeight: props.faceHeight || undefined,
         colour: "#cccccc",
         faceColour: "#b2b2b2"
@@ -182,11 +185,15 @@ export var Layer = astronaut.component("Layer", function(props, children) {
         _visitStep(8);
     }
 
-    if (layerCount == 1 && props.width > 8) {
+    console.log(layerCount, props.width);
+
+    if (layerCount == 1 && props.width > 9) {
+        console.log("top", props.width);
         topLayerWidthIncreased = true;
     }
 
     if (layerCount == 2 && props.width > 10 && topLayerWidthIncreased) {
+        console.log("bottom", props.width);
         _visitStep(9);
     }
 
