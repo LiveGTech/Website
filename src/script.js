@@ -82,9 +82,9 @@ $g.waitForLoad().then(function() {
     });
 
     // Show LiveG Birthday celebrations
-    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2023) {
+    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2023) { // Checked against local time zone
         $g.sel(".birthday").show();
-    } else if (Date.now() < new Date("2023-11-30T00:00:00.000Z").getTime()) {
+    } else if (Date.now() < new Date("2023-11-30T00:00:00.000-12:00").getTime()) { // By this time, UTC-12 will also have started celebrating the birthday
         $g.sel(".birthdaySoon").show();
     }
 
