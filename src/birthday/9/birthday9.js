@@ -122,16 +122,20 @@ website.waitForLoad().then(function() {
                     code: CHALLENGE_CODE_PARTS[3]
                 },
                 {
-                    instructions: _("birthday9_codingActivity_8")
+                    instructions: _("birthday9_codingActivity_8"),
+                    code: CHALLENGE_CODE_PARTS[3]
                 },
                 {
-                    instructions: _("birthday9_codingActivity_9")
+                    instructions: _("birthday9_codingActivity_9"),
+                    code: CHALLENGE_CODE_PARTS[3]
                 },
                 {
-                    instructions: _("birthday9_codingActivity_10")
+                    instructions: _("birthday9_codingActivity_10"),
+                    code: CHALLENGE_CODE_PARTS[3]
                 },
                 {
-                    instructions: _("birthday9_codingActivity_11")
+                    instructions: _("birthday9_codingActivity_11"),
+                    code: CHALLENGE_CODE_PARTS[3]
                 }
             ],
             errorExplanations: [
