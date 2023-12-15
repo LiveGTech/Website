@@ -7,3 +7,6 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 RewriteRule ^api/telemetrics$ /api.php
 RewriteRule ^api/telemetrics/(.*)$ /api.php/$1
+
+RewriteRule ^api/search$ /api.php
+RewriteRule ^api/search/(.*)$ /api.php/$1
