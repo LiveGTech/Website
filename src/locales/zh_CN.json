@@ -19,6 +19,8 @@
         "cancel": "取消",
         "learnMore": "学到更多",
         "download": "下载",
+        "previous": "上一页",
+        "next": "下一页",
 
         "size_bytes": "{size}字节",
         "size_kb": "{size} KB",
@@ -212,9 +214,6 @@
         "birthday_soon_title": "为力格的9岁生日做好准备",
         "birthday_soon_description": "11月30日与我们一起庆祝并回顾我们在过去一年所取得的进展。",
 
-        "birthday_viewLastYear_title": "查看去年的庆祝活动",
-        "birthday_viewLastYear_description": "在力格的8岁生日之际，我们回顾了力格自2014年成立以来的历史。",
-
         "birthday_joinDiscord_title": "加入我们的Discord服务器",
         "birthday_joinDiscord_description": "成为力格贡献者社区的一员，看看我们正在做什么来庆祝。",
 
@@ -266,6 +265,103 @@
 
         "birthday9_bannerMessage": "今天我们庆祝力格成立9周年！让我们一起回顾力格过去的一年。我们甚至还有（软件）蛋糕！",
 
+        "birthday9_intro_title": "庆祝力格成立9周年",
+        "birthday9_intro_description": "与我们一起参加一年一度的生日庆祝活动，回顾过去一年所取得的进步！",
+
+        "birthday9_4december_title": "12月4日",
+        "birthday9_4december_description": "力格OS应用程序菜单中添加了按钮，为应用程序排序和搜索功能做好准备",
+
+        "birthday9_17december_title": "12月17日",
+        "birthday9_17december_description": "力格OS设置应用程序中为Wi-Fi选项添加了更多功能，允许用户管理Wi-Fi网络",
+
+        "birthday9_22december_title": "12月22日",
+        "birthday9_22december_description": "随着力格OS的功能变得更加完善，我们计划删除其调试环境",
+
+        "birthday9_7january_title": "1月7日",
+        "birthday9_7january_description": "领域可以选择将网站安装为力格OS中的应用程序，从而允许用户选择他们想要使用的应用程序",
+
+        "birthday9_16january_title": "1月16日",
+        "birthday9_16january_description": "力格OS即开即用设置（OOBS）系统获得更多有用的功能，例如电源和辅助功能菜单",
+
+        "birthday9_26january_title": "1月26日",
+        "birthday9_26january_description": "添加了对在具有ARM64处理器的计算机上运行力格OS的基本支持",
+
+        "birthday9_5february_title": "2月5日",
+        "birthday9_5february_description": "力格OS应用程序菜单中实现了应用程序排序和搜索功能，可以更轻松地查找已安装的应用程序",
+
+        "birthday9_12february_title": "2月12日",
+        "birthday9_12february_description": "力格OS的设置应用程序中添加了选项，允许用户启用中文拼音文本输入",
+
+        "birthday9_18february_title": "2月18日",
+        "birthday9_18february_description": "适用于移动设备的力格OS为应用程序切换器提供基于手势的导航",
+
+        "birthday9_30march_title": "3月30日",
+        "birthday9_30march_description": "开始实施力格OS的更新系统，允许用户将其设备更新到最新的系统版本",
+
+        "birthday9_15april_title": "4月15日",
+        "birthday9_15april_description": "更新系统项目实现了许多核心功能，包括添加交互和隐私选项",
+
+        "birthday9_28may_title": "5月28日",
+        "birthday9_28may_description": "力格OS中添加了美国QWERTY键盘布局，提高了美国用户的可用性",
+
+        "birthday9_21june_title": "6月21日",
+        "birthday9_21june_description": "力格OS添加了全面的系统事件日志记录，使系统更适合学校和组织管理的设备",
+
+        "birthday9_27july_title": "7月27日",
+        "birthday9_27july_description": "力格OS纳米的开发工作已开始，这是一款专为智能手表等低功耗设备设计的操作系统",
+
+        "birthday9_3august_title": "8月3日",
+        "birthday9_3august_description": "力格OS纳米开始支持用JavaScript编写的应用程序，展示了系统在嵌入式硬件上的可行性",
+
+        "birthday9_26august_title": "26月3日",
+        "birthday9_26august_description": "计算器应用程序作为系统应用程序添加到力格OS中，主要是为了探索如何实现未来的应用程序（例如文件管理器）",
+
+        "birthday9_29august_title": "29月3日",
+        "birthday9_29august_description": "力格OS 0.2.0版本发布，将该系统引入一系列新设备，包括PinePhone和树莓派4",
+        "birthday9_29august_learnMoreUrl": "/blog/zh/new-in-os-0-2-0",
+
+        "birthday9_5september_title": "9月5日",
+        "birthday9_5september_description": "开始将Linux应用程序集成到力格OS中，并添加新的终端系统应用程序",
+
+        "birthday9_23october_title": "10月23日",
+        "birthday9_23october_description": "力格OS纳米的开发继续以良好的速度进行，为其即将推出的宇航员纳米框架添加了底层支持",
+
+        "birthday9_27october_title": "10月27日",
+        "birthday9_27october_description": "继续支持通过Xorg在力格OS上运行图形Linux应用程序",
+
+        "birthday9_17november_title": "10月17日",
+        "birthday9_17november_description": "力格OS的测试版本已确认可在树莓派5上运行，这意味着将在力格OS的下一版本中添加支持",
+
+        "birthday9_codingActivity_title": "尝试一下我们的编码活动",
+        "birthday9_codingActivity_description": "你能用力格·宇航员框架来装饰这个生日蛋糕吗？",
+        "birthday9_codingActivity_loading": "正在加载编码活动……",
+        "birthday9_codingActivity_doNotTouch": "注意：非常热——请勿触摸！",
+
+        "birthday9_codingActivity_1": "编辑代码为蛋糕选择新颜色。您可以选择`\"cyan\"`（青色）、`\"yellow\"`（黄色）、`\"red\"`（红色）或`\"green\"`（绿色）。",
+        "birthday9_codingActivity_2": "好的选择！然而，还是缺少了一些东西——没有蜡烛的生日蛋糕是不完整的！",
+        "birthday9_codingActivity_3": "这样更好！ 现在编辑代码，使蛋糕顶部多出2根蜡烛。",
+        "birthday9_codingActivity_4": "看起来不错！您是否知道在宇航员中添加大量蜡烛有一种更简单的方法？",
+        "birthday9_codingActivity_5": "……没错：我们可以使用`astronaut.repeat`！编辑代码，以便有更多蜡烛。为什么不为力格存在的每一年制作一个呢？",
+        "birthday9_codingActivity_6": "非常好！嘿，既然我们有预算，我们是不是应该在蛋糕上再加一层呢？",
+        "birthday9_codingActivity_7": "我为你添加了另一层。你能给它添加一种颜色吗？提示：看看第一层是如何完成的！",
+        "birthday9_codingActivity_8": "那是一项艰巨的任务——干得好！再高的话，这个蛋糕可能会倒下来……你能把两层的`height`（高度）都改为`3`吗？",
+        "birthday9_codingActivity_9": "好多了！如何增加两层的`width`（宽度），以便我们仍然可以容纳所有蜡烛？尝试将蛋糕分层，使每一层的宽度都比上一层增加，顶层的宽度至少为`10`。",
+        "birthday9_codingActivity_10": "我们或许也应该增加底座的`width`（宽度），这样蛋糕仍然可以放在上面……你能做到吗？",
+        "birthday9_codingActivity_11": "干得好——这个蛋糕看起来很好吃！感谢您参与此编码活动——请随意编辑蛋糕，使其成为您自己的蛋糕。\n\n为什么不与您的朋友分享此编码挑战，以便他们可以使用宇航员制作自己的蛋糕？\n\n并且看到您正在成为使用宇航员的专家，为什么不<a href=\"https://docs.liveg.tech/?product=adaptui&page=astronaut-getting-started.md\" target=\"_blank\">了解如何使用宇航员构建自己的应用程序</a>？",
+
+        "birthday9_codingActivity_baseSizeError": "底座太大了",
+        "birthday9_codingActivity_layerSizeError": "图层太大了",
+        "birthday9_codingActivity_candleCountError": "蜡烛店表示蜡烛已经卖完了",
+        "birthday9_codingActivity_colourSpellingError": "请使用\"colour\"（英式拼写）而不是\"color\"",
+
+        "birthday9_codingActivity_errorExplanation_missingClosingBracket": "当您忘记关闭一对括号时（通常是因为您缺少`}`），通常会发生此错误。",
+        "birthday9_codingActivity_errorExplanation_missingComma": "当您忘记在属性名称前添加`,`时，通常会发生此错误。",
+        "birthday9_codingActivity_errorExplanation_missingColon": "当您忘记在属性名称后面添加`:`时，通常会发生此错误。",
+        "birthday9_codingActivity_errorExplanation_missingEnclosingBraceBrackets": "当您忘记属性周围的`{`和`}`时，或`)`，通常会发生此错误。",
+
+        "birthday9_viewLastYear_title": "查看去年的庆祝活动",
+        "birthday9_viewLastYear_description": "在力格的8岁生日之际，我们回顾了力格自2014年成立以来的历史。",
+
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
         "legal_orgInfo_operator": "由詹姆斯·利夫西（James Livesey）运营和管理",
@@ -282,6 +378,11 @@
         "legal_trademarks_list_logo": "力格徽标",
 
         "404_title": "抱歉，您要查找的页面似乎不存在……",
-        "404_description": "您可能输入了错误的URL，或者您以前访问过的页面可能不再可用。"
+        "404_description": "您可能输入了错误的URL，或者您以前访问过的页面可能不再可用。",
+
+        "playground_error_title": "哦不，你把它弄坏了！",
+        "playground_error_description": "查看您的代码，看看是否可以发现任何拼写错误或其他问题。",
+        "playground_error_skipMessage": "还是找不到问题？",
+        "playground_error_skipLink": "跳至下一步"
     }
 }

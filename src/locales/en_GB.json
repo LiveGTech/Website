@@ -19,6 +19,8 @@
         "cancel": "Cancel",
         "learnMore": "Learn more",
         "download": "Download",
+        "previous": "Previous",
+        "next": "Next",
 
         "size_bytes": {
             "{size} == 1": "{size} byte",
@@ -215,9 +217,6 @@
         "birthday_soon_title": "Get ready for LiveG's 9th birthday",
         "birthday_soon_description": "Join us on 30 November to celebrate and look back on the progress we've made in the past year.",
 
-        "birthday_viewLastYear_title": "View last year's celebrations",
-        "birthday_viewLastYear_description": "For LiveG's 8th birthday, we looked back on LiveG's history since its beginnings in 2014.",
-
         "birthday_joinDiscord_title": "Join our Discord server",
         "birthday_joinDiscord_description": "Be part of the LiveG Contributors Community and see what we're doing to celebrate.",
 
@@ -269,6 +268,103 @@
 
         "birthday9_bannerMessage": "We're celebrating 9 years of LiveG today! Join in as we look back on the past year of LiveG. We've even got (software) cake!",
 
+        "birthday9_intro_title": "Celebrating 9 years of LiveG",
+        "birthday9_intro_description": "Join us for our annual birthday celebration as we look back on the progress we've made in the past year!",
+
+        "birthday9_4december_title": "4 December",
+        "birthday9_4december_description": "Buttons are added to LiveG OS's app menu in preparation for app sorting and searching features",
+
+        "birthday9_17december_title": "17 December",
+        "birthday9_17december_description": "More features added for Wi-Fi options in LiveG OS's Settings app to allow users to manage Wi-Fi networks",
+
+        "birthday9_22december_title": "22 December",
+        "birthday9_22december_description": "With LiveG OS becoming more feature-complete, plans are made to remove its Debug Environment",
+
+        "birthday9_7january_title": "7 January",
+        "birthday9_7january_description": "Sphere gets an option to install websites as apps in LiveG OS, allowing users to choose which apps they want to use",
+
+        "birthday9_16january_title": "16 January",
+        "birthday9_16january_description": "LiveG OS's out-of-box setup (OOBS) system gains more useful features, such as power and accessibility menus",
+
+        "birthday9_26january_title": "26 January",
+        "birthday9_26january_description": "Basic support for running LiveG OS on computers with ARM64 processors is added",
+
+        "birthday9_5february_title": "5 February",
+        "birthday9_5february_description": "App sorting and search featuers are implemented in LiveG OS's app menu, making it easier to find installed apps",
+
+        "birthday9_12february_title": "12 February",
+        "birthday9_12february_description": "Options added to LiveG OS's Settings app to allow users to enable Chinese pinyin text entry",
+
+        "birthday9_18february_title": "18 February",
+        "birthday9_18february_description": "Gesture-based navigation for the app switcher added to LiveG OS for mobile devices",
+
+        "birthday9_30march_title": "30 March",
+        "birthday9_30march_description": "Work begins to implement LiveG OS's update system, allowing users to update their devices to the latest system release",
+
+        "birthday9_15april_title": "15 April",
+        "birthday9_15april_description": "Many core features are implemented for the update system project, including the addition of interaction and privacy options",
+
+        "birthday9_28may_title": "28 May",
+        "birthday9_28may_description": "The US QWERTY keyboard layout is added to LiveG OS, improving usability for users from the United States",
+
+        "birthday9_21june_title": "21 June",
+        "birthday9_21june_description": "Comprehensive system event logging is added to LiveG OS, making the system more suitable for devices managed by schools and organisations",
+
+        "birthday9_27july_title": "27 July",
+        "birthday9_27july_description": "Development begins for LiveG OS Nano — an operating system designed for low-powered devices, such as smartwatches",
+
+        "birthday9_3august_title": "3 August",
+        "birthday9_3august_description": "LiveG OS Nano begins to support apps written in JavaScript, demonstrating the viability of the system on embedded hardware",
+
+        "birthday9_26august_title": "26 August",
+        "birthday9_26august_description": "The Calculator app is added to LiveG OS as a system app, primarily to explore how future apps (such as a file manager) could be implemented",
+
+        "birthday9_29august_title": "29 August",
+        "birthday9_29august_description": "Version 0.2.0 of LiveG OS is released, bringing the system to a range of new devices, including to the PinePhone and Raspberry Pi 4",
+        "birthday9_29august_learnMoreUrl": "/blog/en/new-in-os-0-2-0",
+
+        "birthday9_5september_title": "5 September",
+        "birthday9_5september_description": "Work begins to implement Linux app integration into LiveG OS, with a new Terminal system app added",
+
+        "birthday9_23october_title": "23 October",
+        "birthday9_23october_description": "The development of LiveG OS Nano continues at a good pace, with underlying support added for its upcoming Astronaut Nano framework",
+
+        "birthday9_27october_title": "27 October",
+        "birthday9_27october_description": "Support for running graphical Linux apps on LiveG OS via Xorg continues to be implemented",
+
+        "birthday9_17november_title": "17 November",
+        "birthday9_17november_description": "A test build of LiveG OS is confirmed as working on the Raspberry Pi 5, meaning support will be added in the next release of LiveG OS",
+
+        "birthday9_codingActivity_title": "Have a go at our coding activity",
+        "birthday9_codingActivity_description": "Can you use the LiveG Astronaut framework to decorate this birthday cake?",
+        "birthday9_codingActivity_loading": "Loading coding activity...",
+        "birthday9_codingActivity_doNotTouch": "CAUTION: Very hot — do not touch!",
+
+        "birthday9_codingActivity_1": "Edit the code to choose a new colour for the cake. You can choose from `\"cyan\"`, `\"yellow\"`, `\"red\"` or `\"green\"`.",
+        "birthday9_codingActivity_2": "Good choice! There's something missing, though — no birthday cake is complete without candles!",
+        "birthday9_codingActivity_3": "That's better! Now edit the code so that there are 2 more candles on top of the cake.",
+        "birthday9_codingActivity_4": "Looking good! Did you know that there's an easier way of adding loads of candles in Astronaut?",
+        "birthday9_codingActivity_5": "...that's right: we can use `astronaut.repeat`! Edit the code so that there are a few more candles. Why not one for each year that LiveG has been around for?",
+        "birthday9_codingActivity_6": "Very good! Hey, seeing as we have the budget, should we add another layer to the cake?",
+        "birthday9_codingActivity_7": "I've added another layer for you. Can you add a colour to it? Hint: look at how it's done for the first layer!",
+        "birthday9_codingActivity_8": "That was a tough one — nice work! Any taller and this cake might fall over... Can you change the `height` of both layers to be `3`?",
+        "birthday9_codingActivity_9": "Much better! How about increasing the `width`s of both layers so that we can still fit all the candles on? Try making the cake layers tiered, with the top layer having a width of at least `10`.",
+        "birthday9_codingActivity_10": "We should probably increase the `width` of the base, too, so the cake can still fit on... Can you do that?",
+        "birthday9_codingActivity_11": "Good job — this cake is looking tasty! Thanks for having a go at this coding activity — feel free to edit the cake to make it your own.\n\nWhy not share this coding challenge with your friends so they can make their own cakes using Astronaut?\n\nAnd seeing as you're becoming quite a pro at using Astronaut, why not <a href=\"https://docs.liveg.tech/?product=adaptui&page=astronaut-getting-started.md\" target=\"_blank\">learn how to build your own apps with Astronaut</a>?",
+
+        "birthday9_codingActivity_baseSizeError": "Base is way too big",
+        "birthday9_codingActivity_layerSizeError": "Layer is way too big",
+        "birthday9_codingActivity_candleCountError": "Candle shop has said they have run out of candles",
+        "birthday9_codingActivity_colourSpellingError": "Please use \"colour\" (British spelling) instead of \"color\"",
+
+        "birthday9_codingActivity_errorExplanation_missingClosingBracket": "This error usually happens when you forget to close a pair of brackets (often because you're missing a `}`).",
+        "birthday9_codingActivity_errorExplanation_missingComma": "This error usually happens when you forget to add a `,` before a property name.",
+        "birthday9_codingActivity_errorExplanation_missingColon": "This error usually happens when you forget to add a `:` after a property name.",
+        "birthday9_codingActivity_errorExplanation_missingEnclosingBraceBrackets": "This error usually happens when you forget the `{` and `}` around the properties, or a `)`.",
+
+        "birthday9_viewLastYear_title": "View last year's celebrations",
+        "birthday9_viewLastYear_description": "For LiveG's 8th birthday, we looked back on LiveG's history since its beginnings in 2014.",
+
         "legal_orgInfo": "Organisational information (imprint)",
         "legal_orgInfo_description": "An Unincorporated Organisation of the United Kingdom since 30 November 2014",
         "legal_orgInfo_operator": "Operated and funds managed by James Livesey",
@@ -285,6 +381,11 @@
         "legal_trademarks_list_logo": "The LiveG Logo",
 
         "404_title": "Sorry, but the page you were looking for doesn't seem to exist…",
-        "404_description": "You may have mistyped the URL, or the page you have previously visited may no longer be available."
+        "404_description": "You may have mistyped the URL, or the page you have previously visited may no longer be available.",
+
+        "playground_error_title": "Oh no, you broke it!",
+        "playground_error_description": " Take a look at your code and see if you can find any typos or other problems.",
+        "playground_error_skipMessage": "Still can't find the issue? ",
+        "playground_error_skipLink": "Skip to the next step"
     }
 }

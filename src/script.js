@@ -30,9 +30,9 @@ $g.waitForLoad().then(function() {
     return $g.templates.apply();
 }).then(function() {
     return $g.l10n.selectLocaleFromResources({
-        "en_GB": "/locales/en_GB.json?v=2",
-        "fr_FR": "/locales/fr_FR.json?v=2",
-        "zh_CN": "/locales/zh_CN.json?v=2"
+        "en_GB": "/locales/en_GB.json?v=3",
+        "fr_FR": "/locales/fr_FR.json?v=3",
+        "zh_CN": "/locales/zh_CN.json?v=3"
     }, "en_GB", {
         "fr_FR": "en_GB",
         "zh_CN": "en_GB"
@@ -54,12 +54,14 @@ $g.waitForLoad().then(function() {
 
     $g.sel("body").removeAttribute("hidden");
 
-    if ($g.sel("title").hasAttribute("data-page")) {
-        $g.sel("title").setText(_("title_page", {page: _($g.sel("title").getAttribute("data-page"))}));
-    }
-
-    if ($g.sel("title").hasAttribute("data-enclose")) {
-        $g.sel("title").setText(_("title_page", {page: $g.sel("title").getText()}));
+    if ($g.sel("title").items().length > 0) {
+        if ($g.sel("title").hasAttribute("data-page")) {
+            $g.sel("title").setText(_("title_page", {page: _($g.sel("title").getAttribute("data-page"))}));
+        } else if ($g.sel("title").hasAttribute("data-enclose")) {
+            $g.sel("title").setText(_("title_page", {page: $g.sel("title").getText()}));
+        } else if ($g.sel("title").is("[translate]")) {
+            $g.sel("title").setText(_($g.sel("title").getAttribute("aui-l10nstring")));
+        }
     }
 
     $g.sel(".nav_openMenu").on("click", function() {
@@ -80,9 +82,9 @@ $g.waitForLoad().then(function() {
     });
 
     // Show LiveG Birthday celebrations
-    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2023) {
+    if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2023) { // Checked against local time zone
         $g.sel(".birthday").show();
-    } else if (Date.now() < new Date("2023-11-30T00:00:00.000Z").getTime()) {
+    } else if (Date.now() < new Date("2023-11-30T00:00:00.000-12:00").getTime()) { // By this time, UTC-12 will also have started celebrating the birthday
         $g.sel(".birthdaySoon").show();
     }
 
