@@ -2,24 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/en/atom.xml</id>
     <title>The LiveG Blog</title>
-    <updated>2024-11-12T18:31:54.087Z</updated>
+    <updated>2024-11-13T17:52:37.393Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>Keep up-to-date with the latest news and information from LiveG.</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
     <icon>https://liveg.tech/logo.png</icon>
     <rights>Copyright © LiveG. All Rights Reserved.</rights>
-    <entry>
-        <title type="html"><![CDATA[Celebrating 10 years with LiveG OS V0.3.0]]></title>
-        <id>https://liveg.tech/blog/en/celebrating-with-os-0-3-0</id>
-        <link href="https://liveg.tech/blog/en/celebrating-with-os-0-3-0"/>
-        <updated>2024-11-12T18:25:25.549Z</updated>
-        <summary type="html"><![CDATA[Marking a decade of technological innovation with a special release of LiveG OS.]]></summary>
-        <content type="html"><![CDATA[<p>Since 2014, we've been dreaming of a world of technology that's open and accessible to all.</p>]]></content>
-        <author>
-            <name>james</name>
-            <uri>https://liveg.tech/blog/?byAuthor=james</uri>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[What's new in LiveG OS V0.2.0: multiplatform support and plenty more]]></title>
         <id>https://liveg.tech/blog/en/new-in-os-0-2-0</id>
