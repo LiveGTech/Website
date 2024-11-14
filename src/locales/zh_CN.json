@@ -362,6 +362,11 @@
         "birthday9_viewLastYear_title": "查看去年的庆祝活动",
         "birthday9_viewLastYear_description": "在力格的8岁生日之际，我们回顾了力格自2014年成立以来的历史。",
 
+        "birthday10": "10岁生日",
+
+        "birthday10_showcaseImage_url": "/media/birthday/10/main_zh.svg",
+        "birthday10_showcaseImage_alt": "庆祝力格成立10周年",
+
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
         "legal_orgInfo_operator": "由詹姆斯·利夫西（James Livesey）运营和管理",

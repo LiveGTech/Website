@@ -365,6 +365,11 @@
         "birthday9_viewLastYear_title": "Voir la dernière célébration",
         "birthday9_viewLastYear_description": "Pour le 8ème anniversaire de LiveG, nous sommes revenus sur l'histoire de LiveG depuis ses débuts en 2014.",
 
+        "birthday10": "10e Anniversaire",
+
+        "birthday10_showcaseImage_url": "/media/birthday/10/main_fr.svg",
+        "birthday10_showcaseImage_alt": "Célébration des 10 ans de LiveG",
+
         "legal_orgInfo": "Informations organisationnelles (impressum)",
         "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
         "legal_orgInfo_operator": "Opéré et fonds gérés par James Livesey",
