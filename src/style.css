@@ -11,6 +11,19 @@ nav {
     z-index: 2!important;
 }
 
+nav.black {
+    background-color: black;
+    color: white;
+}
+
+nav.black img[aui-icon="dark embedded"] {
+    filter: contrast(0) brightness(10);
+}
+
+nav.fadeColours {
+    transition: 0.5s background-color, 0.5s color;
+}
+
 img.full {
     width: 100%;
     max-width: unset;

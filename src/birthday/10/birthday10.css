@@ -1,0 +1,24 @@
+/*
+    LiveG Website
+
+    Copyright (C) LiveG. All Rights Reserved.
+
+    https://liveg.tech
+    Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
+*/
+
+.birthday10_cover {
+    background-color: black;
+    color: white;
+}
+
+.birthday10_cover {
+    overflow: hidden;
+}
+
+.birthday10_frame {
+    width: 100%;
+    max-width: unset;
+    transform: perspective(50rem) rotateX(20deg);
+    transition: 0.5s transform;
+}
