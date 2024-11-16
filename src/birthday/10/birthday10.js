@@ -32,4 +32,10 @@ website.waitForLoad().then(function() {
             $g.sel("nav").addClass("black");
         }
     });
+
+    fetch("/media/birthday/10/10-keyframable.svg").then(function(response) {
+        return response.text();
+    }).then(function(html) {
+        $g.sel(".birthday10_keyframable").setHTML(html);
+    });
 });
