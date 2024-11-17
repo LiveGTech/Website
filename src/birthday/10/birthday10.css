@@ -7,6 +7,16 @@
     Licensed by the LiveG Open-Source Licence, which can be found at LICENCE.md.
 */
 
+.birthday10_sectionIcon {
+    width: 3rem;
+    margin-inline-start: 0;
+    margin-inline-end: auto;
+}
+
+.birthday10_appIcon {
+    border-radius: 25%;
+}
+
 .birthday10_cover {
     background-color: black;
     color: white;
@@ -123,6 +133,12 @@
     100% {
         transform: perspective(50rem) rotateX(20deg);
         opacity: 1;
+    }
+}
+
+@media (max-width: 800px) {
+    .birthday10_sectionIcon {
+        margin-top: 1rem;
     }
 }
 
