@@ -28,19 +28,43 @@
     font-size: 4vw;
 }
 
+.birthday10_tagline span:not(:has(svg)) {
+    opacity: 0;
+    animation: 2s forwards birthday10_fadeIn;
+    animation-delay: 2.5s;
+}
+
 .birthday10_tagline .birthday10_keyframable {
     display: inline-block;
     margin-top: 2vw;
+    transform: translateX(-15%);
+    animation: 2s forwards birthday10_keyframable;
+    animation-delay: 1s;
 }
 
 .birthday10_tagline .birthday10_keyframable svg {
     width: 15vw;
+    margin-inline: 1vw;
+}
+
+.birthday10_tagline .birthday10_keyframable .zeroCounter {
+    transform: scale(0);
+    transform-origin: 53.6px 31.6px;
+    animation: 1s forwards birthday10_zeroCounter;
+    animation-delay: 1s;
+}
+
+.birthday10_tagline .birthday10_keyframable .one {
+    opacity: 0;
+    animation: 1s forwards birthday10_fadeIn;
+    animation-delay: 2s;
 }
 
 .birthday10_frame {
     position: relative;
     transform: perspective(50rem) rotateX(20deg);
     transition: 0.5s transform;
+    animation: 3s birthday10_frame;
 }
 
 .birthday10_frame img {
@@ -56,25 +80,67 @@
     right: 0;
     width: 100%;
     height: 100%;
-    /* background-color: red; */
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
     content: "";
 }
 
+@keyframes birthday10_keyframable {
+    0% {
+        transform: translateX(-15%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes birthday10_zeroCounter {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes birthday10_fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes birthday10_frame {
+    0% {
+        transform: perspective(50rem) rotateX(45deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: perspective(50rem) rotateX(20deg);
+        opacity: 1;
+    }
+}
+
 @media (max-width: 500px) {
+    .birthday10_tagline {
+        margin-block: 3vw;
+    }
+
     .birthday10_tagline span {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .birthday10_tagline > * {
         display: block;
     }
 
-    .birthday10_tagline .birthday10_keyframable {
-        margin-block: 0;
-    }
-
     .birthday10_tagline .birthday10_keyframable svg {
         width: 40vw;
+        height: unset;
     }
 }

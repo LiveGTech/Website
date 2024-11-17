@@ -370,6 +370,9 @@
         "birthday10_showcaseImage_url": "/media/birthday/10/main_fr.svg",
         "birthday10_showcaseImage_alt": "Célébration des 10 ans de LiveG",
 
+        "birthday10_tagline_start": "Célébration des",
+        "birthday10_tagline_end": "ans de LiveG",
+
         "legal_orgInfo": "Informations organisationnelles (impressum)",
         "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
         "legal_orgInfo_operator": "Opéré et fonds gérés par James Livesey",
