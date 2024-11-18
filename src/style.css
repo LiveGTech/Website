@@ -180,6 +180,10 @@ img.full {
     gap: 2rem;
 }
 
+.fadeInOnScroll {
+    opacity: 0;
+}
+
 .birthdayCake {
     max-width: 20rem;
 }
