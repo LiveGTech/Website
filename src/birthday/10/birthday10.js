@@ -24,8 +24,6 @@ website.waitForLoad().then(function() {
         var coverRect = $g.sel(".birthday10_cover").get().getBoundingClientRect();
         var navRect = $g.sel("nav").get().getBoundingClientRect();
 
-        console.log(window.scrollY, coverRect.top + coverRect.height);
-
         if (coverRect.top + coverRect.height < navRect.height) {
             $g.sel("nav").removeClass("black");
         } else {
