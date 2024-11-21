@@ -370,6 +370,17 @@
         "birthday10_tagline_start": "庆祝力格成立",
         "birthday10_tagline_end": "周年",
 
+        "birthday10_newOsFeatures_title": "力格OS的新功能",
+        "birthday10_newOsFeatures_description": "我们特别发布了力格OS的新版本，以庆祝其10周年：我们的《十周年纪念版》。我们添加了多项新功能和改进，使我们距离打造适合所有人的操作系统的目标更近了一步。",
+        "birthday10_newOsFeatures_learnMore": "了解有关力格OS的更多信息",
+
+        "birthday10_newOsFeatures_files": "新的文件应用让您可以更快地找到设备上保存的文件。文件还包括各种排序选项，让您可以更轻松地根据文件名称、大小或修改日期查找特定文件。",
+        "birthday10_newOsFeatures_calculator": "介绍计算器，我们认为它是迄今为止所有操作系统中最先进的内置计算器应用。计算器具有多种功能和特性，适用于解决各种数学问题，包括三角学、微积分、概率、计算逻辑等。",
+        "birthday10_newOsFeatures_l10n": "感谢社区贡献者，我们很荣幸能够扩大力格OS的本地化工作。力格OS现已翻译成加泰罗尼亚语，以扩展我们现有的英语和法语版本，我们期待很快为力格OS引入更多语言。",
+        "birthday10_newOsFeatures_linux": "借助新的终端应用，力格OS现在可让开发人员和系统管理员轻松运行Linux命令。除了我们现有的对网页应用的原生支持外，力格OS现在还兼容许多图形化Linux应用。",
+        "birthday10_newOsFeatures_readout": "通过旁白导航——力格OS的新屏幕阅读器——通过音频提示和口头通知导航系统和应用程序，让盲人或视障用户更容易使用力格OS。",
+        "birthday10_newOsFeatures_investigator": "对于网页开发人员来说，网页调查员是我们在领域中推出的新工具，可用于调试网页。开发人员可以评估JavaScript表达式并检查DOM以诊断问题、寻找解决方案并试验代码。",
+
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
         "legal_orgInfo_operator": "由詹姆斯·利夫西（James Livesey）运营和管理",

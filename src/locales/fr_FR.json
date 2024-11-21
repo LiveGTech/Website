@@ -173,7 +173,7 @@
         "os_customisable_description": "Nous voulons permettre aux utilisateurs de s'approprier LiveG OS grâce à des options de personnalisation qui peuvent modifier l'apparence de LiveG OS et de ses applications. Que vous soyez un utilisateur en mode sombre ou que vous souhaitiez opter pour un thème de couleur qui vous convient, LiveG OS peut être personnalisé pour correspondre à votre style grâce à une large gamme d'options de thème.",
 
         "os_accessible_title": "Accessible",
-        "os_accessible_description": "LiveG OS est conçu dès le départ pour s'adapter à tous les utilisateurs et leur permettre de naviguer et d'utiliser leurs appareils de manière adaptée à leurs besoins individuels. Par exemple, Navigation par Interrupteur permet aux utilisateurs ayant des capacités motrices limitées d'avoir un contrôle total sur leur appareil en leur permettant de connecter des périphériques d'entrée spécialisés.",
+        "os_accessible_description": "LiveG OS est conçu dès le départ pour s'adapter à tous les utilisateurs et leur permettre de naviguer et d'utiliser leurs appareils de manière adaptée à leurs besoins individuels. Par exemple, « Navigation par interrupteur » permet aux utilisateurs ayant des capacités motrices limitées d'avoir un contrôle total sur leur appareil en leur permettant de connecter des périphériques d'entrée spécialisés.",
 
         "os_open_title": "Ouvert",
         "os_open_description": "En tant que grand partisan des logiciels et du matériel open-source, l'écosystème LiveG est ouvert et prêt à laisser les développeurs créer leurs propres applications pour LiveG OS et d'autres plates-formes. LiveG OS lui-même est open-source, ce qui permet aux utilisateurs avancés et aux développeurs d'affiner leur système et de nous fournir des commentaires afin que nous puissions tous améliorer LiveG OS pour tout le monde.",
@@ -373,8 +373,20 @@
         "birthday10_tagline_start": "Célébration des",
         "birthday10_tagline_end": "ans de LiveG",
 
+        "birthday10_newOsFeatures_title": "Quoi de neuf dans LiveG OS",
+        "birthday10_newOsFeatures_description": "Nous célébrons notre 10e anniversaire avec une version spéciale de LiveG OS : notre « Édition 10e anniversaire ». Nous avons ajouté plusieurs nouvelles fonctionnalités et améliorations qui nous rapprochent un peu plus de notre objectif de créer un système d'exploitation conçu pour tous.",
+        "birthday10_newOsFeatures_learnMore": "En savoir plus sur LiveG OS",
+
+        "birthday10_newOsFeatures_files": "La nouvelle application Fichiers permet de retrouver plus rapidement les fichiers enregistrés sur votre appareil. L'application Fichiers comprend également diverses options de tri qui facilitent la recherche d'un fichier spécifique en fonction de son nom, de sa taille ou de sa date de modification.",
+        "birthday10_newOsFeatures_calculator": "Présentation de Calculatrice, qui est selon nous l'application de calculatrice intégrée la plus avancée de tous les systèmes d'exploitation à ce jour. Calculatrice dispose d'une variété de fonctions et de fonctionnalités qui conviennent à la résolution d'un large éventail de problèmes mathématiques, notamment ceux de trigonométrie, de calcul, de probabilité, de logique informatique, et bien plus encore.",
+        "birthday10_newOsFeatures_l10n": "Nous sommes fiers d'étendre nos efforts de localisation dans LiveG OS grâce à notre communauté de contributeurs. LiveG OS a maintenant été traduit en catalan pour étendre notre offre existante en anglais et en français, et nous sommes impatients d'introduire bientôt d'autres langues dans LiveG OS.",
+        "birthday10_newOsFeatures_linux": "Avec la nouvelle application Terminal, LiveG OS permet désormais aux développeurs et aux administrateurs système d'exécuter facilement des commandes Linux. LiveG OS est désormais également compatible avec de nombreuses applications Linux graphiques en plus de notre prise en charge native existante des applications web.",
+        "birthday10_newOsFeatures_readout": "« Navigation par narration » — le nouveau lecteur d'écran de LiveG OS — permet aux utilisateurs aveugles ou malvoyants d'utiliser plus facilement LiveG OS en naviguant dans le système et les applications grâce à des signaux audio et des annonces vocales.",
+        "birthday10_newOsFeatures_investigator": "Pour les développeurs web, « Enquêteur web » est notre nouvel outil dans Sphere qui peut être utilisé pour déboguer des pages web. Les développeurs peuvent évaluer les expressions JavaScript et inspecter le DOM pour diagnostiquer les problèmes, trouver des solutions et expérimenter du code.",
+
         "legal_orgInfo": "Informations organisationnelles (impressum)",
-        "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
+        "legal_orgInfo_description": "Une « Unincorporated Association (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
+
         "legal_orgInfo_operator": "Opéré et fonds gérés par James Livesey",
         "legal_orgInfo_email": "Email :",
     
