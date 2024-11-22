@@ -373,6 +373,13 @@
         "birthday10_tagline_start": "Celebrating",
         "birthday10_tagline_end": "years of LiveG",
 
+        "birthday10_frameAlt": "A computer monitor showing the desktop of LiveG OS, with multiple windows open showing various apps: Files, Sphere, Terminal, Calculator and a Linux 3D modelling program.",
+
+        "birthday10_foreword_title": "Foreword",
+        "birthday10_foreword_imageAlt": "The flat, metallic surface of a laptop, with a sticker showing the LiveG logo on it.",
+        "birthday10_foreword_byline": "From James Livesey, founder and lead developer of LiveG",
+        "birthday10_foreword_body": "A decade ago today, LiveG was founded with the core idea to build software and hardware that makes a genuinely positive impact to our world. From the outset, we declared that it was our goal to bring that idea to life. As an organisation, we have undergone years of research into what makes technology beneficial to the user; and it was around three years ago since we began work on building our operating system, LiveG OS, based on findings from that research. More recently, we have settled on our current mission statement: to build open and inclusive software and hardware that's built to last. There is still a long path ahead of us to truly achieve that dream, but it is important that we are proud of how far we've come.",
+
         "birthday10_newOsFeatures_title": "What's new in LiveG OS",
         "birthday10_newOsFeatures_description": "We're marking our 10th birthday with a special release of LiveG OS: our 10th Anniversary Edition. We've added multiple new features and improvements that take us one step closer towards our goal of building an operating system that is designed for everyone.",
         "birthday10_newOsFeatures_learnMore": "Learn more about LiveG OS",

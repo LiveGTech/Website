@@ -153,7 +153,7 @@
         "os_convergent_description": "Conçu à la fois pour les ordinateurs de bureau et les appareils mobiles, LiveG OS est conçu pour vous offrir la même expérience cohérente sur tous vos appareils avec des applications compatibles à la fois avec les ordinateurs de bureau et les appareils mobiles.",
 
         "os_capable_title": "Capable",
-        "os_capable_description": "Alimenté par des applications web, LiveG OS vous permet d'installer et d'exécuter des milliers d'applications qui font déjà partie de votre flux de travail. Le navigateur web Sphere vous permet de visiter vos sites web préférés rapidement et en toute sécurité.",
+        "os_capable_description": "Alimenté par des applications web, LiveG OS vous permet d'installer et d'exécuter des milliers d'applications qui font déjà partie de votre flux de travail. Le navigateur web Sphère vous permet de visiter vos sites web préférés rapidement et en toute sécurité.",
 
         "os_productive_title": "Productif",
         "os_productive_description": "LiveG OS vous aide à devenir plus productif grâce à des fonctionnalités améliorées, telles que des suggestions de saisie, des gestes et plus encore. Basculez en toute transparence entre les applications sur le bureau et sur le mobile grâce aux fonctionnalités multitâches de LiveG OS.",
@@ -243,7 +243,7 @@
         "birthday8_2019_2": "Notre deuxième génération d'interface utilisateur Adapt a été créée, parallèlement à l'outil Zapr et à un nouveau design de site web",
 
         "birthday8_2020": "2020",
-        "birthday8_2020_1": "Une première version de LiveG Sphere a été développée pour plusieurs plates-formes, basée sur Adapt UI et Electron",
+        "birthday8_2020_1": "Une première version de LiveG Sphère a été développée pour plusieurs plates-formes, basée sur Adapt UI et Electron",
         "birthday8_2020_2": "Notre deuxième prototype de système d'exploitation pour le Pi a été construit, inspirant l'interface du LiveG OS moderne d'aujourd'hui",
 
         "birthday8_2021": "2021",
@@ -256,7 +256,7 @@
         "birthday8_2022_3": "Notre premier épisode de LiveG Showcase est sorti, démontrant le Prism",
         "birthday8_2022_4": "gShell est porté sur le bureau, faisant de LiveG OS un véritable système d'exploitation multiplateforme",
         "birthday8_2022_5": "Nos premières versions Alpha de LiveG OS ont été créées et d'autres fonctionnalités de gShell ont été implémentées",
-        "birthday8_2022_6": "Sphere obtient une interface à onglets pour faciliter la navigation, et le projet Proton est conceptualisé",
+        "birthday8_2022_6": "Sphère obtient une interface à onglets pour faciliter la navigation, et le projet Proton est conceptualisé",
         "birthday8_2022_7": "Des projets mineurs pour soutenir les produits existants de LiveG ont été réalisés, comme Typeset Engine et Formulaic",
         "birthday8_2022_8": "Les réunions hebdomadaires LiveG Lookahead sont lancées, rapprochant la communauté",
 
@@ -281,7 +281,7 @@
         "birthday9_22december_description": "Comme LiveG OS est devenu plus complet en termes de fonctionnalités, des plans ont été faits de supprimer son Environnement de Débogage",
 
         "birthday9_7january_title": "7 janvier",
-        "birthday9_7january_description": "Sphere a la possibilité d'installer des sites web en tant qu'applications dans LiveG OS, permettant aux utilisateurs de choisir les applications qu'ils souhaitent utiliser",
+        "birthday9_7january_description": "Sphère a la possibilité d'installer des sites web en tant qu'applications dans LiveG OS, permettant aux utilisateurs de choisir les applications qu'ils souhaitent utiliser",
 
         "birthday9_16january_title": "16 janvier",
         "birthday9_16january_description": "Le système de configuration LiveG OS prêt à l'emploi (OOBS) bénéficie de fonctionnalités plus utiles, telles que les menus d'alimentation et d'accessibilité",
@@ -373,6 +373,13 @@
         "birthday10_tagline_start": "Célébration des",
         "birthday10_tagline_end": "ans de LiveG",
 
+        "birthday10_frameAlt": "Un écran d'ordinateur montrant le bureau de LiveG OS, avec plusieurs fenêtres ouvertes affichant diverses applications : Fichiers, Sphère, Terminal, Calculatrice et un programme de modélisation 3D basé sur Linux.",
+
+        "birthday10_foreword_title": "Avant-propos",
+        "birthday10_foreword_imageAlt": "La surface plane et métallique d'un ordinateur portable, avec un autocollant montrant le logo LiveG dessus.",
+        "birthday10_foreword_byline": "De James Livesey, fondateur et développeur principal de LiveG",
+        "birthday10_foreword_body": "Il y a dix ans aujourd'hui, LiveG a été fondée avec l'idée de base de créer des logiciels et du matériel qui ont un impact véritablement positif sur notre monde. Dès le départ, nous avons déclaré que notre objectif était de donner vie à cette idée. En tant qu'organisation, nous avons mené des années de recherche sur ce qui rend la technologie bénéfique pour l'utilisateur ; et cela fait environ trois ans que nous avons commencé à travailler sur la création de notre système d'exploitation, LiveG OS, sur la base des résultats de ces recherches. Plus récemment, nous avons défini notre mission actuelle : créer des logiciels et du matériel ouverts et inclusifs, conçus pour durer. Il nous reste encore un long chemin à parcourir pour vraiment réaliser ce rêve, mais il est important que nous soyons fiers du chemin parcouru.",
+
         "birthday10_newOsFeatures_title": "Quoi de neuf dans LiveG OS",
         "birthday10_newOsFeatures_description": "Nous célébrons notre 10e anniversaire avec une version spéciale de LiveG OS : notre « Édition 10e anniversaire ». Nous avons ajouté plusieurs nouvelles fonctionnalités et améliorations qui nous rapprochent un peu plus de notre objectif de créer un système d'exploitation conçu pour tous.",
         "birthday10_newOsFeatures_learnMore": "En savoir plus sur LiveG OS",
@@ -382,7 +389,7 @@
         "birthday10_newOsFeatures_l10n": "Nous sommes fiers d'étendre nos efforts de localisation dans LiveG OS grâce à notre communauté de contributeurs. LiveG OS a maintenant été traduit en catalan pour étendre notre offre existante en anglais et en français, et nous sommes impatients d'introduire bientôt d'autres langues dans LiveG OS.",
         "birthday10_newOsFeatures_linux": "Avec la nouvelle application Terminal, LiveG OS permet désormais aux développeurs et aux administrateurs système d'exécuter facilement des commandes Linux. LiveG OS est désormais également compatible avec de nombreuses applications Linux graphiques en plus de notre prise en charge native existante des applications web.",
         "birthday10_newOsFeatures_readout": "« Navigation par narration » — le nouveau lecteur d'écran de LiveG OS — permet aux utilisateurs aveugles ou malvoyants d'utiliser plus facilement LiveG OS en naviguant dans le système et les applications grâce à des signaux audio et des annonces vocales.",
-        "birthday10_newOsFeatures_investigator": "Pour les développeurs web, « Enquêteur web » est notre nouvel outil dans Sphere qui peut être utilisé pour déboguer des pages web. Les développeurs peuvent évaluer les expressions JavaScript et inspecter le DOM pour diagnostiquer les problèmes, trouver des solutions et expérimenter du code.",
+        "birthday10_newOsFeatures_investigator": "Pour les développeurs web, « Enquêteur web » est notre nouvel outil dans Sphère qui peut être utilisé pour déboguer des pages web. Les développeurs peuvent évaluer les expressions JavaScript et inspecter le DOM pour diagnostiquer les problèmes, trouver des solutions et expérimenter du code.",
 
         "legal_orgInfo": "Informations organisationnelles (impressum)",
         "legal_orgInfo_description": "Une « Unincorporated Association (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",

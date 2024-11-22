@@ -370,6 +370,13 @@
         "birthday10_tagline_start": "庆祝力格成立",
         "birthday10_tagline_end": "周年",
 
+        "birthday10_frameAlt": "计算机显示器显示力格OS的桌面，其中打开了多个窗口，显示各种应用程序：文件、球面、终端、计算器和Linux·3D建模程序。",
+
+        "birthday10_foreword_title": "前言",
+        "birthday10_foreword_imageAlt": "笔记本电脑的平坦金属表面，贴有力格标志的贴纸。",
+        "birthday10_foreword_byline": "力格创始人兼首席开发人员詹姆斯·利夫西（James Livesey）撰文",
+        "birthday10_foreword_body": "十年前的今天，力格成立，其核心理念是开发对世界产生真正积极影响的软件和硬件。从一开始，我们就宣称，我们的目标是将这个想法变成现实。作为一个组织，我们多年来一直在研究如何让技术对用户有益；大约三年前，我们开始根据研究结果构建我们的操作系统力格OS。最近，我们确定了当前的使命宣言：开发开放、包容、经久耐用的软件和硬件。要真正实现这一梦想，我们还有很长的路要走，但重要的是，我们为已经取得的进展感到自豪。",
+
         "birthday10_newOsFeatures_title": "力格OS的新功能",
         "birthday10_newOsFeatures_description": "我们特别发布了力格OS的新版本，以庆祝其10周年：我们的《十周年纪念版》。我们添加了多项新功能和改进，使我们距离打造适合所有人的操作系统的目标更近了一步。",
         "birthday10_newOsFeatures_learnMore": "了解有关力格OS的更多信息",
@@ -379,7 +386,7 @@
         "birthday10_newOsFeatures_l10n": "感谢社区贡献者，我们很荣幸能够扩大力格OS的本地化工作。力格OS现已翻译成加泰罗尼亚语，以扩展我们现有的英语和法语版本，我们期待很快为力格OS引入更多语言。",
         "birthday10_newOsFeatures_linux": "借助新的终端应用，力格OS现在可让开发人员和系统管理员轻松运行Linux命令。除了我们现有的对网页应用的原生支持外，力格OS现在还兼容许多图形化Linux应用。",
         "birthday10_newOsFeatures_readout": "通过旁白导航——力格OS的新屏幕阅读器——通过音频提示和口头通知导航系统和应用程序，让盲人或视障用户更容易使用力格OS。",
-        "birthday10_newOsFeatures_investigator": "对于网页开发人员来说，网页调查员是我们在领域中推出的新工具，可用于调试网页。开发人员可以评估JavaScript表达式并检查DOM以诊断问题、寻找解决方案并试验代码。",
+        "birthday10_newOsFeatures_investigator": "对于网页开发人员来说，网页调查员是我们在球面中推出的新工具，可用于调试网页。开发人员可以评估JavaScript表达式并检查DOM以诊断问题、寻找解决方案并试验代码。",
 
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
