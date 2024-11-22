@@ -209,10 +209,10 @@
 
         "birthday": "生日",
 
-        "birthday_soon_bannerMessage": "距离力格的生日没多久了！11月30日与我们一起庆祝力格成立9周年。",
+        "birthday_soon_bannerMessage": "距离力格的生日没多久了！11月30日与我们一起庆祝力格成立10周年。",
 
-        "birthday_soon_title": "为力格的9岁生日做好准备",
-        "birthday_soon_description": "11月30日与我们一起庆祝并回顾我们在过去一年所取得的进展。",
+        "birthday_soon_title": "为力格的10岁生日做好准备",
+        "birthday_soon_description": "11月30日，与我们一起庆祝力格十年的技术创新和重要里程碑。",
 
         "birthday_joinDiscord_title": "加入我们的Discord服务器",
         "birthday_joinDiscord_description": "成为力格贡献者社区的一员，看看我们正在做什么来庆祝。",
@@ -387,6 +387,9 @@
         "birthday10_newOsFeatures_linux": "借助新的终端应用，力格OS现在可让开发人员和系统管理员轻松运行Linux命令。除了我们现有的对网页应用的原生支持外，力格OS现在还兼容许多图形化Linux应用。",
         "birthday10_newOsFeatures_readout": "通过旁白导航——力格OS的新屏幕阅读器——通过音频提示和口头通知导航系统和应用程序，让盲人或视障用户更容易使用力格OS。",
         "birthday10_newOsFeatures_investigator": "对于网页开发人员来说，网页调查员是我们在球面中推出的新工具，可用于调试网页。开发人员可以评估JavaScript表达式并检查DOM以诊断问题、寻找解决方案并试验代码。",
+
+        "birthday10_viewLastYear_title": "查看去年的庆祝活动",
+        "birthday10_viewLastYear_description": "为了庆祝力格9周年，我们回顾了一年的发展，包括增加了对多种平台的支持。",
 
         "legal_orgInfo": "组织信息（印记）",
         "legal_orgInfo_description": "自2014年11月30日起为英国非法人组织",
