@@ -212,10 +212,10 @@
 
         "birthday": "Anniversaire",
 
-        "birthday_soon_bannerMessage": "Pas longtemps avant l'anniversaire de LiveG ! Rejoignez-nous le 30 novembre pour célébrer les 9 ans de LiveG.",
+        "birthday_soon_bannerMessage": "Pas longtemps avant l'anniversaire de LiveG ! Rejoignez-nous le 30 novembre pour célébrer les 10 ans de LiveG.",
 
-        "birthday_soon_title": "Préparez-vous pour le 9e anniversaire de LiveG",
-        "birthday_soon_description": "Rejoignez-nous le 30 novembre pour célébrer et revenir sur les progrès que nous avons réalisés au cours de l'année écoulée.",
+        "birthday_soon_title": "Préparez-vous pour le 10e anniversaire de LiveG",
+        "birthday_soon_description": "Rejoignez-nous le 30 novembre pour célébrer une décennie d’innovation technologique et une étape importante pour LiveG.",
 
         "birthday_joinDiscord_title": "Rejoignez notre serveur Discord",
         "birthday_joinDiscord_description": "Faites partie de la Communauté des Contributeurs LiveG et découvrez ce que nous faisons pour célébrer.",
@@ -365,8 +365,11 @@
         "birthday9_viewLastYear_title": "Voir la dernière célébration",
         "birthday9_viewLastYear_description": "Pour le 8ème anniversaire de LiveG, nous sommes revenus sur l'histoire de LiveG depuis ses débuts en 2014.",
 
+        "birthday10_viewLastYear_title": "Voir la dernière célébration",
+        "birthday10_viewLastYear_description": "À l’occasion du 9e anniversaire de LiveG, nous avons passé en revue une année de développement intense.",
+
         "legal_orgInfo": "Informations organisationnelles (impressum)",
-        "legal_orgInfo_description": "Une « Unincorporated Organisation » (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
+        "legal_orgInfo_description": "Une « Unincorporated Association (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
         "legal_orgInfo_operator": "Opéré et fonds gérés par James Livesey",
         "legal_orgInfo_email": "Email :",
     
