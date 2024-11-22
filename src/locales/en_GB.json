@@ -212,7 +212,7 @@
 
         "birthday": "Birthday",
 
-        "birthday_soon_bannerMessage": "Not long until LiveG's birthday! Join us on 30 November as we celebrate 9 years of LiveG.",
+        "birthday_soon_bannerMessage": "Not long until LiveG's birthday! Join us on 30 November as we celebrate 10 years of LiveG.",
 
         "birthday_soon_title": "Get ready for LiveG's 10th birthday",
         "birthday_soon_description": "Join us on 30 November to celebrate a decade of technological innovation and a big milestone for LiveG.",
@@ -364,6 +364,8 @@
 
         "birthday9_viewLastYear_title": "View last year's celebrations",
         "birthday9_viewLastYear_description": "For LiveG's 8th birthday, we looked back on LiveG's history since its beginnings in 2014.",
+
+        "birthday10_bannerMessage   ": "We're celebrating 10 years of LiveG today! Join in as we celebrate a decade of LiveG and a major milestone. We've even got (software) cake!",
 
         "birthday10_viewLastYear_title": "View last year's celebrations",
         "birthday10_viewLastYear_description": "For LiveG's 9th birthday, we reviewed a year of intense development that saw added support for a variety of platforms.",
