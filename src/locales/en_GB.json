@@ -393,6 +393,21 @@
         "birthday10_newOsFeatures_readout": "Readout Navigation — LiveG OS's new screen reader — makes it easier for users who are blind or visually impaired to use LiveG OS by navigating the system and apps through audio cues and spoken announcements.",
         "birthday10_newOsFeatures_investigator": "For web developers, Web Investigator is our new tool in Sphere that can be used to debug web pages. Developers can evaluate JavaScript expressions and inspect the DOM to diagnose issues, find solutions and experiment with code.",
 
+        "birthday10_tryOS_title": "Try out our latest pre-release of LiveG OS",
+        "birthday10_tryOS_description": "LiveG OS is available for a variety of platforms, including added support for the Raspberry Pi 5 and improvements for ARM64 devices.",
+        "birthday10_tryOS_alreadyRunning": "Already running LiveG OS? Simply go to Settings and update your system to the latest version.",
+
+        "birthday10_plans_title": "Our plans for the year ahead",
+
+        "birthday10_plans_mobile_title": "Make LiveG OS truly a world-class mobile operating system",
+        "birthday10_plans_mobile_description": "We're proud that LiveG OS is one of only a handful of operating systems that are designed for both desktop computers and smartphones. We hope to improve LiveG's mobile feature set by introducing cellular features, such as phone calling, text messaging and networking.",
+        "birthday10_plans_search_title": "Expand LiveG Search to include more from around the web",
+        "birthday10_plans_search_description": "LiveG Search has been proven to be capable of quickly finding information on the web with its unique search algorithm. We would like to scale up our efforts in crawling the web so that LiveG Search can become more useful for a broader range of topics and interests.",
+        "birthday10_plans_tools_title": "Develop tools to help our Contributors Community thrive",
+        "birthday10_plans_tools_description": "We are already working on building tools to help members of our community to make impactful contributions, including web-based user interfaces to help with translating our projects, and policies to reward our best contributors with the recognition that they deserve.",
+
+        "birthday10_codingActivity_description": "Our birthday coding activity is back again for another year! Can you use the LiveG Astronaut framework to decorate this birthday cake?",
+
         "birthday10_viewLastYear_title": "View last year's celebrations",
         "birthday10_viewLastYear_description": "For LiveG's 9th birthday, we reviewed a year of intense development that saw added support for a variety of platforms.",
 

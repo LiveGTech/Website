@@ -393,8 +393,23 @@
         "birthday10_newOsFeatures_readout": "« Navigation par narration » — le nouveau lecteur d'écran de LiveG OS — permet aux utilisateurs aveugles ou malvoyants d'utiliser plus facilement LiveG OS en naviguant dans le système et les applications grâce à des signaux audio et des annonces vocales.",
         "birthday10_newOsFeatures_investigator": "Pour les développeurs web, « Enquêteur web » est notre nouvel outil dans Sphère qui peut être utilisé pour déboguer des pages web. Les développeurs peuvent évaluer les expressions JavaScript et inspecter le DOM pour diagnostiquer les problèmes, trouver des solutions et expérimenter du code.",
 
+        "birthday10_tryOS_title": "Essayez notre dernière pré-version de LiveG OS",
+        "birthday10_tryOS_description": "LiveG OS est disponible pour une variété de plates-formes, notamment une prise en charge supplémentaire du Raspberry Pi 5 et des améliorations pour les appareils ARM64.",
+        "birthday10_tryOS_alreadyRunning": "Vous utilisez déjà LiveG OS ? Accédez simplement aux Paramètres et mettez à jour votre système vers la dernière version.",
+
+        "birthday10_plans_title": "Nos projets pour l'année à venir",
+
+        "birthday10_plans_mobile_title": "Faites de LiveG OS un véritable système d'exploitation mobile de classe mondiale",
+        "birthday10_plans_mobile_description": "Nous sommes fiers que LiveG OS soit l'un des rares systèmes d'exploitation conçus à la fois pour les ordinateurs de bureau et les smartphones. Nous espérons améliorer l'ensemble des fonctionnalités mobiles de LiveG en introduisant des fonctionnalités cellulaires, telles que les appels téléphoniques, la messagerie texte et la mise en réseau.",
+        "birthday10_plans_search_title": "Élargissez LiveG Recherche pour inclure davantage de contenu sur le web",
+        "birthday10_plans_search_description": "LiveG Recherche a prouvé sa capacité à trouver rapidement des informations sur le web grâce à son algorithme de recherche unique. Nous souhaitons intensifier nos efforts d'exploration du web afin que LiveG Recherche puisse devenir plus utile pour un plus large éventail de sujets et d'intérêts.",
+        "birthday10_plans_tools_title": "Développer des outils pour aider notre communauté de contributeurs à prospérer",
+        "birthday10_plans_tools_description": "Nous travaillons déjà à la création d'outils pour aider les membres de notre communauté à apporter des contributions efficaces, notamment des interfaces utilisateur web pour aider à traduire nos projets, et des politiques pour récompenser nos meilleurs contributeurs avec la reconnaissance qu'ils méritent.",
+
+        "birthday10_codingActivity_description": "Notre activité de codage d'anniversaire est de retour pour une autre année ! Pouvez-vous utiliser le framework LiveG Astronaut pour décorer ce gâteau d'anniversaire ?",
+
         "birthday10_viewLastYear_title": "Voir la dernière célébration",
-        "birthday10_viewLastYear_description": "À l’occasion du 9e anniversaire de LiveG, nous avons passé en revue une année de développement intense.",
+        "birthday10_viewLastYear_description": "À l'occasion du 9e anniversaire de LiveG, nous avons passé en revue une année de développement intense.",
 
         "legal_orgInfo": "Informations organisationnelles (impressum)",
         "legal_orgInfo_description": "Une « Unincorporated Association (organisation non constituée en société) du Royaume-Uni depuis le 30 novembre 2014",
