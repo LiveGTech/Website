@@ -35,5 +35,6 @@ website.waitForLoad().then(function() {
         return response.text();
     }).then(function(html) {
         $g.sel(".birthday10_keyframable").setHTML(html);
+        $g.sel(".birthday10_cover").addClass("animate");
     });
 });

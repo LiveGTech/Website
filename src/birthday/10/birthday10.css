@@ -40,6 +40,9 @@
 
 .birthday10_tagline span:not(:has(svg)) {
     opacity: 0;
+}
+
+.birthday10_cover.animate .birthday10_tagline span:not(:has(svg)) {
     animation: 2s forwards birthday10_fadeIn;
     animation-delay: 2.5s;
 }
@@ -48,6 +51,9 @@
     display: inline-block;
     margin-top: 2vw;
     transform: translateX(-15%);
+}
+
+.birthday10_cover.animate .birthday10_tagline .birthday10_keyframable {
     animation: 2s forwards birthday10_keyframable;
     animation-delay: 1s;
 }
@@ -74,6 +80,9 @@
     position: relative;
     transform: perspective(50rem) rotateX(20deg);
     transition: 0.5s transform;
+}
+
+.birthday10_cover.animate .birthday10_frame {
     animation: 3s birthday10_frame;
 }
 
