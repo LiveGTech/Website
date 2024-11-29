@@ -365,7 +365,48 @@
         "birthday9_viewLastYear_title": "View last year's celebrations",
         "birthday9_viewLastYear_description": "For LiveG's 8th birthday, we looked back on LiveG's history since its beginnings in 2014.",
 
+        "birthday10": "10th Birthday",
+
         "birthday10_bannerMessage": "We're celebrating 10 years of LiveG today! Join in as we celebrate a decade of LiveG and a major milestone. We've even got (software) cake!",
+
+        "birthday10_showcaseImage_url": "/media/birthday/10/main_en.svg",
+        "birthday10_showcaseImage_alt": "Celebrating 10 years of LiveG",
+
+        "birthday10_tagline_start": "Celebrating",
+        "birthday10_tagline_end": "years of LiveG",
+
+        "birthday10_frameAlt": "A computer monitor showing the desktop of LiveG OS, with multiple windows open showing various apps: Files, Sphere, Terminal, Calculator and a Linux 3D modelling program.",
+
+        "birthday10_foreword_title": "Foreword",
+        "birthday10_foreword_imageAlt": "The flat, metallic surface of a laptop, with a sticker showing the LiveG logo on it.",
+        "birthday10_foreword_byline": "From James Livesey, founder and lead developer of LiveG",
+        "birthday10_foreword_body": "A decade ago today, LiveG was founded with the core idea to build software and hardware that makes a genuinely positive impact to our world. From the outset, we declared that it was our goal to bring that idea to life. As an organisation, we have undergone years of research into what makes technology beneficial to the user; and it was around three years ago since we began work on building our operating system, LiveG OS, based on findings from that research. More recently, we have settled on our current mission statement: to build open and inclusive software and hardware that's built to last. There is still a long path ahead of us to truly achieve that dream, but it is important that we are proud of how far we've come.",
+
+        "birthday10_newOsFeatures_title": "What's new in LiveG OS",
+        "birthday10_newOsFeatures_description": "We're marking our 10th birthday with a special release of LiveG OS: our 10th Anniversary Edition. We've added multiple new features and improvements that take us one step closer towards our goal of building an operating system that is designed for everyone.",
+        "birthday10_newOsFeatures_learnMore": "Learn more about LiveG OS",
+
+        "birthday10_newOsFeatures_files": "The new Files app makes it faster to find files saved on your device. Files also includes a variety of sorting options that makes looking for a specific file based on its name, size or modification date easier.",
+        "birthday10_newOsFeatures_calculator": "Introducing Calculator, which we believe is the most advanced built-in calculator app of any operating system yet. Calculator has a variety of functions and features that are suitable for solving a wide range of mathematical problems, including those for trigonometry, calculus, probability, computational logic and more.",
+        "birthday10_newOsFeatures_l10n": "We're proud to be expanding our localisation efforts in LiveG OS thanks to our community of contributors. LiveG OS has now been translated into Catalan to expand upon our existing offering of English and French, and we're looking forward to introducing more languages to LiveG OS soon.",
+        "birthday10_newOsFeatures_linux": "With the new Terminal app, LiveG OS now lets developers and system administrators easily run Linux commands. LiveG OS is now also compatible with many graphical Linux apps alongside our existing native support for web apps.",
+        "birthday10_newOsFeatures_readout": "Readout Navigation — LiveG OS's new screen reader — makes it easier for users who are blind or visually impaired to use LiveG OS by navigating the system and apps through audio cues and spoken announcements.",
+        "birthday10_newOsFeatures_investigator": "For web developers, Web Investigator is our new tool in Sphere that can be used to debug web pages. Developers can evaluate JavaScript expressions and inspect the DOM to diagnose issues, find solutions and experiment with code.",
+
+        "birthday10_tryOS_title": "Try out our latest pre-release of LiveG OS",
+        "birthday10_tryOS_description": "LiveG OS is available for a variety of platforms, including added support for the Raspberry Pi 5 and improvements for ARM64 devices.",
+        "birthday10_tryOS_alreadyRunning": "Already running LiveG OS? Simply go to Settings and update your system to the latest version.",
+
+        "birthday10_plans_title": "Our plans for the year ahead",
+
+        "birthday10_plans_mobile_title": "Make LiveG OS truly a world-class mobile operating system",
+        "birthday10_plans_mobile_description": "We're proud that LiveG OS is one of only a handful of operating systems that are designed for both desktop computers and smartphones. We hope to improve LiveG's mobile feature set by introducing cellular features, such as phone calling, text messaging and networking.",
+        "birthday10_plans_search_title": "Expand LiveG Search to include more from around the web",
+        "birthday10_plans_search_description": "LiveG Search has been proven to be capable of quickly finding information on the web with its unique search algorithm. We would like to scale up our efforts in crawling the web so that LiveG Search can become more useful for a broader range of topics and interests.",
+        "birthday10_plans_tools_title": "Develop tools to help our Contributors Community thrive",
+        "birthday10_plans_tools_description": "We are already working on building tools to help members of our community to make impactful contributions, including web-based user interfaces to help with translating our projects, and policies to reward our best contributors with the recognition that they deserve.",
+
+        "birthday10_codingActivity_description": "Our birthday coding activity is back again for another year! Can you use the LiveG Astronaut framework to decorate this birthday cake?",
 
         "birthday10_viewLastYear_title": "View last year's celebrations",
         "birthday10_viewLastYear_description": "For LiveG's 9th birthday, we reviewed a year of intense development that saw added support for a variety of platforms.",

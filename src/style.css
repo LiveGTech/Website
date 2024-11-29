@@ -11,6 +11,19 @@ nav {
     z-index: 2!important;
 }
 
+nav.black {
+    background-color: black;
+    color: white;
+}
+
+nav.black img[aui-icon="dark embedded"] {
+    filter: contrast(0) brightness(10);
+}
+
+nav.fadeColours {
+    transition: 0.5s background-color, 0.5s color;
+}
+
 img.full {
     width: 100%;
     max-width: unset;
@@ -34,6 +47,14 @@ img.full {
     min-height: 50vh;
 }
 
+.showcaseCard_constrained {
+    max-height: 60vw;
+}
+
+.showcaseCard_constrained img {
+    min-height: 35vh;
+}
+
 .showcaseCard_slogan {
     position: absolute;
     top: 0;
@@ -51,6 +72,21 @@ img.full {
 .showcaseCard_slogan p {
     margin: 0;
     font-size: 1rem;
+}
+
+.showcaseCard:has(a:focus-visible) {
+    outline: auto;
+}
+
+.showcaseCard a {
+    outline: none;
+}
+
+.showcaseCard_slogan.visuallyHidden {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
 }
 
 .showcaseCard_main .showcaseCard_slogan h2 {
@@ -142,6 +178,10 @@ img.full {
 
 .bigGap {
     gap: 2rem;
+}
+
+.fadeInOnScroll {
+    opacity: 0;
 }
 
 .birthdayCake {

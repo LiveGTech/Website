@@ -16,14 +16,15 @@
         <link rel="shortcut icon" href="/logo.png">
         <link rel="stylesheet" href="https://opensource.liveg.tech/Adapt-UI/src/adaptui.css">
         <link rel="stylesheet" href="/style.css">
-        <script type="module" src="/script.js?v=5"></script>
+        <script type="module" src="/script.js?v=6"></script>
     </head>
     <body aui-mode="web" hidden>
         <nav aui-template="/templates/nav/nav.html"></nav>
         <main>
+            <!-- TODO: Update banners for 10th birthday -->
             <section hidden class="birthday">
                 <aui-card aui-linked aui-justify="middle">
-                    <a href="/birthday/9" translate>birthday9_bannerMessage</a>
+                    <a href="/birthday/10" translate>birthday10_bannerMessage</a>
                 </aui-card>
             </section>
             <section hidden class="birthdaySoon">
@@ -32,19 +33,18 @@
                 </aui-card>
             </section>
             <section>
-                <aui-card aui-linked class="showcaseCard showcaseCard_main showcase_topLeft">
-                    <img src="/media/prism/main.jpg" alt="" aui-mode="background">
-                    <div class="showcaseCard_slogan">
-                        <h2><a href="/prism" translate>product_prism</a></h2>
-                        <p translate>product_prism_slogan</p>
-                    </div>
+                <aui-card aui-linked class="showcaseCard showcaseCard_main showcaseCard_constrained">
+                    <img src="/media/birthday/10/main.svg" alt="" aui-mode="background" translate="attributesOnly" tl:src="birthday10_showcaseImage_url" tl:alt="birthday10_showcaseImage_alt">
+                        <div class="showcaseCard_slogan visuallyHidden">
+                            <h2><a href="/birthday/10" translate>birthday10_showcaseImage_alt</a></h2>
+                        </div>
                 </aui-card>
                 <div aui-stack="horizontal">
-                    <aui-card aui-linked class="showcaseCard showcase_topLeft showcase_dark">
-                        <img src="/media/os/main.svg" alt="" aui-mode="background">
+                    <aui-card aui-linked class="showcaseCard showcase_topLeft showcase_light">
+                        <img src="/media/prism/main.jpg" alt="" aui-mode="background">
                         <div class="showcaseCard_slogan">
-                            <h2><a href="/os" translate>product_os</a></h2>
-                            <p translate>product_os_slogan</p>
+                            <h2><a href="/prism" translate>product_prism</a></h2>
+                            <p translate>product_prism_slogan</p>
                         </div>
                     </aui-card>
                     <aui-card aui-linked class="showcaseCard showcase_topRight showcase_dark">

@@ -81,6 +81,18 @@ $g.waitForLoad().then(function() {
         window.location.href = `${window.location.href.split("?")[0]}?lang=${encodeURIComponent(locale)}`;
     });
 
+    window.addEventListener("scroll", function() {
+        $g.sel(".fadeInOnScroll").forEach(function(element) {
+            var rect = element.get().getBoundingClientRect();
+
+            if (rect.top < window.innerHeight * (9 / 10)) {
+                element.fadeIn();
+
+                element.removeClass("fadeInOnScroll");
+            }
+        });
+    });
+
     // Show LiveG Birthday celebrations
     if (new Date().getDate() == 30 && new Date().getMonth() == 10 && new Date().getFullYear() == 2024) { // Checked against local time zone
         $g.sel(".birthday").show();

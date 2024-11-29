@@ -362,7 +362,48 @@
         "birthday9_viewLastYear_title": "查看去年的庆祝活动",
         "birthday9_viewLastYear_description": "在力格的8岁生日之际，我们回顾了力格自2014年成立以来的历史。",
 
+        "birthday10": "10岁生日",
+
         "birthday10_bannerMessage": "今天我们庆祝力格成立10周年！与我们一起庆祝力格的一个重要里程碑。我们甚至还有（软件）蛋糕！",
+
+        "birthday10_showcaseImage_url": "/media/birthday/10/main_zh.svg",
+        "birthday10_showcaseImage_alt": "庆祝力格成立10周年",
+
+        "birthday10_tagline_start": "庆祝力格成立",
+        "birthday10_tagline_end": "周年",
+
+        "birthday10_frameAlt": "计算机显示器显示力格OS的桌面，其中打开了多个窗口，显示各种应用程序：文件、球面、终端、计算器和Linux·3D建模程序。",
+
+        "birthday10_foreword_title": "前言",
+        "birthday10_foreword_imageAlt": "笔记本电脑的平坦金属表面，贴有力格标志的贴纸。",
+        "birthday10_foreword_byline": "力格创始人兼首席开发人员詹姆斯·利夫西（James Livesey）撰文",
+        "birthday10_foreword_body": "十年前的今天，力格成立，其核心理念是开发对世界产生真正积极影响的软件和硬件。从一开始，我们就宣称，我们的目标是将这个想法变成现实。作为一个组织，我们多年来一直在研究如何让技术对用户有益；大约三年前，我们开始根据研究结果构建我们的操作系统力格OS。最近，我们确定了当前的使命宣言：开发开放、包容、经久耐用的软件和硬件。要真正实现这一梦想，我们还有很长的路要走，但重要的是，我们为已经取得的进展感到自豪。",
+
+        "birthday10_newOsFeatures_title": "力格OS的新功能",
+        "birthday10_newOsFeatures_description": "我们特别发布了力格OS的新版本，以庆祝其10周年：我们的《十周年纪念版》。我们添加了多项新功能和改进，使我们距离打造适合所有人的操作系统的目标更近了一步。",
+        "birthday10_newOsFeatures_learnMore": "了解有关力格OS的更多信息",
+
+        "birthday10_newOsFeatures_files": "新的文件应用让您可以更快地找到设备上保存的文件。文件还包括各种排序选项，让您可以更轻松地根据文件名称、大小或修改日期查找特定文件。",
+        "birthday10_newOsFeatures_calculator": "介绍计算器，我们认为它是迄今为止所有操作系统中最先进的内置计算器应用。计算器具有多种功能和特性，适用于解决各种数学问题，包括三角学、微积分、概率、计算逻辑等。",
+        "birthday10_newOsFeatures_l10n": "感谢社区贡献者，我们很荣幸能够扩大力格OS的本地化工作。力格OS现已翻译成加泰罗尼亚语，以扩展我们现有的英语和法语版本，我们期待很快为力格OS引入更多语言。",
+        "birthday10_newOsFeatures_linux": "借助新的终端应用，力格OS现在可让开发人员和系统管理员轻松运行Linux命令。除了我们现有的对网页应用的原生支持外，力格OS现在还兼容许多图形化Linux应用。",
+        "birthday10_newOsFeatures_readout": "通过旁白导航——力格OS的新屏幕阅读器——通过音频提示和口头通知导航系统和应用程序，让盲人或视障用户更容易使用力格OS。",
+        "birthday10_newOsFeatures_investigator": "对于网页开发人员来说，网页调查员是我们在球面中推出的新工具，可用于调试网页。开发人员可以评估JavaScript表达式并检查DOM以诊断问题、寻找解决方案并试验代码。",
+
+        "birthday10_tryOS_title": "试用我们最新预发布的力格OS",
+        "birthday10_tryOS_description": "力格OS适用于多种平台，包括增加对Raspberry Pi 5的支持和对ARM64设备的改进。",
+        "birthday10_tryOS_alreadyRunning": "已经在运行力格OS？只需进入设置并将系统更新至最新版本即可。",
+
+        "birthday10_plans_title": "我们未来一年的计划",
+
+        "birthday10_plans_mobile_title": "让力格OS真正成为世界一流的移动操作系统",
+        "birthday10_plans_mobile_description": "我们很自豪，力格OS是为数不多的专为台式电脑和智能手机设计的操作系统之一。我们希望通过引入蜂窝功能（如电话呼叫、短信和网络）来改进力格的移动功能集。",
+        "birthday10_plans_search_title": "扩展力格搜索以包含更多来自网络的信息",
+        "birthday10_plans_search_description": "事实证明，力格搜索能够利用其独特的搜索算法快速查找网络上的信息。我们希望加大对网络的抓取力度，让力格搜索能够更好地满足更广泛的主题和兴趣。",
+        "birthday10_plans_tools_title": "开发工具来帮助我们的贡献者社区蓬勃发展",
+        "birthday10_plans_tools_description": "我们已经在致力于构建工具来帮助社区成员做出有影响力的贡献，包括基于网页的用户界面来帮助翻译我们的项目，以及奖励我们最佳贡献者应得的认可的政策。",
+
+        "birthday10_codingActivity_description": "我们的生日编码活动又回来了！你能用力格·宇航员框架来装饰这个生日蛋糕吗？",
 
         "birthday10_viewLastYear_title": "查看去年的庆祝活动",
         "birthday10_viewLastYear_description": "为了庆祝力格9周年，我们回顾了一年的发展，包括增加了对多种平台的支持。",
