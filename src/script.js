@@ -30,9 +30,9 @@ $g.waitForLoad().then(function() {
     return $g.templates.apply();
 }).then(function() {
     return $g.l10n.selectLocaleFromResources({
-        "en_GB": "/locales/en_GB.json?v=5",
-        "fr_FR": "/locales/fr_FR.json?v=5",
-        "zh_CN": "/locales/zh_CN.json?v=5"
+        "en_GB": "/locales/en_GB.json?v=6",
+        "fr_FR": "/locales/fr_FR.json?v=6",
+        "zh_CN": "/locales/zh_CN.json?v=6"
     }, "en_GB", {
         "fr_FR": "en_GB",
         "zh_CN": "en_GB"
