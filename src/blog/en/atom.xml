@@ -2,12 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liveg.tech/blog/en/atom.xml</id>
     <title>The LiveG Blog</title>
-    <updated>2024-11-13T17:52:37.393Z</updated>
+    <updated>2024-11-30T10:29:42.290Z</updated>
     <generator>https://github.com/LiveGTech/Website</generator>
     <subtitle>Keep up-to-date with the latest news and information from LiveG.</subtitle>
     <logo>https://liveg.tech/logo.png</logo>
     <icon>https://liveg.tech/logo.png</icon>
     <rights>Copyright © LiveG. All Rights Reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[Celebrating 10 years with LiveG OS V0.3.0]]></title>
+        <id>https://liveg.tech/blog/en/10-years-of-liveg</id>
+        <link href="https://liveg.tech/blog/en/10-years-of-liveg"/>
+        <updated>2024-11-30T10:18:46.973Z</updated>
+        <summary type="html"><![CDATA[Marking a decade of technological innovation with a special release of LiveG OS.]]></summary>
+        <content type="html"><![CDATA[<p>Since 2014, we began embarking on our mission to build a strong ecosystem of technology that's open and accessible to everyone. Today, we are proud to be celebrating 10 years of LiveG, and marking this occasion with the latest Alpha release of <a href="/os">LiveG OS</a> — our 10th Anniversary Edition — with multiple additions and feature enhancements that we hope can bring us one step further to achieving our mission. Our new release is available <a href="/os/get">from our website to download</a> — devices already running LiveG OS can update to this new version.</p>
+<p>Our work LiveG OS began almost three years ago in January 2022 as part of our plans to build an open smartphone, the <a href="/prism">LiveG Prism</a>. While we are still working on the Prism, we have since expanded LiveG OS to a variety of platforms, including desktop computers, the PinePhone and the Raspberry Pi — we are proud to say that LiveG OS is truly one of the few operating systems that is designed for both desktop and mobile usage.</p>
+<p>We've released a special video to mark our 10th birthday and introduce our new version of LiveG OS. In this post, we'll be diving into the new features that are now available.</p>
+<section>
+    <a href="https://youtu.be/fXpzWOXn02Y" target="_blank" class="videoLink" translate="attributesOnly" tl:title="videoAlt_youtube" tl:aria-label="videoAlt_youtube">
+        <img src="/media/birthday/10/video.png" translate="attributesOnly" tl:alt="videoAlt_youtube">
+        <img src="https://opensource.liveg.tech/Adapt-UI/icons/play-circle.svg" aui-icon="light" aria-hidden="true">
+    </a>
+</section>
+<h2 id="linuxappintegration">Linux app integration</h2>
+<p><img src="/media/birthday/10/linux.png" alt="A screenshot of LiveG OS, showing GIMP and the Terminal application open." /></p>
+<p>Our biggest feature in this release is our new support for running Linux apps — both command-line and graphical — inside LiveG OS. This feature opens up a wide range of possibilities for LiveG OS, providing opportunitites for developers, system administrators and users of legacy software. This means that many popular apps — such as Visual Studio Code, VLC and OpenSCAD — all run in LiveG OS.</p>
+<h2 id="productivityapps">Productivity apps</h2>
+<p><img src="/media/birthday/10/files.png" alt="A screenshot of the Files app in LiveG OS." /></p>
+<p>Alongside the new Terminal app, LiveG OS now has a few more system apps that can help with performing many tasks. The new Files app is a file manager that lets you easily navigate folders and find files stored on your device. There are many sorting and filtering options to make finding the file you need easier. We hope to add more features to the Files app in subsequent releases to improve usability and allow users to perform file operations.</p>
+<p><img src="/media/birthday/10/calculator.svg" alt="A graphic of the Calculator app running on the LiveG Prism." /></p>
+<p>Another productivity app that is new to LiveG OS is Calculator. Our Calculator app is what we believe to be the most advanced built-in calculator app on any operating system yet. We've included a variety of functions and features that are suitable for solving a wide range of mathematical problems, including those for trigonometry, calculus, probability, computational logic and more.</p>
+<h2 id="catalanlanguagesupport">Catalan language support</h2>
+<p><img src="/media/birthday/10/l10n.png" alt="A screenshot of the LiveG OS Settings app, with text in Catalan." /></p>
+<p>LiveG OS is now available not just in English and French, but in Catalan too. Eloi Torrents — a member of our Contributors Community — took on the massive task of translating LiveG OS into Catalan, opening up the system to millions of potential users. We'd like to thank them for taking on this work and helping to being LiveG OS closer to becoming an operating system that is truly designed for everyone.</p>
+<h2 id="readoutnavigation">Readout Navigation</h2>
+<p><img src="/media/birthday/10/readout.png" alt="A screenshot of Sphere, with Readout Navigation highlighting a selected area to be spoken." /></p>
+<p>We have always strived to ensure that accessibility is a key focus ever since our first pre-release of LiveG OS, where we included Switch Navigation, our assistive technology to enable users to navigate their device through specialised input devices. In this release, we are excited to introduce our new screen reader — Switch Navigation — which allows users who are blind or visually impaired to interact with their system nonvisually, such as through spoken announcements or by using a refreshable braille display. There are certainly still many areas of Readout Navigation where we can improve the experience, but we are glad to introduce support for this assistive technology for those who rely on it.</p>
+<h2 id="webinvestigator">Web Investigator</h2>
+<p><img src="/media/birthday/10/investigator.png" alt="A screenshot of Sphere and Web Investigator, with HTML DOM nodes and a JavaScript array being shown in the REPL." /></p>
+<p>In Sphere, we now have a new tool to allow developers to inspect their web pages and web apps, called Web Investigator. Web Investigator can help developers to diagnose issues and debug their code by providing an interactive JavaScript REPL interface with support for rich exploration of JavaScript objects and HTML DOM nodes. Any errors and warnings also show in the REPL with information about the original file to help pinpoint where problems occur.</p>
+<h2 id="otherfeatures">Other features</h2>
+<p>There are many other smaller features that have now been introduced into LiveG OS. For instance, we now have support for the Raspberry Pi 5. Our previous version of LiveG OS already supported the Raspberry Pi 4 and Compute Module 4, but we are now glad to say that LiveG OS can now run on the Pi 5.</p>
+<p>A very cool feature which we now have is basic multi-monitor support. This means that you can plug multiple displays into a device running LiveG OS, and windows can be dragged across monitors to create a unified experience. We're hoping to improve this support to make it more user-friendly in the next release.</p>
+<p>LiveG OS now also supports UEFI booting, which makes installing LiveG OS easy on modern computers. We have also improved our ARM64 support to allow LiveG OS to boot on more ARM computers.</p>
+<p>And finally, we've added custom, scalable mouse cursors to LiveG OS to ensure that they render nicely on displays with high pixel densities. This means that the cursor can also dynamically show and hide on touchscreen displays depending on the input type used. We hope to allow further customisation to the colour and size of cursors soon.</p>
+<hr />
+<h2 id="lookingtothefuture">Looking to the future</h2>
+<p>We have a number of plans for the year ahead to come closer to achieving our mission of building technology for everyone. Our first plan is to improve mobile support for LiveG OS to make the system truly a world-class experience on phones. This will include allowing users to make phone calls, send text messages and access the internet on cellular data.</p>
+<p>Our next plan is to improve <a href="https://search.liveg.tech">LiveG Search</a> and provide it with a more comprehensive collection of pages from the web. We think that LiveG Search already has a great algorithm, and we'd like to improve the usefulness and relevance of results by crawling more of the web.</p>
+<p>And finally, we'd like to improve our tools to allow our Contributors Community to thrive. This will include making web interfaces that make translating strings for LiveG projects easier, and introducing policies that ensure that contributors are given the recognition they deserve for the work they have done for LiveG.</p>
+<hr />
+<p>That is about it for what's new with LiveG OS and our plans for the year ahead! If you'd like to download our new release of LiveG OS, you can <a href="/os/get">do so from our website</a>. If you're already running LiveG OS (V0.2.0 or higher), then you can update to this new version in Settings (ensure you have your update channel set to <code>alpha</code> in the <strong>advanced options</strong> section of Settings).</p>
+<p>You can support us financially by <a href="https://opencollective.com/liveg">donating to our Open Collective</a>, where we use the donations we get to advance our projects. You can also support us by joining our <a href="https://discord.gg/pTYsJME9xH">Contributors Community on Discord</a> where you can help us with the development of our projects.</p>
+<p>Follow us on <a href="https://mastodon.social/@liveg">Mastodon</a> to keep in the loop with the latest updates to all our projects, and subscribe to <a href="https://youtube.com/@liveg">our YouTube channel</a> where you can find videos on various aspects of LiveG, including release announcements and development guides.</p>
+<p>Thank you for your support, and here's to the next decade of LiveG!</p>]]></content>
+        <author>
+            <name>james</name>
+            <uri>https://liveg.tech/blog/?byAuthor=james</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What's new in LiveG OS V0.2.0: multiplatform support and plenty more]]></title>
         <id>https://liveg.tech/blog/en/new-in-os-0-2-0</id>
@@ -71,6 +123,47 @@
             <name>james</name>
             <uri>https://liveg.tech/blog/?byAuthor=james</uri>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Press release: LiveG Technologies marks a decade of technological innovation with new release of LiveG OS]]></title>
+        <id>https://liveg.tech/blog/en/pr-decade-of-liveg</id>
+        <link href="https://liveg.tech/blog/en/pr-decade-of-liveg"/>
+        <updated>2024-11-30T10:18:59.953Z</updated>
+        <summary type="html"><![CDATA[LiveG Technologies today announces its latest pre-release of LiveG OS to celebrate 10 years since the organisation's founding.]]></summary>
+        <content type="html"><![CDATA[<p><strong>FOR IMMEDIATE RELEASE</strong></p>
+<p><strong>NORWICH, ENGLAND:</strong> LiveG Technologies today celebrates a decade of operation with a new pre-release of its multiplatform operating system, LiveG OS.</p>
+<p>LiveG OS includes several new features and improvements to bring the operating system to the organisation's mission of building open and inclusive software and hardware that is designed for everyone and built to last.</p>
+<p>The most prominent addition to LiveG OS is its new support for command-line and graphical Linux apps. Founder and lead developer of LiveG, James Livesey, said: "the new Linux app integration features open up many possibilities and new use cases for LiveG OS that we hope make the operating system appeal to developers, system administrators and users of legacy software. As a frequent user of Linux applications myself, I know that this feature brings enormous value to LiveG OS."</p>
+<p>Other notable features that are new to LiveG OS are productivity apps — a file manager and a calculator app — the latter of which, Livesey reckons is "the most advanced built-in calculator app seen in any operating system yet".</p>
+<p>LiveG OS's new release now makes the system available in the Catalan language thanks to translation work completed by international contributors; and the new release also brings improved support for accessibility through its new screen reader — Readout Navigation — which allows users who are blind or visually impaired to use the system through spoken audio cues or refreshable braille displays.</p>
+<p>Looking ahead for the next year, LiveG hopes to improve mobile support for LiveG OS by introducing features for phone calling, text messaging and browsing the internet by using cellular data. The organisation also hopes to improve its search engine — LiveG Search — by increasing web crawling efforts, and it plans to develop tools to empower individuals to make impactful contributions to LiveG's projects.</p>
+<p>The latest version of LiveG OS is available for download in English, French and Catalan for the PinePhone and Raspberry Pi 4 and 5, in addition to x86-64 and ARM64 computers, at <a href="/os">liveg.tech/os</a>.</p>
+<p><strong>ENDS</strong></p>
+<p>--</p>
+<p>Additional resources:</p>
+<ul>
+<li><a href="/media/blog/pr-decade-of-liveg/presskit.zip" download="Press kit - LiveG OS multiplatform support.zip">Press kit (contains press release and images)</a> (.zip file)</li>
+<li><a href="/birthday/10">10th Birthday page</a> on the LiveG website</li>
+<li><a href="/blog/en/10-years-of-liveg"><em>Celebrating 10 years with LiveG OS V0.3.0</em></a> on the LiveG Blog</li>
+<li><a href="https://youtu.be/fXpzWOXn02Y"><em>Celebrating 10 Years of LiveG</em></a> on YouTube</li>
+</ul>
+<hr />
+<p>For enquiries related to this press release, contact:</p>
+<p><strong>James Livesey</strong><br>
+Founder and lead developer<br>
+<a href="mailto:james@liveg.tech">james@liveg.tech</a></p>
+<p>For general enquiries, contact:</p>
+<p><strong>LiveG Technologies</strong><br>
+<a href="mailto:hi@liveg.tech">hi@liveg.tech</a></p>
+<hr />
+<p>Follow LiveG Technologies on social media:</p>
+<ul>
+<li><strong>Mastodon:</strong> <a href="https://mastodon.social/@liveg">@liveg@mastodon.social</a></li>
+<li><strong>YouTube:</strong> <a href="https://youtube.com/@liveg">@LiveG</a></li>
+<li><strong>GitHub:</strong> <a href="https://github.com/LiveGTech">@LiveGTech</a></li>
+<li><strong>DEV Community:</strong> <a href="https://dev.to/liveg">@LiveG</a></li>
+<li><strong>Instagram:</strong> <a href="https://instagram.com/livegtech">@livegtech</a></li>
+</ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Press release: LiveG Technologies announces pre-release of operating system for PinePhone, Raspberry Pi]]></title>
